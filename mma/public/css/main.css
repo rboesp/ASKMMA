@@ -2,6 +2,7 @@ h1, h2, h3 {
   font-family: "Open Sans";
 }
 
+
 .hero {
   background-image: url("/images/Dark Image.png");
   background-repeat: no-repeat; 
@@ -40,6 +41,15 @@ h1, h2, h3 {
 .planscta {
   background-color: #0096d2;
 }
+
+.footer {
+  background-color: #f2f8ff;
+}
+
+
+
+
+
 
 .get-started {
   background-image: url("/images/topography3.png");
