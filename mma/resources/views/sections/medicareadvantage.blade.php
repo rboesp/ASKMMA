@@ -1,4 +1,4 @@
-<section class="longhaul">
+<section class="medicareadvantage py-16">
 
 
 
@@ -17,12 +17,12 @@
 
 		 
 
-		<div class="card-right flex flex-col lg:w-1/2 lg:pl-8 py-6 px-8 justify-between">
+		<div class="card-right flex flex-col lg:w-1/2 py-6 px-8 justify-between">
 			
 
 			<div class="flex flex-row">
 
-				<h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal">Around for the <br class="lg:hidden">Long Haul</h3>
+				<h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal">Medicare Advantage</h3>
 				
 			</div>
 			
@@ -35,7 +35,7 @@
 
 			<div class="flex flex-row justify-center mt-6 lg:mt-0 lg:justify-start">
 
-				<button class="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full lg:w-1/4">
+				<button class="bg-white-500 hover:bg-blue-500 text-blue-500 hover:text-white border-2 hover:border-blue-500 font-bold border-blue-200 py-2 px-4 rounded w-full lg:w-1/4">
 				  Get Coverage
 				</button>
 

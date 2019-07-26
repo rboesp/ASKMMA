@@ -23,10 +23,17 @@
 	<body>
 
 			@include('nav')
+			@include('sections/hero')
 			@include('sections/logos') 
+			@include('sections/whosmma') 
 			@include('sections/longhaul') 
+			@include('sections/planscta') 
 			@include('sections/medicareadvantage') 
 			@include('sections/medicaresupplemental') 
+			@include('sections/additionalproducts') 
+			@include('sections/questionscta') 
+			@include('sections/testimonials') 
+			@include('sections/readytosee') 
 
 	</body> 
 

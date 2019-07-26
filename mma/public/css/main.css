@@ -3,17 +3,17 @@ h1, h2, h3 {
 }
 
 .hero {
-  background-image: url("/images/header background.png");
+  background-image: url("/images/Dark Image.png");
   background-repeat: no-repeat; 
   background-size: cover;
-  height: 740px;
+  height: 674px;
 }
 
-.design-matters {
-  background-image: url("/images/topography.png");
+.readytosee {
+  background-image: url("/images/Lifestyle Image.png");
   background-repeat: no-repeat;
-  background-position: 100% 0%;
-  background-size: contain;
+  background-position: 0% 0%;
+  background-size: cover;
   height: auto;
 }
 
@@ -26,10 +26,20 @@ h1, h2, h3 {
   height: auto;
 }
 
- 
+
+.whosmma{
+  background-color: #f5fbfe;
+}
 
 
+.medicaresupplemental{
+  background-color: #f5fbfe;
+}
 
+
+.planscta {
+  background-color: #0096d2;
+}
 
 .get-started {
   background-image: url("/images/topography3.png");

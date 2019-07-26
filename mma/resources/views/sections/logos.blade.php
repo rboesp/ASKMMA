@@ -14,7 +14,7 @@
 
 	 		</div>
 
-	 		<div class="w-1/2 lg:w-1/12 flex justify-center">
+	 		<div class="w-2/5 lg:w-1/12 flex justify-center">
 
 	 			<img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto ">
 
@@ -46,7 +46,7 @@
 
 	 	</div>
 
-	 	      
+
  
 
 </div>
