@@ -49366,8 +49366,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/pujensolanki/Dropbox/Clients/MMA/website/mma/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/pujensolanki/Dropbox/Clients/MMA/website/mma/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/pujensolanki/Dropbox/Clients/MMA/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/pujensolanki/Dropbox/Clients/MMA/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
