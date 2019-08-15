@@ -22,7 +22,7 @@
 
 		<div class="flex flex-row w-full lg:w-1/2 justify-start pb-20">
 
-				<div class="flex flex-col w-full lg:w-2/5 pr-6">
+				<div class="flex flex-col w-full lg:w-2/5 sm:p-6 lg:pr-6">
 
 						<div class="flex flex-col shadow-lg rounded-lg text-center items-center py-4 bg-white">
 
@@ -39,7 +39,7 @@
 				</div>
 
 
-				<div class="flex flex-col w-full lg:w-2/5 pl-6">
+				<div class="flex flex-col w-full lg:w-2/5 sm:p-6 lg:pl-6">
 
 						<div class="flex flex-col shadow-lg rounded-lg text-center items-center py-4 bg-white">
 
