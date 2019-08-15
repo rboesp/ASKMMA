@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="/css/app.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  		<title>MMA Demo Site</title>
+  		<title>MMA Demo Site test</title>
    
 				
 
