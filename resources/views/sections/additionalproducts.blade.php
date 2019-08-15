@@ -6,14 +6,14 @@
 
 	<div class="flex flex-row">
 
-		<h3 class="text-3xl lg:text-4xl text-center font-black w-3/4 mx-auto lg:w-full leading-none lg:leading-normal">Additional Products<br class="lg:hidden"> to Help You</h3>
+		<h3 class="text-3xl lg:text-4xl text-center font-black w-3/4 mx-auto lg:w-full leading-none lg:leading-normal text-mmablue">Additional Products<br class="lg:hidden"> to Help You</h3>
 		
 	</div>
 
 
 	<div class="flex flex-row mt-6 lg:mt-2">
 
-		<p class="lg:text-base text-md w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">Separated they live in Bookmarks right at the coast large language ocean Separated they live in Bookmarks right at the coast.</p>
+		<p class="lg:text-base text-md w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">Medicare Medicaid Advisors  believes our clients deserve the best products with the best prices. See all our plans below.</p>
 		
 	</div>
 
@@ -30,14 +30,14 @@
 			<div class="flex flex-wrap px-5 py-4 justify-center">
 
 
-				<p class="text-2xl font-bold leading-tight mb-4">Hospital<br>Indemnity Plans</p>
+				<p class="text-xl font-bold leading-tight mb-4">Hospital<br>Indemnity Plans</p>
 			 
 
-				<p class="text-md mb-4">Brief description on this additional product.</p>
+				<p class="text-sm mb-4">For coverage beyond what your medical insurance covers.</p>
 		 
 
 				<a href="">
-					<p class="text-green-500">Learn More ></p>
+					<p class="text-mmalightblue">Get Started ></p>
 				</a>
 			 
 
@@ -55,14 +55,14 @@
 			<div class="flex flex-wrap px-5 py-4 justify-center">
 
 
-				<p class="text-2xl font-bold leading-tight mb-4">Life<br>Insurance Plans</p>
+				<p class="text-xl font-bold leading-tight mb-4">Life<br>Insurance Plans</p>
 			 
 
-				<p class="text-md mb-4">Brief description on this additional product.</p>
+				<p class="text-sm mb-4">Protect your loved ones should the unexpected occur.</p>
 		 
 
 				<a href="">
-					<p class="text-green-500">Learn More ></p>
+					<p class="text-mmalightblue">Check Plans ></p>
 				</a>
 			 
 
@@ -80,14 +80,14 @@
 			<div class="flex flex-wrap px-5 py-4 justify-center">
 
 
-				<p class="text-2xl font-bold leading-tight mb-4">Final<br>Expense Plans</p>
+				<p class="text-xl font-bold leading-tight mb-4">Final<br>Expense Plans</p>
 			 
 
-				<p class="text-md mb-4">Brief description on this additional product.</p>
+				<p class="text-sm mb-4">Ensure your family can say goodbye without having to worry.</p>
 		 
 
 				<a href="">
-					<p class="text-green-500">Learn More ></p>
+					<p class="text-mmalightblue">Learn More ></p>
 				</a>
 			 
 
@@ -105,14 +105,14 @@
 			<div class="flex flex-wrap px-5 py-4 justify-center">
 
 
-				<p class="text-2xl font-bold leading-tight mb-4">Cancer<br>Indemnity Plans</p>
+				<p class="text-xl font-bold leading-tight mb-4">Cancer<br>Indemnity Plans</p>
 			 
 
-				<p class="text-md mb-4">Brief description on this additional product.</p>
+				<p class="text-sm mb-4">Supplemental insurance should you be diagnosed with Cancer.</p>
 		 
 
 				<a href="">
-					<p class="text-green-500">Learn More ></p>
+					<p class="text-mmalightblue">Get Covered ></p>
 				</a>
 			 
 
