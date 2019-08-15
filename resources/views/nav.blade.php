@@ -11,7 +11,7 @@
 
   <div class="flex items-center flex-shrink-0 text-white mr-6 pl-8">
     
-   	<img class="w-1/6 lg:w-1/3 pl-0 lg:pl-4 " src="images/MMA logo.png">
+   	<img class="w-1/6 lg:w-1/2 pl-0 lg:pl-4 " src="images/mmausalogo.png">
 
 
   </div>

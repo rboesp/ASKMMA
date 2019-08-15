@@ -4,10 +4,10 @@ h1, h2, h3 {
 
 
 .hero {
-  background-image: url("/images/Dark Image.png");
+  background-image: url("/images/hero.png");
   background-repeat: no-repeat; 
   background-size: cover;
-  height: 674px;
+  height: 800px;
 }
 
 .readytosee {
