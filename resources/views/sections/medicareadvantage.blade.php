@@ -22,20 +22,20 @@
 
 			<div class="flex flex-row">
 
-				<h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal">Medicare Advantage</h3>
+				<h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal text-mmablue">What is<br>Medicare Advantage?</h3>
 				
 			</div>
 			
 
-			<div class="flex flex-row mt-6 lg:mt-0">
+			<div class="flex flex-row mt-6 lg:mt-6">
 
-				<p class="lg:text-base text-lg w-full text-center lg:text-left">A type of Medicare health plan offered by a private company that contracts with Medicare to provide you with all your Part A and Part B benefits. Medicare Advantage Plans include Health Maintenance Organizations, Preferred Provider Organizations, Private Fee-for-Service Plans, Special Needs Plans, and Medicare Medical Savings Account Plans. If you’re enrolled in a Medicare Advantage Plan, most Medicare services are covered through the plan and aren’t paid for under Original Medicare. </p>
+				<p class="lg:text-base text-lg w-full text-center lg:text-left">A type of Medicare health plan offered by a private company that contracts with Medicare to provide you with all your Part A and Part B benefits. Medicare Advantage Plans include Health Maintenance Organizations, Preferred Provider Organizations, Private Fee-for-Service Plans, Special Needs Plans, and Medicare Medical Savings Account Plans. If you’re enrolled in a Medicare Advantage Plan, most Medicare services are covered through the plan that weren't covered by your original Medicare plan.</p>
 				
 			</div>
 
-			<div class="flex flex-row justify-center mt-6 lg:mt-0 lg:justify-start">
+			<div class="flex flex-row justify-center mt-6 lg:mt-6 lg:justify-start">
 
-				<button class="bg-white-500 hover:bg-blue-500 text-blue-500 hover:text-white border-2 hover:border-blue-500 font-bold border-blue-200 py-2 px-4 rounded w-full lg:w-1/4">
+					<button class="bg-mmared hover:bg-mmalightblue text-white font-medium py-3 px-4 rounded-lg w-full lg:w-1/3">
 				  Get Coverage
 				</button>
 
