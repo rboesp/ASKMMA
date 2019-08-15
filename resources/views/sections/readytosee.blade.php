@@ -1,4 +1,4 @@
-<section class="readytosee py-8">
+<section class="readytosee py-16">
 
 
 
@@ -16,7 +16,7 @@
 
 		<p class="text-white pt-6 text-center lg:text-left">
 
-			Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean Separated they live in Bookmarks right at the coast
+			Medicare Medicaid Advisors does not represent a company, we represent our clients. We understand many of our clients are on a limited, fixed income. Our job is to help save them money on monthly premiums and out-of-pocket costs. MMA agents review the client's current plan, determine if the plan is working for them, and offer other options which might be available.  With so many healthcare changes over the years, our clients welcome the help.
 
 		</p>
 
@@ -30,17 +30,17 @@
 			<form class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"> 
 
 			    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="zipcode" type="text" placeholder="Zip Code">
+			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="name" type="text" placeholder="Zip Code">
 			    </div>
 
 
 			    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="zipcode" type="text" placeholder="Zip Code">
+			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="email" type="text" placeholder="Zip Code">
 			    </div>
 
 
 			    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="zipcode" type="text" placeholder="Zip Code">
+			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="phone" type="text" placeholder="Zip Code">
 			    </div>
 
 
@@ -58,9 +58,10 @@
 				  </div>
 
 			    <div class="flex flex-col w-full px-4 lg:px-0">
-			      <button class=" bg-transparent hover:bg-white focus:shadow-outline focus:outline-none text-white hover:text-blue-500 border-2 border-white font-bold py-2 px-4 rounded-lg" type="button">
-			        See Plans
-			      </button>
+
+				<button class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-medium py-3 px-4 rounded-lg w-full	">
+				  Sign Up
+				</button>
 			    </div>
 
   

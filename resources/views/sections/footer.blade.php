@@ -11,7 +11,7 @@
 			
 
 
-			<img class="w-3/4 lg:w-4/6 mx-auto" src="images/footlogo.png">
+			<img class="w-3/4 lg:w-4/6 mx-auto" src="images/Left.png">
 
 
 			<div class="flex flex-row">
@@ -29,7 +29,7 @@
 
 					 <div class="flex flex-col justify-start">
 
-					 	<p class="pl-2 text-mmablue">Facebook</p> 
+					 	<p class="pl-2 text-mmalightblue">Facebook</p> 
 
 					 </div>
 
@@ -53,7 +53,7 @@
 
 					 <div class="flex flex-col justify-start">
 
-					 	<p class="pl-2 text-mmablue">Twitter</p> 
+					 	<p class="pl-2 text-mmalightblue">Twitter</p> 
 
 					 </div>
 

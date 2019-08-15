@@ -1,4 +1,4 @@
-<section class="copyright bg-green-500 py-6">
+<section class="copyright bg-mmablue py-6">
 
 
 <div class="container mx-auto">
