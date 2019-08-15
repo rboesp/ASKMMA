@@ -1,4 +1,4 @@
-<section class="planscta py-8">
+<section class="planscta py-8 bg-mmablue">
 
 
 
@@ -24,7 +24,7 @@
 			    </div>
 
 			    <div class="flex flex-col w-1/3 pr-4 lg:pr-0 lg:pl-2">
-			      <button class=" bg-transparent hover:bg-white focus:shadow-outline focus:outline-none text-white hover:text-blue-500 border-2 border-white font-bold py-2 px-4 rounded-lg" type="button">
+			      <button class=" bg-mmalightblue hover:bg-white focus:shadow-outline focus:outline-none text-white hover:text-blue-500 border border-mmalightblue font-bold py-2 px-4 rounded-lg" type="button">
 			        See Plans
 			      </button>
 			    </div>
