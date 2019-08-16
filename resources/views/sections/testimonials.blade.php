@@ -69,7 +69,7 @@
 
 			<div class="flex flex-row justify-center mt-6 lg:mt-6 lg:justify-start">
 
-				<button class="bg-mmared hover:bg-mmalightblue text-white font-medium py-3 px-4 rounded-lg w-full lg:w-1/2">
+				<button class="bg-mmared hover:bg-mmalightblue text-white font-medium py-3 px-4 rounded-lg w-full lg:w-1/2	">
 				  Let's Get Started
 				</button>
 
