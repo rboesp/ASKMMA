@@ -1,4 +1,4 @@
-<section class="minihero h-96 mt-12" style="background:url('/images/{{ isset($image_bg) ? $image_bg : '' }}'); background-position: no-repeat; background-size: cover;">
+<section class="minihero h-112 mt-20" style="background:url('/images/{{ isset($image_bg) ? $image_bg : '' }}'); background-position: no-repeat; background-size: cover;">
 
 
 	<div class="container mx-auto h-full flex flex-col justify-around">
