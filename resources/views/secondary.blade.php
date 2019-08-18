@@ -13,26 +13,17 @@
         <link rel="stylesheet" type="text/css" href="/css/app.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  		<title>MMA Demo App</title>
+  		<title>@yield('title')</title>
 	</head>
 	<body>
 
-			@include('nav')
-			@include('sections/hero')
-			@include('sections/logos') 
-			@include('sections/whosmma') 
-			@include('sections/longhaul') 
-			@include('sections/planscta') 
-			@include('sections/medicareadvantage') 
-			@include('sections/medicaresupplemental') 
-			@include('sections/additionalproducts') 
-			@include('sections/questionscta') 
-			@include('sections/testimonials') 
+			@include('Partials.nav')
 
-			@include('Partials/readytosee') 
-			
-			@include('sections/footer') 
-			@include('sections/copyright') 
+			@yield('content')
+
+			@include('Partials.footer') 
+
+			@include('Partials.copyright') 
 
 	</body> 
 

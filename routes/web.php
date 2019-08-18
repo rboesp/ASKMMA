@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('landing');
 });
+
+
+Route::get('/about', function () {
+    return view('Pages.about');
+});
+
+Route::get('/services', function () {
+    return view('Pages.services');
+});
+
+
+Route::get('/feedback', function () {
+    return view('Pages.feedback');
+});

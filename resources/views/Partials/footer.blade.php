@@ -1,0 +1,130 @@
+<section class="footer py-16">
+
+
+<div class="container mx-auto">
+
+
+	<div class="flex flex-row flex-wrap">
+
+
+		<div class="flex flex-col mx-auto w-3/4 lg:w-1/3 pb-8">
+			
+
+
+			<img class="w-3/4 lg:w-4/6 mx-auto" src="images/Left.png">
+
+
+			<div class="flex flex-row">
+
+				<div class="flex-col flex w-1/2">
+
+					<div class="flex flex-row justify-center mt-6 lg:mt-6 lg:pl-6 mx-auto lg:mx-0 w-full">
+
+					 <div class="flex flex-col w-1/12 justify-center">
+
+					 	<img class="w-full" src="/images/Facebook.png">
+					 	
+
+					 </div>
+
+					 <div class="flex flex-col justify-start">
+
+					 	<p class="pl-2 text-mmalightblue">Facebook</p> 
+
+					 </div>
+
+					</div>
+					
+
+				</div>
+
+
+
+				<div class="flex-col flex w-1/2">
+
+					<div class="flex flex-row justify-center mt-6 lg:mt-6 mx-auto lg:mx-0 w-full">
+
+					 <div class="flex flex-col w-1/12 justify-center">
+
+					 	<img class="w-full" src="/images/Twitter.png">
+					 	
+
+					 </div>
+
+					 <div class="flex flex-col justify-start">
+
+					 	<p class="pl-2 text-mmalightblue">Twitter</p> 
+
+					 </div>
+
+					</div>
+					
+
+				</div>
+
+			</div> 
+
+ 
+		</div>
+
+
+		<div class="flex flex-col w-full lg:w-1/3 pb-8 mx-auto">
+			
+			<div class="flex flex-row flex-wrap justify-between text-center font-bold">
+
+				<div class="w-1/2 lg:w-1/3 py-2">Plan Finder</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Services</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Contact</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Products</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Feedback</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Resources</div>
+				<div class="w-1/2 lg:w-1/3 py-2">About MMA</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Careers</div>
+				<div class="w-1/2 lg:w-1/3 py-2">Outreach</div>
+
+			</div>
+
+
+		</div>
+
+
+		<div class="flex flex-col w-full lg:w-1/3 px-8">
+
+			<p class=" text-gray-700  text-center lg:text-left">Join our newsletter to stay up to date on features and releases</p>
+ 
+
+			<form class="w-full mx-auto max-w-sm pt-6">
+			  <div class="flex items-center border-b border-b-2 border-teal-500 py-2 bg-white pl-2 pr-4">
+			    <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter Your Email Address" aria-label="Full name">
+			    <button class="flex-shrink-0 text-lg font-strong text-mmablue hover:text-blue" type="button">
+			      >
+			    </button> 
+			  </div>
+			</form> 
+ 
+			
+
+		</div>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+ 
