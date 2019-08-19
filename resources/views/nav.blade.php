@@ -1,7 +1,7 @@
-<nav id="header" class="flex items-center justify-between flex-wrap p-6 bg-white fixed w-full top-0">
+<nav id="header" class="flex items-center justify-between flex-wrap p-2 bg-white fixed w-full top-0">
 
 
-<div class="flex flex-row justify-between items-center">
+<div class="flex flex-row justify-between items-center w-1/2">
   
   <div id="nav-toggle" class="block lg:hidden flex justify-start flex-col ">
     <button class="flex items-center px-3 py-2 rounded text-black border-teal-400 hover:text-mmablue hover:border-white">
@@ -11,7 +11,7 @@
 
   <div class="flex items-center flex-shrink-0 text-white mr-6 pl-8">
     
-   	<img class="w-1/6 lg:w-1/2 pl-0 lg:pl-4 " src="images/mmausalogo.png">
+   	<img class="w-1/6 lg:w-2/5 pl-0 lg:pl-4 " src="images/mmausalogo.png">
 
 
   </div>
@@ -20,8 +20,8 @@
 
 
 
-  <div  id="nav-content" class="w-full block flex-grow lg:flex lg:items-end lg:w-auto">
-    <div class="text-sm lg:flex-grow">
+  <div  id="nav-content" class="w-full block flex-grow lg:flex lg:items-end justify-end lg:w-1/2 pr-8">
+    <div class="text-sm ">
 
 
       <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
