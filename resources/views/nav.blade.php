@@ -11,7 +11,7 @@
 
   <div class="flex items-center flex-shrink-0 text-white mr-6 pl-8">
     
-   	<img class="w-1/6 lg:w-2/5 pl-0 lg:pl-4 " src="images/mmausalogo.png">
+   	<img class="w-1/3 mx-auto lg:mx-0 lg:w-2/5 pl-0 lg:pl-4 " src="images/mmausalogo.png">
 
 
   </div>
