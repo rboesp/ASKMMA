@@ -17,7 +17,9 @@
 	</head>
 	<body>
 
-			@include('Partials/nav')
+			@include('Partials.nav')
+
+			
 			@include('sections/hero')
 			@include('sections/logos') 
 			@include('sections/whosmma') 
@@ -29,7 +31,7 @@
 			@include('sections/questionscta') 
 			@include('sections/testimonials') 
 
-			@include('Partials/readytosee') 
+			@include('Partials.readytosee') 
 
 			@include('sections/footer') 
 			@include('sections/copyright') 

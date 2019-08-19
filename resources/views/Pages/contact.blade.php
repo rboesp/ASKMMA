@@ -26,6 +26,15 @@
 
 <div class="container mx-auto">
  
+
+ <div class="flex flex-row w-full">
+
+				<h3 class="text-3xl lg:text-4xl text-center font-black w-full leading-none lg:leading-normal text-mmablue">Our Locations</h3>
+
+				 
+			</div>
+
+
 	<div class="flex flex-row flex-wrap w-full">
 
 

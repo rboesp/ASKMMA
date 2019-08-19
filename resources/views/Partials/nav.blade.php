@@ -11,7 +11,7 @@
 
   <div class="flex justify-center flex-shrink-0 text-white lg:mr-6 lg:pl-8 lg:mx-0 lg:w-1/2 w-full flex-shrink-0 mx-auto ">
     
-    <img class="w-1/2 mx-auto lg:mx-0 lg:w-2/5 pl-0 lg:pl-4 " src="images/mmausalogo.png">
+    <a href="/"><img class="w-1/2 mx-auto lg:mx-0 lg:w-2/5 pl-0 lg:pl-4 " src="images/mmausalogo.png"></a>
 
 
   </div>

@@ -28,9 +28,17 @@ Route::get('/contact', function () {
     return view('Pages.contact');
 });
 
+Route::get('/communityoutreach', function () {
+    return view('Pages.communityoutreach');
+});
+
 
 Route::get('/feedback', function () {
     return view('Pages.feedback');
+});
+
+Route::get('/resources', function () {
+    return view('Pages.resources');
 });
 
 
