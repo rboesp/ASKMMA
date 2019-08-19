@@ -4,7 +4,7 @@
 @include('Partials.minihero', [
 
 	'minihero_title' => 'About MMA',
-	'minihero_desc' => 'We know that you are familiar with Medicare, but now<br>let’s take a moment to help you be familiar with us.',
+	'minihero_desc' => 'We know that you are familiar with Medicare, but now let’s take a moment to help you be familiar with us.',
 	'image_bg' => 'about/about_header.png',
 
 ])
@@ -29,7 +29,7 @@
 
 		 
 
-		<div class="card-right flex flex-col lg:w-3/5 px-16 my-auto">
+		<div class="card-right flex flex-col lg:w-3/5 px-8 lg:px-16 my-auto pb-8 lg:pb-0">
 			
 
 			<div class="flex flex-row">
@@ -97,7 +97,7 @@
 
 	<div class="flex flex-row mt-6 lg:mt-6">
 
-		<p class="lg:text-base text-md w-3/5 mx-auto text-center mb-4 lg:mb-8">“Our success will be measured by our clients and agents choosing us because of their belief in our ability to meet or exceed their expectations of service, expertise and care.”</p>
+		<p class="lg:text-base text-md w-full px-8 lg:px-0 lg:w-3/5 mx-auto text-center mb-4 lg:mb-8">“Our success will be measured by our clients and agents choosing us because of their belief in our ability to meet or exceed their expectations of service, expertise and care.”</p>
 		
 	</div>
 
@@ -175,7 +175,7 @@
 
 	<div class="flex flex-row mt-6 lg:mt-6">
 
-		<p class="lg:text-base text-md w-3/5 mx-auto text-center mb-4 lg:mb-8">Leadership is what makes a company stand above when it comes to Customer relations. Our core has been built around the best in Medicare to help our Customers.</p>
+		<p class="lg:text-base text-md w-full px-8 lg:w-3/5 lg:mx-auto text-center mb-4 lg:mb-8">Leadership is what makes a company stand above when it comes to Customer relations. Our core has been built around the best in Medicare to help our Customers.</p>
 		
 	</div>
 
@@ -433,13 +433,14 @@
 -->
 
 
+
+
   
 
 
 @include('Partials/readytosee')
 
-
-
+ 
 
 
 

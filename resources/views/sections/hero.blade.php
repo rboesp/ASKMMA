@@ -5,7 +5,7 @@
 	<div class="container mx-auto h-full flex flex-col justify-around">
 
 
-		<div class="flex flex-wrap flex-row justify-start pt-56"> 
+		<div class="flex flex-wrap flex-row justify-start pt-48 lg:pt-56"> 
 
 
 			<div class="flex flex-wrap flex-row w-4/5 mx-auto lg:mx-0 lg:w-2/5 justify-center lg:justify-start">
@@ -20,9 +20,9 @@
 		</div>
 
 
-		<div class="flex flex-row w-full lg:w-1/2 justify-start pb-20">
+		<div class="flex flex-row w-full flex-wrap lg:w-1/2 justify-start pb-20">
 
-				<div class="flex flex-col w-full lg:w-2/5 sm:p-6 lg:pr-6">
+				<div class="flex flex-col w-full lg:w-2/5 p-6 lg:pr-6">
 
 						<div class="flex flex-col shadow-lg rounded-lg text-center items-center py-4 bg-white">
 
@@ -39,7 +39,7 @@
 				</div>
 
 
-				<div class="flex flex-col w-full lg:w-2/5 sm:p-6 lg:pl-6">
+				<div class="flex flex-col w-full lg:w-2/5 p-6 lg:pl-6">
 
 						<div class="flex flex-col shadow-lg rounded-lg text-center items-center py-4 bg-white">
 

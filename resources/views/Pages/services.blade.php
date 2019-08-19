@@ -4,7 +4,7 @@
 @include('Partials.minihero', [
 
 	'minihero_title' => 'Services',
-	'minihero_desc' => 'We know Medicare can be tricky and that’s why we are here to<br>help, assist, guide, support, and give advice through your journey.',
+	'minihero_desc' => 'We know Medicare can be tricky and that’s why we are here to help, assist, guide, support, and give advice through your journey.',
 	'image_bg' => 'services/index.png',
 
 ])

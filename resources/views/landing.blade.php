@@ -17,7 +17,7 @@
 	</head>
 	<body>
 
-			@include('nav')
+			@include('Partials/nav')
 			@include('sections/hero')
 			@include('sections/logos') 
 			@include('sections/whosmma') 
@@ -30,7 +30,7 @@
 			@include('sections/testimonials') 
 
 			@include('Partials/readytosee') 
-			
+
 			@include('sections/footer') 
 			@include('sections/copyright') 
 

@@ -24,7 +24,16 @@ Route::get('/services', function () {
     return view('Pages.services');
 });
 
+Route::get('/contact', function () {
+    return view('Pages.contact');
+});
+
 
 Route::get('/feedback', function () {
     return view('Pages.feedback');
+});
+
+
+Route::get('/planfinder', function () {
+    return view('Pages.planfinder');
 });
