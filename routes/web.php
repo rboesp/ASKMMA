@@ -11,37 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
-});
-
-
-Route::get('/about', function () {
-    return view('Pages.about');
-});
-
-Route::get('/services', function () {
-    return view('Pages.services');
-});
-
-Route::get('/contact', function () {
-    return view('Pages.contact');
-});
-
-Route::get('/communityoutreach', function () {
-    return view('Pages.communityoutreach');
-});
-
-
-Route::get('/feedback', function () {
-    return view('Pages.feedback');
-});
-
-Route::get('/resources', function () {
-    return view('Pages.resources');
-});
-
-
-Route::get('/planfinder', function () {
-    return view('Pages.planfinder');
-});
+Route::view('/', 'landing');
+Route::view('/about', 'Pages.about');
+Route::view('/services', 'Pages.services');
+Route::view('/contact', 'Pages.contact');
+Route::view('/communityoutreach', 'Pages.communityoutreach');
+Route::view('/feedback', 'Pages.feedback');
+Route::view('/resources', 'Pages.resources');
+Route::view('/planfinder', 'Pages.planfinder');
+Route::view('/products', 'Pages.products');
+Route::view('/careers', 'Pages.careers');
