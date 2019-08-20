@@ -2,7 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Feedback',
-        'minihero_desc' => 'We always want to e the best, and that is why we cherish your feedback. That way we can grow better for you.',
+        'minihero_desc' => 'We always want to be the best, and that is why we cherish your feedback. That way we can grow better for you.',
         'image_bg' => 'feedback/header.png',
     ])
 
@@ -17,9 +17,9 @@
                             Feedback Form
                         </h3>
                     </div>
-                    <div class="flex flex-row flex-wrap ">
+                    <div class="flex flex-row flex-wrap font-openSans">
                         <div class="flex flex-col flex-wrap w-full">
-                            <div class="w-full text-xl lg:text-base mt-4 font-black">
+                            <div class="w-full text-base lg:text-xl mt-4 font-extrabold">
                                 If you would like to provide feedback or file a complaint, please complete and submit.
                                 Please provide a detailed description of your complaint.
                             </div>
@@ -37,31 +37,29 @@
                             <input type="hidden" name="m" value="0"/>
                             <input type="hidden" name="act" value="sub"/>
                             <input type="hidden" name="v" value="2"/>
-                            <div class="w-full flex ">
-                                <input
-                                    type="email"
-                                    name="email"
-                                    placeholder="Type your Email*"
-                                    class="w-1/3 mr-2 bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                />
-                                <select
-                                    name="field[5]"
-                                    class="w-1/3 bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                >
-                                    <option value="General Feedback" selected>General Feedback</option>
-                                    <option value="File A Compliant">File A Compliant</option>
-                                </select>
+                            <div class="flex">
+                                <div class="flex relative">
+                                    <select
+                                        id="feedback"
+                                        name="field[5]"
+                                        class="bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    >
+                                        <option value="General Feedback" selected>General Feedback</option>
+                                        <option value="File A Compliant">File A Compliant</option>
+                                    </select>
+                                    <i class="la la-caret-down absolute right-0 pt-3 pr-2 text-blue-400"></i>
+                                </div>
                             </div>
                             <div class="w-full flex flex-wrap justify-end">
                                 <textarea
                                     rows="10"
                                     name="field[6]"
-                                    placeholder=""
+                                    placeholder="Name"
                                     class="w-full my-2 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 ></textarea>
                                 <button
                                     type="submit"
-                                    class="w-1/5 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-2 px-2 rounded"
+                                    class="w-3/12 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-10 rounded-lg "
                                 >
                                     Sign up
                                 </button>

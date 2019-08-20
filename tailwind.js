@@ -226,6 +226,10 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
+      openSans: [
+        'Open Sans',
+        'sans-serif'
+      ],
       sans: [
         '-apple-system',
         'BlinkMacSystemFont',

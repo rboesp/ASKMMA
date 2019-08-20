@@ -30,39 +30,47 @@
                     <input type="hidden" name="v" value="2"/>
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
-                                class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                name="firstname"
-                                type="text"
-                                placeholder="Type your First Name"
-                                required
-                        />
-                    </div>
-                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-                        <input
-                                class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                name="lastname"
-                                type="text"
-                                placeholder="Type your Last Name"
-                                required
-                        />
-                    </div>
-
-                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-                        <input
-                                class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                name="email"
-                                type="email"
-                                placeholder="Type your Email"
-                                required
-                        />
-                    </div>
-
-                    <select
-                            name="field[3]"
+                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            name="firstname"
+                            type="text"
+                            placeholder="Type your First Name"
                             required
-                            class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        />
+                    </div>
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <input
+                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            name="lastname"
+                            type="text"
+                            placeholder="Type your Last Name"
+                            required
+                        />
+                    </div>
+
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <input
+                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            name="email"
+                            type="email"
+                            placeholder="Type your Email"
+                            required
+                        />
+                    </div>
+
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <input
+                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            name="zipcode"
+                            type="text"
+                            placeholder="Zip Code"
+                        />
+                    </div>
+                    <select
+                        name="field[3]"
+                        required
+                        class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                     >
-                        <option selected></option>
+                        <option value="" disabled selected>Interest In*</option>
                         <option value="Learning More About Plans">Learning More About Plans</option>
                         <option value="Learning More About Products">Learning More About Products</option>
                         <option value="Getting Contracted">Getting Contracted</option>
@@ -84,8 +92,8 @@
 
                     <div class="flex flex-col w-full px-4 lg:px-0">
                         <button
-                                type="submit"
-                                class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-medium py-3 px-4 rounded-lg w-full"
+                            type="submit"
+                            class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-medium py-3 px-4 rounded-lg w-full"
                         >
                             Sign Up
                         </button>
