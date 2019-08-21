@@ -29,32 +29,42 @@
                                 part of your message.
                             </div>
                         </div>
-                        <form method="POST" action="https://askmma.activehosted.com/proc.php" class="w-full py-6">
-                            <input type="hidden" name="u" value="5"/>
-                            <input type="hidden" name="f" value="5"/>
-                            <input type="hidden" name="s"/>
-                            <input type="hidden" name="c" value="0"/>
-                            <input type="hidden" name="m" value="0"/>
-                            <input type="hidden" name="act" value="sub"/>
-                            <input type="hidden" name="v" value="2"/>
+                        <form method="POST" action="https://medicaremedicaidadvisors.activehosted.com/proc.php" class="w-full py-6">
+                            <input type="hidden" name="u" value="1" />
+                            <input type="hidden" name="f" value="1" />
+                            <input type="hidden" name="s" />
+                            <input type="hidden" name="c" value="0" />
+                            <input type="hidden" name="m" value="0" />
+                            <input type="hidden" name="act" value="sub" />
+                            <input type="hidden" name="v" value="2" />
                             <div class="flex">
-                                <div class="flex relative">
-                                    <select
-                                        id="feedback"
-                                        name="field[5]"
-                                        class="bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                                    >
-                                        <option value="General Feedback" selected>General Feedback</option>
-                                        <option value="File A Compliant">File A Compliant</option>
-                                    </select>
-                                    <i class="la la-caret-down absolute right-0 pt-3 pr-2 text-blue-400"></i>
+                                <div class="flex flex-wrap relative w-full">
+                                    <div class="w-full md:w-1/2 flex relative">
+                                        <select
+                                            id="feedback"
+                                            name="field[5]"
+                                            class=" w-full bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                        >
+                                            <option value="General Feedback" selected>General Feedback</option>
+                                            <option value="File A Compliant">File A Compliant</option>
+                                        </select>
+                                        <i class="la la-caret-down absolute right-0 pt-3 pr-2 text-blue-400"></i>
+                                    </div>
+                                    <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
+                                        <input
+                                            class="w-full bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Type your email"
+                                            required
+                                        />
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-full flex flex-wrap justify-end">
                                 <textarea
                                     rows="10"
                                     name="field[6]"
-                                    placeholder="Name"
                                     class="w-full my-2 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 ></textarea>
                                 <button

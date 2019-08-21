@@ -19,10 +19,13 @@
             <div class="w-1/12"></div>
 
             <div class="flex flex-col w-full lg:w-2/5 flex-wrap pt-0 lg:pt-6 lg:pt-2 lg:pl-8 ">
-                <form method="POST" action="https://askmma.activehosted.com/proc.php"
-                      class="flex flex-row flex-wrap w-full pt-6 lg:pt-2">
-                    <input type="hidden" name="u" value="1"/>
-                    <input type="hidden" name="f" value="1"/>
+                <form
+                    method="POST"
+                    action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
+                    class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"
+                >
+                    <input type="hidden" name="u" value="5"/>
+                    <input type="hidden" name="f" value="5"/>
                     <input type="hidden" name="s"/>
                     <input type="hidden" name="c" value="0"/>
                     <input type="hidden" name="m" value="0"/>
@@ -60,29 +63,32 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="zipcode"
+                            name="field[6]"
                             type="text"
                             placeholder="Zip Code"
+                            required
                         />
                     </div>
-                    <select
-                        name="field[3]"
-                        required
-                        class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                    >
-                        <option value="" disabled selected>Interest In*</option>
-                        <option value="Learning More About Plans">Learning More About Plans</option>
-                        <option value="Learning More About Products">Learning More About Products</option>
-                        <option value="Getting Contracted">Getting Contracted</option>
-                    </select>
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <select
+                            name="field[1]"
+                            required
+                            class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        >
+                            <option value="" disabled selected>Interest In*</option>
+                            <option value="Learn More About Plans">Learn More About Plans</option>
+                            <option value="Learn More About Products">Learn More About Products</option>
+                            <option value="Get Contracted">Get Contracted</option>
+                        </select>
+                    </div>
 
                     <div class="flex items-center px-4 mb-2 lg:px-0 mt-2">
                         <label class="w-full block  text-white ">
                             <input
-                                    class="mr-2 leading-tight"
-                                    type="checkbox"
-                                    name="field[4][]"
-                                    value="I would like to receive the Newsletter"
+                                class="mr-2 leading-tight"
+                                type="checkbox"
+                                name="field[4][]"
+                                value="I would like to receive the Newsletter"
                             >
                             <span class="text-sm">
 								Subscribe to the newsletter!
