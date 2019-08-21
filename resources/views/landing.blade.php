@@ -15,7 +15,7 @@
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   		<title>MMA Demo App</title>
 	</head>
-	<body>
+	<body class="font-body">
 
 			@include('Partials.nav')
 
