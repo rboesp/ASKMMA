@@ -12,34 +12,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>@yield('title')</title>
     <style>
-      ul {
-          list-style: none; /* Remove default bullets */
-          display: table;
-      }
+        ul {
+            list-style: none; /* Remove default bullets */
+            display: table;
+        }
 
-			ul li::before {
-				content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-				color: #9d0200; /* Change the color */
-				font-weight: bold; /* If you want it to be bold */
-				display: inline-block; /* Needed to add space between the bullet and the text */
-				width: 1em; /* Also needed for space (tweak if needed) */
-				margin-left: 1em; /* Also needed for space (tweak if needed) */
-				display: table-cell;
-				text-align: right;
-				padding-right: .6em;
-			}
+        ul li::before {
+            content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #9d0200; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: 1em; /* Also needed for space (tweak if needed) */
+            display: table-cell;
+            text-align: right;
+            padding-right: .6em;
+        }
 
-			li {
-				display: inherit;
-				margin-top: 0.5rem;
-			}
+        li {
+            display: inherit;
+            margin-top: 0.5rem;
+        }
 
-			.box-blue-shadow {
-				box-shadow: 0 10px 15px -3px rgba(0, 101, 242, 0.1);
-			}
-		</style>
-	</head>
-	<body class="font-body">
+        .box-blue-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 101, 242, 0.1);
+        }
+
+        ul li.no-bullet::before{
+            content: ""; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: transparent; /* Change the color */
+        }
+    </style>
+</head>
+<body class="font-body">
 
 <div id="app" class="w-full">
     @include('Partials.nav')

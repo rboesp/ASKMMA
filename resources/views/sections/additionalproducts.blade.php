@@ -9,14 +9,15 @@
         </div>
 
         <div class="flex flex-row mt-6 lg:mt-2">
-            <p class="lg:text-base text-md w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">
-                Medicare Medicaid Advisors believes our clients deserve the best products with the best prices. See all our plans below.
+            <p class="lg:text-base text-sm w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">
+                Medicare Medicaid Advisors believes our clients deserve the best products with the best prices. See all
+                our plans below.
             </p>
         </div>
 
         <div class="flex flex-row flex-wrap lg:justify-around">
             <div class="flex flex-col shadow-lg rounded w-3/4 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0">
-                <img src="/images/hosbed.png" />
+                <img src="/images/hosbed.png"/>
                 <div class="flex flex-wrap px-5 py-4 justify-center">
                     <p class="text-xl font-bold leading-tight mb-4">
                         Hospital
@@ -54,7 +55,7 @@
             </div>
 
             <div class="flex flex-col shadow-lg rounded w-3/4 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0">
-                <img src="/images/families.png" />
+                <img src="/images/families.png"/>
                 <div class="flex flex-wrap px-5 py-4 justify-center">
                     <p class="text-xl font-bold leading-tight mb-4">
                         Final
@@ -73,7 +74,7 @@
             </div>
 
             <div class="flex flex-col shadow-lg rounded w-3/4 mx-auto lg:mx-0 lg:w-1/5 text-center">
-                <img src="/images/hosp.png" />
+                <img src="/images/hosp.png"/>
                 <div class="flex flex-wrap px-5 py-4 justify-center">
                     <p class="text-xl font-bold leading-tight mb-4">
                         Cancer

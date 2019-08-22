@@ -99,7 +99,7 @@
                     <div class="flex flex-col w-full px-4 lg:px-0">
                         <button
                             type="submit"
-                            class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-medium py-3 px-4 rounded-lg w-full"
+                            class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-bold text-base py-3 px-4 rounded-lg w-full"
                         >
                             Sign Up
                         </button>

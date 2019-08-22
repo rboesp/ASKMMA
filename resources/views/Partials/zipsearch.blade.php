@@ -16,7 +16,7 @@
             <div class="flex flex-row lg:flex-col w-full self-end">
                 <a
                     href="/planfinder"
-                    class="w-1/3 self-end bg-mmared hover:bg-mmalightblue text-center focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-2 px-2 lg:-ml-2 rounded"
+                    class="w-full lg:w-1/3 self-end bg-mmared hover:bg-mmalightblue text-center focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-2 px-2 lg:-ml-2 rounded"
                     type="button"
                 >
                     See Plans
