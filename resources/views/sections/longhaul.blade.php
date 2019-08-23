@@ -1,12 +1,12 @@
 <section class="longhaul py-16">
-    <div class="container mx-auto">
+    <div class="container mx-auto w-4/5 lg:w-auto px-4">
         <!--flex-col-reverse lg:flex-row-reverse -->
-        <div class="flex flex-row flexbox flex-wrap ">
+        <div class="flex flex-row flexbox flex-wrap">
             <!-- Left -->
             <div class="card-left flex flex-col lg:w-1/2 lg:pr-8 justify-center">
                 <img src="/images/longhaul.png">
             </div>
-            <div class="card-right flex flex-col lg:w-1/2 lg:pl-8 px-8 justify-between">
+            <div class="card-right flex flex-col lg:w-1/2 lg:pl-8 justify-between">
                 <div class="flex flex-row mt-12">
                     <h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal lg:pb-4 text-mmablue">
                         Around for the <br class="lg:hidden">Long Haul

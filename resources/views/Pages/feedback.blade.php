@@ -48,7 +48,7 @@
                                             <option value="General Feedback" selected>General Feedback</option>
                                             <option value="File A Compliant">File A Compliant</option>
                                         </select>
-                                        <i class="la la-caret-down absolute right-0 pt-3 pr-2 text-blue-400"></i>
+                                        <i class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400"></i>
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
                                         <input
@@ -61,7 +61,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full flex flex-wrap justify-end">
+                            <div class="w-full flex flex-wrap justify-center lg:justify-end">
                                 <textarea
                                     rows="10"
                                     name="field[6]"
@@ -69,7 +69,7 @@
                                 ></textarea>
                                 <button
                                     type="submit"
-                                    class="w-3/12 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-10 rounded-lg "
+                                    class="w-4/5 sm:w-3/5 lg:w-2/5 mt-2 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-10 rounded-lg"
                                 >
                                     Sign up
                                 </button>

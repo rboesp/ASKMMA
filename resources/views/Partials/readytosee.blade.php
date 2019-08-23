@@ -1,6 +1,6 @@
 <section class="readytosee py-16">
     <div class="container mx-auto">
-        <div class="flex flex-row justify-start flex-wrap">
+        <div class="flex flex-row justify-around flex-wrap">
             <div class="flex flex-col w-full lg:w-2/5 lg:pl-0 px-8  justify-center">
                 <p class="text-3xl lg:text-4xl font-bold text-white leading-tight text-center lg:text-left">
                     Ready to See What
@@ -15,8 +15,6 @@
                     changes over the years, our clients welcome the help.
                 </p>
             </div>
-
-            <div class="w-1/12"></div>
 
             <div class="flex flex-col w-full lg:w-2/5 flex-wrap pt-0 lg:pt-6 lg:pt-2 lg:pl-8 ">
                 <form

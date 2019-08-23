@@ -1,6 +1,5 @@
 @extends('Layouts.secondary')
 @section('content')
-
     @include('Partials.minihero', [
 
         'minihero_title' => 'About MMA',
@@ -8,16 +7,15 @@
         'image_bg' => 'products/about_header.png',
 
     ])
-
     @include('Partials/phonenumcta')
 
     <section class="feedback py-16 bg-gray-100">
         <div class="container mx-auto">
             <div class="flex flex-row flexbox flex-wrap">
-                <div class="card-right flex flex-col w-full lg:w-2/3 mx-auto justify-between">
-                    <div class="flex flex-row flex-wrap">
-                        <accordion-component title="Hot Topics" sub-title="See Hot Topics" class="my-4">
-                            <div class="w-full flex flex-wrap">
+                <div class="card-right flex flex-col w-full lg:w-4/5 mx-auto justify-between">
+                    <div class="flex flex-row flex-wrap px-2">
+                        <accordion-component title="Hot Topics" sub-title="See Hot Topics" class="my-4 box-blue-shadow">
+                            <div class="w-full flex flex-wrap font-semibold">
                                 <span class="w-full lg:w-1/2 py-3">
                                     Welcome to Medicare <arrow-icon></arrow-icon>
                                 </span>
@@ -81,15 +79,15 @@
                             </div>
                         </accordion-component>
                         <accordion-component title="Medicare & Medicaid"
-                                             sub-title="See Medicare & Medicaid" class="my-4"></accordion-component>
+                                             sub-title="See Medicare & Medicaid" class="my-4 box-blue-shadow"></accordion-component>
                         <accordion-component title="Additional Links for Your Information"
-                                             sub-title="See Additional Links" class="my-4"></accordion-component>
+                                             sub-title="See Additional Links" class="my-4 box-blue-shadow"></accordion-component>
                         <accordion-component title="Financial Security"
-                                             sub-title="See Financial Security" class="my-4"></accordion-component>
+                                             sub-title="See Financial Security" class="my-4 box-blue-shadow"></accordion-component>
                         <accordion-component title="Community Resources & Services Available"
-                                             sub-title="See Community Resources" class="my-4"></accordion-component>
+                                             sub-title="See Community Resources" class="my-4 box-blue-shadow"></accordion-component>
                         <accordion-component title="Social Security"
-                                             sub-title="See Social Security" class="my-4"></accordion-component>
+                                             sub-title="See Social Security" class="my-4 box-blue-shadow"></accordion-component>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,12 @@
-<section class="medicaresupplemental py-16">
-    <div class="container mx-auto">
-        <div class="flex flex-row flexbox flex-wrap">
+<section class="medicaresupplemental pt-2 pb-8 lg:py-16">
+    <div class="container mx-auto w-4/5 lg:w-auto">
+        <div class="flex flex-col lg:flex-row justify-center">
             <!-- Left -->
-            <div class="flex w-full lg:w-1/2 lg:pr-8">
+            <div class="flex lg:w-5/12 lg:pr-8">
                 <img src="/images/medsupp.png" class="w-full h-auto">
             </div>
 
-            <div class="flex flex-wrap lg:w-1/2 lg:pl-8 py-6 px-8">
+            <div class="flex flex-wrap lg:w-1/2 lg:pl-8 py-6">
                 <div class="flex w-full">
                     <h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full text-mmablue">
                         Medicare Supplemental
@@ -43,7 +43,7 @@
                     </div>
                 </div>
 
-                <div class="flex w-full justify-center mt-6 lg:mt-0 lg:justify-start lg:h-12">
+                <div class="flex w-full justify-center mt-6 lg:mt-3 lg:justify-start lg:h-12">
                     <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-4 lg:py-0 rounded-lg w-full lg:w-1/3">
                         Check Plans
                     </button>

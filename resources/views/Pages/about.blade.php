@@ -41,9 +41,6 @@
         </div>
     </section>
 
-
-
-
     <section class="purpose py-16 text-sm lg:text-base">
         <div class="container mx-auto">
             <div class="flex flex-row">
@@ -53,33 +50,53 @@
             <div class="flex flex-row mt-6 lg:mt-6">
                 <p class="lg:text-base text-md w-full px-8 lg:px-0 lg:w-3/5 mx-auto text-center mb-4 lg:mb-8">“Our
                     success will be measured by our clients and agents choosing us because of their belief in our
-                    ability to meet or exceed their expectations of service, expertise and care.”</p>
-
+                    ability to meet or exceed their expectations of service, expertise and care.”
+                </p>
             </div>
-            <div class="flex flex-row flex-wrap justify-around mt-6">
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                    <img class="w-1/4 mb-4" src="/images/about/serv icon.png">
-                    <p class="font-bold mb-2">Serve Our Community</p>
-                    <p class="lg:text-md text-sm text-center">
-                        To serve our community with wisdom, responsibility and integrity.
-                    </p>
+        </div>
+        <div class="flex flex-row flex-wrap mt-6 justify-around">
+            <div class="flex flex-row flex-wrap mt-6 justify-around">
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                    <div>
+                        <img class="success-path-image" src="/images/about/serv icon.png">
+                    </div>
+                    <div class="my-3">
+                        <span class="font-black text-lg text-gray-800">Serve Our Community</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="lg:text-md text-sm">
+                        To serve our community with wisdom, responsibility and integrity
+                        </span>
+                    </div>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                    <img class="w-1/4 mb-4" src="/images/about/grow icon.png">
-                    <p class="font-bold mb-2">Grow Partnerships</p>
-                    <p class="lg:text-md text-sm text-center">
-                        To establish a successful partnership with our clients, our agents, and insurance providers who
-                        respect the interests and goals of each party.
-                    </p>
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                    <div>
+                        <img class="success-path-image" src="/images/about/grow icon.png">
+                    </div>
+                    <div class="my-3">
+                        <span class="font-black text-lg text-gray-800">Grow Partnerships</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="lg:text-md text-sm">
+                            To establish a successful partnership with our clients, our agents, and insurance providers who
+                            respect the interests and goals of each party.
+                        </span>
+                    </div>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                    <img class="w-1/4 mb-4" src="/images/about/lead icon.png">
-                    <p class="font-bold mb-2">Lead Through Action</p>
-                    <p class="lg:text-md text-sm text-center">
-                        To provide education and demonstrate leadership through knowledge, kindness and respect.
-                    </p>
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                    <div>
+                        <img class="success-path-image" src="/images/about/lead icon.png">
+                    </div>
+                    <div class="my-3">
+                        <span class="font-black text-lg text-gray-800">Lead Through Action</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="lg:text-md text-sm">
+                            To provide education and demonstrate leadership through knowledge, kindness and respect.
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -112,7 +129,6 @@
 
                 </div>
 
-
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <svg height="150" width="150">
                         <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
@@ -124,7 +140,6 @@
 
                 </div>
 
-
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <svg height="150" width="150">
                         <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
@@ -134,7 +149,6 @@
                     <p class="lg:text-md text-sm text-center">Sales & Marketing</p>
                     <p>&nbsp;</p>
                 </div>
-
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <svg height="150" width="150">
@@ -154,6 +168,7 @@
                     <p class="lg:text-md text-sm text-center">Operations</p>
                     <p>&nbsp;</p>
                 </div>
+
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <svg height="150" width="150">
                         <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
@@ -163,6 +178,7 @@
                     <p class="lg:text-md text-sm text-center">Florida & Georgia</p>
                     <p>&nbsp;</p>
                 </div>
+
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <svg height="150" width="150">
                         <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>

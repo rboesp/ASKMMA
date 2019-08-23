@@ -16,27 +16,47 @@
             </p>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-around mt-6">
-            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                <img class="w-1/4 mb-4" src="/images/loca icon.png">
-                <p class="font-bold mb-2">Locations Across the US</p>
-                <p class="lg:text-md text-sm text-center">Medicare Medicaid Advisors has locations in Kansas, Missouri,
-                    Oklahoma, Texas, Louisiana, and Florida for your convenience.
-                </p>
+        <div class="flex flex-row flex-wrap mt-6 justify-around">
+            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                <div>
+                    <img class="card-image" src="/images/loca icon.png">
+                </div>
+                <div class="my-3">
+                    <span class="font-black text-lg text-gray-800">Locations Across the US</span>
+                </div>
+                <div class="text-center">
+                    <span class="lg:text-md text-sm">
+                        Medicare Medicaid Advisors has locations in Kansas, Missouri, Oklahoma, Texas, Louisiana, and Florida for your convenience.
+                    </span>
+                </div>
             </div>
 
-            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                <img class="w-1/4 mb-4" src="/images/cal icon.png">
-                <p class="font-bold mb-2">Over 36 Years In Medicare</p>
-                <p class="lg:text-md text-sm text-center">Our founding partners have over 36 years combined experience
-                    in the Medicare industry helping out Clients.</p>
+            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                <div>
+                    <img class="card-image" src="/images/cal icon.png">
+                </div>
+                <div class="my-3">
+                    <span class="font-black text-lg text-gray-800">Over 36 Years In Medicare</span>
+                </div>
+                <div class="text-center">
+                    <span class="lg:text-md text-sm">
+                        Our founding partners have over 36 years combined experience in the Medicare industry helping out Clients.
+                    </span>
+                </div>
             </div>
 
-            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-end">
-                <img class="w-1/4 mb-4" src="/images/ppl icon.png">
-                <p class="font-bold mb-2">70,000+ Clients Helped</p>
-                <p class="lg:text-md text-sm text-center">Since 2006, Medicare Medicaid Advisors has been able to help
-                    over 70,000 clients find the right insurance coverage for their needs.</p>
+            <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
+                <div>
+                    <img class="card-image" src="/images/ppl icon.png">
+                </div>
+                <div class="my-3">
+                    <span class="font-black text-lg text-gray-800">70,000+ Clients Helped</span>
+                </div>
+                <div class="text-center">
+                    <span class="lg:text-md text-sm">
+                        Since 2006, Medicare Medicaid Advisors has been able to help over 70,000 clients find the right insurance coverage for their needs.
+                    </span>
+                </div>
             </div>
         </div>
     </div>

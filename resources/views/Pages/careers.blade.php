@@ -6,7 +6,7 @@
         'image_bg' => 'about/about_header.png',
     ])
 
-    <div class="w-full">
+    <div class="w-full text-sm text-center lg:text-lg lg:text-left">
         <section class="w-full pt-10 pb-8 lg:pt-12 lg:pb-20">
             <div class="mx-10 lg:w-2/3 lg:mx-auto">
                 <div class="w-full flex flex-wrap">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="w-full mt-8">
                     <h3 class="font-extrabold text-lg text-mmadescription">Ways We Set You Ahead</h3>
-                    <ul class="mt-2 text-base">
+                    <ul class="mt-2 text-left">
                         <li>Insurance carriers nationwide</li>
                         <li>A diverse portfolio including an array of Medicare Advantage and supplements</li>
                         <li>Year-round selling opportunities</li>
@@ -75,7 +75,7 @@
                         <h3 class="font-extrabold text-lg">
                             We are Looking for Individuals Who Are:
                         </h3>
-                        <ul class="mt-4">
+                        <ul class="mt-4 text-left">
                             <li>Professional, driven, disciplined, resilient, and coachable</li>
                             <li>Licensed to sell health insurance or willing to obtain proper licensing</li>
                             <li>Outgoing and positive, and enjoy building relationships</li>
@@ -120,14 +120,14 @@
             </div>
         </section>
 
-        <section class="w-full bg-gray-200 py-10 lg:py-16">
+        <section class="text-left w-full bg-gray-200 py-10 lg:py-16">
             <div class="w-full">
-                <div class="mx-10 lg:mx-24">
+                <div class="mx-10 lg:w-3/4 mx-auto">
                     <h1 class="font-extrabold text-4xl font-black text-mmablue font-futura leading-tight ">
                         Current Openings <span class="ml-3 text-gray-400">(3)</span>
                     </h1>
 
-                    <div class="flex flex-wrap bg-white rounded-lg py-5 px-8 mt-10 items-center box-blue-shadow">
+                    <div class="flex flex-wrap text-base bg-white rounded-lg px-8 py-4 mt-10 items-center box-blue-shadow">
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
                             <span class="text-mmagray">Job Title</span><br>
                             <span class="font-semibold text-mmadescription">Area Manager</span>
@@ -144,13 +144,13 @@
                             <span class="text-mmagray">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5 text-red-700 text-right">
+                        <div class="flex items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
                             <span>View More</span>
-                            <span><i class="la la-angle-down"></i></span>
+                            <span class="text-xl pt-1 pl-2"><i class="fa fa-angle-down"></i></span>
                         </div>
                     </div>
 
-                    <div class="bg-white rounded-lg shadow flex flex-wrap py-5 px-8 mt-10 items-center box-blue-shadow">
+                    <div class="bg-white rounded-lg shadow flex flex-wrap py-10 px-8 mt-10 items-center box-blue-shadow text-base">
                         <div class="w-full flex justify-between mb-6">
                             <div class="flex flex-col lg:flex-row lg:items-center w-1/2 lg:w-full">
                                 <div>
@@ -158,13 +158,13 @@
                                         Area Manager
                                     </h1>
                                 </div>
-                                <h1 class="ml-0 lg:ml-3 font-semibold text-mmagray lg:text-3xl">
+                                <h1 class="ml-0 lg:ml-10 font-semibold text-mmagray lg:text-3xl">
                                     Shreveport Branch Office
                                 </h1>
                             </div>
-                            <div class="mt-2 w-1/2 lg:m-0 lg:w-1/5 text-red-700 text-right">
+                            <div class="flex items-center text-base mt-2 w-1/2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
                                 <span>View Less</span>
-                                <span><i class="la la-angle-up"></i></span>
+                                <span class="text-xl pl-2"><i class="fa fa-angle-up"></i></span>
                             </div>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
@@ -179,11 +179,11 @@
                             <span class="text-mmagray">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
-                        <div class="w-full border-t border-red-600 mt-12 pt-12 text-mmadescription">
+                        <div class="w-full border-t border-mmabrown mt-8 pt-8 text-mmadescription">
                             <h3 class="font-extrabold text-lg">
                                 Responsibilities
                             </h3>
-                            <p class="mt-4 text-base">
+                            <p class="mt-4">
                                 Direct and oversee the organization's sales policies, objectives and initiatives. Achieve
                                 growth and meet sales targets by successfully managing the sales team. Manage recruiting,
                                 coaching and performance monitoring of sales agents. Maximizes sales force effectiveness by
@@ -193,7 +193,7 @@
                             <h3 class="mt-10 font-extrabold text-lg">
                                 Requirements
                             </h3>
-                            <ul class="mt-4 text-base">
+                            <ul class="mt-4 text-left">
                                 <li>Work in the office Monday and Friday. Work in the field Tuesday, Wednesday, Thursday.
                                 </li>
                                 <li>Meet or exceed production and recruiting goals and initiatives.</li>
@@ -220,7 +220,7 @@
                             <h3 class="mt-10 font-extrabold text-lg">
                                 Core Competencies
                             </h3>
-                            <ul class="mt-4 text-base">
+                            <ul class="mt-4 text-left">
                                 <li>Lead by example/demonstrate good business practices.</li>
                                 <li>Motivated and enthusiastic disposition.</li>
                                 <li>Required to submit a minimum of six (6) applications per week on average (312
@@ -243,7 +243,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white rounded shadow flex flex-wrap p-6 mt-10 items-center">
+                    <div class="bg-white rounded-lg shadow flex flex-wrap px-8 py-4 mt-10 items-center text-base box-blue-shadow">
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
                             <span class="text-gray-400">Job Title</span><br>
                             <span class="font-semibold text-mmadescription">Area Manager</span>
@@ -260,9 +260,9 @@
                             <span class="text-gray-400">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5 text-red-700 text-right">
+                        <div class="flex items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
                             <span>View More</span>
-                            <span><i class="la la-angle-down"></i></span>
+                            <span class="text-xl pl-2"><i class="fa fa-angle-down"></i></span>
                         </div>
                     </div>
                 </div>

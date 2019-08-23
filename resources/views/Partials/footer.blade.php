@@ -31,7 +31,7 @@
             </div>
 
             <div class="flex flex-col w-full lg:w-1/3 pb-8 mx-auto">
-                <div class="flex flex-row flex-wrap justify-between text-center font-bold">
+                <div class="flex flex-row flex-wrap justify-between text-left font-bold">
                     <a href="/planfinder" class="w-1/2 lg:w-1/3 py-2">Plan Finder</a>
                     <a href="/services" class="w-1/2 lg:w-1/3 py-2">Services</a>
                     <a href="/contact" class="w-1/2 lg:w-1/3 py-2">Contact</a>

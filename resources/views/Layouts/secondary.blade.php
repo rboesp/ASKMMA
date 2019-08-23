@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>@yield('title')</title>
     <style>
@@ -35,12 +35,25 @@
         }
 
         .box-blue-shadow {
-            box-shadow: 0 10px 15px -3px rgba(0, 101, 242, 0.1);
+            box-shadow: 0 5px 5px -3px rgba(0, 101, 242, 0.1);
         }
 
         ul li.no-bullet::before{
             content: ""; /* Add content: \2022 is the CSS Code/unicode for a bullet */
             color: transparent; /* Change the color */
+        }
+
+        .fa-semibold {
+          -webkit-text-stroke: 0.5px black;
+        }
+
+        .card-bg-transparent-black {
+          background: rgba(5, 5, 5, 0.82);
+        }
+
+        .success-path-image {
+          width: auto;
+          height: 86px;
         }
     </style>
 </head>
@@ -49,7 +62,8 @@
 <div id="app" class="w-full">
     @include('Partials.nav')
 
-    @yield('content')
+    <div class="mt-16">
+    @yield('content')</div>
 
     @include('Partials.footer')
 

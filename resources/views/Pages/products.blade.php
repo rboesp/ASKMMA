@@ -69,7 +69,7 @@
             Multiple Products Across Many Providers
         </h1>
         <p class="mx-auto w-2/3 text-center text-sm">
-            Every calendar year Medicare and Medicaid Advisors review existing and new products. We make adjustments
+            Every calendar year Medicare Medicaid Advisors review existing and new products. We make adjustments
             to our product line so MMA can offer the best value and best benefit plans available. Because insurance
             plans can be somewhat confusing and overwhelming, we recommend easy to understand solutions with options
             and choices. This means we match the right product to the right client.
