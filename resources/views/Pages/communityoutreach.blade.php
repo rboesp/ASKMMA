@@ -2,7 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Community',
-        'minihero_desc' => 'We know that you are familiar with Medicare, but now let’s take a moment to help you be familiar with us.',
+        'minihero_desc' => 'Our work allows us to help people by giving them an affordable way to live their lives with a peace of mind. But selling the right plans to the right people is not the only way we help people.',
         'image_bg' => 'about/about_header.png',
     ])
     <section class="communityoutreach py-16 bg-white">
@@ -16,12 +16,13 @@
                                 Community Outreach</h3>
                         </div>
                         <div class="flex flex-row mt-6 lg:mt-4 lg:pr-20">
-                            <p class="lg:text-base text-sm w-full text-center lg:text-left">Medicare Medicaid Advisors is
-                                committed to the communities we serve.<br><br>We appreciate the opportunity to be involved
-                                in community health fairs, events, and food/clothing drives. In addition, we have been
-                                fortunate to participate in more personal events that benefit smaller organizations and
-                                families. We are also very proud of our own agents who volunteer and donate time in their
-                                own communities and churches.</p>
+                            <p class="lg:text-base text-sm w-full text-center lg:text-left">
+                                Medicare Medicaid Advisors is committed to the communities we serve.We appreciate the
+                                opportunity to be involved in community health fairs, events, and food/clothing drives.
+                                In addition, we have been fortunate to participate in more personal events that benefit
+                                smaller organizations and families. We are also very proud of our own agents who
+                                volunteer and donate time in their own communities and churches.
+                            </p>
                         </div>
                         <div class="flex mt-6 lg:mt-6 lg:justify-start">
                             <button class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
@@ -32,7 +33,7 @@
                     <div>
                         <div class="flex">
                             <img src="/images/communityoutreach/comout.png">
-                        </div>                    
+                        </div>
                     </div>
                 </div>
             </div>

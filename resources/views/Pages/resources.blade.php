@@ -2,8 +2,8 @@
 @section('content')
     @include('Partials.minihero', [
 
-        'minihero_title' => 'About MMA',
-        'minihero_desc' => 'We know that you are familiar with Medicare, but now let’s take a moment to help you be familiar with us.',
+        'minihero_title' => 'Tools and Resources',
+        'minihero_desc' => 'If you don’t have the time or means to call, but still want to learn, Medicare Medicaid Advisors still offers a wealth of knowledge.',
         'image_bg' => 'products/about_header.png',
 
     ])
@@ -86,8 +86,6 @@
                                              sub-title="See Financial Security" class="my-4 box-blue-shadow"></accordion-component>
                         <accordion-component title="Community Resources & Services Available"
                                              sub-title="See Community Resources" class="my-4 box-blue-shadow"></accordion-component>
-                        <accordion-component title="Social Security"
-                                             sub-title="See Social Security" class="my-4 box-blue-shadow"></accordion-component>
                     </div>
                 </div>
             </div>

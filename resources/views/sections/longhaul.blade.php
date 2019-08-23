@@ -15,10 +15,11 @@
 
                 <div class="flex flex-row mt-6 lg:mt-0 lg:pb-8">
                     <p class="text-sm w-full text-center lg:text-left">
-                        Every calendar year we review
-                        existing and new products, making adjustments to our product line to offer the best value and
-                        plans available. Because insurance plans can be confusing and overwhelming, we recommend options
-                        with easy to understand solutions. Our goal is to match our clients to the right product.
+                        Every calendar year we review existing and new products, making adjustments to our product line
+                        to offer the best value and plans available as we move forward. Our goal is to match our clients
+                        to the right product. Because insurance plans can be confusing and overwhelming, we meticulously
+                        comb through available plans of all types in order to recommend options with easy to understand
+                        solutions. .
                     </p>
                 </div>
 
@@ -29,10 +30,10 @@
                         </div>
 
                         <div class="text-sm text-center lg:text-left mt-2">
-                            Our biggest value to you is support. If a client runs into a problem, we become the client's
-                            advocate. No insurance company is perfect. No plan is perfect. No hospital or doctor is
-                            perfect. People make mistakes. If a problem, concern, or issue arises, simply call our MMA
-                            Agents!
+                            At Medicare Medicaid Advisors, we are here to support you, even after you find a plan. If a
+                            client runs into a problem, we become the client's advocate. No insurance company is
+                            perfect. No plan, hospital or doctor is perfect. People make mistakes. If a problem,
+                            concern, or issue arises, simply call our MMA Agents!
                         </div>
                     </div>
 

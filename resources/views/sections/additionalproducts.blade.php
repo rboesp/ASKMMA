@@ -2,16 +2,18 @@
     <div class="container mx-auto">
         <div class="flex flex-row">
             <h3 class="text-3xl lg:text-4xl text-center font-black w-3/4 mx-auto lg:w-full leading-none lg:leading-normal text-mmablue">
-                Additional Products to Help You
+                Additional Products to Help You and Your Loved Ones
             </h3>
         </div>
 
+        <!--
         <div class="flex flex-row mt-6 lg:mt-2">
             <p class="lg:text-base text-sm w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">
                 Medicare Medicaid Advisors believes our clients deserve the best products with the best prices. See all
                 our plans below.
             </p>
         </div>
+        -->
 
         <div class="flex flex-row flex-wrap lg:justify-around">
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0 relative">
@@ -80,7 +82,7 @@
                         Indemnity Plans
                     </p>
                     <p class="text-sm mb-4">
-                        Supplemental insurance should you be diagnosed with Cancer.
+                        Supplemental insurance should you be diagnosed with cancer.
                     </p>
                 </div>
                 <div class="absolute w-full justify-center bottom-0 pb-6">

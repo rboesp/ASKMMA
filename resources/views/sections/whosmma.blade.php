@@ -7,12 +7,12 @@
         </div>
 
         <div class="flex flex-row mt-6 lg:mt-2">
-            <p class="lg:text-base text-md w-full lg:w-4/5 px-8 mx-auto text-center mb-4 lg:mb-8">With more than 170 agents,
-                Medicare Medicaid Advisors is one of the largest broker insurance agencies in the United States. We are
-                uniquely qualified to offer some of the best insurance products on the market, and we are constantly
-                searching for ways to improve the services we offer. From Health Insurance to Life Insurance, Hospital
-                Indemnity Plans to Medicare Supplements and Medicare Advantage Plans, we work with our clients to
-                identify their needs and find the plans that will work best for them.
+            <p class="lg:text-base text-md w-full lg:w-4/5 px-8 mx-auto text-center mb-4 lg:mb-8">
+                We at Medicare Medicaid Advisors do not represent a company; we represent our clients. Our job is to
+                help save them money on monthly premiums and out-of-pocket costs. We understand many of our clients are
+                on a limited, fixed income, and with so many healthcare changes over the years, our clients welcome the
+                help. MMA agents review the client's current plan, determine if the plan is working for them, and offer
+                other options that might be available.
             </p>
         </div>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div class="text-center">
                     <span class="lg:text-md text-sm">
-                        Our founding partners have over 36 years combined experience in the Medicare industry helping out Clients.
+                        Our founding partners have over 36 years combined experience in the Medicare industry working with clients.
                     </span>
                 </div>
             </div>

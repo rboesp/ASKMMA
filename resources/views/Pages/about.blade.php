@@ -9,10 +9,11 @@
 
     ])
 
+    <!--
     <section class="whoarewe py-16 bg-gray-200 text-sm lg:text-base">
         <div class="container mx-auto">
             <div class="flex justify-start flexbox flex-wrap flex-row-reverse">
-                <!-- Left -->
+
                 <div class="card-left flex flex-col lg:w-2/5 ">
                     <img src="/images/about/whoarewe.png">
                 </div>
@@ -37,9 +38,9 @@
                     </div>
                 </div>
             </div>
-            <!-- End Card -->
         </div>
     </section>
+    -->
 
     <section class="purpose py-16 text-sm lg:text-base">
         <div class="container mx-auto">
@@ -113,7 +114,7 @@
             <div class="flex flex-row mt-6 lg:mt-6">
                 <p class="lg:text-base text-md w-full px-8 lg:w-3/5 lg:mx-auto text-center mb-4 lg:mb-8">
                     Leadership is what makes a company stand above when it comes to Customer relations. Our core has
-                    been built around the best in Medicare to help our Customers.
+                    been built on the best in Medicare to help our customers.
                 </p>
             </div>
 
