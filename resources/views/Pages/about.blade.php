@@ -120,7 +120,7 @@
 
             <div class="flex flex-row flex-wrap justify-around mt-6 w-3/4 mx-auto">
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/kirk-Anderson.jpg" class="w-10 h-10 rounded-full mr-4">
+                    <img src="/images/team/kirk-Anderson.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Kirk Anderson</p>
                     <p class="lg:text-md text-sm text-center">CEO</p>
                     <p>&nbsp;</p>
@@ -129,9 +129,7 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/melissa.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Melissa Anderson</p>
                     <p class="lg:text-md text-sm text-center">President</p>
                     <p>&nbsp;</p>
@@ -140,9 +138,7 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/danielle.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Danielle Phillips</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
                     <p class="lg:text-md text-sm text-center">Sales & Marketing</p>
@@ -150,18 +146,14 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/sabrina.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Sabrina Mundy</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
                     <p class="lg:text-md text-sm text-center">Contracting, Compliance,<br>Cient Retention</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/darci.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Darci Fleming</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
                     <p class="lg:text-md text-sm text-center">Operations</p>
@@ -169,9 +161,7 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/michael.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Michael Packard</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
                     <p class="lg:text-md text-sm text-center">Florida & Georgia</p>
@@ -179,18 +169,14 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/trent.png" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Trent Purcell</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
                     <p class="lg:text-md text-sm text-center">Eastern Missouri, SW Illinois &<br>New Markets</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/teresa.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Teresa Rodriguez</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
                     <p class="lg:text-md text-sm text-center">Louisiana & Eastern Texas</p>
@@ -198,9 +184,7 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/chris.jpg" class="w-32 h-32 rounded-full mb-2">
                     <p class="font-bold mb-2">Chris Jirgens</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
                     <p class="lg:text-md text-sm text-center">SW Missouri, SE Kansas &<br>Oklahoma</p>
