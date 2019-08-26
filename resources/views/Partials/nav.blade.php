@@ -19,17 +19,17 @@
             </a>
             <a href="/about" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
                 About
-                <span class="text-lg font-bold"><i class="fa fa-angle-down fa-semibold"></i></span>
+                
             </a>
             <a href="/contact" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
                 Contact
             </a>
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Services
-                <span class="text-lg font-bold"><i class="fa fa-angle-down fa-semibold"></i></span>
+               
             </a>
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
-                <span class="text-lg font-bold"><i class="fa fa-search"></i></span>
+           
             </a>
         </div> 
     </div>
