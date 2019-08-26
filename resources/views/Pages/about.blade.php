@@ -120,9 +120,7 @@
 
             <div class="flex flex-row flex-wrap justify-around mt-6 w-3/4 mx-auto">
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <svg height="150" width="150">
-                        <circle cx="75" cy="75" r="60" stroke="white" stroke-width="3" fill="white"/>
-                    </svg>
+                    <img src="/images/team/kirk-Anderson.jpg" class="w-10 h-10 rounded-full mr-4">
                     <p class="font-bold mb-2">Kirk Anderson</p>
                     <p class="lg:text-md text-sm text-center">CEO</p>
                     <p>&nbsp;</p>
