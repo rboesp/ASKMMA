@@ -7,5 +7,10 @@
 				<a href="#">Terms of Service</a>
 			</div>
 		</div>
+
+		<div class="flex flex-row flex-wrap mx-auto w-full justify-center pt-8 text-sm text-gray-100">
+        	Not connected with or endorsed by the U.S. Government or the federal Medicare program.  Medicare has neither reviewed nor endorsed the information contained on this website. 
+		</div>
+
 	</div>
 </section>
