@@ -2,7 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Services',
-        // 'minihero_desc' => 'We know Medicare can be tricky and that’s why we are here to help, assist, guide, support, and give advice through your journey.',
+        'minihero_desc' => 'Our management team has seen countless problems and issues over the years, and we are confident that we will know how to fix the problems,  and fix those problems quickly.',
         'image_bg' => 'services/index.png',
     ])
     @include('Partials/phonenumcta')
