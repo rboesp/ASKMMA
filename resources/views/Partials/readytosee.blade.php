@@ -93,7 +93,15 @@
                         </label>
                     </div>
 
-                    <div class="flex flex-col w-full px-4 lg:px-0">
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <p class="text-xs text-white">
+                            I understand that by completing this form I am giving permission for a licensed agent to contact me about our health plan options, services, and/or educational information related to health care. 
+I understand I am not required to provide this consent as a condition of purchase and that my consent can be revoked at any time.
+
+</p>
+</div>
+
+                    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <button
                                 type="submit"
                                 class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-bold text-base py-3 px-4 rounded-lg w-full"
