@@ -11,22 +11,26 @@
     </div>
     <div id="nav-content" class="w-full block flex-grow lg:flex lg:items-end justify-end lg:w-2/3 pr-8 hidden font-semibold">
         <div class="text-sm">
-            <a href="/planfinder" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
-                Plan Finder
-            </a>
             <a href="/products" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
                 Products
+            </a>
+            <a href="/resources" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
+                Resources
             </a>
             <a href="/about" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
                 About
                 
             </a>
-            <a href="/contact" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
-                Contact
-            </a>
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Services
                
+            </a>
+            <a href="/communityoutreach" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
+                Outreach
+               
+            </a>
+            <a href="/contact" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
+                Contact
             </a>
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
            
@@ -34,3 +38,4 @@
         </div> 
     </div>
 </nav>
+ 
