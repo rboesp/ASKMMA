@@ -16,7 +16,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Kansas City Home Office</div>
                             <p class="text-gray-700 text-md">
@@ -48,7 +48,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">St. Louis Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -80,7 +80,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Springfield Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -112,7 +112,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Oklahoma City Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -144,7 +144,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Memphis Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -176,7 +176,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Shreveport Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -208,7 +208,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Baton Rouge Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -240,7 +240,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Birmingham Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -272,7 +272,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Jacksonville Branch Office</div>
                             <p class="text-gray-700 text-md">
@@ -304,7 +304,7 @@
                 <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
-                        <img class="w-full" src="images/location.png" alt="Sunset in the mountains">
+                        <!-- <img class="w-full" src="images/location.png" alt="Sunset in the mountains"> -->
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Sarasota Branch Office</div>
                             <p class="text-gray-700 text-md">
