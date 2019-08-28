@@ -44,9 +44,11 @@
                 </div>
 
                 <div class="flex w-full justify-center mt-6 lg:mt-3 lg:justify-start lg:h-12">
-                    <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-4 lg:py-0 rounded-lg w-full lg:w-1/3">
-                        Check Plans
-                    </button>
+                    <a href="/products#medicaresupplemental">
+                        <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
+                            Check Plans
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

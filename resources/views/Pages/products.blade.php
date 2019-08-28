@@ -20,42 +20,42 @@
                             <span>Medicare</span>
                             <span>Advantage</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#medicareadvantage" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
                             <span>Medicare</span>
                             <span>Supplements</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#medicaresupplements" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
                             <span>Hospital</span>
                             <span>Indemity Plans</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#hospitalindemnityplans" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
                             <span>Life Insurance</span>
                             <span>Plans</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#lifeinsuranceplans" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
                             <span>Final Expense</span>
                             <span>Plans</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#finalexpenseplans" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
                             <span>Cancer Idemnity</span>
                             <span>Plans</span>
                         </div>
-                        <a href="#" class="text-gray-700">Learn More</a>
+                        <a href="#cancerindemnityplans" class="text-gray-700">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
             </div>
         </section>
 
-        <section class="w-full bg-gray-200 mt-16 py-16">
+        <section id="medicareadvantage" class="w-full bg-gray-200 mt-16 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -275,7 +275,7 @@
             </div>
         </section>
 
-        <section class="w-full py-16">
+        <section id="medicaresupplements" class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -322,7 +322,7 @@
             </div>
         </section>
 
-        <section class="w-full bg-gray-200 py-16">
+        <section id="hospitalindemnityplans" class="w-full bg-gray-200 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -371,7 +371,7 @@
             </div>
         </section>
 
-        <section class="w-full py-16">
+        <section id="finalexpenseplans" class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">
@@ -438,7 +438,7 @@
             </div>
         </section>
 
-        <section class="w-full bg-gray-200 py-16">
+        <section id="lifeinsuranceplans" class="w-full bg-gray-200 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">
@@ -491,7 +491,7 @@
             </div>
         </section>
 
-        <section class="w-full py-16">
+        <section id="cancerindemnityplans" class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">

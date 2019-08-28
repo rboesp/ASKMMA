@@ -19,9 +19,11 @@
                         </p>
                     </div>
                     <div class="pt-10 hidden lg:block">
-                        <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
-                            Get Coverage
-                        </button>
+                        <a href="/products#medicareadvantage">
+                            <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
+                                Get Coverage
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -31,9 +33,11 @@
                 </div>
             </div>
             <div class="w-full pt-10 lg:hidden self-center">
-                <button class="w-full bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
+                <a href="/products#medicareadvantage">
+                    <button class="w-full bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
                     Get Coverage
-                </button>
+                    </button>
+                </a>
             </div>
         </div>
         <!-- End Card -->

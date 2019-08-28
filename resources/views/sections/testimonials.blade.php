@@ -34,9 +34,11 @@
                 </div>
 
                 <div class="flex flex-row justify-center mt-6 lg:mt-6 lg:justify-start">
-                    <button class="bg-mmared hover:bg-mmalightblue text-white font-bold text-base py-3 px-4 rounded-lg w-full lg:w-1/2	">
+                    <a href="#contactcta">
+                        <button class="bg-mmared hover:bg-mmalightblue text-white font-bold text-base py-3 px-4 rounded-lg w-full">
                         Let's Get Started
-                    </button>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

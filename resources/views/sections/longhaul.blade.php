@@ -50,9 +50,11 @@
                 </div>
 
                 <div class="flex flex-row justify-center mt-8 lg:mt-6 lg:justify-start">
-                    <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-4 rounded-lg w-full lg:w-1/3">
-                        Get Coverage
-                    </button>
+                    <a href="#contactcta">
+                        <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
+                            Get Coverage
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

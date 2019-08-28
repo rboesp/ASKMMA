@@ -29,7 +29,7 @@
                     </p>
                 </div>
                 <div class="absolute w-full justify-center bottom-0 pb-6">
-                    <a class="font-semibold" href="#">
+                    <a class="font-semibold" href="/products#hospitalindemnityplans">
                         <p class="text-mmalightblue">Learn More <i class="fa fa-angle-right"></i></p>
                     </a>
                 </div>
@@ -48,7 +48,7 @@
                     </p>
                 </div>
                 <div class="absolute w-full justify-center bottom-0 pb-6">
-                    <a class="font-semibold" href="#">
+                    <a class="font-semibold" href="/products#lifeinsuranceplans">
                         <p class="text-mmalightblue">Get Started <i class="fa fa-angle-right"></i></p>
                     </a>
                 </div>
@@ -67,7 +67,7 @@
                     </p>
                 </div>
                 <div class="absolute w-full justify-center bottom-0 pb-6">
-                    <a class="font-semibold" href="#">
+                    <a class="font-semibold" href="/products#finalexpenseplans">
                         <p class="text-mmalightblue">Check Plans <i class="fa fa-angle-right"></i></p>
                     </a>
                 </div>
@@ -86,7 +86,7 @@
                     </p>
                 </div>
                 <div class="absolute w-full justify-center bottom-0 pb-6">
-                    <a class="font-semibold" href="#">
+                    <a class="font-semibold" href="/products#cancerindemnityplans">
                         <p class="text-mmalightblue">Get Covered <i class="fa fa-angle-right"></i></p>
                     </a>
                 </div>
