@@ -37,7 +37,7 @@
                     <a href="/contact" class="w-1/2 lg:w-1/2 py-2">Contact</a>
                     <a href="/products" class="w-1/2 lg:w-1/2 py-2">Products</a>
                     <a href="/feedback" class="w-1/2 lg:w-1/2 py-2">Feedback</a>
-                    <a href="/resources" class="w-1/2 lg:w-1/2 py-2">Resources</a>
+                    <a href="/resource" class="w-1/2 lg:w-1/2 py-2">Resources</a>
                     <a href="/about" class="w-1/2 lg:w-1/2 py-2">About MMA</a>
                     <a href="/careers" class="w-1/2 lg:w-1/2 py-2">Careers</a>
                     <a href="/communityoutreach" class="w-1/2 lg:w-1/2 py-2">Outreach</a>
@@ -83,7 +83,7 @@
 
 
 
-        
+
 
 
 
