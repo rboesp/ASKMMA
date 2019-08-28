@@ -71,7 +71,7 @@
 </div>
 <script src="{{ mix('/js/app.js') }}"></script>
 <!-- begin olark code -->
-<script type="text/javascript" async> ;(function (o, l, a, r, k, y) {
+<!-- <script type="text/javascript" async> ;(function (o, l, a, r, k, y) {
     if (o.olark) return
     r = 'script'
     y = l.createElement(r)
@@ -92,7 +92,7 @@
     k = y._ = {s: [], t: [+new Date], c: {}, l: a}
   })(window, document, 'static.olark.com/jsclient/loader.js')
   /* custom configuration goes here (www.olark.com/documentation) */
-  olark.identify('1104-141-10-5325')</script>
+  olark.identify('1104-141-10-5325')</script> -->
 <!-- end olark code -->
 
 </body>
