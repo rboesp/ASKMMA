@@ -3,7 +3,7 @@
     @include('Partials.minihero', [
         'minihero_title' => 'Feedback',
         'minihero_desc' => 'We strive to be the best at what we do, and that is why we cherish your feedback. That way we can grow better for you.',
-        'image_bg' => 'feedback/header.png',
+        'image_bg' => 'services/index.png',
     ])
 
     @include('Partials/phonenumcta')
@@ -40,7 +40,7 @@
                                         <select
                                                 id="feedback"
                                                 name="field[5]"
-                                                class=" w-full bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                                class=" w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                         >
                                             <option value="General Feedback" selected>General Feedback</option>
                                             <option value="File A Compliant">File A Compliant</option>
@@ -49,7 +49,7 @@
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
                                         <input
-                                                class="w-full bg-white appearance-none border-2 border-gray-200 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                                class="w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                                 type="email"
                                                 name="email"
                                                 placeholder="Type your email"
@@ -62,13 +62,13 @@
                                 <textarea
                                         rows="10"
                                         name="field[6]"
-                                        class="w-full my-2 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                        class="w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 ></textarea>
                                 <button
                                         type="submit"
                                         class="w-4/5 sm:w-3/5 lg:w-2/5 mt-2 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-10 rounded-lg"
                                 >
-                                    Sign up
+                                    Submit
                                 </button>
                             </div>
                         </form>
