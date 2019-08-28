@@ -31,16 +31,16 @@
             </div>
 
             <div class="flex flex-col w-full lg:w-1/3 pb-8 mx-auto">
-                <div class="flex flex-row flex-wrap justify-between text-left font-bold">
-                    <a href="/planfinder" class="w-1/2 lg:w-1/3 py-2">Plan Finder</a>
-                    <a href="/services" class="w-1/2 lg:w-1/3 py-2">Services</a>
-                    <a href="/contact" class="w-1/2 lg:w-1/3 py-2">Contact</a>
-                    <a href="/products" class="w-1/2 lg:w-1/3 py-2">Products</a>
-                    <a href="/feedback" class="w-1/2 lg:w-1/3 py-2">Feedback</a>
-                    <a href="/resources" class="w-1/2 lg:w-1/3 py-2">Resources</a>
-                    <a href="/about" class="w-1/2 lg:w-1/3 py-2">About MMA</a>
-                    <a href="/careers" class="w-1/2 lg:w-1/3 py-2">Careers</a>
-                    <a href="/communityoutreach" class="w-1/2 lg:w-1/3 py-2">Outreach</a>
+                <div class="flex flex-row flex-wrap justify-around text-center font-bold">
+                    <!-- <a href="/planfinder" class="w-1/2 lg:w-1/3 py-2">Plan Finder</a> -->
+                    <a href="/services" class="w-1/2 lg:w-1/2 py-2">Services</a>
+                    <a href="/contact" class="w-1/2 lg:w-1/2 py-2">Contact</a>
+                    <a href="/products" class="w-1/2 lg:w-1/2 py-2">Products</a>
+                    <a href="/feedback" class="w-1/2 lg:w-1/2 py-2">Feedback</a>
+                    <a href="/resources" class="w-1/2 lg:w-1/2 py-2">Resources</a>
+                    <a href="/about" class="w-1/2 lg:w-1/2 py-2">About MMA</a>
+                    <a href="/careers" class="w-1/2 lg:w-1/2 py-2">Careers</a>
+                    <a href="/communityoutreach" class="w-1/2 lg:w-1/2 py-2">Outreach</a>
                 </div>
             </div>
 
