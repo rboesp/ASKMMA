@@ -35,7 +35,7 @@
 	
 	@include('sections/medicaresupplemental') 
 	@include('sections/additionalproducts') 
-	@include('sections/questionscta') 
+	@include('sections/planscta') 
 	@include('sections/testimonials') 
 	@include('Partials.readytosee') 
 	@include('Partials.footer') 

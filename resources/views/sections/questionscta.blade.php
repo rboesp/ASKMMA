@@ -1,4 +1,4 @@
-<section class="planscta py-8 bg-mmablue">
+<!-- <section class="planscta py-8 bg-mmablue">
 	<div class="flex flex-wrap justify-center items-center">
 		<div class="flex flex-col w-full lg:w-2/5 text-2xl lg:text-4xl lg:pl-0 px-8 font-black text-white leading-tight text-center lg:text-left justify-center">
 			Questions on What Plan Would Work for You?
@@ -22,4 +22,6 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
+
+
