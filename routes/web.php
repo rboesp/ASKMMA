@@ -17,7 +17,7 @@ Route::view('/services', 'Pages.services');
 Route::view('/contact', 'Pages.contact');
 Route::view('/communityoutreach', 'Pages.communityoutreach');
 Route::view('/feedback', 'Pages.feedback');
-Route::view('/resources', 'Pages.resources');
+Route::view('/resource', 'Pages.resources');
 Route::view('/planfinder', 'Pages.planfinder');
 Route::view('/products', 'Pages.products');
 Route::view('/careers', 'Pages.careers');
