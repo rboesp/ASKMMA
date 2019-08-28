@@ -87,171 +87,220 @@
             <div class="flex flex-row flex-wrap justify-around mt-6 w-full mx-auto">
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
                     <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Heart of the Hills</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Ava MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Good Samaritan Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Lamar MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Crosslines</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Anderson MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Salvation Army</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Bolivar MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Noel Pharmacy</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Noel MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Mustang Drug Pharmacy</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Anderson MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">First Baptist Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Greenfield MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Helping Hands Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Odessa MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">West Central Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Belton MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">OCAC</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Greenfield MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Housing Authority</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Noel MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Community Service League</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Food Distribution</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Blue Springs MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">United Methodist Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Monett MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">First Presbyterian Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Lexington MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Seventh Day Advent Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Harvester’s Mobile Soup</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Clinton MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Free Store</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Lebanon MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">United Methodist</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Harvester’s Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Lexington MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">West Central Community Services</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Clinton MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Crosslines</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Lebanon MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">St. Clair County Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Osceola MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Church of Christ Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">El Dorado Springs MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Monarch Baptist Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Neosho MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Hometown Pharmacy</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Peculiar MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Community Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Eldon MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">The Help Center</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Neosho MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Fishes &amp; Loaves Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Raymore MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Christian Help Center Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Grove OK
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">The Least of These</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Nixa MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Housing Authority</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Savanah MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Englewood Church Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Independence MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Stone County North</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Crane MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Housing Authority</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Southwest City MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Sheffield Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Keenager’s Function</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Kansas City MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Share The Harvest</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Camdenton MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Sheffield Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Senior Boxes</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Kansas City MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Sheffield Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Mobile Harvester’s Distribution</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Kansas City MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Victory Mission</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Springfield MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Hickory County Cares Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Wheatland MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">S.A.M.A. Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Stockton MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Harvest Church</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Aurora MO
+                </p>
                 </div>
                 <div class="flex flex-wrap w-full p-2 mx-auto lg:mx-0 lg:w-1/6 items-center mb-10 justify-end">
-                    <p class="font-bold mb-2 text-center w-full">Food Distribution West/Central</p>
-                    <p class="lg:text-md text-sm mx-auto text-center w-full">Appleton City, MO</p>
+                    <p class="font-bold mb-2 text-center w-full">Body of Christ Food Pantry</p>
+                    <p class="lg:text-md text-sm mx-auto text-center w-full">Wheaton MO
+                </p>
                 </div>
             </div>
         </div>
