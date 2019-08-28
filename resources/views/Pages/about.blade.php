@@ -161,6 +161,14 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/scott.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2"> Scott Anderson</p>
+                    <p class="lg:text-md text-sm text-center">National Strategies Manager</p>
+                    <p class="lg:text-md text-sm text-center">&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/michael.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Michael Packard</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
