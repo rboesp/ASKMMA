@@ -13,12 +13,12 @@
 
         <div class="flex w-full flex-wrap lg:w-1/2 justify-start pb-20 cursor-pointer">
 
-            <a href="/products">
+            <a href="/resource">
                 <div class="flex flex-col w-full sm:w-1/2 lg:w-2/5 p-6 lg:pr-6">
                     <div class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
                         <img class="card-image mx-auto" src="/images/brain icon.png">
                         <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Learn About<br>Medicare</p>
-                        <a href="/products">
+                        <a href="/resource">
                             <p class="text-blue-500 font-semibold">Let's Go ></p>
                         </a>
                     </div>
