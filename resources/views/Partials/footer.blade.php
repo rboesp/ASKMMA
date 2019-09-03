@@ -46,7 +46,7 @@
 
             <div class="flex flex-col w-full lg:w-1/3 px-8">
                 <p class=" text-gray-700  text-center lg:text-left">
-                    Join our newsletter to stay up to date on features and releases
+                    Join our newsletter to stay up-to-date on features and releases
                 </p>
 
                 <form
