@@ -21,7 +21,7 @@
                     <div class="pt-10 hidden lg:block">
                         <a href="/products#medicareadvantage">
                             <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
-                                Get Coverage
+                                Learn More
                             </button>
                         </a>
                     </div>
@@ -35,7 +35,7 @@
             <div class="w-full pt-10 lg:hidden self-center">
                 <a href="/products#medicareadvantage">
                     <button class="w-full bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
-                    Get Coverage
+                    Learn More
                     </button>
                 </a>
             </div>
