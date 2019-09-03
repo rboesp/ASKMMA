@@ -73,9 +73,9 @@
                                 class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected>Interested In*</option>
-                            <option value="Learn More About Plans">Learn More About Plans</option>
-                            <option value="Learn More About Products">Learn More About Products</option>
-                            <option value="Get Contracted">Get Contracted</option>
+                            <option value="Learn More About Plans">Learn More About Medicare Plans</option>
+                            <option value="Learn More About Products">Learn More About Insurance Products</option>
+                            <option value="Get Contracted">Agents Get Contracted</option>
                         </select>
                     </div>
 
