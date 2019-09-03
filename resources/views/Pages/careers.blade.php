@@ -230,15 +230,26 @@
                                 <li>Maintain company mission statement and positive code of conduct.</li>
                             </ul>
 
-                            <h3 class="mt-12 font-bold text-lg text-mmadescription">
-                                If You are interested in this position, please email your resume to <span
-                                        class="font-extrabold font-black text-mmablue font-futura">danielle@askmma.com</span>
+                        <!--     <h3 class="mt-12 font-bold text-lg text-mmadescription">
+                                If You are interested in this position, please email your resume to <a
+                                        class="font-extrabold font-black text-mmablue font-futura" href="mailto:danielle@askmma.com">danielle@askmma.com</a>
                                 or click on the link to send an email.
-                            </h3>
+                            </h3> -->
+
+                                <p class="mt-12 font-bold text-lg text-mmadescription">
+
+                                    For Agents interested in joining our organization:
+Call toll free <a
+                                        class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">1-800-810-3859</a> to speak with our National Recruiter, Shelia Woods 
+
+</p>
+
+
                             <div class="flex justify-center lg:justify-start w-full mt-6">
-                                <button class="w-4/5 md:w-2/3 lg:w-1/3 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-2 rounded-lg">
+                            
+                               <!--  <button class="w-4/5 md:w-2/3 lg:w-1/3 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-2 rounded-lg">
                                     Apply for This Position
-                                </button>
+                                </button> -->
                             </div>
                         </div>
                     </div>
