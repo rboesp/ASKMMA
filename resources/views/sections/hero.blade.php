@@ -18,7 +18,7 @@
                     <div class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
                         <img class="card-image mx-auto" src="/images/brain icon.png">
                         <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Learn About<br>Medicare</p>
-                        <a href="">
+                        <a href="/products">
                             <p class="text-blue-500 font-semibold">Let's Go ></p>
                         </a>
                     </div>
@@ -30,7 +30,7 @@
                     <div class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
                         <img class="card-image mx-auto" src="/images/laptop icon.png">
                         <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Look For<br>Medical Plans</p>
-                        <a href="#">
+                        <a href="/products#medicareadvantage">
                             <p class="text-blue-500 font-semibold">Let's Go ></p>
                         </a>
                     </div>
