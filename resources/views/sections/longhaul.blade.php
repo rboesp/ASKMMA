@@ -25,7 +25,7 @@
 
                 <div class="flex flex-row flex-wrap ">
                     <div class="flex flex-col flex-wrap w-full lg:w-1/2 p-8 lg:p-0 lg:pr-8">
-                        <div class="w-full text-xl lg:text-base text-center lg:text-left font-black  lg:pb-2">
+                        <div class="w-full text-xl lg:text-base text-center lg:text-left font-black">
                             Support Network
                         </div>
 
