@@ -158,9 +158,10 @@
                     </div>
                 </section>
             </div>
+            <span id="medicareadvantage"></span>
         </section>
 
-        <section id="medicareadvantage" class="w-full bg-gray-200 mt-16 py-16">
+        <section  class="w-full bg-gray-200 mt-16 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -273,9 +274,10 @@
                     </div>
                 </div>
             </div>
+            <span id="medicaresupplements"></span>
         </section>
 
-        <section id="medicaresupplements" class="w-full py-16">
+        <section class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -320,9 +322,10 @@
                     ])
                 </div>
             </div>
+            <span id="hospitalindemnityplans"></span>
         </section>
 
-        <section id="hospitalindemnityplans" class="w-full bg-gray-200 py-16">
+        <section class="w-full bg-gray-200 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -369,9 +372,10 @@
                     ])
                 </div>
             </div>
+            <span id="finalexpenseplans"></span>
         </section>
 
-        <section id="finalexpenseplans" class="w-full py-16">
+        <section class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">
@@ -436,9 +440,10 @@
                     ])
                 </div>
             </div>
+            <span id="lifeinsuranceplans"></span>
         </section>
 
-        <section id="lifeinsuranceplans" class="w-full bg-gray-200 py-16">
+        <section class="w-full bg-gray-200 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">
@@ -489,9 +494,10 @@
                     ])
                 </div>
             </div>
+            <span id="cancerindemnityplans"></span>
         </section>
 
-        <section id="cancerindemnityplans" class="w-full py-16">
+        <section class="w-full py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">

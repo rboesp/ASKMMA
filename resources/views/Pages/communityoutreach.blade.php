@@ -24,9 +24,8 @@
                                 volunteer and donate time in their own communities and churches.
                             </p>
                         </div>
-                        <div class="flex mt-6 lg:mt-6 lg:justify-start">
-                            <a href="/contact">
-                                <button class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
+                        <div class="flex mt-6 lg:mt-6 justify-center lg:justify-start">
+                            <button class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
                                 Have a Question?
                             </button>
                         </a>

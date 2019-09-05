@@ -44,9 +44,9 @@
                 </div>
 
                 <div class="flex w-full justify-center mt-6 lg:mt-3 lg:justify-start lg:h-12">
-                    <a href="/products#medicaresupplemental">
+                    <a href="/products#medicaresupplements">
                         <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
-                            Learn More
+                            Get Coverage
                         </button>
                     </a>
                 </div>
