@@ -69,7 +69,7 @@
                 Multiple Products Across Many Providers
             </h1>
             <p class="mx-auto w-2/3 text-center text-sm">
-                Medicare Medicaid Advisors work to offer the best value and best benefit plans available. This means we
+                Medicare Medicaid Advisors work to offer a suitable plan to meet your needs and budget. This means we
                 match the right product to the right client. Because insurance plans can be somewhat confusing and
                 overwhelming, we recommend easy to understand solutions with options and choices. There may be many
                 companies we work with, but we will find the right plan with the right insurer just for you.
@@ -180,13 +180,14 @@
                                     What are Medicare Advantage Plans?
                                 </h3>
                                 <p class="mt-4">
-                                    Medicare Advantage is type of Medicare health plan offered by a private company that
-                                    contracts with Medicare to provide all Part A and Part B benefits. Medicare
+                                    Medicare Advantage is a type of Medicare health plan offered by a private company
+                                    that contracts with Medicare to provide all Part A and Part B benefits. Medicare
                                     Advantage Plans include Health Maintenance Organizations, Preferred Provider
                                     Organizations, Private Fee-for-Service Plans, Special Needs Plans, and Medicare
                                     Medical Savings Account Plans. If you are enrolled in a Medicare Advantage Plan,
-                                    most Medicare services are covered through that plan, and are not paid for under
-                                    Original Medicare. Most Medicare Advantage Plans offer prescription drug coverage.
+                                    your Medicare services are covered through that plan, and are not paid for under
+                                    Original Medicare. Most Medicare Advantage Plans offer prescription drug
+                                    coverage.
                                 </p>
                             </div>
                         </div>
@@ -224,7 +225,7 @@
                         <ul class="mt-4 text-left">
                             <li>Whether you need a referral to see a specialist</li>
                             <li>
-                                Whether doctors, facilities
+                                Whether doctors, facilities, or suppliers within the plan are required for non-emergency/non-urgent care
                             </li>
                         </ul>
                     </div>
@@ -237,22 +238,21 @@
                             <li>Monthly premiums charged by the plan</li>
                             <li>Yearly or additional deductibles</li>
                             <li>Co-payment or co-insurance you are required to pay</li>
+
                             <li class="no-bullet">
                                 <ul>
                                     <li>The plan may charge a co-payment every time you see a doctor</li>
-                                    <li>Can to Will</li>
+                                    <li>These amounts can be different than those under Original Medicare</li>
                                 </ul>
                             </li>
+
                             <li>The type of health care services you need and how often you get them</li>
-                            <li>Whether or not the doctor or supplier accept assignment (if you are in a PPO, PFFS, or
-                                MSA plan and you go out-of-network)
-                            </li>
+                            <li>Whether or not the doctor or supplier accept assignment (if you are in a PPO, PFFS, or MSA plan and you go out-of-network)</li>
                             <li>Do you follow plan rules, such as using network providers?</li>
-                            <li>Do you need extra optional supplement benefits? Does the plan charge you for them
-                                besides your monthly plan premium?
-                            </li>
+                            <li>Do you need extra optional supplement benefits? Does the plan charge you for them besides your monthly plan premium?</li>
                             <li>Yearly limit on your out-of-pocket costs for all medical services</li>
                             <li>Do you have Medicaid or get help from your state?</li>
+                            
                         </ul>
                         <p class="mt-4">
                             Each year plans establish the amount charged for premiums, deductibles, and services. The
@@ -260,8 +260,7 @@
                             plan benefits may change only once a year, on January 1.
                         </p>
                         <p class="mt-4">If you're in a Medicare plan, review the "Evidence of Coverage" (EOC)
-                            and
-                            "Annual Notice of Change" (ANOC) your plan sends out each fall.</p>
+                            and "Annual Notice of Change" (ANOC) your plan sends out each fall.</p>
                         <ul class="mt-4 text-left">
                             <li>The EOC gives you details about what the plan covers, how much you pay, and more</li>
                             <li>
