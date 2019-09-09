@@ -2,7 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Services',
-        'minihero_desc' => 'Our management team has seen countless problems and issues over the years, and we are confident that we will know how to fix the problems,  and fix those problems quickly.',
+        'minihero_desc' => 'Our management team has been working over years focused on helping people quickly find solutions and solve their problems.',
         'image_bg' => 'services/index.png',
     ])
     @include('Partials/phonenumcta')
@@ -31,7 +31,7 @@
                                 MMA believe our clients deserve quick responses to questions and problems.
                             </div>
                             <div class="lg:text-base text-l text-center lg:text-left mt-2">
-                                Our clients want timely responses when they are in need of assistance. Our Agents make every effort to return phone calls the same day, and are available anytime, seven days a week.  If it is important to our clients, it is important to us.
+                                We are always looking for better ways to serve our clients.
                             </div>
                         </div>
                         <div class="flex flex-col flex-wrap w-full mt-8">

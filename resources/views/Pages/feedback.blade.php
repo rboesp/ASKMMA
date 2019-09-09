@@ -23,8 +23,13 @@
                                 If you would like to provide feedback or file a complaint, please complete and submit.
                                 Please provide a detailed description of your complaint.
                             </div>
-                            
+
                         </div>
+                        <p>
+                            This is an anonymous platform, therefore we are not able to respond directly to you
+                            regarding your concerns or suggestions unless you provide your contact information as part
+                            of your message.
+                        </p>
                         <form method="POST" action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
                               class="w-full py-6">
                             <input type="hidden" name="u" value="1"/>

@@ -3,8 +3,8 @@
 
     @include('Partials.minihero', [
 
-        'minihero_title' => 'About MMA',
-        'minihero_desc' => 'We know that you are familiar with Medicare, but now let’s take a moment to help you be familiar with us.',
+        'minihero_title' => 'About Medicare Medicaid Advisors',
+        'minihero_desc' => 'We are here to help you become familiar with Medicare, but let’s take a moment to help you become familiar with us.',
         'image_bg' => 'about/about_header.png',
 
     ])

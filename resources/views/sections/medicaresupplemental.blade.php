@@ -9,7 +9,7 @@
             <div class="flex flex-wrap lg:w-1/2 lg:pl-8 py-6">
                 <div class="flex w-full">
                     <h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full text-mmablue">
-                        Medicare Supplemental
+                        What is a Medicare Supplement Plan?
                     </h3>
                 </div>
 

@@ -161,7 +161,7 @@
             <span id="medicareadvantage"></span>
         </section>
 
-        <section  class="w-full bg-gray-200 mt-16 py-16">
+        <section class="w-full bg-gray-200 mt-16 py-16">
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
@@ -219,13 +219,12 @@
                         </p>
                         <p class="mt-4">
                             Each Medicare Advantage Plan can charge different out-of-pocket costs and can also have
-                            different rules for how you get services. These rules can change each year and include:
+                            different rules for how you get services. These rules can change each year and may include:
                         </p>
                         <ul class="mt-4 text-left">
                             <li>Whether you need a referral to see a specialist</li>
                             <li>
-                                If doctors, facilities, or suppliers within the plan are required for
-                                non-emergency/non-urgent care
+                                Whether doctors, facilities
                             </li>
                         </ul>
                     </div>
@@ -236,13 +235,12 @@
                         </p>
                         <ul class="mt-4 text-left">
                             <li>Monthly premiums charged by the plan</li>
-                            <li>Monthly Medicare Part B premium paid by the plan</li>
                             <li>Yearly or additional deductibles</li>
                             <li>Co-payment or co-insurance you are required to pay</li>
                             <li class="no-bullet">
                                 <ul>
                                     <li>The plan may charge a co-payment every time you see a doctor</li>
-                                    <li>These amounts can be different than those under Original Medicare</li>
+                                    <li>Can to Will</li>
                                 </ul>
                             </li>
                             <li>The type of health care services you need and how often you get them</li>
@@ -250,22 +248,25 @@
                                 MSA plan and you go out-of-network)
                             </li>
                             <li>Do you follow plan rules, such as using network providers?</li>
-                            <li>Do you need extra benefits? Does the plan charge for them?</li>
+                            <li>Do you need extra optional supplement benefits? Does the plan charge you for them
+                                besides your monthly plan premium?
+                            </li>
                             <li>Yearly limit on your out-of-pocket costs for all medical services</li>
                             <li>Do you have Medicaid or get help from your state?</li>
                         </ul>
-                        <p class="mt-4">Each year plans establish the amount charged for premiums,
-                            deductibles,
-                            and services. The plan (rather than Medicare) decides how much you pay for the covered
-                            services you get. What you pay the plan may change only once a year, on January 1.</p>
+                        <p class="mt-4">
+                            Each year plans establish the amount charged for premiums, deductibles, and services. The
+                            plan (rather than Medicare) decides how much you pay for the covered services you get. The
+                            plan benefits may change only once a year, on January 1.
+                        </p>
                         <p class="mt-4">If you're in a Medicare plan, review the "Evidence of Coverage" (EOC)
                             and
                             "Annual Notice of Change" (ANOC) your plan sends out each fall.</p>
                         <ul class="mt-4 text-left">
                             <li>The EOC gives you details about what the plan covers, how much you pay, and more</li>
-                            <li>The ANOC includes any changes in coverage, costs, or service area that will be effective
-                                in
-                                January
+                            <li>
+                                The ANOC includes any changes in coverage, costs, or service area that will be effective
+                                in January
                             </li>
                         </ul>
                         @include('Partials/zipsearch', [

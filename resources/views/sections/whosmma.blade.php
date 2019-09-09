@@ -9,10 +9,9 @@
         <div class="flex flex-row mt-6 lg:mt-2">
             <p class="lg:text-base text-md w-full lg:w-4/5 px-8 mx-auto text-center mb-4 lg:mb-8">
                 We at Medicare Medicaid Advisors do not represent a company; we represent our clients. Our job is to
-                help save them money on monthly premiums and out-of-pocket costs. We understand many of our clients are
-                on a limited, fixed income, and with so many healthcare changes over the years, our clients welcome the
-                help. MMA agents review the client's current plan, determine if the plan is working for them, and offer
-                other options that might be available.
+                help our clients save money. Limited or fixed income, and with so many healthcare changes over the
+                years, our clients welcome the help. MMA agents review the client's current plan, determine if the plan
+                is working for them, and offer other options that might be available.
             </p>
         </div>
 
@@ -26,7 +25,7 @@
                 </div>
                 <div class="text-center">
                     <span class="lg:text-md text-sm">
-                        Medicare Medicaid Advisors has locations in Kansas, Missouri, Oklahoma, Texas, Louisiana, and Florida for your convenience.
+                        Medicare Medicaid Advisors has locations across the US for your convenience.
                     </span>
                 </div>
             </div>

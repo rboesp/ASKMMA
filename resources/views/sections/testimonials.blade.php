@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="flex flex-col p-3 justify-center w-10/12">
-                        <p class="font-bold text-blue-500 text-sm lg:text-base">Suzanne Summers</p>
+                        <p class="font-bold text-blue-500 text-sm lg:text-base">Linda P. </p>
                         <p class="text-gray-500 text-lg lg:text-sm">Jacksonville, FL</p>
                     </div>
                 </div>

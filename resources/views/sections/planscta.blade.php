@@ -30,7 +30,7 @@
 	<div class="container mx-auto">
 	<div class="flex flex-wrap justify-between items-center">
 		<div class="flex flex-col w-full lg:w-3/5 text-2xl lg:text-4xl lg:pl-0 px-8 font-black text-white leading-tight text-center lg:text-left justify-center">
-            Contact Us to See What Plans are <br class="hidden md:inline lg:inline">Available in Your Area
+			Check Out What Plans are <br class="hidden md:inline lg:inline">Available in Your Area
 		</div>
 		<div class="flex flex-col flex-wrap justify-between w-full lg:w-2/5 pt-2">
 			<!-- <div class="flex justify-center">
