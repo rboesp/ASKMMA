@@ -252,7 +252,7 @@
                             <li>Do you need extra optional supplement benefits? Does the plan charge you for them besides your monthly plan premium?</li>
                             <li>Yearly limit on your out-of-pocket costs for all medical services</li>
                             <li>Do you have Medicaid or get help from your state?</li>
-                            
+
                         </ul>
                         <p class="mt-4">
                             Each year plans establish the amount charged for premiums, deductibles, and services. The

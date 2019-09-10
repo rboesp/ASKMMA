@@ -26,7 +26,7 @@
 <body class="font-body">
 	@include('Partials.nav')
 	@include('sections/hero')
-	@include('sections/logos') 
+{{--	@include('sections/logos') --}}
 	@include('sections/whosmma') 
 	@include('sections/longhaul') 
 	@include('sections/planscta') 

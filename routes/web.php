@@ -21,3 +21,5 @@ Route::view('/resource', 'Pages.resources');
 Route::view('/planfinder', 'Pages.planfinder');
 Route::view('/products', 'Pages.products');
 Route::view('/careers', 'Pages.careers');
+Route::view('/terms-and-conditions', 'Pages.terms-and-conditions');
+Route::view('/privacy-policy', 'Pages.privacy-policy');

@@ -2,7 +2,7 @@
     <div class="container mx-auto w-4/5 lg:w-auto">
         <div class="flex flex-col lg:flex-row justify-center">
             <!-- Left -->
-            <div class="flex lg:w-5/12 lg:pr-8">
+            <div class="lg:w-5/12 lg:pr-8">
                 <img src="/images/medsupp.png" class="w-full h-auto">
             </div>
 
