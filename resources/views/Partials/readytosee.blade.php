@@ -33,7 +33,7 @@
                                 class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 name="firstname"
                                 type="text"
-                                placeholder="Type your First Name*"
+                                placeholder="First Name*"
                                 required
                         />
                     </div>
@@ -42,7 +42,7 @@
                                 class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 name="lastname"
                                 type="text"
-                                placeholder="Type your Last Name*"
+                                placeholder="Last Name*"
                                 required
                         />
                     </div>
@@ -52,7 +52,7 @@
                                 class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 name="email"
                                 type="email"
-                                placeholder="Type your Email*"
+                                placeholder="Email*"
                                 required
                         />
                     </div>
@@ -70,7 +70,7 @@
                         <select
                                 name="field[1]"
                                 required
-                                class="w-full bg-white appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected>Interested In*</option>
                             <option value="Learn More About Plans">Learn More About Medicare Plans</option>

@@ -387,7 +387,7 @@
             </ul>
         </div>
     </section>
-
+    <the-copywrite></the-copywrite>
     @include('Partials/readytosee')
 
 @endsection

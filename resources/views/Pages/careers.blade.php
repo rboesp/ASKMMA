@@ -1,4 +1,38 @@
 @extends('Layouts.secondary')
+@section('styles')
+html {
+    scroll-behavior: smooth;
+}
+@endsection
+@section('scripts')
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+@endsection
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Careers',
@@ -56,9 +90,12 @@
                     </ul>
                 </div>
                 <div class="flex justify-center lg:justify-start w-full mt-10">
-                    <button class="w-4/5 md:w-2/3 lg:w-1/3 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-2 rounded-lg">
+                    <a
+                            href="#top-current-openings"
+                            class="w-4/5 md:w-2/3 lg:w-1/3 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
+                    >
                         View Openings at MMA
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -118,6 +155,7 @@
                     </div>
                 </div>
             </div>
+            <span id="top-current-openings"></span>
         </section>
 
         <section class="text-left w-full bg-gray-200 py-10 lg:py-16">
@@ -129,24 +167,29 @@
 
                     <div class="flex flex-wrap text-base bg-white rounded-lg px-8 py-4 mt-10 items-center box-blue-shadow">
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Job Title</span><br>
+                            <span class="text-grey-dark">Job Title</span><br>
                             <span class="font-semibold text-mmadescription">Area Manager</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Location</span><br>
+                            <span class="text-grey-dark">Location</span><br>
                             <span class="font-semibold text-mmadescription">Birmingham, AL</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Department</span><br>
+                            <span class="text-grey-dark">Department</span><br>
                             <span class="font-semibold text-mmadescription">Sales</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Salary</span><br>
+                            <span class="text-grey-dark">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
-                        <div class="flex items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                            <span>View More</span>
-                            <span class="text-xl pt-1 pl-2"><i class="fa fa-angle-down"></i></span>
+                        <div class="flex flex-wrap items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
+                            <a
+                               target="_top"
+                               class="text-mmared hover:underline"
+                               href="mailto:careers@mma.com?Subject=Apply"
+                            >Apply Here</a>
+                            <span class="pl-4 pr-2">View More</span>
+                            <span class="text-xl pt-1"><i class="fa fa-angle-down"></i></span>
                         </div>
                     </div>
 
@@ -163,20 +206,25 @@
                                 </h1>
                             </div>
                             <div class="flex items-center text-base mt-2 w-1/2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                                <span>View Less</span>
-                                <span class="text-xl pl-2"><i class="fa fa-angle-up"></i></span>
+                                <a
+                                    target="_top"
+                                    class="text-mmared hover:underline"
+                                    href="mailto:careers@mma.com?Subject=Apply"
+                                >Apply Here</a>
+                                <span class="pl-4 pr-2">View Less</span>
+                                <span class="text-xl"><i class="fa fa-angle-up"></i></span>
                             </div>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Location</span><br>
+                            <span class="text-grey-dark">Location</span><br>
                             <span class="font-semibold text-mmadescription">Shrevport, LA</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Department</span><br>
+                            <span class="text-grey-dark">Department</span><br>
                             <span class="font-semibold text-mmadescription">Sales</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-mmagray">Salary</span><br>
+                            <span class="text-grey-dark">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
                         <div class="w-full border-t border-mmabrown mt-8 pt-8 text-mmadescription">
@@ -238,42 +286,50 @@
 
                                 <p class="mt-12 font-bold text-lg text-mmadescription">
 
-                                    For Agents interested in joining our organization:
-Call toll free <a
-                                        class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">1-800-810-3859</a> to speak with our National Recruiter, Shelia Woods 
-
-</p>
-
+                                    For Agents interested in joining our organization: Call toll free
+                                    <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
+                                        1-800-810-3859
+                                    </a>
+                                    to speak with our National Recruiter, Shelia Woods
+                                </p>
 
                             <div class="flex justify-center lg:justify-start w-full mt-6">
-                            
-                               <!--  <button class="w-4/5 md:w-2/3 lg:w-1/3 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-2 rounded-lg">
+                               <a
+                                    target="_top"
+                                    href="mailto:careers@mma.com?Subject=Apply"
+                                    class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
+                               >
                                     Apply for This Position
-                                </button> -->
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="bg-white rounded-lg shadow flex flex-wrap px-8 py-4 mt-10 items-center text-base box-blue-shadow">
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-gray-400">Job Title</span><br>
+                            <span class="text-grey-dark">Job Title</span><br>
                             <span class="font-semibold text-mmadescription">Area Manager</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-gray-400">Location</span><br>
+                            <span class="text-grey-dark">Location</span><br>
                             <span class="font-semibold text-mmadescription">Overland Park, KS</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-gray-400">Department</span><br>
+                            <span class="text-grey-dark">Department</span><br>
                             <span class="font-semibold text-mmadescription">Sales</span>
                         </div>
                         <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-gray-400">Salary</span><br>
+                            <span class="text-grey-dark">Salary</span><br>
                             <span class="font-semibold text-mmadescription">Salary + Commission</span>
                         </div>
                         <div class="flex items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                            <span>View More</span>
-                            <span class="text-xl pl-2"><i class="fa fa-angle-down"></i></span>
+                            <a
+                                target="_top"
+                                class="text-mmared hover:underline"
+                                href="mailto:careers@mma.com?Subject=Apply"
+                            >Apply Here</a>
+                            <span class="pl-4 pr-2">View Less</span>
+                            <span class="text-xl"><i class="fa fa-angle-up"></i></span>
                         </div>
                     </div>
                 </div>

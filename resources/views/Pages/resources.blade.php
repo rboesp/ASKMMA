@@ -14,7 +14,7 @@
             <div class="flex flex-row flexbox flex-wrap">
                 <div class="card-right flex flex-col w-full lg:w-4/5 mx-auto justify-between">
                     <div class="flex flex-row flex-wrap px-2">
-                        <accordion-component title="Hot Topics" sub-title="See Hot Topics" class="my-4 box-blue-shadow">
+                        <accordion-component title="Hot Topics" sub-title="View Hot Topics" class="my-4 box-blue-shadow">
                             <div class="w-full flex flex-wrap font-semibold">
                                 
 
@@ -101,8 +101,8 @@
                             </div>
                         </accordion-component>
                         <accordion-component title="Medicare & Medicaid"
-                                             sub-title="See Medicare & Medicaid" class="my-4 box-blue-shadow">
-                                                 
+                                             sub-title="View Medicare & Medicaid" class="my-4 box-blue-shadow">
+
                                                  <div class="w-full flex flex-wrap font-semibold">
 
                                                     <span class="w-full lg:w-1/2 py-3">
@@ -520,8 +520,8 @@
 
 
                         <accordion-component title="Additional Links for Your Information"
-                                             sub-title="See Additional Links" class="my-4 box-blue-shadow">
-                                                 
+                                             sub-title="View Additional Links" class="my-4 box-blue-shadow">
+
                                                   <div class="w-full flex flex-wrap font-semibold">
 
 <span class="w-full lg:w-1/2 py-3">
@@ -604,8 +604,8 @@
 
 
                         <accordion-component title="Financial Security"
-                                             sub-title="See Financial Security" class="my-4 box-blue-shadow">
-                                                 
+                                             sub-title="View Financial Security" class="my-4 box-blue-shadow">
+
                                                  <div class="w-full flex flex-wrap font-semibold">
                                                      
 <span class="w-full lg:w-1/2 py-3">
@@ -677,8 +677,8 @@
 
                                              </accordion-component>
                         <accordion-component title="Community Resources & Services Available"
-                                             sub-title="See Community Resources" class="my-4 box-blue-shadow">
-                                                 
+                                             sub-title="View Community Resources" class="my-4 box-blue-shadow">
+
                                                  <div class="w-full flex flex-wrap font-semibold">
                                                      
                                                      <span class="w-full lg:w-1/2 py-3">

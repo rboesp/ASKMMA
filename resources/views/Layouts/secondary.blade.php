@@ -55,6 +55,7 @@
           width: auto;
           height: 86px;
         }
+        @yield('styles')
     </style>
 </head>
 <body class="font-body">
@@ -63,7 +64,8 @@
     @include('Partials.nav')
 
     <div class="mt-16">
-    @yield('content')</div>
+        @yield('content')
+    </div>
 
     @include('Partials.footer')
 
@@ -181,7 +183,7 @@
     return false
   }
 </script>
-
+@yield('scripts')
 
 </html>
 
