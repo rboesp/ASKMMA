@@ -2,7 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Contact Us',
-        'image_bg' => 'services/services-min.jpg',
+        'image_bg' => 'contact/tools.jpg',
     ])
     @include('Partials/phonenumcta')
     <section class="services py-16 text-sm lg:text-base">

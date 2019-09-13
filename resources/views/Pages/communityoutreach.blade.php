@@ -34,7 +34,7 @@
                     </div>
                     <div>
                         <div class="flex">
-                            <img src="/images/communityoutreach/comout.png">
+                            <img src="/images/communityoutreach/comout.png" class="w-full h-auto">
                         </div>
                     </div>
                 </div>
