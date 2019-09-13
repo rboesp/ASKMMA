@@ -72,10 +72,10 @@
                                 required
                                 class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
-                            <option value="" disabled selected>Interested In*</option>
-                            <option value="Learn More About Plans">Learn More About Medicare Plans</option>
-                            <option value="Learn More About Products">Learn More About Insurance Products</option>
-                            <option value="Get Contracted">Agents Get Contracted</option>
+                            <option value="" disabled selected class="text-gray-400">Interested In*</option>
+                            <option value="Learn More About Plans" class="text-gray-700">Learn More About Medicare Plans</option>
+                            <option value="Learn More About Products" class="text-gray-700">Learn More About Insurance Products</option>
+                            <option value="Get Contracted" class="text-gray-700">Agents Get Contracted</option>
                         </select>
                     </div>
 
