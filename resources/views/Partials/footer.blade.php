@@ -3,6 +3,7 @@
         <div class="flex flex-row flex-wrap">
             <div class="flex flex-col mx-auto w-3/4 lg:w-1/3 pb-8">
                 <img class="w-3/4 lg:w-4/6 mx-auto" src="images/Left.png">
+                <img class="w-3/4 lg:w-4/6 mx-auto" src="images/MMAlogobold.jpg">
                 <!-- <div class="flex flex-row">
                     <div class="flex-col flex w-1/2">
                         <div class="flex flex-row justify-center mt-6 lg:mt-6 lg:pl-6 mx-auto lg:mx-0 w-full">

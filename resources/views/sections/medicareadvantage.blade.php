@@ -28,9 +28,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 mt-5 lg:mt-0">
-                <div class="flex">
-                    <img src="/images/medad.png">
-                </div>
+                <div><img src="/images/medad.png" class="w-full h-auto" /></div>
             </div>
             <div class="w-full pt-10 lg:hidden self-center">
                 <a href="/products#medicareadvantage">

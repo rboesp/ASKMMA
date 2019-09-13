@@ -9,7 +9,7 @@
         </span>
       </slot>
     </div>
-    <div v-if="show" class="border-t border-red-200 w-full py-6 border-mmablue text-sm lg:text-base">
+    <div v-if="expand" class="border-t border-red-200 w-full py-6 border-mmablue text-sm lg:text-base">
       <slot />
     </div>
   </div>
@@ -21,6 +21,7 @@
     props: {
       title: {type: String, default: null},
       subTitle: {type: String, default: null},
+      parentShow: {type: Boolean, default: false}
     },
     data: () => ({
       show: false
@@ -28,6 +29,11 @@
     methods: {
       toggleData () {
         this.show = !this.show
+      }
+    },
+    computed: {
+      expand() {
+        return this.show || this.parentShow
       }
     }
   }

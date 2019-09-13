@@ -6,7 +6,10 @@
             </button>
         </div>
         <div class="flex flex-shrink-0 justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
-            <a href="/"><img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/mmausalogo.png" style="width: 220px; height: 80px"></a>
+            <a href="/" class="flex">
+                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/mmausalogo.png" style="width: 220px; height: 80px">
+                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/MMAlogobold.jpg" style="width: 220px; height: 80px">
+            </a>
         </div>
     </div>
     <div id="nav-content" class="w-full block flex-grow lg:flex lg:items-end justify-end lg:w-2/3 pr-8 hidden font-semibold">

@@ -165,69 +165,13 @@ html {
                         Current Openings <span class="ml-3 text-gray-400">(3)</span>
                     </h1>
 
-                    <div class="flex flex-wrap text-base bg-white rounded-lg px-8 py-4 mt-10 items-center box-blue-shadow">
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Job Title</span><br>
-                            <span class="font-semibold text-mmadescription">Area Manager</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Location</span><br>
-                            <span class="font-semibold text-mmadescription">Birmingham, AL</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Department</span><br>
-                            <span class="font-semibold text-mmadescription">Sales</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Salary</span><br>
-                            <span class="font-semibold text-mmadescription">Salary + Commission</span>
-                        </div>
-                        <div class="flex flex-wrap items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                            <a
-                               target="_top"
-                               class="text-mmared hover:underline"
-                               href="mailto:careers@mma.com?Subject=Apply"
-                            >Apply Here</a>
-                            <span class="pl-4 pr-2">View More</span>
-                            <span class="text-xl pt-1"><i class="fa fa-angle-down"></i></span>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow flex flex-wrap py-10 px-8 mt-10 items-center box-blue-shadow text-base">
-                        <div class="w-full flex justify-between mb-6">
-                            <div class="flex flex-col lg:flex-row lg:items-center w-1/2 lg:w-full">
-                                <div>
-                                    <h1 class="font-extrabold text-4xl font-black text-mmablue font-futura leading-tight">
-                                        Area Manager
-                                    </h1>
-                                </div>
-                                <h1 class="ml-0 lg:ml-10 font-semibold text-mmagray lg:text-3xl">
-                                    Shreveport Branch Office
-                                </h1>
-                            </div>
-                            <div class="flex items-center text-base mt-2 w-1/2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                                <a
-                                    target="_top"
-                                    class="text-mmared hover:underline"
-                                    href="mailto:careers@mma.com?Subject=Apply"
-                                >Apply Here</a>
-                                <span class="pl-4 pr-2">View Less</span>
-                                <span class="text-xl"><i class="fa fa-angle-up"></i></span>
-                            </div>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Location</span><br>
-                            <span class="font-semibold text-mmadescription">Shrevport, LA</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Department</span><br>
-                            <span class="font-semibold text-mmadescription">Sales</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Salary</span><br>
-                            <span class="font-semibold text-mmadescription">Salary + Commission</span>
-                        </div>
-                        <div class="w-full border-t border-mmabrown mt-8 pt-8 text-mmadescription">
+                    <the-career
+                        title="Area Manager"
+                        location="Birmingham, AL"
+                        department="Sales"
+                        extra="Salary + Commission"
+                    >
+                        <div class="w-full text-mmadescription">
                             <h3 class="font-extrabold text-lg">
                                 Responsibilities
                             </h3>
@@ -278,60 +222,206 @@ html {
                                 <li>Maintain company mission statement and positive code of conduct.</li>
                             </ul>
 
-                        <!--     <h3 class="mt-12 font-bold text-lg text-mmadescription">
-                                If You are interested in this position, please email your resume to <a
-                                        class="font-extrabold font-black text-mmablue font-futura" href="mailto:danielle@askmma.com">danielle@askmma.com</a>
-                                or click on the link to send an email.
-                            </h3> -->
+                            <!--     <h3 class="mt-12 font-bold text-lg text-mmadescription">
+                                    If You are interested in this position, please email your resume to <a
+                                            class="font-extrabold font-black text-mmablue font-futura" href="mailto:danielle@askmma.com">danielle@askmma.com</a>
+                                    or click on the link to send an email.
+                                </h3> -->
 
-                                <p class="mt-12 font-bold text-lg text-mmadescription">
+                            <p class="mt-12 font-bold text-lg text-mmadescription">
 
-                                    For Agents interested in joining our organization: Call toll free
-                                    <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
-                                        1-800-810-3859
-                                    </a>
-                                    to speak with our National Recruiter, Shelia Woods
-                                </p>
+                                For Agents interested in joining our organization: Call toll free
+                                <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
+                                    1-800-810-3859
+                                </a>
+                                to speak with our National Recruiter, Shelia Woods
+                            </p>
 
                             <div class="flex justify-center lg:justify-start w-full mt-6">
-                               <a
-                                    target="_top"
-                                    href="mailto:careers@mma.com?Subject=Apply"
-                                    class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
-                               >
+                                <a
+                                        target="_top"
+                                        href="mailto:careers@mma.com?Subject=Apply"
+                                        class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
+                                >
                                     Apply for This Position
                                 </a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="bg-white rounded-lg shadow flex flex-wrap px-8 py-4 mt-10 items-center text-base box-blue-shadow">
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Job Title</span><br>
-                            <span class="font-semibold text-mmadescription">Area Manager</span>
+                    </the-career>
+
+                    <the-career
+                        title="Area Manager"
+                        location="Shrevport, LA"
+                        department="Sales"
+                        extra="Salary + Commission"
+                        class="mt-10"
+                    >
+                        <div class="w-full text-mmadescription">
+                            <h3 class="font-extrabold text-lg">
+                                Responsibilities
+                            </h3>
+                            <p class="mt-4">
+                                Direct and oversee the organization's sales policies, objectives and initiatives. Achieve
+                                growth and meet sales targets by successfully managing the sales team. Manage recruiting,
+                                coaching and performance monitoring of sales agents. Maximizes sales force effectiveness by
+                                determining and solving training needs. Effective teaching and training ability to promote
+                                individual and team growth. This position requires relocation to the Shreveport, LA Area.
+                            </p>
+                            <h3 class="mt-10 font-extrabold text-lg">
+                                Requirements
+                            </h3>
+                            <ul class="mt-4 text-left">
+                                <li>Work in the office Monday and Friday. Work in the field Tuesday, Wednesday, Thursday.
+                                </li>
+                                <li>Meet or exceed production and recruiting goals and initiatives.</li>
+                                <li>Teach classroom training and field train.</li>
+                                <li>Coordinate new agent classroom training and field training.</li>
+                                <li>One-on-one agent mentoring.</li>
+                                <li>Unit Manager coaching and instruction.</li>
+                                <li>Develop unit teams through goal setting and monthly performance review.</li>
+                                <li>Maintain & analyze weekly reports to manage production and growth.</li>
+                                <li>Understand and review monthly commission and income statements.</li>
+                                <li>Actively recruit and conduct interviews to promote team growth.</li>
+                                <li>Understand and manage area Z account.</li>
+                                <li>Collaborate with Product Development and Training manager.</li>
+                                <li>Coordinate with Director of Resource and Agent Development.</li>
+                                <li>Work closely with contracting and compliance departments to meet company objectives.
+                                </li>
+                                <li>Lead all weekly team sales meetings.</li>
+                                <li>Understand and teach all application and dropbox functions.</li>
+                                <li>Manage inventory of Sales applications field materials</li>
+                                <li>Communicate and collaborate with administrative personnel to meet company objectives.
+                                </li>
+                            </ul>
+
+                            <h3 class="mt-10 font-extrabold text-lg">
+                                Core Competencies
+                            </h3>
+                            <ul class="mt-4 text-left">
+                                <li>Lead by example/demonstrate good business practices.</li>
+                                <li>Motivated and enthusiastic disposition.</li>
+                                <li>Required to submit a minimum of six (6) applications per week on average (312
+                                    applications/year).
+                                </li>
+                                <li>Required attendance for all company meetings and team building event.</li>
+                                <li>Maintain company mission statement and positive code of conduct.</li>
+                            </ul>
+
+                            <!--     <h3 class="mt-12 font-bold text-lg text-mmadescription">
+                                    If You are interested in this position, please email your resume to <a
+                                            class="font-extrabold font-black text-mmablue font-futura" href="mailto:danielle@askmma.com">danielle@askmma.com</a>
+                                    or click on the link to send an email.
+                                </h3> -->
+
+                            <p class="mt-12 font-bold text-lg text-mmadescription">
+
+                                For Agents interested in joining our organization: Call toll free
+                                <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
+                                    1-800-810-3859
+                                </a>
+                                to speak with our National Recruiter, Shelia Woods
+                            </p>
+
+                            <div class="flex justify-center lg:justify-start w-full mt-6">
+                                <a
+                                        target="_top"
+                                        href="mailto:careers@mma.com?Subject=Apply"
+                                        class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
+                                >
+                                    Apply for This Position
+                                </a>
+                            </div>
                         </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Location</span><br>
-                            <span class="font-semibold text-mmadescription">Overland Park, KS</span>
+
+                    </the-career>
+
+                    <the-career
+                        title="Area Manager"
+                        location="Overland Park, KS"
+                        department="Sales"
+                        extra="Salary + Commission"
+                        class="mt-10"
+                    >
+                        <div class="w-full text-mmadescription">
+                            <h3 class="font-extrabold text-lg">
+                                Responsibilities
+                            </h3>
+                            <p class="mt-4">
+                                Direct and oversee the organization's sales policies, objectives and initiatives. Achieve
+                                growth and meet sales targets by successfully managing the sales team. Manage recruiting,
+                                coaching and performance monitoring of sales agents. Maximizes sales force effectiveness by
+                                determining and solving training needs. Effective teaching and training ability to promote
+                                individual and team growth. This position requires relocation to the Shreveport, LA Area.
+                            </p>
+                            <h3 class="mt-10 font-extrabold text-lg">
+                                Requirements
+                            </h3>
+                            <ul class="mt-4 text-left">
+                                <li>Work in the office Monday and Friday. Work in the field Tuesday, Wednesday, Thursday.
+                                </li>
+                                <li>Meet or exceed production and recruiting goals and initiatives.</li>
+                                <li>Teach classroom training and field train.</li>
+                                <li>Coordinate new agent classroom training and field training.</li>
+                                <li>One-on-one agent mentoring.</li>
+                                <li>Unit Manager coaching and instruction.</li>
+                                <li>Develop unit teams through goal setting and monthly performance review.</li>
+                                <li>Maintain & analyze weekly reports to manage production and growth.</li>
+                                <li>Understand and review monthly commission and income statements.</li>
+                                <li>Actively recruit and conduct interviews to promote team growth.</li>
+                                <li>Understand and manage area Z account.</li>
+                                <li>Collaborate with Product Development and Training manager.</li>
+                                <li>Coordinate with Director of Resource and Agent Development.</li>
+                                <li>Work closely with contracting and compliance departments to meet company objectives.
+                                </li>
+                                <li>Lead all weekly team sales meetings.</li>
+                                <li>Understand and teach all application and dropbox functions.</li>
+                                <li>Manage inventory of Sales applications field materials</li>
+                                <li>Communicate and collaborate with administrative personnel to meet company objectives.
+                                </li>
+                            </ul>
+
+                            <h3 class="mt-10 font-extrabold text-lg">
+                                Core Competencies
+                            </h3>
+                            <ul class="mt-4 text-left">
+                                <li>Lead by example/demonstrate good business practices.</li>
+                                <li>Motivated and enthusiastic disposition.</li>
+                                <li>Required to submit a minimum of six (6) applications per week on average (312
+                                    applications/year).
+                                </li>
+                                <li>Required attendance for all company meetings and team building event.</li>
+                                <li>Maintain company mission statement and positive code of conduct.</li>
+                            </ul>
+
+                            <!--     <h3 class="mt-12 font-bold text-lg text-mmadescription">
+                                    If You are interested in this position, please email your resume to <a
+                                            class="font-extrabold font-black text-mmablue font-futura" href="mailto:danielle@askmma.com">danielle@askmma.com</a>
+                                    or click on the link to send an email.
+                                </h3> -->
+
+                            <p class="mt-12 font-bold text-lg text-mmadescription">
+
+                                For Agents interested in joining our organization: Call toll free
+                                <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
+                                    1-800-810-3859
+                                </a>
+                                to speak with our National Recruiter, Shelia Woods
+                            </p>
+
+                            <div class="flex justify-center lg:justify-start w-full mt-6">
+                                <a
+                                        target="_top"
+                                        href="mailto:careers@mma.com?Subject=Apply"
+                                        class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
+                                >
+                                    Apply for This Position
+                                </a>
+                            </div>
                         </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Department</span><br>
-                            <span class="font-semibold text-mmadescription">Sales</span>
-                        </div>
-                        <div class="w-full mt-2 lg:m-0 lg:w-1/5">
-                            <span class="text-grey-dark">Salary</span><br>
-                            <span class="font-semibold text-mmadescription">Salary + Commission</span>
-                        </div>
-                        <div class="flex items-center w-full mt-2 lg:m-0 lg:w-1/5 text-mmabrown justify-end font-semibold">
-                            <a
-                                target="_top"
-                                class="text-mmared hover:underline"
-                                href="mailto:careers@mma.com?Subject=Apply"
-                            >Apply Here</a>
-                            <span class="pl-4 pr-2">View Less</span>
-                            <span class="text-xl"><i class="fa fa-angle-up"></i></span>
-                        </div>
-                    </div>
+
+                    </the-career>
+
                 </div>
             </div>
         </section>
