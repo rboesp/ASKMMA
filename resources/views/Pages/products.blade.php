@@ -1,8 +1,8 @@
 @extends('Layouts.secondary')
 @section('content')
     <section
-            class="minihero h-112 mt-20"
-            style="background: url('/images/products/products-min.jpg') no-repeat;background-size: cover;"
+        class="minihero h-112 mt-20"
+        style="background: url('/images/products/products-min.jpg') no-repeat;background-size: cover;"
     >
         <div class="container mx-auto h-full flex flex-col justify-around">
             <div class="flex flex-wrap w-full">

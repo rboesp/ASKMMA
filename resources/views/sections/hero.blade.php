@@ -19,7 +19,7 @@
                         <img class="card-image mx-auto" src="/images/brain icon.png">
                         <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Learn About<br>Medicare</p>
                         <a href="/resource">
-                            <p class="text-blue-500 font-semibold">Let's Go ></p>
+                            <p class="text-blue-500 font-semibold">Let's Go &gt;</p>
                         </a>
                     </div>
                 </div>

@@ -2,33 +2,8 @@
     <div class="container mx-auto">
         <div class="flex flex-row flex-wrap">
             <div class="flex flex-col mx-auto w-3/4 lg:w-1/3 pb-8">
-                <img class="w-3/4 lg:w-4/6 mx-auto" src="images/Left.png">
-                <img class="w-3/4 lg:w-4/6 mx-auto" src="images/MMAlogobold.jpg">
-                <!-- <div class="flex flex-row">
-                    <div class="flex-col flex w-1/2">
-                        <div class="flex flex-row justify-center mt-6 lg:mt-6 lg:pl-6 mx-auto lg:mx-0 w-full">
-                            <div class="flex flex-col w-1/12 justify-center">
-                                <img class="w-full" src="/images/Facebook.png" />
-                            </div>
-
-                            <div class="flex flex-col justify-start">
-                                <p class="pl-2 text-mmalightblue">Facebook</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flex-col flex w-1/2">
-                        <div class="flex flex-row justify-center mt-6 lg:mt-6 mx-auto lg:mx-0 w-full">
-                            <div class="flex flex-col w-1/12 justify-center">
-                                <img class="w-full" src="/images/Twitter.png" />
-                            </div>
-
-                            <div class="flex flex-col justify-start">
-                                <p class="pl-2 text-mmalightblue">Twitter</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                <img class="mx-auto" src="images/Left.png" style="height: 70px">
+                <img class="mx-auto" src="images/MMAlogobold.jpg" style="height: 70px">
             </div>
 
             <div class="flex flex-col w-full lg:w-1/3 pb-8 mx-auto">

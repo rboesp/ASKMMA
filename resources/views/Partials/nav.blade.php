@@ -7,8 +7,8 @@
         </div>
         <div class="flex flex-shrink-0 justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
             <a href="/" class="flex">
-                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/mmausalogo.png" style="width: 220px; height: 80px">
-                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/MMAlogobold.jpg" style="width: 220px; height: 80px">
+                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/mmausalogo.png" style="height: 70px">
+                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/MMAlogobold.jpg" style="height: 70px">
             </a>
         </div>
     </div>
