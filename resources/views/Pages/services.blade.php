@@ -3,7 +3,7 @@
     @include('Partials.minihero', [
         'minihero_title' => 'Services',
         'minihero_desc' => 'Our management team has been working over years focused on helping people quickly find solutions and solve their problems.',
-        'image_bg' => 'services/index.png',
+        'image_bg' => 'services/services-min.jpg',
     ])
     @include('Partials/phonenumcta')
 

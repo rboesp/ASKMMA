@@ -2,8 +2,7 @@
 @section('content')
     @include('Partials.minihero', [
         'minihero_title' => 'Contact Us',
-        //'minihero_desc' => 'We know Medicare can be tricky and that’s why we are here to help, assist, guide, support, and give advice through your journey.',
-        'image_bg' => 'services/index.png',
+        'image_bg' => 'services/services-min.jpg',
     ])
     @include('Partials/phonenumcta')
     <section class="services py-16 text-sm lg:text-base">

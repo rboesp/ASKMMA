@@ -3,7 +3,8 @@
     @include('Partials.minihero', [
         'minihero_title' => 'Community',
         'minihero_desc' => 'Our work allows us to help people by giving them an affordable way to live their lives with a peace of mind. But selling the right plans to the right people is not the only way we help people.',
-        'image_bg' => 'about/about_header.png',
+        'image_bg' => 'about/about-min.jpg',
+
     ])
     <section class="communityoutreach py-16 bg-white">
         <div class="container mx-auto">

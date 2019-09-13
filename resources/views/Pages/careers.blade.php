@@ -37,7 +37,7 @@ html {
     @include('Partials.minihero', [
         'minihero_title' => 'Careers',
         'minihero_desc' => 'Whether you have been an agent for 20 years, or if you have been thinking about obtaining a license, we would like to talk with you! We offer a strong training program that includes classroom and field training with experienced, successful managers.',
-        'image_bg' => 'about/about_header.png',
+        'image_bg' => 'about/about-min.jpg',
     ])
 
     <div class="w-full text-sm text-center lg:text-lg lg:text-left">

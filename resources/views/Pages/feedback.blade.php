@@ -3,7 +3,8 @@
     @include('Partials.minihero', [
         'minihero_title' => 'Feedback',
         'minihero_desc' => 'We strive to be the best at what we do, and that is why we cherish your feedback. That way we can grow better for you.',
-        'image_bg' => 'services/index.png',
+        'image_bg' => 'services/services-min.jpg',
+
     ])
 
     @include('Partials/phonenumcta')

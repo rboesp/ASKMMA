@@ -5,7 +5,7 @@
 
         'minihero_title' => 'About Medicare Medicaid Advisors',
         'minihero_desc' => 'We are here to help you become familiar with Medicare, but let’s take a moment to help you become familiar with us.',
-        'image_bg' => 'about/about_header.png',
+        'image_bg' => 'about/about-min.jpg',
 
     ])
 
