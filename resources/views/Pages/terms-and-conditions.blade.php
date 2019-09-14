@@ -1,11 +1,11 @@
 @extends('Layouts.secondary')
-@section('content')
-    @include('Partials.minihero', [
 
+@section('content')
+
+    @include('partials.minihero', [
         'minihero_title' => 'Terms and Conditions',
         'minihero_desc' => 'You can read here our terms and conditions to be part of the Medicare',
-        'image_bg' => 'about/about_header.png',
-
+        'image_bg' => 'about/about_header.jpg',
     ])
 
     <section class="container mx-auto flex flex-wrap text-base text-center px-3 md:px-0 lg:text-left">
@@ -117,6 +117,6 @@
     </section>
     <the-copywrite></the-copywrite>
 
-    @include('Partials/readytosee')
+    @include('partials.readytosee')
 
 @endsection

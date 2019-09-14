@@ -6,8 +6,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="Eliinova">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>@yield('title')</title>
@@ -61,15 +60,15 @@
 <body class="font-body">
 
 <div id="app" class="w-full">
-    @include('Partials.nav')
+    @include('partials.nav')
 
     <div class="mt-16">
         @yield('content')
     </div>
 
-    @include('Partials.footer')
+    @include('partials.footer')
 
-    @include('Partials.copyright')
+    @include('partials.copyright')
 </div>
 <script src="{{ mix('/js/app.js') }}"></script>
 <!-- begin olark code -->
@@ -114,7 +113,7 @@
     scrollpos = window.scrollY
 
     if (scrollpos > 10) {
-      //header.classList.add("bg-mmablue");  
+      //header.classList.add("bg-mmablue");
 
       //Use to switch toggleColour colours
       for (var i = 0; i < toToggle.length; i++) {
@@ -186,6 +185,3 @@
 @yield('scripts')
 
 </html>
-
-
-

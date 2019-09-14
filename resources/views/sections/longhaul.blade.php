@@ -4,7 +4,7 @@
         <div class="flex flex-row flexbox flex-wrap">
             <!-- Left -->
             <div class="card-left flex flex-col lg:w-1/2 lg:pr-8 justify-center">
-                <img src="/images/longhaul.png">
+                <img src="/images/longhaul.jpg">
             </div>
             <div class="card-right flex flex-col lg:w-1/2 lg:pl-8 justify-between">
                 <div class="flex flex-row mt-12">

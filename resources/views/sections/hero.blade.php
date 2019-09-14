@@ -28,10 +28,10 @@
             <a href="/products#medicareadvantage">
                 <div class="flex flex-col w-full sm:w-5/12 lg:w-2/5">
                     <div class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
-                        <img class="card-image mx-auto" src="/images/laptop icon.png">
+                        <img class="card-image mx-auto" src="/images/laptop_icon.png">
                         <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Look For<br>Medical Plans</p>
                         <a href="/products#medicareadvantage">
-                            <p class="text-blue-500 font-semibold">Let's Go ></p>
+                            <p class="text-blue-500 font-semibold">Let's Go &gt;</p>
                         </a>
                     </div>
                 </div>

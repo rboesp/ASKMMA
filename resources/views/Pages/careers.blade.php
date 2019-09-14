@@ -33,11 +33,13 @@ html {
       });
     </script>
 @endsection
+
 @section('content')
-    @include('Partials.minihero', [
+
+    @include('partials.minihero', [
         'minihero_title' => 'Careers',
         'minihero_desc' => 'Whether you have been an agent for 20 years, or if you have been thinking about obtaining a license, we would like to talk with you! We offer a strong training program that includes classroom and field training with experienced, successful managers.',
-        'image_bg' => 'about/about-min.jpg',
+        'image_bg' => 'careers/careers_header.jpg',
     ])
 
     <div class="w-full text-sm text-center lg:text-lg lg:text-left">
@@ -123,7 +125,7 @@ html {
                         </ul>
                     </div>
                     <div class="lg:w-1/2 mt-4 lg:mt-0">
-                        <img src="/images/careers/laptop.png" alt="laptop" class="h-auto w-full" />
+                        <img src="/images/careers/laptop.jpg" alt="laptop" class="h-auto w-full" />
                     </div>
                 </div>
             </div>
@@ -427,5 +429,5 @@ html {
         </section>
     </div>
 
-    @include('Partials/readytosee')
+    @include('partials.readytosee')
 @endsection

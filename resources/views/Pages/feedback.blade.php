@@ -49,13 +49,14 @@
 @endsection
 
 @section('content')
-    @include('Partials.minihero', [
+
+    @include('partials.minihero', [
         'minihero_title' => 'Feedback',
         'minihero_desc' => 'We strive to be the best at what we do, and that is why we cherish your feedback. That way we can grow better for you.',
-        'image_bg' => 'services/services-min.jpg',
+        'image_bg' => 'feedback/feedback_header.jpg',
     ])
 
-    @include('Partials/phonenumcta')
+    @include('partials.phonenumcta')
 
     <section class="feedback py-16">
         <div class="container mx-auto">
@@ -142,5 +143,5 @@
         </div>
     </section>
 
-    @include('Partials/readytosee')
+    @include('partials.readytosee')
 @stop

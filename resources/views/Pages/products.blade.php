@@ -2,7 +2,7 @@
 @section('content')
     <section
         class="minihero h-112 mt-20"
-        style="background: url('/images/products/products-min.jpg') no-repeat;background-size: cover;"
+        style="background: url('/images/products/products_header.jpg') no-repeat;background-size: cover;"
     >
         <div class="container mx-auto h-full flex flex-col justify-around">
             <div class="flex flex-wrap w-full">
@@ -166,7 +166,7 @@
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap lg:flex-row-reverse">
                         <div class="w-full md:w-1/2 flex items-center">
-                            <img src="/images/granma.png" alt="granma" class="h-auto w-full"/>
+                            <img src="/images/grandma.jpg" alt="grandma" class="h-auto w-full"/>
                         </div>
 
                         <div class="w-full md:w-1/2">
@@ -268,7 +268,7 @@
                                 in January
                             </li>
                         </ul>
-                        @include('Partials/zipsearch', [
+                        @include('partials.zipsearch', [
                             'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Advantage Plans'
                         ])
                     </div>
@@ -317,7 +317,7 @@
                         </p>
                     </div>
 
-                    @include('Partials/zipsearch', [
+                    @include('partials.zipsearch', [
                         'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Supplement Plans'
                     ])
                 </div>
@@ -367,7 +367,7 @@
                         </p>
                     </div>
 
-                    @include('Partials/zipsearch', [
+                    @include('partials.zipsearch', [
                         'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Supplement Plans'
                     ])
                 </div>
@@ -435,7 +435,7 @@
                         </p>
                     </div>
 
-                    @include('Partials/zipsearch', [
+                    @include('partials.zipsearch', [
                         'zip_search_desc' => 'Enter Your Zip Code to See Your Life Insurance Plans'
                     ])
                 </div>
@@ -489,7 +489,7 @@
                         </p>
                     </div>
 
-                    @include('Partials/zipsearch', [
+                    @include('partials.zipsearch', [
                         'zip_search_desc' => 'Enter Your Zip Code to See Your Life Insurance Plans'
                     ])
                 </div>
@@ -546,7 +546,7 @@
                             carefully before purchasing a policy.
                         </p>
                     </div>
-                    @include('Partials/zipsearch', [
+                    @include('partials.zipsearch', [
                         'zip_search_desc' => 'Enter Your Zip Code to See Your Cancer Indemnity Plans'
                     ])
                 </div>
@@ -554,5 +554,5 @@
         </section>
     </div>
 
-    @include('Partials/readytosee')
+    @include('partials.readytosee')
 @endsection

@@ -1,11 +1,14 @@
 @extends('Layouts.secondary')
+
 @section('content')
-    @include('Partials.minihero', [
+
+    @include('partials.minihero', [
         'minihero_title' => 'Services',
         'minihero_desc' => 'Our management team has been working over years focused on helping people quickly find solutions and solve their problems.',
-        'image_bg' => 'services/services-min.jpg',
+        'image_bg' => 'services/services_header.jpg',
     ])
-    @include('Partials/phonenumcta')
+
+    @include('partials.phonenumcta')
 
     <section class="services py-16 text-center text-ms lg:text-base lg:text-left">
         <div class="container mx-auto">
@@ -59,7 +62,7 @@
                                 problems.
                             </div>
                         </div>
-                        @include('Partials/zipsearch', [
+                        @include('partials.zipsearch', [
                             'zip_search_desc' => 'Contact Us to learn about'
                         ])
                     </div>
@@ -67,5 +70,5 @@
             </div>
         </div>
     </section>
-    @include('Partials/readytosee')
+    @include('partials.readytosee')
 @stop
