@@ -1,9 +1,9 @@
-<section class="readytosee py-16">
+<section class="ready-to-see py-16">
 
 
 
 <div class="container mx-auto">
- 
+
 	<div class="flex flex-row justify-start flex-wrap">
 
 
@@ -12,7 +12,7 @@
 
 			<p class="text-3xl lg:text-4xl font-bold text-white leading-tight text-center lg:text-left">Ready to See What <br class="hidden lg:inline">We Can Do For You?</p>
 
- 
+
 
 		<p class="text-white pt-6 text-center lg:text-left">
 
@@ -27,7 +27,7 @@
 
 		<div class="flex flex-col w-full lg:w-2/5 flex-wrap pt-0 lg:pt-6 lg:pt-2 lg:pl-8 ">
 
-			<form class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"> 
+			<form class="flex flex-row flex-wrap w-full pt-6 lg:pt-2">
 
 			    <div class="flex flex-col w-full px-4 py-2 lg:px-0">
 			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="name" type="text" placeholder="Zip Code">
@@ -48,7 +48,7 @@
 			      <input class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="zipcode" type="text" placeholder="Zip Code">
 			    </div>
 
-				<div class="flex items-center px-4 mb-2 lg:px-0"> 
+				<div class="flex items-center px-4 mb-2 lg:px-0">
 				    <label class="w-full block  text-white ">
 				      <input class="mr-2 leading-tight" type="checkbox">
 				      <span class="text-sm">
@@ -64,9 +64,9 @@
 				</button>
 			    </div>
 
-  
+
 			</form>
-			
+
 		</div>
 
 

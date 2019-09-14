@@ -1,4 +1,4 @@
-<section class="medicareadvantage py-16">
+<section class="medicare-advantage py-16">
     <div class="flex justify-center">
         <div class="flex flex-col lg:flex-row w-4/5">
             <div class="lg:w-1/2 lg:pr-8">
@@ -19,7 +19,7 @@
                         </p>
                     </div>
                     <div class="pt-10 hidden lg:block">
-                        <a href="/products#medicareadvantage">
+                        <a href="/products#medicare-advantage">
                             <button class="bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
                                 Learn More
                             </button>
@@ -31,7 +31,7 @@
                 <div><img src="/images/medad.png" class="w-full h-auto" /></div>
             </div>
             <div class="w-full pt-10 lg:hidden self-center">
-                <a href="/products#medicareadvantage">
+                <a href="/products#medicare-advantage">
                     <button class="w-full bg-mmared hover:bg-mmalightblue text-base text-white font-bold py-3 px-5 rounded-lg tracking-normal">
                         Learn More
                     </button>

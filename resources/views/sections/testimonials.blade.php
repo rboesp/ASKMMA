@@ -1,4 +1,4 @@
-<section class="longhaul py-16">
+<section class="long-haul py-16">
     <div class="container mx-auto px-10 lg:px-0">
         <div class="flex flex-col-reverse lg:flex-row flex-wrap justify-around">
             <div class="flex flex-col pt-6 lg:w-2/5 lg:pt3">

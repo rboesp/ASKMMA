@@ -1,10 +1,10 @@
-<section class="longhaul py-16">
+<section class="long-haul py-16">
     <div class="container mx-auto w-4/5 lg:w-auto px-4">
         <!--flex-col-reverse lg:flex-row-reverse -->
         <div class="flex flex-row flexbox flex-wrap">
             <!-- Left -->
             <div class="card-left flex flex-col lg:w-1/2 lg:pr-8 justify-center">
-                <img src="/images/longhaul.jpg">
+                <img src="/images/long-haul.jpg">
             </div>
             <div class="card-right flex flex-col lg:w-1/2 lg:pl-8 justify-between">
                 <div class="flex flex-row mt-12">

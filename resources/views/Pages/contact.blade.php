@@ -1,4 +1,4 @@
-@extends('Layouts.secondary')
+@extends('layouts.secondary')
 
 @section('content')
 
@@ -330,5 +330,5 @@
             </div>
         </div>
     </section>
-    @include('partials.readytosee')
+    @include('partials.ready-to-see')
 @stop

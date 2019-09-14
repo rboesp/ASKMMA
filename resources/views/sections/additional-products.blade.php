@@ -1,4 +1,4 @@
-<section class="additionalproducts py-16">
+<section class="additional-products py-16">
     <div class="container mx-auto">
         <div class="flex flex-row">
             <h3 class="text-3xl lg:text-4xl text-center font-black w-3/4 mx-auto lg:w-full leading-none lg:leading-normal text-mmablue">

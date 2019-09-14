@@ -1,4 +1,4 @@
-@extends('Layouts.secondary')
+@extends('layouts.secondary')
 
 @section('content')
 
@@ -401,6 +401,6 @@
         </div>
     </section>
     <the-copywrite></the-copywrite>
-    @include('partials.readytosee')
+    @include('partials.ready-to-see')
 
 @endsection

@@ -1,4 +1,4 @@
-<section class="planscta py-8 bg-mmablue">
+<section class="plans-cta py-8 bg-mmablue">
     <div class="container mx-auto">
         <div class="flex flex-row justify-between space-between flex-wrap">
             <div class="flex flex-col w-full lg:w-1/2 text-3xl lg:text-4xl lg:pl-0 px-8 font-bold font-futura text-mmalightblue leading-tight text-center lg:text-left justify-center">

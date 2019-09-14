@@ -12,14 +12,14 @@
 */
 
 Route::view('/', 'landing');
-Route::view('/about', 'Pages.about');
-Route::view('/services', 'Pages.services');
-Route::view('/contact', 'Pages.contact');
-Route::view('/communityoutreach', 'Pages.communityoutreach');
-Route::view('/feedback', 'Pages.feedback');
-Route::view('/resource', 'Pages.resources');
-Route::view('/planfinder', 'Pages.planfinder');
-Route::view('/products', 'Pages.products');
-Route::view('/careers', 'Pages.careers');
-Route::view('/terms-and-conditions', 'Pages.terms-and-conditions');
-Route::view('/privacy-policy', 'Pages.privacy-policy');
+Route::view('/about', 'pages.about');
+Route::view('/services', 'pages.services');
+Route::view('/contact', 'pages.contact');
+Route::view('/community-outreach', 'pages.community-outreach');
+Route::view('/feedback', 'pages.feedback');
+Route::view('/resource', 'pages.resources');
+Route::view('/plan-finder', 'pages.plan-finder');
+Route::view('/products', 'pages.products');
+Route::view('/careers', 'pages.careers');
+Route::view('/terms-and-conditions', 'pages.terms-and-conditions');
+Route::view('/privacy-policy', 'pages.privacy-policy');

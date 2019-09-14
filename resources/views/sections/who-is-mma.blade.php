@@ -1,4 +1,4 @@
-<section class="whosmma py-16">
+<section class="who-is-mma py-16">
     <div class="container mx-auto">
         <div class="flex flex-row">
             <h3 class="text-3xl lg:text-4xl text-center font-black w-full mx-auto lg:w-full leading-none lg:leading-normal text-mmablue">

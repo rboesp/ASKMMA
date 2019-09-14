@@ -1,4 +1,4 @@
-@extends('Layouts.secondary')
+@extends('layouts.secondary')
 @section('content')
     <section
         class="minihero h-112 mt-20"
@@ -20,7 +20,7 @@
                             <span>Medicare</span>
                             <span>Advantage</span>
                         </div>
-                        <a href="#medicareadvantage" class="text-gray-700">Learn More</a>
+                        <a href="#medicare-advantage" class="text-gray-700">Learn More</a>
                     </div>
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
@@ -158,7 +158,7 @@
                     {{--</div>--}}
                 {{--</section>--}}
             {{--</div>--}}
-            <span id="medicareadvantage"></span>
+            <span id="medicare-advantage"></span>
         </section>
 
         <section class="w-full bg-gray-200 mt-16 py-16">
@@ -554,5 +554,5 @@
         </section>
     </div>
 
-    @include('partials.readytosee')
+    @include('partials.ready-to-see')
 @endsection

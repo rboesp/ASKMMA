@@ -1,4 +1,4 @@
-@extends('Layouts.secondary')
+@extends('layouts.secondary')
 
 @section('scripts')
     <script src="sweetalert2.all.min.js"></script>
@@ -143,5 +143,5 @@
         </div>
     </section>
 
-    @include('partials.readytosee')
+    @include('partials.ready-to-see')
 @stop

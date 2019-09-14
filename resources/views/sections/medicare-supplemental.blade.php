@@ -1,4 +1,4 @@
-<section class="medicaresupplemental pt-2 pb-8 lg:py-16">
+<section class="medicare-supplemental pt-2 pb-8 lg:py-16">
     <div class="container mx-auto w-4/5 lg:w-auto">
         <div class="flex flex-col lg:flex-row justify-center">
             <!-- Left -->

@@ -1,4 +1,4 @@
-<section id="contactcta" class="readytosee py-16">
+<section id="contactcta" class="ready-to-see py-16">
     <div class="container mx-auto">
         <div class="flex flex-row justify-around flex-wrap">
             <div class="flex flex-col w-full lg:w-2/5 lg:pl-0 px-8  justify-center">

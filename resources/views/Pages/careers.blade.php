@@ -1,4 +1,4 @@
-@extends('Layouts.secondary')
+@extends('layouts.secondary')
 @section('styles')
 html {
     scroll-behavior: smooth;
@@ -429,5 +429,5 @@ html {
         </section>
     </div>
 
-    @include('partials.readytosee')
+    @include('partials.ready-to-see')
 @endsection
