@@ -2,11 +2,22 @@
 
 @section('content')
 
-    @include('partials.minihero', [
-        'minihero_title' => 'Contact Us',
-        'image_bg' => 'contact/contact_header.jpg',
-    ])
+    <section
+            class="minihero h-96 mt-20"
+            style="background: url('/images/contact/contact_header.jpg') no-repeat;background-size: cover;"
+    >
+        <div class="container mx-auto h-full flex flex-col justify-around">
+            <div class="flex flex-wrap w-full">
+                <div class="flex flex-col justify-center w-4/5 mx-auto lg:mx-0 lg:w-2/5 text-center lg:text-left">
+                    <div class="text-4xl lg:text-6xl font-black text-mmablue my-4">
+                        <h1>Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </section>
+    
     @include('partials.phonenumcta')
 
     <section class="services py-16 text-sm lg:text-base">

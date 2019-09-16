@@ -1,4 +1,4 @@
-<nav id="header" class="flex items-center justify-between flex-wrap px-2 py-4 bg-white fixed w-full top-0 z-10">
+<nav id="header" class="flex items-center justify-between flex-wrap px-2 py-4 bg-white fixed w-full top-0 z-50">
     <div class="flex flex-row justify-between items-center w-full lg:w-1/3">
         <div id="nav-toggle" class="block lg:hidden flex justify-start flex-col">
             <button class="flex items-center px-3 py-2 rounded text-black border-teal-400 hover:text-mmablue hover:border-white">
@@ -28,7 +28,7 @@
                 Services
 
             </a>
-            <a href="/communityoutreach" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
+            <a href="/community-outreach" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Outreach
 
             </a>

@@ -1,7 +1,6 @@
 @extends('layouts.secondary')
 
 @section('scripts')
-    <script src="sweetalert2.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
@@ -96,21 +95,22 @@
                             <input type="hidden" name="v" value="2"/>
                             <div class="flex">
                                 <div class="flex flex-wrap relative w-full">
-                                    <div class="w-full md:w-1/2 flex relative">
+                                    <div class="w-full md:w-1/2 flex relative" for="feedback">
                                         <select
                                             id="feedback"
                                             name="field[5]"
-                                            class=" w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                            class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:border-purple-500"
                                         >
                                             <option value="General Feedback" selected>
                                                 General Feedback
-                                                <i class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 z-0"></i>
                                             </option>
                                             <option value="File A Compliant">
                                                 File A Compliant
-                                                <i class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400"></i>
                                             </option>
                                         </select>
+
+                                            <i id="feedback-icon-select" class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 cursor-pointer z-0"></i>
+
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
                                         <input

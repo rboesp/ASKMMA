@@ -17,6 +17,7 @@
 
             <div class="flex flex-col w-full lg:w-2/5 flex-wrap pt-0 lg:pt-6 lg:pt-2 lg:pl-8 ">
                 <form
+                    id="contactForm"
                     method="POST"
                     action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
                     class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"
@@ -70,8 +71,11 @@
                     </div>
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
-                        <select name="field[1]" required class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500">
-                            <option value="" disabled selected class="text-gray-400">Interested In*</option>
+                        <select id="contact-interest"
+                                name="field[1]" required
+                                class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-base text-gray-400 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        >
+                            <option value="" disabled selected id="disabled-option" class="text-gray-400">Interested In*</option>
                             <option value="Learn More About Plans" class="text-gray-700">Learn More About Medicare Plans</option>
                             <option value="Learn More About Products" class="text-gray-700">Learn More About Insurance Products</option>
                             <option value="Get Contracted" class="text-gray-700">Agents Get Contracted</option>
@@ -112,3 +116,54 @@
         </div>
     </div>
 </section>
+@section('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function()  {
+        $('#contact-interest').change(function(){
+          const id = $(this).find("option:selected").attr("id");
+
+          $('#contact-interest').removeClass('text-gray-400')
+          $('#contact-interest').addClass('text-gray-700')
+        });
+        $('#contactForm').submit(function(e) {
+          e.preventDefault();
+          $.ajax({
+            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+            type:'post',
+            data:$('#contactForm').serialize(),
+            success:function(){
+              Swal.fire({
+                title: 'Thanks for contacting us!',
+                text: '',
+                type: 'success',
+                timer: 3000
+              })
+              $('#contactForm')[0].reset()
+            },
+            error: function (xhr) {
+              if (xhr.status === 0) {
+                Swal.fire({
+                  title: 'Thanks for contacting us!',
+                  text: '',
+                  type: 'success',
+                  timer: 3000
+                })
+                $('#contactForm')[0].reset()
+              } else {
+                Swal.fire({
+                  title: 'Error!',
+                  text: 'Something went wrong please verify data or contact he MMA team.',
+                  type: 'error',
+                  timer: 3000
+                })
+              }
+            }
+          });
+        });
+      });
+    </script>
+@endsection

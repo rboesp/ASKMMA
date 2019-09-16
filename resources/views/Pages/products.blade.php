@@ -14,6 +14,7 @@
                         Let us help you get familiar with the array of products we offer.
                     </div>
                 </div>
+                <!--
                 <div class="flex flex-wrap justify-between w-5/5 lg:w-3/5">
                     <div class="w-1/2 md:w-1/3 text-center my-5">
                         <div class="flex flex-col text-lg font-bold">
@@ -58,6 +59,7 @@
                         <a href="#cancerindemnityplans" class="text-gray-700">Learn More</a>
                     </div>
                 </div>
+                -->
             </div>
         </div>
 
@@ -74,90 +76,92 @@
                 overwhelming, we recommend easy to understand solutions with options and choices. There may be many
                 companies we work with, but we will find the right plan with the right insurer just for you.
             </p>
-            {{--<div class="w-full">--}}
-                {{--<section class="pt-16">--}}
-                    {{--<div class="container mx-auto">--}}
-                        {{--<div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/aetna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/allwell.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/amerigroup.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/blue_medicare.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/bright-idea.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</section>--}}
+            <!--
+            <div class="w-full">
+                <section class="pt-16">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/aetna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/allwell.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/amerigroup.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/blue_medicare.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/bright-idea.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                {{--<section class="lg:pt-16">--}}
-                    {{--<div class="container mx-auto">--}}
-                        {{--<div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/careplus.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/healthspring.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/cigna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/global-health.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/gtl.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/health_sun.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</section>--}}
+                <section class="lg:pt-16">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/careplus.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/healthspring.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/cigna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/global-health.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/gtl.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/health_sun.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                {{--<section class="lg:pt-16">--}}
-                    {{--<div class="container mx-auto">--}}
-                        {{--<div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/humana.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/molina-healthcare.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/mutualof_omaha.png"--}}
-                                     {{--class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/simply.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/vantage.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                            {{--<div class="w-1/3 lg:w-1/12 flex justify-center">--}}
-                                {{--<img src="/images/logos/wellcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</section>--}}
-            {{--</div>--}}
+                <section class="lg:pt-16">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/humana.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/molina-healthcare.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/mutualof_omaha.png"
+                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/simply.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/vantage.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                            <div class="w-1/3 lg:w-1/12 flex justify-center">
+                                <img src="/images/logos/wellcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            -->
             <span id="medicare-advantage"></span>
         </section>
 
@@ -225,7 +229,7 @@
                         <ul class="mt-4 text-left">
                             <li>Whether you need a referral to see a specialist</li>
                             <li>
-                                Whether doctors, facilities, or suppliers within the plan are required for non-emergency/non-urgent care
+                                Whether you are enrolled in a plan which requires you to use a network of doctors, facilities, or suppliers for non-emergency/non-urgent care.
                             </li>
                         </ul>
                     </div>

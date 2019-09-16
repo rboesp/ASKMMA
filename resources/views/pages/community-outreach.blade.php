@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="flex">
+                        <div>
                             <img src="/images/community-outreach/comout.png" class="w-full h-auto">
                         </div>
                     </div>
