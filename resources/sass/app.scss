@@ -1,0 +1,57 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+// Variables
+@import 'variables';
+
+h1, h2, h3 {
+    font-family: "Open Sans";
+}
+
+.hero {
+    background-image: url("/images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.ready-to-see {
+    background-image: url("/images/lifestyle.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    height: auto;
+}
+
+.refined-expertise {
+    background-image: url("/images/topography 2.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: contain;
+    height: auto;
+}
+
+.who-is-mma{
+    background-color: #edeff3;
+}
+
+.medicare-supplemental{
+    background-color: #f6f7f9;
+}
+
+.footer {
+    background-color: #ffffff ;
+}
+
+.get-started {
+    background-image: url("/images/topography3.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
