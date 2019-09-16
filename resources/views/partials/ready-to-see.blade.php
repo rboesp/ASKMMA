@@ -73,7 +73,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <select id="contact-interest"
                                 name="field[1]" required
-                                class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-base text-gray-400 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected id="disabled-option" class="text-gray-400">Interested In*</option>
                             <option value="Learn More About Plans" class="text-gray-700">Learn More About Medicare Plans</option>

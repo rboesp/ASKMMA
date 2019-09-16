@@ -1,9 +1,11 @@
 <section class="footer py-16">
     <div class="container mx-auto">
         <div class="flex flex-row flex-wrap">
-            <div class="flex flex-col mx-auto w-3/4 lg:w-1/3 pb-8">
-                <img class="mx-auto" src="images/Left.png" style="height: 70px">
-                <img class="mx-auto" src="images/MMAlogobold.jpg" style="height: 70px">
+            <div class="mx-auto w-3/4 lg:w-1/3 pb-8">
+                <div class="flex flex-col mx-auto items-center lg:items-start">
+                    <img class="w-5/12 h-auto mb-3" src="images/Left.png" />
+                    <img class="w-5/12 h-auto" src="images/MMAlogobold.jpg" />
+                </div>
             </div>
 
             <div class="flex flex-col w-full lg:w-1/3 pb-8 mx-auto">
@@ -52,17 +54,6 @@
                     </div>
                 </form>
             </div>
-
-
-
         </div>
-
-
-
-
-
-
-
-
     </div>
 </section>

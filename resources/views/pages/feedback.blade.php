@@ -16,7 +16,7 @@
             data:$('#feedbackForm').serialize(),
             success:function(){
               Swal.fire({
-                title: 'Thanks for your subscription!',
+                title: 'Thank You for Your Feedback!',
                 text: 'Please check your email to verify it.',
                 type: 'success',
                 timer: 3000
@@ -26,7 +26,7 @@
             error: function (xhr) {
               if (xhr.status === 0) {
                 Swal.fire({
-                  title: 'Thanks for your subscription!',
+                  title: 'Thank You for Your Feedback!',
                   text: 'Please check your email to verify it.',
                   type: 'success',
                   timer: 3000
