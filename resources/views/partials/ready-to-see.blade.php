@@ -19,7 +19,6 @@
                 <form
                     id="contactForm"
                     method="POST"
-                    action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
                     class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"
                 >
                     <input type="hidden" name="u" value="5" />
@@ -108,7 +107,7 @@
                             type="submit"
                             class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-bold text-base py-3 px-4 rounded-lg w-full"
                         >
-                            Sign Up
+                            Submit
                         </button>
                     </div>
                 </form>
