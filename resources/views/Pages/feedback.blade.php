@@ -72,13 +72,7 @@
                                 We want to hear from you.  Medicare Medicaid Advisors welcomes any and all feedback,
                                 so please enter your thoughts below and provide your email address so we can get back to you.
                             </div>
-
                         </div>
-                        <p>
-                            This is an anonymous platform, therefore we are not able to respond directly to you
-                            regarding your concerns or suggestions unless you provide your contact information as part
-                            of your message.
-                        </p>
 
                         <form
                             method="POST"
@@ -108,9 +102,8 @@
                                                 File A Compliant
                                             </option>
                                         </select>
-
-                                            <i id="feedback-icon-select" class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 cursor-pointer z-0"></i>
-
+                                        
+                                        <i id="feedback-icon-select" class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 cursor-pointer z-0"></i>
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
                                         <input
