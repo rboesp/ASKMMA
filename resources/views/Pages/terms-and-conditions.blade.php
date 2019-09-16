@@ -115,8 +115,9 @@
             <p class="mt-4">If you have any questions about these Terms, please contact us.</p>
         </div>
     </section>
+    <!--
     <the-copywrite></the-copywrite>
-
+    -->
     @include('partials.ready-to-see')
 
 @endsection

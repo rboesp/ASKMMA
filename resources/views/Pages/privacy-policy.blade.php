@@ -400,7 +400,9 @@
             </ul>
         </div>
     </section>
+    <!--
     <the-copywrite></the-copywrite>
+    -->
     @include('partials.ready-to-see')
 
 @endsection
