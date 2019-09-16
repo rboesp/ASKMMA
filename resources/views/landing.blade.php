@@ -19,6 +19,7 @@
         .box-blue-shadow {
             box-shadow: 0 3px 7px -1px rgba(0, 101, 242, 0.32)
         }
+		@yield('styles')
 	</style>
 </head>
 <body class="font-body">
@@ -113,4 +114,6 @@
 	  return false;
 	}
 </script>
+@yield('scripts')
+
 </html>
