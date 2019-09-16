@@ -68,9 +68,9 @@
                     </div>
                     <div class="flex flex-row flex-wrap font-openSans">
                         <div class="flex flex-col flex-wrap w-full">
-                            <div class="w-full text-base lg:text-xl mt-4 font-extrabold">
-                                If you would like to provide feedback or file a complaint, please complete and submit.
-                                Please provide a detailed description of your complaint.
+                            <div class="w-full text-base lg:text-xl mt-4 mb-2 font-extrabold">
+                                We want to hear from you.  Medicare Medicaid Advisors welcomes any and all feedback,
+                                so please enter your thoughts below and provide your email address so we can get back to you.
                             </div>
 
                         </div>

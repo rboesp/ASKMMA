@@ -3,8 +3,8 @@
 @section('content')
 
     <section
-            class="minihero h-96 mt-20"
-            style="background: url('/images/contact/contact_header.jpg') no-repeat;background-size: cover;"
+        class="minihero h-96 mt-20"
+        style="background: url('/images/contact/contact_header.jpg') no-repeat;background-size: cover;"
     >
         <div class="container mx-auto h-full flex flex-col justify-around">
             <div class="flex flex-wrap w-full">
@@ -17,7 +17,7 @@
         </div>
 
     </section>
-    
+
     @include('partials.phonenumcta')
 
     <section class="services py-16 text-sm lg:text-base">
