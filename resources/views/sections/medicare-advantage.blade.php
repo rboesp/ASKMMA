@@ -3,12 +3,12 @@
         <div class="flex flex-col lg:flex-row w-4/5">
             <div class="lg:w-1/2 lg:pr-8">
                 <div class="flex-col">
-                    <div class="text-center lg:text-left">
-                        <span class="text-3xl lg:text-4xl font-black w-full leading-none lg:leading-normal text-mmablue">
+                    <div class="flex w-full">
+                        <h3 class="text-3xl lg:text-4xl font-black w-full leading-none lg:leading-normal text-mmablue">
                             What is <br class="hidden xl:block"> Medicare Advantage?
-                        </span>
+                        </h3>
                     </div>
-                    <div class="mt-3 lg:mt-0">
+                    <div class="flex w-full mt-3 lg:mt-2">
                         <p class="text-sm lg:text-base w-full text-center lg:text-left">
                             Medicare Advantage is a type of health plan that contracts with Medicare to provide you with
                             all your Part A and Part B benefits. Medicare Advantage Plans include Health Maintenance

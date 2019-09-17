@@ -27,7 +27,7 @@
                         Why Our Customers <br class="hidden lg:inline">Always Come Back</h3>
                 </div>
 
-                <div class="flex flex-row mt-6 lg:mt-6">
+                <div class="flex flex-row mt-3 lg:mt-2">
                     <p class="lg:text-base text-sm w-full text-center lg:text-left">We establish a partnership with our
                         clients, our agents and insurance providers who respect the interests and goals of each other.
                         We treat every client as if he or she is a member of our family.</p>

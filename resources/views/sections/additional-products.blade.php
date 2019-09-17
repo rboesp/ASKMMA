@@ -15,7 +15,7 @@
         </div>
         -->
 
-        <div class="flex flex-row flex-wrap lg:justify-around">
+        <div class="flex flex-row flex-wrap lg:justify-around mt-4 lg:mt-6">
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0 relative">
                 <img src="/images/hosbed.png"/>
                 <div class="flex flex-col flex-wrap px-5 pt-8 pb-12 justify-center">

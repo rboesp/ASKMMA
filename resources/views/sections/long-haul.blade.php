@@ -19,7 +19,7 @@
                         to offer the best value and plans available as we move forward. Our goal is to match our clients
                         to the right product. Because insurance plans can be confusing and overwhelming, we meticulously
                         comb through available plans of all types in order to recommend options with easy to understand
-                        solutions. .
+                        solutions.
                     </p>
                 </div>
 

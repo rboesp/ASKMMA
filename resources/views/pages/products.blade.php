@@ -6,7 +6,7 @@
     >
         <div class="container mx-auto h-full flex flex-col justify-around">
             <div class="flex flex-wrap w-full">
-                <div class="flex flex-col justify-center w-4/5 mx-auto lg:mx-0 lg:w-2/5 text-center lg:text-left">
+                <div class="flex flex-col justify-center w-4/5 mx-auto lg:mx-0 lg:w-3/5 text-center lg:text-left">
                     <div class="text-4xl lg:text-6xl font-black text-mmablue my-4">
                         <h1>Our Products</h1>
                     </div>
