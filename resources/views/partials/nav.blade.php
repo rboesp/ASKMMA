@@ -5,10 +5,10 @@
                 <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
             </button>
         </div>
-        <div class="flex flex-shrink-0 justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
-            <a href="/" class="flex">
-                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/mmausalogo.png" style="height: 70px">
-                <img class="mx-auto lg:mx-0  pl-0 lg:pl-4" src="images/MMAlogobold.jpg" style="height: 70px">
+        <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
+            <a href="/" class="flex w-full sm:w-2/3">
+                <img class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 h-auto" src="images/mmausalogo.png" />
+                <img class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 h-auto" src="images/MMAlogobold.jpg" />
             </a>
         </div>
     </div>
