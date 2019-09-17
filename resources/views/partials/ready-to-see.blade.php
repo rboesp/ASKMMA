@@ -104,6 +104,7 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <button
+                            id="contactFormSubmitButton"
                             type="submit"
                             class="bg-mmared hover:bg-white text-white hover:text-mmalightblue font-bold text-base py-3 px-4 rounded-lg w-full"
                         >
@@ -115,54 +116,3 @@
         </div>
     </div>
 </section>
-@section('scripts')
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
-    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function()  {
-        $('#contact-interest').change(function(){
-          const id = $(this).find("option:selected").attr("id");
-
-          $('#contact-interest').removeClass('text-gray-400')
-          $('#contact-interest').addClass('text-gray-700')
-        });
-        $('#contactForm').submit(function(e) {
-          e.preventDefault();
-          $.ajax({
-            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
-            type:'post',
-            data:$('#contactForm').serialize(),
-            success:function(){
-              Swal.fire({
-                title: 'Thanks for contacting us!',
-                text: '',
-                type: 'success',
-                timer: 3000
-              })
-              $('#contactForm')[0].reset()
-            },
-            error: function (xhr) {
-              if (xhr.status === 0) {
-                Swal.fire({
-                  title: 'Thanks for contacting us!',
-                  text: '',
-                  type: 'success',
-                  timer: 3000
-                })
-                $('#contactForm')[0].reset()
-              } else {
-                Swal.fire({
-                  title: 'Error!',
-                  text: 'Something went wrong please verify data or contact he MMA team.',
-                  type: 'error',
-                  timer: 3000
-                })
-              }
-            }
-          });
-        });
-      });
-    </script>
-@endsection

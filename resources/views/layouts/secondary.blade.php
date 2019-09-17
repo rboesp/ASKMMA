@@ -54,6 +54,34 @@
           width: auto;
           height: 86px;
         }
+        .btn--loading {
+            position: relative;
+            color: transparent;
+            pointer-events: none;
+
+        }
+        .btn--loading::after {
+            content: '';
+            animation: busy-indicator 500ms infinite linear;
+            border: solid 3px white;
+            border-radius: 50%;
+            display: block;
+            position: absolute;
+            border-right-color: transparent;
+            height: 1.4em;
+            width: 1.4em;
+            left: calc(50% - (1.4em / 2));
+            top: calc(50% - (1.4em / 2));
+            transform-origin: center;
+        }
+        @keyframes busy-indicator {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
         @yield('styles')
     </style>
 </head>
@@ -182,6 +210,59 @@
     return false
   }
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function()  {
+    $('#contact-interest').change(function(){
+      $('#contact-interest').removeClass('text-gray-400')
+      $('#contact-interest').addClass('text-gray-700')
+    });
+    $('#contactForm').submit(function(e) {
+      $('#contactFormSubmitButton').addClass('btn--loading')
+      e.preventDefault();
+      $.ajax({
+        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        type:'post',
+        data:$('#contactForm').serialize(),
+        success:function(){
+          Swal.fire({
+            title: 'Thanks for contacting us!',
+            text: '',
+            type: 'success',
+            timer: 3000
+          })
+          $('#contactForm')[0].reset()
+          $('#contactFormSubmitButton').removeClass('btn--loading')
+        },
+        error: function (xhr) {
+          if (xhr.status === 0) {
+            Swal.fire({
+              title: 'Thanks for contacting us!',
+              text: '',
+              type: 'success',
+              timer: 3000
+            })
+            $('#contactForm')[0].reset()
+            $('#contactFormSubmitButton').removeClass('btn--loading')
+          } else {
+            Swal.fire({
+              title: 'Error!',
+              text: 'Something went wrong please verify data or contact he MMA team.',
+              type: 'error',
+              timer: 3000
+            })
+            $('#contactFormSubmitButton').removeClass('btn--loading')
+          }
+        }
+      });
+    });
+  });
+</script>
+
 @yield('scripts')
 
 </html>

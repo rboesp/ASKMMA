@@ -1,6 +1,6 @@
-<section class="copyright bg-mmablue py-6">
+<section class="copyright bg-mmablue py-6 px-4">
 	<div class="container mx-auto">
-		<div class="flex flex-row flex-wrap mx-auto w-full justify-center  text-sm text-gray-100">
+		<div class="flex flex-row flex-wrap mx-auto w-full justify-center  text-sm text-gray-100 font-semibold">
 			Not connected with or endorsed by the U.S. Government or the federal Medicare program.  Medicare has neither reviewed nor endorsed the information contained on this website.
 		</div>
 		<div class="flex flex-col lg:flex-row flex-wrap text-gray-100 pt-8">

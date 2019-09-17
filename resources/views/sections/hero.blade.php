@@ -1,4 +1,4 @@
-<section class="hero sm:bg-left-bottom lg:right-bottom" style="height: 54rem; background-position-y: 2em;">
+<section class="hero h-176 lg:h-128 xl:h-204 sm:bg-left-bottom lg:right-bottom" style="background-position-y: 2em;">
     <div class="container mx-auto w-11/12 h-full flex flex-col justify-around">
         <div class="flex flex-wrap flex-row justify-start pt-48 lg:pt-56">
             <div class="flex flex-wrap flex-row mx-auto lg:mx-0 justify-center lg:justify-start">

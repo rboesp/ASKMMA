@@ -12,8 +12,11 @@
         <div class="container mx-auto">
             <div class="flex flex-row justify-start flexbox flex-wrap">
                 <!-- Left -->
-                <div class="flex mx-10 lg:w-11/12 lg:mx-auto">
-                    <div>
+                <div class="flex flex-wrap flex-row-reverse mx-10 lg:w-11/12 lg:mx-auto">
+                    <div class="w-full md:w-1/2 lg:w-2/5 flex items-center">
+                        <img src="/images/community-outreach/comout.png" class="w-full h-auto">
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-3/5">
                         <div class="flex flex-row">
                             <h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal text-mmablue">
                                 Community Outreach
@@ -32,12 +35,6 @@
                             <button class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
                                 Have a Question?
                             </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="/images/community-outreach/comout.png" class="w-full h-auto">
                         </div>
                     </div>
                 </div>

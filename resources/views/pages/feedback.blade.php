@@ -1,14 +1,11 @@
 @extends('layouts.secondary')
 
-@section('scripts')
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
-    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+@section('scripts')
     <script>
       $(document).ready(function()  {
         $('#feedbackForm').submit(function(e) {
+          $('#formSubmitButton').addClass('btn--loading')
           e.preventDefault();
           $.ajax({
             url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
@@ -22,6 +19,7 @@
                 timer: 3000
               })
               $('#feedbackForm')[0].reset()
+              $('#formSubmitButton').removeClass('btn--loading')
             },
             error: function (xhr) {
               if (xhr.status === 0) {
@@ -32,6 +30,7 @@
                   timer: 3000
                 })
                 $('#feedbackForm')[0].reset()
+                $('#formSubmitButton').removeClass('btn--loading')
               } else {
                 Swal.fire({
                   title: 'Error!',
@@ -39,6 +38,7 @@
                   type: 'error',
                   timer: 3000
                 })
+                $('#formSubmitButton').removeClass('btn--loading')
               }
             }
           });
@@ -89,7 +89,7 @@
                             <input type="hidden" name="v" value="2"/>
                             <div class="flex">
                                 <div class="flex flex-wrap relative w-full">
-                                    <div class="w-full md:w-1/2 flex relative" for="feedback">
+                                    <div class="w-full md:w-1/2 flex relative">
                                         <select
                                             id="feedback"
                                             name="field[5]"
@@ -123,6 +123,7 @@
                                     class="w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 ></textarea>
                                 <button
+                                    id="formSubmitButton"
                                     type="submit"
                                     class="w-4/5 sm:w-3/5 lg:w-2/5 mt-2 self-end bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-white hover:text-white font-bold py-3 px-10 rounded-lg"
                                 >
