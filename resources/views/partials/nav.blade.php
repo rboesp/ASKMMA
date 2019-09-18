@@ -7,8 +7,12 @@
         </div>
         <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
             <a href="/" class="flex w-full sm:w-2/3">
-                <img class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 h-auto" src="images/mmausalogo.png" />
-                <img class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 h-auto" src="images/MMAlogobold.jpg" />
+                <span class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 flex items-center">
+                    <img class="w-full h-auto" src="images/mmausalogo.png" />
+                </span>
+                <span class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 flex items-center">
+                    <img class="w-full h-auto" src="images/MMAlogobold.jpg" />
+                </span>
             </a>
         </div>
     </div>
