@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="flex w-full flex-wrap lg:w-1/2 justify-start pb-20 cursor-pointer mt-4">
+        <div class="flex w-full flex-wrap lg:w-1/2 justify-start pb-20 cursor-pointer mt-8 mb-4">
 
             <a href="/resource" class="flex flex-col w-full sm:w-5/12 lg:w-2/5 mb-6 sm:mb-0 sm:mr-6">
                 <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
