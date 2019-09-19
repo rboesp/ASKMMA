@@ -1,5 +1,5 @@
 <section class="hero h-176 lg:h-128 xl:h-204 sm:bg-left-bottom lg:right-bottom" style="background-position-y: 2em;">
-    <div class="container mx-auto w-11/12 h-full flex flex-col justify-center mt-12 sm:mt-6">
+    <div class="container mx-auto w-11/12 h-full flex flex-col justify-center mt-12 md:mt-6">
         <div class="flex flex-wrap flex-row justify-start">
             <div class="flex flex-wrap flex-row mx-auto lg:mx-0 justify-center lg:justify-start">
                 <h1 class="text-4xl lg:text-5xl text-center lg:text-left font-black text-mmablue font-futura leading-tight lg:w-full">
