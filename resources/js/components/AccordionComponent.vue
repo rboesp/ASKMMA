@@ -5,13 +5,15 @@
         <h3 class="font-extrabold text-2xl flex items-center w-full lg:w-4/6 text-gray-800">{{ title }}</h3>
         <span class="text-base text-mmablue font-semibold w-full lg:w-2/6 text-right">
           {{ show ? 'Close' : subTitle }}
-          <arrow-icon :position="show ? 'up' : 'down'" class="ml-2" />
+          <arrow-icon :position="show ? 'up' : 'down'" class="ml-2"/>
         </span>
       </slot>
     </div>
-    <div v-if="expand" class="border-t border-red-200 w-full py-6 border-mmablue text-sm lg:text-base">
-      <slot />
-    </div>
+    <transition name="fade">
+      <div v-if="expand" class="border-t border-red-200 w-full py-6 border-mmablue text-sm lg:text-base">
+        <slot/>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -32,7 +34,7 @@
       }
     },
     computed: {
-      expand() {
+      expand () {
         return this.show || this.parentShow
       }
     }
@@ -40,9 +42,10 @@
 </script>
 
 <style scoped>
-  .panel {
-    display: none;
-    background-color: white;
-    overflow: hidden;
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
   }
 </style>

@@ -3,7 +3,7 @@
 @section('content')
 
     <section
-        class="minihero h-96 mt-20"
+        class="minihero h-64 mt-20"
         style="background: url('/images/contact/contact_header.jpg') no-repeat;background-size: cover;"
     >
         <div class="container mx-auto h-full flex flex-col justify-around">
@@ -168,7 +168,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm">New Office</p>
+                                    <p class="text-sm">Coming Soon</p>
                                 </div>
                             </div>
                             <div class="flex">
@@ -176,7 +176,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm">New Office</p>
+                                    <p class="text-sm">Coming Soon</p>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> New Office</p>
+                                    <p class="text-sm"> Coming Soon</p>
                                 </div>
                             </div>
                             <div class="flex">
@@ -238,7 +238,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm">New Office</p>
+                                    <p class="text-sm">Coming Soon</p>
                                 </div>
                             </div>
                         </div>
@@ -323,7 +323,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> New Office</p>
+                                    <p class="text-sm"> Coming Soon</p>
                                 </div>
                             </div>
                             <div class="flex">
@@ -331,7 +331,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm">New Office</p>
+                                    <p class="text-sm">Coming Soon</p>
                                 </div>
                             </div>
                         </div>
