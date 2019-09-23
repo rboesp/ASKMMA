@@ -1,19 +1,32 @@
 @extends('layouts.secondary')
 
 @section('content')
+    <section
+            class="minihero h-64 mt-20"
+            style="background: url('/images/services/services_header.jpg') no-repeat;background-size: cover;"
+    >
+        <div class="container mx-auto h-full flex flex-col justify-around">
+            <div class="flex flex-wrap w-full">
+                <div class="flex flex-col justify-center w-4/5 mx-auto lg:mx-0 lg:w-3/5 text-center lg:text-left">
+                    <div class="my-4">
+                        <h1 class="w-full text-4xl font-extrabold lg:text-6xl text-center lg:text-left text-mmablue font-futura leading-tight"> Services</h1>
+                        <p class="w-full pt-4 lg:text-left text-gray-900 text-lg font">
+                            Our management team has been working over years focused on helping people quickly find
+                            solutions and solve their problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    @include('partials.minihero', [
-        'minihero_title' => 'Services',
-        'minihero_desc' => 'Our management team has been working over years focused on helping people quickly find solutions and solve their problems.',
-        'image_bg' => 'services/services_header.jpg',
-    ])
+    </section>
 
     @include('partials.phonenumcta')
 
     <section class="services py-16 text-center text-ms lg:text-base lg:text-left">
         <div class="container mx-auto">
             <div class="flex flex-row flexbox flex-wrap">
-                <div class="card-right flex flex-col w-2/3 mx-auto justify-between">
+                <div class="card-right flex flex-col w-2/3 mx-auto justifyedium,-between">
                     <div class="flex flex-row">
                         <h3 class="text-3xl lg:text-4xl text-center lg:text-left font-black w-full leading-none lg:leading-normal text-mmablue">
                             Our Services

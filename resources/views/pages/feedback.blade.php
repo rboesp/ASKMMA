@@ -34,7 +34,7 @@
               } else {
                 Swal.fire({
                   title: 'Error!',
-                  text: 'Something went wrong please verify data or contact he MMA team.',
+                  text: 'Something went wrong please verify data or contact the MMA team.',
                   type: 'error',
                   timer: 3000
                 })

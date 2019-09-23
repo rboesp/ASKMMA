@@ -52,7 +52,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8556620330">(855) 662-0330</a> <span class="text-gray-500">Toll Free</span></p>
+                                    <p class="text-sm">(855) 662-0330 <span class="text-gray-500">Toll Free</span></p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8662046565">(866) 204-6565 </a><span class="text-gray-500">Toll Free</span></p>
+                                    <p class="text-sm">(866) 204-6565<span class="text-gray-500">Toll Free</span></p>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:4178890211">(417) 889-0211</a> </p>
+                                    <p class="text-sm">(417) 889-0211 </p>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8556620330">(855) 662-0330</a> </p>
+                                    <p class="text-sm">(855) 662-0330</p>
                                 </div>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:3187161427">(318) 716-1427</a> </p>
+                                    <p class="text-sm">(318) 716-1427</p>
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:2056376377">(205) 637-6377</a> </p>
+                                    <p class="text-sm">(205) 637-6377 </p>
                                 </div>
                             </div>
                         </div>
@@ -300,7 +300,7 @@
                                     <img src="images/answer-machine-paper.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:9042533396">(904) 253-3396</a></p>
+                                    <p class="text-sm">(904) 253-3396</p>
                                 </div>
                             </div>
                         </div>
