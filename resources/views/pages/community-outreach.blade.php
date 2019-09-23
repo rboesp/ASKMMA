@@ -32,9 +32,9 @@
                             </p>
                         </div>
                         <div class="flex mt-6 lg:mt-6 justify-center lg:justify-start">
-                            <button class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
+                            <a href="#contact" class="bg-mmared hover:bg-mmalightblue text-white font-medium p-3 rounded-lg font-semibold tracking-wider">
                                 Have a Question?
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -262,6 +262,8 @@
                 </div>
             </div>
         </div>
+
+        <span id="contact"></span>
     </section>
 
     @include('partials.ready-to-see')

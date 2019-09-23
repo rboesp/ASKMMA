@@ -1,3 +1,49 @@
+@section('scripts')
+    <script>
+      $(document).ready(function()  {
+        $('#newsletterForm').submit(function(e) {
+          $('#newsletterSubmitButton').addClass('btn--loading')
+          e.preventDefault();
+          $.ajax({
+            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+            type:'post',
+            data:$('#newsletterForm').serialize(),
+            success:function(){
+              Swal.fire({
+                title: 'Thank You for Subscribing our Newsletter!',
+                text: 'Please check your email to verify it.',
+                type: 'success',
+                timer: 3000
+              })
+              $('#newsletterForm')[0].reset()
+              $('#newsletterSubmitButton').removeClass('btn--loading')
+            },
+            error: function (xhr) {
+              if (xhr.status === 0) {
+                Swal.fire({
+                  title: 'Thank You for Subscribing our Newsletter!',
+                  text: 'Please check your email to verify it.',
+                  type: 'success',
+                  timer: 3000
+                })
+                $('#newsletterForm')[0].reset()
+                $('#newsletterSubmitButton').removeClass('btn--loading')
+              } else {
+                Swal.fire({
+                  title: 'Error!',
+                  text: 'Something went wrong please verify data or contact the MMA team.',
+                  type: 'error',
+                  timer: 3000
+                })
+                $('#newsletterSubmitButton').removeClass('btn--loading')
+              }
+            }
+          });
+        });
+      });
+    </script>
+@endsection
+
 <section class="footer py-16">
     <div class="container mx-auto">
         <div class="flex flex-row flex-wrap justify-between">
@@ -28,8 +74,10 @@
                 </p>
 
                 <form
-                    class="w-full mx-auto max-w-sm pt-6"
                     method="POST"
+                    id="newsletterForm"
+                    name="newsletterForm"
+                    class="w-full mx-auto max-w-sm pt-6"
                     action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
                 >
                     <input type="hidden" name="u" value="3" />
@@ -48,7 +96,7 @@
                             aria-label="Email Address"
                             required
                         />
-                        <button class="flex-shrink-0 text-lg font-strong text-mmablue hover:text-blue" type="submit">
+                        <button id="newsletterSubmitButton" class="flex-shrink-0 text-lg font-strong text-mmablue hover:text-blue" type="submit">
                             >
                         </button>
                     </div>
