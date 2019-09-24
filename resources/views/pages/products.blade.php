@@ -141,7 +141,7 @@
                             </li>
                         </ul>
                         @include('partials.zipsearch', [
-                            'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Advantage Plans'
+                            'zip_search_desc' => 'Check Out What Medicare Advantage Plans Are Available in Your Area'
                         ])
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                     </div>
 
                     @include('partials.zipsearch', [
-                        'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Supplement Plans'
+                        'zip_search_desc' => 'Check Out What Medicare Supplement Plans Are Available in Your Area'
                     ])
                 </div>
             </div>
@@ -240,7 +240,7 @@
                     </div>
 
                     @include('partials.zipsearch', [
-                        'zip_search_desc' => 'Enter Your Zip Code to See Your Medicare Supplement Plans'
+                        'zip_search_desc' => 'Check Out What Medicare Supplement Plans Are Available in Your Area'
                     ])
                 </div>
             </div>
@@ -308,7 +308,7 @@
                     </div>
 
                     @include('partials.zipsearch', [
-                        'zip_search_desc' => 'Enter Your Zip Code to See Your Life Insurance Plans'
+                        'zip_search_desc' => 'Check Out What Life Insurance Plans Are Available in Your Area'
                     ])
                 </div>
             </div>
@@ -362,7 +362,7 @@
                     </div>
 
                     @include('partials.zipsearch', [
-                        'zip_search_desc' => 'Enter Your Zip Code to See Your Life Insurance Plans'
+                        'zip_search_desc' => 'Check Out What Life Insurance Plans Are Available in Your Area'
                     ])
                 </div>
             </div>
@@ -419,7 +419,7 @@
                         </p>
                     </div>
                     @include('partials.zipsearch', [
-                        'zip_search_desc' => 'Enter Your Zip Code to See Your Cancer Indemnity Plans'
+                        'zip_search_desc' => 'Check Out What Cancer Indemnity Plans Are Available in Your Area'
                     ])
                 </div>
             </div>

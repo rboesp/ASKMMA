@@ -93,7 +93,7 @@
                                         <select
                                             id="feedback"
                                             name="field[5]"
-                                            class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:border-purple-500"
+                                            class="relative z-10 w-full bg-transparent rounded-sm cursor-pointer appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:border-purple-500"
                                         >
                                             <option value="General Feedback" selected>
                                                 General Feedback
@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
                                         <input
-                                            class="w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                            class="rounded-sm w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                             type="email"
                                             name="email"
                                             placeholder="Type your email"
@@ -120,7 +120,7 @@
                                 <textarea
                                     rows="10"
                                     name="field[6]"
-                                    class="w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    class="rounded-sm w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                 ></textarea>
                                 <button
                                     id="formSubmitButton"

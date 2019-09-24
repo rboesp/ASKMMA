@@ -31,7 +31,7 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
-                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="firstname"
                             type="text"
                             placeholder="First Name*"
@@ -41,7 +41,7 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
-                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="lastname"
                             type="text"
                             placeholder="Last Name*"
@@ -51,7 +51,7 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
-                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="email"
                             type="email"
                             placeholder="Email*"
@@ -61,7 +61,7 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
-                            class="bg-gray-100 appearance-none border-2 border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="field[6]"
                             type="text"
                             placeholder="Zip Code*"
@@ -70,15 +70,18 @@
                     </div>
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
+                        <div class="w-full relative bg-gray-100 rounded-sm ">
                         <select id="contact-interest"
                                 name="field[1]" required
-                                class="w-full bg-gray-100 appearance-none border-2 border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 rounded-sm border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected id="disabled-option" class="text-gray-400">Interested In*</option>
                             <option value="Learn More About Plans" class="text-gray-700">Learn More About Medicare Plans</option>
                             <option value="Learn More About Products" class="text-gray-700">Learn More About Insurance Products</option>
                             <option value="Get Contracted" class="text-gray-700">Agents Get Contracted</option>
                         </select>
+                        <i id="contact-icon-select" class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 cursor-pointer z-0"></i>
+                        </div>
                     </div>
 
                     <div class="flex items-center px-4 mb-2 lg:px-0 mt-2">
