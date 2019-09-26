@@ -4,7 +4,7 @@
 
     @include('partials.minihero', [
         'minihero_title' => 'Privacy Policy',
-        'minihero_desc' => 'You can read here our Privacy Policy of the Medicare',
+        'minihero_desc' => 'Read our privacy policy here.',
         'image_bg' => 'about/about_header.jpg',
     ])
 

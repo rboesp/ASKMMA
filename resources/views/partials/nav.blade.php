@@ -8,10 +8,10 @@
         <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto">
             <a href="/" class="flex w-full sm:w-2/3">
                 <span class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 flex items-center">
-                    <img class="w-full h-auto" src="images/mmausalogo.png" />
+                    <img class="w-full h-auto" src="images/MMAlogobold.jpg" />
                 </span>
                 <span class="lg:mx-0 pl-0 lg:pl-4 w-1/2 sm:w-4/5 flex items-center">
-                    <img class="w-full h-auto" src="images/MMAlogobold.jpg" />
+                    <img class="w-full h-auto" src="images/mmausalogo.png" />
                 </span>
             </a>
         </div>
@@ -34,7 +34,9 @@
             </a>
             <a href="/community-outreach" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Outreach
-
+            </a>
+            <a href="/careers" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
+                Careers
             </a>
             <a href="/contact" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
                 Contact

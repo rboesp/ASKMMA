@@ -4,7 +4,7 @@
 
     @include('partials.minihero', [
         'minihero_title' => 'Terms and Conditions',
-        'minihero_desc' => 'You can read here our terms and conditions to be part of the Medicare',
+        'minihero_desc' => 'Read our terms and conditions here.',
         'image_bg' => 'about/about_header.jpg',
     ])
 
