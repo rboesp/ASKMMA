@@ -44,7 +44,7 @@
                         </div>
                         <div class="flex flex-col flex-wrap w-full mt-8">
                             <div class="w-full text-xl lg:text-base text-center lg:text-left font-black">
-                                MMA believe our clients deserve quick responses to questions and problems.
+                                MMA believes our clients deserve quick responses to questions and problems.
                             </div>
                             <div class="lg:text-base text-l text-center lg:text-left mt-2">
                                 Our clients want timely responses when they are in need of assistance. Our Agents make

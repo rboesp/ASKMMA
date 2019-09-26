@@ -52,7 +52,7 @@
     @include('partials.minihero', [
         'minihero_title' => 'Feedback',
         'minihero_desc' => 'We strive to be the best at what we do, and that is why we cherish your feedback. That way we can grow better for you.',
-        'image_bg' => 'feedback/feedback_header.jpg',
+        'image_bg' => 'feedback/feedback_header_flipped.jpeg',
     ])
 
     @include('partials.phonenumcta')
@@ -69,8 +69,8 @@
                     <div class="flex flex-row flex-wrap font-openSans">
                         <div class="flex flex-col flex-wrap w-full">
                             <div class="w-full text-base lg:text-xl mt-4 mb-2 font-extrabold">
-                                We want to hear from you.  Medicare Medicaid Advisors welcomes any and all feedback,
-                                so please enter your thoughts below and provide your email address so we can get back to you.
+                                Medicare Medicaid Advisors welcome any and all feedback. All feedback submitted using
+                                this form is anonymous unless you provide us a way to contact you.
                             </div>
                         </div>
 
@@ -102,7 +102,7 @@
                                                 File A Compliant
                                             </option>
                                         </select>
-                                        
+
                                         <i id="feedback-icon-select" class="fa fa-caret-down absolute right-0 pt-3 pr-4 text-blue-400 cursor-pointer z-0"></i>
                                     </div>
                                     <div class="w-full md:w-1/2 mt-2 md:mt-0 md:pl-2">
@@ -120,7 +120,8 @@
                                 <textarea
                                     rows="10"
                                     name="field[6]"
-                                    class="rounded-sm w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    class="rounded-sm w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500 placeholder-transparent focus:placeholder-gray-500"
+                                    placeholder="All feedback is anonymous. Type your comments here. If you’d like a response, include your phone number or email address with your feedback."
                                 ></textarea>
                                 <button
                                     id="formSubmitButton"

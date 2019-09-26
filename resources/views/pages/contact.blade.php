@@ -23,6 +23,20 @@
     <section class="services py-16 text-sm lg:text-base">
         <div class="container mx-auto">
             <div class="flex flex-row w-full">
+                <h3 class="text-3xl lg:text-4xl text-center font-black w-full leading-none lg:leading-normal text-mmared">
+                    Dedicated Customer Service
+                </h3>
+            </div>
+            <p class="w-full mt-4 text-center">
+                We are here for you beyond the sale. Call us first if you have any questions or need help.
+            </p>
+            <div class="w-full flex flex-wrap mt-6 mb-10">
+                <span class="w-full"> Phone: <a href="tel:8772797070" class="font-semibold">(877) 279-7070</a></span>
+                <span class="w-full"> Email: <a href="mailto:customerservice@askmma.com" class="font-semibold">customerservice@askmma.com</a></span>
+                <span class="w-full"> Fax: <span class="font-semibold">(855) 662-0330</span> Tool Free Tax</span>
+            </div>
+
+            <div class="flex flex-row w-full">
                 <h3 class="text-3xl lg:text-4xl text-center font-black w-full leading-none lg:leading-normal text-mmablue">
                     Our Locations
                 </h3>
@@ -45,14 +59,6 @@
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:9136490300">(913) 649-0300</a></p>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(855) 662-0330 <span class="text-gray-500">Toll Free</span></p>
                                 </div>
                             </div>
                         </div>
@@ -78,14 +84,6 @@
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:3142758200">(314) 275-8200</a></p>
                                 </div>
                             </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(866) 204-6565<span class="text-gray-500">Toll Free</span></p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,14 +105,6 @@
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:4173501459">(417) 350-1459</a></p>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(417) 889-0211 </p>
                                 </div>
                             </div>
                         </div>
@@ -140,14 +130,6 @@
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:4058494346">(405) 849-4346</a></p>
                                 </div>
                             </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(855) 662-0330</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,15 +150,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm">Coming Soon</p>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">Coming Soon</p>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
                                 </div>
                             </div>
                         </div>
@@ -202,14 +176,6 @@
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:3187161421">(318) 716-1421</a></p>
                                 </div>
                             </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(318) 716-1427</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,15 +196,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> Coming Soon</p>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">Coming Soon</p>
+                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
                                 </div>
                             </div>
                         </div>
@@ -264,14 +222,6 @@
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:2056376330">(205) 637-6330</a></p>
                                 </div>
                             </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(205) 637-6377 </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,14 +245,6 @@
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:9047753875">(904) 775-3875</a></p>
                                 </div>
                             </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">(904) 253-3396</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -323,15 +265,7 @@
                                     <img src="images/phone.png">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> Coming Soon</p>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="py-1 pr-2">
-                                    <img src="images/answer-machine-paper.png">
-                                </div>
-                                <div>
-                                    <p class="text-sm">Coming Soon</p>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
                                 </div>
                             </div>
                         </div>

@@ -24,9 +24,9 @@
         <div class="flex flex-row flex-wrap mt-6 justify-around">
             <div class="flex flex-row flex-wrap mt-6 justify-around">
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                    <div>
+                    <a href="/community-outreach">
                         <img class="success-path-image" src="/images/about/serv icon.png">
-                    </div>
+                    </a>
                     <div class="my-3">
                         <span class="font-black text-lg text-gray-800">Serve Our Community</span>
                     </div>
@@ -38,9 +38,9 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                    <div>
+                    <a href="/community-outreach">
                         <img class="success-path-image" src="/images/about/grow icon.png">
-                    </div>
+                    </a>
                     <div class="my-3">
                         <span class="font-black text-lg text-gray-800">Grow Partnerships</span>
                     </div>
@@ -53,9 +53,9 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                    <div>
+                    <a href="/community-outreach">
                         <img class="success-path-image" src="/images/about/lead icon.png">
-                    </div>
+                    </a>
                     <div class="my-3">
                         <span class="font-black text-lg text-gray-800">Lead Through Action</span>
                     </div>
