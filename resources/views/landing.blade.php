@@ -53,6 +53,7 @@
 <body class="font-body">
 	@include('partials.nav')
 	@include('sections.hero')
+	@include('sections.logos')
 	@include('sections.who-is-mma')
 	@include('sections.long-haul')
 	@include('sections.plans-cta')
