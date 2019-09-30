@@ -11,18 +11,20 @@
     <div class="w-full">
       <div class="flex w-full mt-10 justify-end">
         <button @click="add" class="text-white text-base rounded bg-mmared shadow text-center font-semibold px-4 py-2">
-          Add Carrier
+          Add Position
         </button>
       </div>
-      <h1 class="text-4xl font-semibold mt-10 w-full">Current Opened Careers</h1>
+      <h1 class="text-4xl font-semibold mt-10 w-full">Open Positions</h1>
 
       <div class="w-full">
-        <the-career v-for="career in careers" :key="career.id"
-                    :title="career.title"
-                    :location="career.location"
-                    :department="career.department"
-                    :extra="career.extra"
-                    class="mt-10"
+        <the-career
+            v-for="career in careers"
+            :key="career.id"
+            :title="career.title"
+            :location="career.location"
+            :department="career.department"
+            :extra="career.extra"
+            class="mt-10"
         >
           <template slot="actions">
             <!--<button @click="editCareer(career.id)" class="text-mmablue mr-4">-->

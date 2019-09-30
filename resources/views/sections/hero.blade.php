@@ -22,7 +22,7 @@
                 </span>
             </a>
 
-            <a href="/products#medicare-advantage" class="flex flex-col w-full h-full sm:w-5/12 lg:w-2/5">
+            <a href="/products" class="flex flex-col w-full h-full sm:w-5/12 lg:w-2/5">
                <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
                    <img class="card-image mx-auto" src="/images/laptop_icon.png">
                    <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Look For<br>Medical Plans</p>

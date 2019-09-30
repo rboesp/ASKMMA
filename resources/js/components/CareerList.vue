@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="font-extrabold text-4xl font-black text-mmablue font-futura leading-tight ">
-      Current Openings <span class="ml-3 text-gray-400">(3)</span>
+      Current Openings <span class="ml-3 text-gray-400">({{careers.length}})</span>
     </h1>
     <TheCareer
       :key="career"

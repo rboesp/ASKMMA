@@ -3,7 +3,7 @@
     <transition name="fade">
       <CareerList :careers="careers" @add="createScreen" @delete="deleteCareer" v-if="state === 'list'"/>
 
-      <CareerItem v-model="newCareer" @back="listScreen" v-else-if="state === 'create'">
+      <CareerItem v-model="career" @back="listScreen" v-else>
         <template slot="footer">
           <div class="flex justify-center md:justify-end w-full mt-6">
             <button
@@ -35,16 +35,7 @@
     data: () => ({
       state: 'list',
       loading: false,
-      newCareer: {
-        title: '',
-        location: '',
-        department: '',
-        extra: '',
-        responsibilities: '',
-        requirements: '',
-        core_competencies: '',
-        notes: ''
-      },
+      career: null,
       careerList: [],
     }),
     computed: {
@@ -55,7 +46,7 @@
     methods: {
       createCareer () {
         this.loading = true
-        axios.post('/api/careers', this.newCareer).then(() => {
+        axios.post('/api/careers', this.career).then(() => {
           Swal.fire({
             type: 'success',
             title: 'Career has been saved',
@@ -107,12 +98,32 @@
           this.careerList = data.data
         })
       },
+
+      resetCareer(){
+        this.career = {
+          title: '',
+          location: '',
+          department: '',
+          extra: '',
+          responsibilities: '',
+          requirements: '',
+          core_competencies: '',
+          notes: ''
+        }
+      },
       listScreen () {
         this.state = 'list'
         this.getList()
+        this.resetCareer()
       },
       createScreen () {
         this.state = 'create'
+      },
+      updateScreen (id) {
+        this.state = 'create'
+        this.career = this.careers.filter(c => {
+          return c.id === id
+        }).pop()
       }
     },
     mounted () {

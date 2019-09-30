@@ -20,7 +20,7 @@ class CareerResource extends JsonResource
           'location' => $this->location,
           'department' => $this->department,
           'notes' => $this->notes,
-          'responsabilites' => $this->responsabilites,
+          'responsibilities' => $this->responsibilities,
           'requirements' => $this->requirements,
           'core_competencies' => $this->core_competencies,
           'extra' => $this->extra,
