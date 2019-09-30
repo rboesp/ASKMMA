@@ -18,18 +18,18 @@
 
       <div class="w-full">
         <the-career
-            v-for="career in careers"
-            :key="career.id"
-            :title="career.title"
-            :location="career.location"
-            :department="career.department"
-            :extra="career.extra"
-            class="mt-10"
+          v-for="career in careers"
+          :key="career.id"
+          :title="career.title"
+          :location="career.location"
+          :department="career.department"
+          :extra="career.extra"
+          class="mt-10"
         >
           <template slot="actions">
-            <!--<button @click="editCareer(career.id)" class="text-mmablue mr-4">-->
-            <!--Edit-->
-            <!--</button>-->
+            <button @click="editCareer(career.id)" class="text-mmablue mr-4">
+              Edit
+            </button>
             <button @click="deleteCareer(career.id)" class="text-mmared">
               Delete
             </button>
@@ -76,10 +76,10 @@
     },
     methods: {
       editCareer (id) {
-        this.$emit('edit', { id })
+        this.$emit('edit', {id})
       },
       deleteCareer (id) {
-        this.$emit('delete', { id })
+        this.$emit('delete', {id})
       },
       add () {
         this.$emit('add')

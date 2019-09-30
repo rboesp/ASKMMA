@@ -1,17 +1,18 @@
 <template>
   <div class="w-full">
     <transition name="fade">
-      <CareerList :careers="careers" @add="createScreen" @delete="deleteCareer" v-if="state === 'list'"/>
+      <CareerList :careers="careers" @add="createScreen" @delete="deleteCareer" @edit="updateScreen"
+                  v-if="state === 'list'"/>
 
       <CareerItem v-model="career" @back="listScreen" v-else>
         <template slot="footer">
           <div class="flex justify-center md:justify-end w-full mt-6">
             <button
               class="w-4/5 md:w-1/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
-              @click="createCareer"
+              @click="saveCareer"
               :class="{'btn--loading': loading}"
             >
-              Create Career
+              {{ state }} Career
             </button>
           </div>
         </template>
@@ -44,12 +45,18 @@
       }
     },
     methods: {
-      createCareer () {
+      saveCareer () {
         this.loading = true
-        axios.post('/api/careers', this.career).then(() => {
+        let action
+        if (this.status === 'Create') {
+          action = axios.post('/api/careers', this.career)
+        } else {
+          action = axios.put(`/api/careers/${this.career.id}`, this.career)
+        }
+        action.then(() => {
           Swal.fire({
             type: 'success',
-            title: 'Career has been saved',
+            title: `Career has been ${this.status}d`,
             showConfirmButton: false,
             timer: 1500
           })
@@ -57,13 +64,14 @@
         }).catch(e => {
           Swal.fire({
             type: 'error',
-            title: 'Error Trying to save Career please verify your data',
+            title: `Error Trying to ${this.status} Career please verify your data`,
             showConfirmButton: false,
             timer: 1500
           })
         }).finally(() => {
           this.loading = false
         })
+
       },
       deleteCareer ({id}) {
         Swal.fire({
@@ -99,7 +107,7 @@
         })
       },
 
-      resetCareer(){
+      resetCareer () {
         this.career = {
           title: '',
           location: '',
@@ -117,10 +125,10 @@
         this.resetCareer()
       },
       createScreen () {
-        this.state = 'create'
+        this.state = 'Create'
       },
-      updateScreen (id) {
-        this.state = 'create'
+      updateScreen ({id}) {
+        this.state = 'Update'
         this.career = this.careers.filter(c => {
           return c.id === id
         }).pop()

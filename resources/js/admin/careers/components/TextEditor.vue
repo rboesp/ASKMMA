@@ -10,21 +10,6 @@
         >
           <span class="font-semibold border px-4 py-1">bullets</span>
         </button>
-
-        <button
-          class="menubar__button"
-          @click="commands.undo"
-        >
-          <span class="font-semibold border px-4 py-1">undo</span>
-        </button>
-
-        <button
-          class="menubar__button"
-          @click="commands.redo"
-        >
-          <span class="font-semibold border px-4 py-1">redo</span>
-        </button>
-
       </div>
     </editor-menu-bar>
 
@@ -89,6 +74,7 @@
           ],
           onUpdate: ({ getHTML }) => {
             this.html = getHTML()
+            this.contentEmit()
           },
           onBlur: () => {
             this.contentEmit()
@@ -99,7 +85,9 @@
     },
     methods: {
       contentEmit(){
-        this.$emit('input', this.html)
+        if(this.html) {
+          this.$emit('input', this.html)
+        }
       },
       setContent(data) {
         this.editor.setContent(data)

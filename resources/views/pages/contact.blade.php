@@ -22,18 +22,34 @@
 
     <section class="services py-16 text-sm lg:text-base">
         <div class="container mx-auto">
-            <div class="flex flex-row w-full">
-                <h3 class="text-3xl lg:text-4xl text-center font-black w-full leading-none lg:leading-normal text-mmared">
-                    Dedicated Customer Service
-                </h3>
-            </div>
-            <p class="w-full mt-4 text-center">
-                We are here for you beyond the sale. Call us first if you have any questions or need help.
-            </p>
-            <div class="w-full flex flex-wrap mt-6 mb-10">
-                <span class="w-full"> Phone: <a href="tel:8772797070" class="font-semibold">(877) 279-7070</a></span>
-                <span class="w-full"> Email: <a href="mailto:customerservice@askmma.com" class="font-semibold">customerservice@askmma.com</a></span>
-                <span class="w-full"> Fax: <span class="font-semibold">(855) 662-0330</span> Tool Free Tax</span>
+            <div>
+                <div class="flex flex-row w-full">
+                    <h3 class="text-3xl lg:text-4xl text-center font-black w-full leading-none lg:leading-normal text-mmared">
+                        Dedicated Customer Service
+                    </h3>
+                </div>
+                <p class="w-full mt-4 text-center">
+                    We are here for you beyond the sale. Call us first if you have any questions or need help.
+                </p>
+
+                <div class="w-full flex justify-center items-center py-10 px-10">
+                    <div class="w-2/5 flex justify-center items-center w-full">
+                        <div class="pr-20 flex items-center">
+                            <img class="h-6" src="/images/phone.png" alt="">
+                            <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
+                        </div>
+
+                        <div class="pr-20 flex items-center">
+                            <img class="h-6" src="/images/phone.png" alt="">
+                            <a href="mailto:customerservice@askmma.com" class="font-semibold ml-2">customerservice@askmma.com</a></span>
+                        </div>
+
+                        <div class="flex items-center">
+                            <img class="h-6" src="/images/phone.png" alt="">
+                            <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Tool Free Tax</span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="flex flex-row w-full">
