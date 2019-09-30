@@ -32,22 +32,20 @@
                     We are here for you beyond the sale. Call us first if you have any questions or need help.
                 </p>
 
-                <div class="w-full flex justify-center items-center py-10 px-10">
-                    <div class="w-2/5 flex justify-center items-center w-full">
-                        <div class="pr-20 flex items-center">
-                            <img class="h-6" src="/images/icons/phone.svg" alt="">
-                            <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
-                        </div>
+                <div class="w-full flex flex-wrap justify-between items-center py-10 px-10">
+                    <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
+                        <img class="h-6" src="/images/icons/phone.svg" alt="">
+                        <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
+                    </div>
 
-                        <div class="pr-20 flex items-center">
-                            <img class="h-6" src="/images/icons/email-action-unread.svg" alt="">
-                            <a href="mailto:customerservice@askmma.com" class="font-semibold ml-2">customerservice@askmma.com</a></span>
-                        </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
+                        <img class="h-6" src="/images/icons/email-action-unread.svg" alt="">
+                        <a href="mailto:customerservice@askmma.com" class="font-semibold ml-2">customerservice@askmma.com</a></span>
+                    </div>
 
-                        <div class="flex items-center">
-                            <img class="h-6" src="/images/icons/answer-machine-paper.svg" alt="">
-                            <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Tool Free Tax</span></span>
-                        </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
+                        <img class="h-6" src="/images/icons/answer-machine-paper.svg" alt="">
+                        <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Tool Free Tax</span></span>
                     </div>
                 </div>
             </div>
