@@ -35,17 +35,17 @@
                 <div class="w-full flex justify-center items-center py-10 px-10">
                     <div class="w-2/5 flex justify-center items-center w-full">
                         <div class="pr-20 flex items-center">
-                            <img class="h-6" src="/images/phone.png" alt="">
+                            <img class="h-6" src="/images/icons/phone.svg" alt="">
                             <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
                         </div>
 
                         <div class="pr-20 flex items-center">
-                            <img class="h-6" src="/images/phone.png" alt="">
+                            <img class="h-6" src="/images/icons/email-action-unread.svg" alt="">
                             <a href="mailto:customerservice@askmma.com" class="font-semibold ml-2">customerservice@askmma.com</a></span>
                         </div>
 
                         <div class="flex items-center">
-                            <img class="h-6" src="/images/phone.png" alt="">
+                            <img class="h-6" src="/images/icons/answer-machine-paper.svg" alt="">
                             <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Tool Free Tax</span></span>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:9136490300">(913) 649-0300</a></p>
@@ -94,7 +94,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:3142758200">(314) 275-8200</a></p>
@@ -117,7 +117,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:4173501459">(417) 350-1459</a></p>
@@ -140,7 +140,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:4058494346">(405) 849-4346</a></p>
@@ -163,7 +163,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"><a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
@@ -186,7 +186,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:3187161421">(318) 716-1421</a></p>
@@ -209,7 +209,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
@@ -232,7 +232,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:2056376330">(205) 637-6330</a></p>
@@ -255,7 +255,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"> <a class="hover:font-semibold" href="tel:9047753875">(904) 775-3875</a></p>
@@ -278,7 +278,7 @@
                         <div class="px-6 py-4">
                             <div class="flex">
                                 <div class="py-1 pr-2">
-                                    <img src="images/phone.png">
+                                    <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
                                     <p class="text-sm"><a class="hover:font-semibold" href="tel:8772797070">(877) 279-7070</a></p>
