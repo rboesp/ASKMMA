@@ -23,3 +23,7 @@ Route::view('/products', 'pages.products');
 Route::view('/careers', 'pages.careers');
 Route::view('/terms-and-conditions', 'pages.terms-and-conditions');
 Route::view('/privacy-policy', 'pages.privacy-policy');
+
+Auth::routes(['register' => false]);
+
+Route::get('/management', 'HomeController@index')->name('home');

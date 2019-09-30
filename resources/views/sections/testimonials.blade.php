@@ -11,7 +11,7 @@
                 </div>
                 <div class="flex flex-row justify-center mt-6 lg:mt-6 lg:justify-start space-around mx-auto lg:mx-0">
                     <div class="flex flex-col w-2/12 justify-center items-center">
-                        <img class="w-full" src="/images/Userpic.png">
+                        <img class="w-full rounded-full" src="/images/lindap.jpg">
                     </div>
 
                     <div class="flex flex-col p-3 justify-center w-10/12">

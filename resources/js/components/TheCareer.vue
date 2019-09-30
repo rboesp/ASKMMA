@@ -36,19 +36,21 @@
             </div>
           </div>
           <div class="flex flex-wrap items-center w-full mt-2 lg:m-0 lg:w-1/5 justify-end font-semibold">
-            <a
-              target="_top"
-              class="hover:underline"
-              href="mailto:careers@mma.com?Subject=Apply"
-            >Apply Here</a>
-            <button class="pl-4 pr-2 text-mmabrown font-semibold" @click="toggleDetails">
-              {{ details ? 'View Less' : 'View More' }}
+            <slot name="actions">
+              <a
+                target="_top"
+                class="hover:underline"
+                href="mailto:careers@mma.com?Subject=Apply"
+              >Apply Here</a>
+              <button class="pl-4 pr-2 text-mmabrown font-semibold" @click="toggleDetails">
+                {{ details ? 'View Less' : 'View More' }}
 
-            </button>
-            <span class="text-xl pt-1 text-mmabrown">
+              </button>
+              <span class="text-xl pt-1 text-mmabrown">
               <i class="fa fa-angle-down" v-if="!details"></i>
               <i class="fa fa-angle-up" v-if="details"></i>
             </span>
+            </slot>
           </div>
         </div>
       </template>

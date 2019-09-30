@@ -24,6 +24,9 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "tailwindcss": "^1.1.2"
+        "sweetalert2": "^8.18.0",
+        "tailwindcss": "^1.1.2",
+        "tiptap": "^1.26.0",
+        "tiptap-extensions": "^1.28.0"
     }
 }

@@ -17,8 +17,8 @@
 
         <div class="flex flex-row flex-wrap mt-6 justify-around">
             <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                <div>
-                    <img class="card-image" src="/images/loca icon.png">
+                <div class="card-image flex items-center">
+                    <img class="mx-auto w-full h-auto" src="/images/loca icon.png">
                 </div>
                 <div class="my-3">
                     <span class="font-black text-lg text-gray-800">Locations Across the US</span>
@@ -31,8 +31,8 @@
             </div>
 
             <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                <div>
-                    <img class="card-image" src="/images/cal icon.png">
+                <div class="card-image flex items-center">
+                    <img class="mx-auto w-full h-auto" src="/images/cal icon.png">
                 </div>
                 <div class="my-3">
                     <span class="font-black text-lg text-gray-800">Over 36 Years In Medicare</span>
@@ -45,8 +45,8 @@
             </div>
 
             <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/4 items-center mb-10 justify-start">
-                <div>
-                    <img class="card-image" src="/images/ppl icon.png">
+                <div class="card-image flex items-center">
+                    <img class="mx-auto w-full h-auto" src="/images/ppl icon.png">
                 </div>
                 <div class="my-3">
                     <span class="font-black text-lg text-gray-800">70,000+ Clients Helped</span>

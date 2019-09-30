@@ -291,8 +291,11 @@ module.exports = {
     height: theme => ({
       auto: 'auto',
       ...theme('spacing'),
+      '176': '44rem',
+      '204': '51rem',
+      '216': '54rem',
       full: '100%',
-      screen: '100vh',
+      screen: '100vh'
     }),
     inset: {
       '0': '0',
@@ -343,6 +346,7 @@ module.exports = {
     },
     minHeight: {
       '0': '0',
+      '40': '10rem',
       full: '100%',
       screen: '100vh',
     },
