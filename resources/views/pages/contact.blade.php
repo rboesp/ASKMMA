@@ -45,7 +45,7 @@
 
                     <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
                         <img class="h-6" src="/images/icons/answer-machine-paper.svg" alt="">
-                        <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Tool Free Tax</span></span>
+                        <span class="font-semibold ml-2">(855) 662-0330 <span class="font-light">Toll Free Fax</span></span>
                     </div>
                 </div>
             </div>
