@@ -1,10 +1,19 @@
 <template>
   <div class="w-full">
     <transition name="fade">
-      <CareerList :careers="careers" @add="createScreen" @delete="deleteCareer" @edit="updateScreen"
-                  v-if="state === 'list'"/>
+      <CareerList
+        :careers="careers"
+        @add="createScreen"
+        @delete="deleteCareer"
+        @edit="updateScreen"
+        v-if="state === 'list'"
+      />
 
-      <CareerItem v-model="career" @back="listScreen" v-else>
+      <CareerItem
+        v-model="career"
+        @back="listScreen"
+        v-else
+      >
         <template slot="footer">
           <div class="flex justify-center md:justify-end w-full mt-6">
             <button
@@ -48,7 +57,7 @@
       saveCareer () {
         this.loading = true
         let action
-        if (this.status === 'Create') {
+        if (this.state === 'Create') {
           action = axios.post('/api/careers', this.career)
         } else {
           action = axios.put(`/api/careers/${this.career.id}`, this.career)
@@ -56,7 +65,7 @@
         action.then(() => {
           Swal.fire({
             type: 'success',
-            title: `Career has been ${this.status}d`,
+            title: `Career has been ${this.state}d`,
             showConfirmButton: false,
             timer: 1500
           })
@@ -64,7 +73,7 @@
         }).catch(e => {
           Swal.fire({
             type: 'error',
-            title: `Error Trying to ${this.status} Career please verify your data`,
+            title: `Error Trying to ${this.state} Career please verify your data`,
             showConfirmButton: false,
             timer: 1500
           })
