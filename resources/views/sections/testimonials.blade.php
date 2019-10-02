@@ -10,7 +10,7 @@
                         to my best friend who is also just as cautious about letting anyone in the door.”</p>
                 </div>
                 <div class="flex flex-row justify-center mt-6 lg:mt-6 lg:justify-start space-around mx-auto lg:mx-0">
-                    <div class="flex w-2/12 justify-center items-end">
+                    <div class="flex w-2/12 justify-center items-center">
                         <span class="w-full">
                             <img class="w-full rounded-full" src="/images/lindap.jpg" />
                         </span>
