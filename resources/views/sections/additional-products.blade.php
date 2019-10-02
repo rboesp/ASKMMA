@@ -5,19 +5,11 @@
                 Additional Products to Help You and Your Loved Ones
             </h3>
         </div>
-
-        <!--
-        <div class="flex flex-row mt-6 lg:mt-2">
-            <p class="lg:text-base text-sm w-3/4 lg:w-2/5 mx-auto text-center mb-4 lg:mb-8">
-                Medicare Medicaid Advisors believes our clients deserve the best products with the best prices. See all
-                our plans below.
-            </p>
-        </div>
-        -->
-
         <div class="flex flex-row flex-wrap lg:justify-around mt-4 lg:mt-6">
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0 relative">
-                <img src="/images/hosbed.png"/>
+                <span class="w-full">
+                    <img class="w-full" src="/images/hosbed.png"/>
+                </span>
                 <div class="flex flex-col flex-wrap px-5 pt-8 pb-12 justify-center">
                     <p class="text-xl font-black text-gray-800 leading-tight mb-4">
                         Hospital
@@ -36,7 +28,9 @@
             </div>
 
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0 relative">
-                <img src="/images/granpa.png"/>
+                <span class="w-full">
+                    <img class="w-full" src="/images/granpa.png"/>
+                </span>
                 <div class="flex flex-col flex-wrap px-5 pt-8 pb-12 justify-center">
                     <p class="text-xl font-black text-gray-800 leading-tight mb-4">
                         Life
@@ -55,7 +49,9 @@
             </div>
 
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center mb-5 lg:mb-0 relative">
-                <img src="/images/families.png"/>
+                <span class="w-full">
+                    <img class="w-full" src="/images/families.png"/>
+                </span>
                 <div class="flex flex-wrap px-5 pt-8 pb-12 justify-center">
                     <p class="text-xl font-black text-gray-800 leading-tight mb-4">
                         Final
@@ -74,7 +70,9 @@
             </div>
 
             <div class="flex flex-col shadow-lg rounded w-7/12 mx-auto lg:mx-0 lg:w-1/5 text-center relative">
-                <img src="/images/hosp.png"/>
+                <span class="w-full">
+                    <img class="w-full" src="/images/hosp.png"/>
+                </span>
                 <div class="flex flex-wrap px-5 pt-8 pb-12 justify-center">
                     <p class="text-xl font-black text-gray-800 leading-tight mb-4">
                         Cancer
@@ -92,4 +90,5 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
