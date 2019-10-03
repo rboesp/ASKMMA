@@ -26,4 +26,7 @@ Route::view('/privacy-policy', 'pages.privacy-policy');
 
 Auth::routes(['register' => false]);
 
-Route::get('/management', 'HomeController@index')->name('home');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/management', 'HomeController@index')->name('home');
+    Route::resources(['api/careers' => 'CareerController']);
+});

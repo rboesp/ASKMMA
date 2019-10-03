@@ -10,19 +10,19 @@
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
-                        <div class="flex items-center py-2">
+                        <div class="flex flex-wrap items-center py-2">
                                 <input id="email" type="email"
                                        class="rounded-sm w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                        name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
 
                                 @error('email')
-                                <span class="text-mmared" role="alert">
+                                <span class="text-mmared w-full" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
                         </div>
 
-                        <div class="flex items-center py-2">
+                        <div class="flex flex-wrap items-center py-2">
                                 <input id="password" type="password"
                                        class="rounded-sm w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                        name="password"
@@ -30,7 +30,7 @@
                                        placeholder="Password">
 
                             @error('password')
-                            <span class="invalid-feedback" role="alert">
+                            <span class="invalid-feedback w-full" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                             @enderror
