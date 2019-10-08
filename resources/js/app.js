@@ -23,9 +23,12 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('accordion-component', require('./components/AccordionComponent.vue').default);
 Vue.component('arrow-icon', require('./components/ArrowIcon.vue').default);
 Vue.component('the-copywrite', require('./components/TheCopywrite.vue').default);
+
 Vue.component('the-career', require('./components/TheCareer.vue').default);
 Vue.component('career-list', require('./components/CareerList.vue').default);
 Vue.component('careers-manage', require('./admin/careers/Index.vue').default);
+
+Vue.component('feedback-list', require('./admin/feedbacks/Index.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -87,10 +87,15 @@
             <div class="mx-auto text-blue-500 h-24 w-24 rounded-full"></div>
         </div>
 
-        <div class="w-full mt-10">
-            <span class="border-l-4 border-mmared py-3 px-4">
-                <a href="#" class="w-full text-black text-base font-semibold">
+        <div class="w-full flex flex-col mt-10">
+            <span class="border-l-4 py-3 px-4 w-full">
+                <a href="/management" class="w-full text-black text-base font-semibold">
                     Careers
+                </a>
+            </span>
+            <span class="border-l-4 py-3 px-4 w-full">
+                <a href="/management/feedback" class="w-full text-black text-base font-semibold">
+                    Feedback
                 </a>
             </span>
         </div>
@@ -100,8 +105,7 @@
             <div class="w-full">
                 <a class="text-blue-500 px-10 font-semibold hover:underline hover:font-bold"
                    href="{{ route('logout') }}"
-                   onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                     {{ __('Logout') }}
                 </a>
 

@@ -8,13 +8,14 @@
           $('#formSubmitButton').addClass('btn--loading')
           e.preventDefault();
           $.ajax({
-            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+            // url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+            url:'/api/feedback',
             type:'post',
             data:$('#feedbackForm').serialize(),
             success:function(){
               Swal.fire({
                 title: 'Thank You for Your Feedback!',
-                text: 'Please check your email to verify it.',
+                text: 'We received your feedback and will get back in touch with you shortly.',
                 type: 'success',
                 timer: 3000
               })
@@ -25,7 +26,7 @@
               if (xhr.status === 0) {
                 Swal.fire({
                   title: 'Thank You for Your Feedback!',
-                  text: 'Please check your email to verify it.',
+                  text: 'We received your feedback and will get back in touch with you shortly',
                   type: 'success',
                   timer: 3000
                 })
@@ -80,6 +81,8 @@
                             name="feedbackForm"
                             class="w-full py-6"
                         >
+                            @csrf
+                            <!--
                             <input type="hidden" name="u" value="1"/>
                             <input type="hidden" name="f" value="1"/>
                             <input type="hidden" name="s"/>
@@ -87,6 +90,8 @@
                             <input type="hidden" name="m" value="0"/>
                             <input type="hidden" name="act" value="sub"/>
                             <input type="hidden" name="v" value="2"/>
+
+                            -->
                             <div class="flex">
                                 <div class="flex flex-wrap relative w-full">
                                     <div class="w-full md:w-1/2 flex relative">

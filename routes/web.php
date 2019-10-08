@@ -28,5 +28,10 @@ Auth::routes(['register' => false]);
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/management', 'HomeController@index')->name('home');
+    Route::get('/management/feedback', 'HomeController@feedback')->name('feedback');
     Route::resources(['api/careers' => 'CareerController']);
+//    Route::resources(['api/feedback' => 'FeedbackController@index']);
 });
+
+Route::resources(['/api/feedback' => 'FeedbackController']);
+

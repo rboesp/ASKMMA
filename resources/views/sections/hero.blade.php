@@ -12,18 +12,28 @@
             </div>
         </div>
 
-        <div class="flex w-full flex-wrap lg:w-1/2 justify-start cursor-pointer mt-8 mb-4">
+        <div class="flex w-full flex-wrap lg:w-1/2 justify-center md:justify-start cursor-pointer mt-8 mb-4">
 
-            <a href="/resource" class="flex flex-col w-full sm:w-5/12 lg:w-2/5 mb-6 sm:mb-0 sm:mr-6">
-                <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
+            <a href="#contactcta" class="mt-4 flex flex-col w-1/2 sm:w-3/12 lg:w-4/12 sm:mb-0">
+                <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 mx-1 bg-white box-blue-shadow">
+                    <span class="w-full pl-4">
+                        <img class="card-image mx-auto" src="/images/alert_user.png">
+                    </span>
+                    <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Talk Directly <br>With an Agent</p>
+                    <p class="text-blue-500 font-semibold">Let's Go &gt;</p>
+                </span>
+            </a>
+
+            <a href="/resource" class="mt-4 flex flex-col w-1/2 sm:w-3/12 lg:w-4/12 sm:mb-0">
+                <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 mx-1 bg-white box-blue-shadow">
                     <img class="card-image mx-auto" src="/images/brain icon.png">
                     <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Learn About<br>Medicare</p>
                     <p class="text-blue-500 font-semibold">Let's Go &gt;</p>
                 </span>
             </a>
 
-            <a href="/products" class="flex flex-col w-full h-full sm:w-5/12 lg:w-2/5">
-               <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 bg-white box-blue-shadow">
+            <a href="/products" class="mt-4 flex flex-col w-1/2 h-full sm:w-3/12 lg:w-4/12">
+               <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 mx-1 bg-white box-blue-shadow">
                    <img class="card-image mx-auto" src="/images/laptop_icon.png">
                    <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Look For<br>Medical Plans</p>
                    <p class="text-blue-500 font-semibold">Let's Go &gt;</p>

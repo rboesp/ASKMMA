@@ -25,4 +25,10 @@ class HomeController extends Controller
     {
         return view('pages.admin.home');
     }
+
+
+    public function feedback()
+    {
+        return view('pages.admin.feedback');
+    }
 }
