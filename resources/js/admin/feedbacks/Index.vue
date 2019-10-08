@@ -13,7 +13,14 @@
         <tbody>
           <tr v-for="feedback in feedbackList" :key="feedback">
             <td class="border border-2 px-4 py-2">{{ feedback.feedback_type }}</td>
-            <td class="border border-2 px-4 py-2">{{ feedback.email }}</td>
+            <td class="border border-2 px-4 py-2">
+                <a
+                    :href="'mailto:'+feedback.email"
+                    class="hover:font-semibold"
+                >
+                    {{ feedback.email }}
+                </a>
+            </td>
             <td class="border border-2 px-4 py-2">{{ feedback.message }}</td>
           </tr>
         </tbody>
