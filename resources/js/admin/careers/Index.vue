@@ -21,7 +21,7 @@
               @click="saveCareer"
               :class="{'btn--loading': loading}"
             >
-              {{ state }} Career
+              {{ state }} Position
             </button>
           </div>
         </template>
@@ -57,7 +57,7 @@
       saveCareer () {
         this.loading = true
         let action
-        if (this.state === 'Create') {
+        if (this.state === 'Save') {
           action = axios.post('/api/careers', this.career)
         } else {
           action = axios.put(`/api/careers/${this.career.id}`, this.career)
@@ -65,7 +65,7 @@
         action.then(() => {
           Swal.fire({
             type: 'success',
-            title: `Career has been ${this.state}d`,
+            title: `Position has been ${this.state.toLowerCase}d`,
             showConfirmButton: false,
             timer: 1500
           })
@@ -73,7 +73,7 @@
         }).catch(e => {
           Swal.fire({
             type: 'error',
-            title: `Error Trying to ${this.state} Career please verify your data`,
+            title: `Error trying to ${this.state} position - please verify your data`,
             showConfirmButton: false,
             timer: 1500
           })
@@ -134,7 +134,7 @@
         this.resetCareer()
       },
       createScreen () {
-        this.state = 'Create'
+        this.state = 'Save'
       },
       updateScreen ({id}) {
         this.state = 'Update'
