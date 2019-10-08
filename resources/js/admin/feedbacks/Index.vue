@@ -11,7 +11,7 @@
         </tr>
         </thead>
         <tbody>
-          <tr v-for="feedback in feedbackList" :key="feedback">
+          <tr v-for="feedback in feedbackList" :key="feedback.id">
             <td class="border border-2 px-4 py-2">{{ feedback.feedback_type }}</td>
             <td class="border border-2 px-4 py-2">
                 <a
