@@ -34,26 +34,84 @@
                 <section class="pt-16">
                     <div class="container mx-auto">
                         <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/aetna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/aetna.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/allwell.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/allwell.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/amerigroup.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/amerigroup.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/anthem.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/blue_medicare.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/blue_medicare.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/bright-idea.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/bright-idea.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="lg:pt-16">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/united-healthcare.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-2/3"
+                                />
+                            </div>
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/healthspring.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
+                            </div>
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/cigna.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
+                            </div>
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/global-health.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
+                            </div>
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/gtl.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
+                            </div>
+                            <div class="w-1/3 lg:w-1/6 flex justify-center">
+                                <img
+                                    src="/images/logos/health_sun.png"
+                                    class="self-center mb-16 mx-auto w-1/2"
+                                />
                             </div>
                         </div>
                     </div>
@@ -63,52 +121,40 @@
                     <div class="container mx-auto">
                         <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/united-healthcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/humana.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/healthspring.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/molina-healthcare.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/cigna.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/mutualof_omaha.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/global-health.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/simply.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/gtl.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/vantage.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/health_sun.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="lg:pt-16">
-                    <div class="container mx-auto">
-                        <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/humana.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/molina-healthcare.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/mutualof_omaha.png"
-                                     class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/simply.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/vantage.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
-                            </div>
-                            <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img src="/images/logos/wellcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-full">
+                                <img
+                                    src="/images/logos/wellcare.png"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
+                                />
                             </div>
                         </div>
                     </div>
@@ -161,8 +207,9 @@
                         </p>
                     </div>
                     <div class="w-full mt-10">
-                        <h3 class="font-extrabold text-lg text-gray-900">Covered Services in Medicare Advantage
-                            Plans</h3>
+                        <h3 class="font-extrabold text-lg text-gray-900">
+                            Covered Services in Medicare Advantage Plans
+                        </h3>
                         <p class="mt-4">
                             Medicare Advantage Plans cover all Medicare services. Most Medicare
                             Advantage Plans also offer extra coverage, such as vision, hearing, and dental coverage.
@@ -186,7 +233,9 @@
                         </ul>
                     </div>
                     <div class="w-full mt-10">
-                        <h3 class="font-extrabold text-lg text-gray-900">What do Medicare Advantage Plans Cost?</h3>
+                        <h3 class="font-extrabold text-lg text-gray-900">
+                            What do Medicare Advantage Plans Cost?
+                        </h3>
                         <p class="mt-4 text-left">
                             Your out-of-pocket costs in a Medicare Advantage Plan depend on:
                         </p>
@@ -208,15 +257,16 @@
                             <li>Do you need extra optional supplement benefits? Does the plan charge you for them besides your monthly plan premium?</li>
                             <li>Yearly limit on your out-of-pocket costs for all medical services</li>
                             <li>Do you have Medicaid or get help from your state?</li>
-
                         </ul>
                         <p class="mt-4">
                             Each year plans establish the amount charged for premiums, deductibles, and services. The
                             plan (rather than Medicare) decides how much you pay for the covered services you get. The
                             plan benefits may change only once a year, on January 1.
                         </p>
-                        <p class="mt-4">If you're in a Medicare plan, review the "Evidence of Coverage" (EOC)
-                            and "Annual Notice of Change" (ANOC) your plan sends out each fall.</p>
+                        <p class="mt-4">
+                            If you're in a Medicare plan, review the "Evidence of Coverage" (EOC)
+                            and "Annual Notice of Change" (ANOC) your plan sends out each fall.
+                        </p>
                         <ul class="mt-4 text-left">
                             <li>The EOC gives you details about what the plan covers, how much you pay, and more</li>
                             <li>
@@ -301,13 +351,10 @@
                                 <p class="mt-4">
                                     Hospital indemnity plans provide completely separate benefits from your main medical
                                     insurance plan, regardless of the actual cost of the service. When covered medical
-                                    expenses resulting from hospitalization, surgery, chemotherapy and radiation
-                                    services
-                                    build up, your Hospital Indemnity Plan (HIP) will pay a fixed amount. That amount
-                                    may be
+                                    expenses resulting from hospitalization, surgery, chemotherapy and radiation services
+                                    build up, your Hospital Indemnity Plan (HIP) will pay a fixed amount. That amount may be
                                     per day, per week, per month, per visit or per event, depending on the plan and the
-                                    benefit that applies. HIP policies are standalone, which means they do not
-                                    coordinate
+                                    benefit that applies. HIP policies are standalone, which means they do not coordinate
                                     with your other health insurance coverage.
                                 </p>
                             </div>
@@ -349,10 +396,8 @@
                                     What are Final Expense Plans?
                                 </h3>
                                 <p class="mt-4 md:pr-5">
-                                    Final expense insurance is a type of life insurance designed to cover the costs of
-                                    an
-                                    individual’s “final expenses,” such as funeral services, loans, legacy planning
-                                    needs,
+                                    Final expense insurance is a type of life insurance designed to cover the costs of an
+                                    individual’s “final expenses,” such as funeral services, loans, legacy planning needs,
                                     and other outstanding bills.
                                 </p>
                                 <p class="mt-4 md:pr-5">
@@ -417,17 +462,12 @@
                                     What are Life Insurance Plans?
                                 </h3>
                                 <p class="mt-4">
-                                    Life insurance is a contract to provide a measure of financial security for your
-                                    family
+                                    Life insurance is a contract to provide a measure of financial security for your family
                                     after you die. The three main components of the life insurance contract are a death
-                                    benefit, a premium payment and, in the case of permanent life insurance, a cash
-                                    value
-                                    account. You pay now so after your death, your dependents can continue with their
-                                    lives
-                                    comfortably without the burden of the loss of household income. When purchasing a
-                                    life
-                                    insurance policy, consider your financial situation and the standard of living you
-                                    want
+                                    benefit, a premium payment and, in the case of permanent life insurance, a cash value
+                                    account. You pay now so after your death, your dependents can continue with their lives
+                                    comfortably without the burden of the loss of household income. When purchasing a life
+                                    insurance policy, consider your financial situation and the standard of living you want
                                     to maintain for your dependents or survivors.
                                 </p>
                             </div>
@@ -457,7 +497,6 @@
             <div class="container mx-auto">
                 <div class="w-4/5 lg:w-2/3 mx-auto">
                     <div class="w-full flex flex-wrap flex-row-reverse">
-
                         <div class="w-full md:w-1/2 flex items-center">
                             <img src="/images/hosp.png" alt="hosp" class="h-auto w-full"/>
                         </div>
@@ -472,21 +511,16 @@
                                     What is Cancer Indemnity Insurance?
                                 </h3>
                                 <p class="mt-4">
-                                    Cancer Insurance is an insurance policy that pays only after cancer is diagnosed.
-                                    Cancer
-                                    insurance is supplemental insurance, and most types pay policyholders a lump sum
-                                    upon
+                                    Cancer Insurance is an insurance policy that pays only after cancer is diagnosed. Cancer
+                                    insurance is supplemental insurance, and most types pay policyholders a lump sum upon
                                     diagnosis with a covered cancer, while others offer supplemental payments for
-                                    healthcare
-                                    costs.
+                                    healthcare costs.
                                 </p>
                                 <p class="mt-4">
                                     Lump-Sum Payment:<br>
-                                    Many cancer insurance policies provide a one-time payment, up to the policy limits,
-                                    upon
+                                    Many cancer insurance policies provide a one-time payment, up to the policy limits, upon
                                     cancer diagnosis. Typically, this money can be used for whatever the policyholder
-                                    chooses, whether for travel expenses (such as for traveling to a specialist or
-                                    cancer
+                                    chooses, whether for travel expenses (such as for traveling to a specialist or cancer
                                     center), co-payments, experimental treatments, or living expenses.
                                 </p>
                             </div>
@@ -495,7 +529,7 @@
                     <div class="w-full">
                         <p class="mt-4">
                             Supplemental Payments for Healthcare: <br>
-                            These payments follow a schedule listed with the policy, rather than paying in one go. . It
+                            These payments follow a schedule listed with the policy, rather than paying in one go. It
                             does not pay a percent of your bill; it pays a certain dollar amount for each covered
                             category such as radiation treatment, x-rays, surgery, or hospice care. The expenses paid by
                             a cancer insurance policy depend on the terms of the policy, which should be reviewed
