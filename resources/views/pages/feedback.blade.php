@@ -116,7 +116,6 @@
                                             type="email"
                                             name="email"
                                             placeholder="Type your email"
-                                            required
                                         />
                                     </div>
                                 </div>
