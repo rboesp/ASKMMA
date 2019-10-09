@@ -43,6 +43,7 @@ module.exports = {
         700: '#c53030',
         800: '#9b2c2c',
         900: '#742a2a',
+        custom: '#c63432',
       },
       orange: {
         100: '#fffaf0',

@@ -98,6 +98,11 @@
                     Feedback
                 </a>
             </span>
+            <span class="border-l-4 py-3 px-4 w-full">
+                <a href="/management/messages" class="w-full text-black text-base font-semibold">
+                    Contact Messages
+                </a>
+            </span>
         </div>
 
         <div class="flex h-full w-full items-end">

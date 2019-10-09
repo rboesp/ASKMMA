@@ -1,4 +1,5 @@
-<section id="contactcta" class="ready-to-see py-16">
+<span id="contactcta"></span>
+<section class="ready-to-see py-16">
     <div class="container mx-auto">
         <div class="flex flex-row justify-around flex-wrap">
             <div class="flex flex-col w-full lg:w-2/5 lg:pl-0 px-8  justify-center">
@@ -21,18 +22,12 @@
                     method="POST"
                     class="flex flex-row flex-wrap w-full pt-6 lg:pt-2"
                 >
-                    <input type="hidden" name="u" value="5" />
-                    <input type="hidden" name="f" value="5" />
-                    <input type="hidden" name="s" />
-                    <input type="hidden" name="c" value="0" />
-                    <input type="hidden" name="m" value="0" />
-                    <input type="hidden" name="act" value="sub" />
-                    <input type="hidden" name="v" value="2" />
 
+                    @csrf
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="firstname"
+                            name="first_name"
                             type="text"
                             placeholder="First Name*"
                             required
@@ -42,7 +37,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="lastname"
+                            name="last_name"
                             type="text"
                             placeholder="Last Name*"
                             required
@@ -62,7 +57,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="field[6]"
+                            name="zip_code"
                             type="text"
                             placeholder="Zip Code*"
                             required
@@ -72,7 +67,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <div class="w-full relative bg-gray-100 rounded-sm ">
                         <select id="contact-interest"
-                                name="field[1]" required
+                                name="interest" required
                                 class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 rounded-sm border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected id="disabled-option" class="text-gray-400">Interested In*</option>
@@ -89,8 +84,7 @@
                             <input
                                 class="mr-2 leading-tight"
                                 type="checkbox"
-                                name="field[4][]"
-                                value="I would like to receive the Newsletter"
+                                name="receive_newsletter"
                             />
                             <span class="text-sm">
                                 Subscribe to the newsletter!
@@ -118,4 +112,27 @@
             </div>
         </div>
     </div>
+
+    <span class="fixed bottom-0" style="right: 3%;">
+        <a
+            href="#contactcta"
+            class="py-4 px-4 flex items-center justify-center w-full bg-red-custom rounded-t text-center text-base text-white font-bold font-openSans">
+            <span class="mr-2">
+                <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="MMA_Landing-Desktop" transform="translate(-1199.000000, -729.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                            <g id="click-to-chat" transform="translate(1184.000000, 712.000000)">
+                                <g id="chat-icon" transform="translate(16.000000, 18.000000)">
+                                    <path d="M14,12 L7,12 L3,15 L3,12 L1,12 C0.447333333,12 0,11.552 0,11 L0,1 C0,0.447333333 0.447333333,0 1,0 L14,0 C14.552,0 15,0.447333333 15,1 L15,11 C15,11.552 14.552,12 14,12 Z" id="Stroke-1"></path>
+                                    <path d="M3,4 L12,4" id="Stroke-3"></path>
+                                    <path d="M3.5,8 L10.5,8" id="Stroke-5"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </span>
+            <span>Talk with an Agent</span>
+        </a>
+    </span>
 </section>

@@ -31,4 +31,9 @@ class HomeController extends Controller
     {
         return view('pages.admin.feedback');
     }
+
+    public function messages()
+    {
+        return view('pages.admin.messages');
+    }
 }

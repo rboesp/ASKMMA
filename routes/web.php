@@ -28,10 +28,17 @@ Auth::routes(['register' => false]);
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/management', 'HomeController@index')->name('home');
+
     Route::get('/management/feedback', 'HomeController@feedback')->name('feedback');
+    Route::get('/management/feedback/export', 'FeedbackController@export')->name('feedback-download');
+
+    Route::get('/management/messages', 'HomeController@messages')->name('messages');
+    Route::get('/management/messages/export', 'ContactMessageController@export')->name('messages-download');
+
     Route::resources(['api/careers' => 'CareerController']);
 //    Route::resources(['api/feedback' => 'FeedbackController@index']);
 });
 
 Route::resources(['/api/feedback' => 'FeedbackController']);
+Route::resources(['/api/messages' => 'ContactMessageController']);
 
