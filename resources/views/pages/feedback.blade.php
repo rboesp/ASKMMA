@@ -8,7 +8,6 @@
           $('#formSubmitButton').addClass('btn--loading')
           e.preventDefault();
           $.ajax({
-            // url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
             url:'/api/feedback',
             type:'post',
             data:$('#feedbackForm').serialize(),

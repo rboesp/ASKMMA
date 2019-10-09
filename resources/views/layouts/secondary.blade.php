@@ -226,7 +226,7 @@
       $('#contactFormSubmitButton').addClass('btn--loading')
       e.preventDefault();
       $.ajax({
-        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        url:'/api/messages',
         type:'post',
         data:$('#contactForm').serialize(),
         success:function(){
