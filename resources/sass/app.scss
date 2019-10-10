@@ -10,18 +10,20 @@
 // Variables
 @import 'variables';
 
-h1, h2, h3 {
-    font-family: "Open Sans";
+h1,
+h2,
+h3 {
+    font-family: 'Open Sans';
 }
 
 .hero {
-    background-image: url("/images/hero.jpg");
+    background-image: url('/images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .ready-to-see {
-    background-image: url("/images/lifestyle.jpg");
+    background-image: url('/images/lifestyle.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: cover;
@@ -29,27 +31,27 @@ h1, h2, h3 {
 }
 
 .refined-expertise {
-    background-image: url("/images/topography 2.png");
+    background-image: url('/images/topography 2.png');
     background-repeat: no-repeat;
     background-position: 0% 100%;
     background-size: contain;
     height: auto;
 }
 
-.who-is-mma{
+.who-is-mma {
     background-color: #edeff3;
 }
 
-.medicare-supplemental{
+.medicare-supplemental {
     background-color: #f6f7f9;
 }
 
 .footer {
-    background-color: #ffffff ;
+    background-color: #ffffff;
 }
 
 .get-started {
-    background-image: url("/images/topography3.png");
+    background-image: url('/images/topography3.png');
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover;

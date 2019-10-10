@@ -4,8 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Exports\FeedbackExport;
 use App\Http\Resources\FeedbackResource;
+use App\Mail\FeedbackMail;
+use App\Mail\GenericEmailMarkdown;
 use App\Models\Feedback;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\HtmlString;
 use Maatwebsite\Excel\Facades\Excel;
 
 class FeedbackController extends Controller
@@ -47,6 +51,12 @@ class FeedbackController extends Controller
         ];
         $feedback = new Feedback($data);
         $feedback->save();
+
+        Mail::send(new FeedbackMail($data));
+        Mail::to($data['email'])->send(new GenericEmailMarkdown(
+            'MMA',
+            new HtmlString('<p>Thanks so much for your feedback. Once our team processes your request, they may reach out to you for more information.</p>')
+        ));
 
         return new FeedbackResource($feedback);
     }
@@ -96,7 +106,8 @@ class FeedbackController extends Controller
         //
     }
 
-    public function export(){
+    public function export()
+    {
         return Excel::download(new FeedbackExport, 'feedback.xlsx');
     }
 }

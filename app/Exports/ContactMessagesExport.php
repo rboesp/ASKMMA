@@ -10,8 +10,8 @@ use Maatwebsite\Excel\Concerns\WithMapping;
 class ContactMessagesExport implements FromCollection, WithMapping, WithHeadings
 {
     /**
-    * @return \Illuminate\Support\Collection
-    */
+     * @return \Illuminate\Support\Collection
+     */
     public function collection()
     {
         return ContactMessage::all();
@@ -37,7 +37,7 @@ class ContactMessagesExport implements FromCollection, WithMapping, WithHeadings
             $contactMessage->last_name,
             $contactMessage->email,
             $contactMessage->zip_code,
-            $contactMessage->interest
+            $contactMessage->interest,
         ];
     }
 }

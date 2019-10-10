@@ -58,7 +58,7 @@
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="zip_code"
-                            type="text"
+                            type="number"
                             placeholder="Zip Code*"
                             required
                         />
@@ -85,6 +85,7 @@
                                 class="mr-2 leading-tight"
                                 type="checkbox"
                                 name="receive_newsletter"
+                                value="1"
                             />
                             <span class="text-sm">
                                 Subscribe to the newsletter!

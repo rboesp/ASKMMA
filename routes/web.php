@@ -42,3 +42,28 @@ Route::group(['middleware' => 'auth'], function () {
 Route::resources(['/api/feedback' => 'FeedbackController']);
 Route::resources(['/api/messages' => 'ContactMessageController']);
 
+Route::get('mailable-general-test', function () {
+    return new App\Mail\GenericEmailMarkdown('Subject', 'Markdown');
+});
+
+Route::get('mailable-contact-test', function () {
+    $data = [
+        'first_name' => 'Chris',
+        'last_name' => 'Breuer',
+        'email' => 'chris.breuer@mma.com',
+        'zip_code' => '12457',
+        'interest' => 'Interest',
+    ];
+
+    return new App\Mail\ContactMail($data);
+});
+
+Route::get('mailable-feedback-test', function () {
+    $data = [
+        'feedback_type' => 'General Feedback',
+        'email' => 'chris.breuer@mma.com',
+        'message' => 'Lorem Impsum',
+    ];
+
+    return new App\Mail\FeedbackMail($data);
+});

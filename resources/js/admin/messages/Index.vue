@@ -15,6 +15,7 @@
             <td class="border font-bold border-2 px-4 py-2">Email</td>
             <td class="border font-bold border-2 px-4 py-2">Zip Code</td>
             <td class="border font-bold border-2 px-4 py-2">Interest</td>
+            <td class="border font-bold border-2 px-4 py-2">Is Subscribed</td>
           </tr>
         </thead>
         <tbody>
@@ -26,6 +27,7 @@
             </td>
             <td class="border border-2 px-4 py-2">{{ message.zip_code }}</td>
             <td class="border border-2 px-4 py-2">{{ message.interest }}</td>
+            <td class="border border-2 px-4 py-2">{{ message.receive_newsletter === '1' ? 'Yes' : 'No' }}</td>
           </tr>
         </tbody>
       </table>

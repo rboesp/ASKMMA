@@ -20,7 +20,6 @@ class CareerController extends Controller
         return CareerResource::collection($careers);
     }
 
-
     /**
      * Store a newly created resource in storage.
      *
@@ -29,7 +28,6 @@ class CareerController extends Controller
      */
     public function store(Request $request)
     {
-
         $career = new Career($request->all());
         $career->save();
 
@@ -44,9 +42,7 @@ class CareerController extends Controller
      */
     public function show($id)
     {
-
     }
-
 
     /**
      * Update the specified resource in storage.
@@ -59,6 +55,7 @@ class CareerController extends Controller
     {
         $career = Career::find($id);
         $career->update($request->all());
+
         return new CareerResource($career);
     }
 

@@ -10,15 +10,15 @@ use Maatwebsite\Excel\Concerns\WithMapping;
 class FeedbackExport implements FromCollection, WithMapping, WithHeadings
 {
     /**
-    * @return \Illuminate\Support\Collection
-    */
+     * @return \Illuminate\Support\Collection
+     */
     public function collection()
     {
         return Feedback::all();
     }
 
     /**
-     * @var Feedback $feedback
+     * @var Feedback
      *
      * @return array
      */
@@ -27,7 +27,7 @@ class FeedbackExport implements FromCollection, WithMapping, WithHeadings
         return [
             $feedback->feedback_type,
             $feedback->email,
-            $feedback->message
+            $feedback->message,
         ];
     }
 

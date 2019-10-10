@@ -4,8 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Exports\ContactMessagesExport;
 use App\Http\Resources\ContactMessageResource;
+use App\Mail\ContactMail;
+use App\Mail\GenericEmailMarkdown;
 use App\Models\ContactMessage;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\HtmlString;
 use Maatwebsite\Excel\Facades\Excel;
 
 class ContactMessageController extends Controller
@@ -18,6 +22,7 @@ class ContactMessageController extends Controller
     public function index()
     {
         $messages = ContactMessage::all();
+
         return ContactMessageResource::collection($messages);
     }
 
@@ -39,8 +44,17 @@ class ContactMessageController extends Controller
      */
     public function store(Request $request)
     {
-        $message = new ContactMessage($request->all());
+        $data = $request->all();
+        $data['receive_newsletter'] = $request->get('receive_newsletter') === '1' ? true : false;
+        $message = new ContactMessage($data);
         $message->save();
+
+        Mail::send(new ContactMail($data));
+
+        Mail::to($data['email'])->send(new GenericEmailMarkdown(
+            'MMA',
+            new HtmlString('<p>Thanks so much for getting in touch with us. Our Team will reach out to you shortly.</p>')
+        ));
 
         return new ContactMessageResource($message);
     }
@@ -90,7 +104,8 @@ class ContactMessageController extends Controller
         //
     }
 
-    public function export(){
+    public function export()
+    {
         return Excel::download(new ContactMessagesExport, 'Contact Messages.xlsx');
     }
 }

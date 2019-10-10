@@ -21,8 +21,7 @@ class ContactMessageResource extends JsonResource
             'email' => $this->email,
             'zip_code' => $this->zip_code,
             'interest' => $this->interest,
-            'interest' => $this->interest,
-            'receive_newsletter' => $this->receive_newsletter
+            'receive_newsletter' => $this->receive_newsletter,
         ];
     }
 }
