@@ -39,7 +39,7 @@ class FeedbackController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return FeedbackResource
      */
     public function store(Request $request)
@@ -53,9 +53,10 @@ class FeedbackController extends Controller
         $feedback->save();
 
         Mail::send(new FeedbackMail($data));
+
         Mail::to($data['email'])->send(new GenericEmailMarkdown(
             'MMA',
-            new HtmlString('<p>Thanks so much for your feedback. Once our team processes your request, they may reach out to you for more information.</p>')
+            new HtmlString("<p>Hello there,</p><br><p>Thank you for your feedback. We are committed to providing the best service possible, and appreciate your suggestions. As a reminder, all feedback is anonymous unless you included contact information in your feedback. If you’d like to contact us, call us at <a href='tel:8772797070'>877-279-7070</a></p><br><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
         ));
 
         return new FeedbackResource($feedback);
@@ -64,7 +65,7 @@ class FeedbackController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -75,7 +76,7 @@ class FeedbackController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -86,8 +87,8 @@ class FeedbackController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -98,7 +99,7 @@ class FeedbackController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
