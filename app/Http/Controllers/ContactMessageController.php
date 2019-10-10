@@ -53,7 +53,7 @@ class ContactMessageController extends Controller
 
         Mail::to($data['email'])->send(new GenericEmailMarkdown(
             'MMA',
-            new HtmlString("<p>Hello there,</p><br><p>Thank you for reaching out to us. We know your health coverage is important to you, and we are committed to giving you the help you need. One of our agents will be reaching out to you shortly.</p><br><p>For immediate assistance, please call  <a href='tel:8772797070'>877-279-7070</a></p><br><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
+            new HtmlString("<p>Hello there,</p><p>Thank you for reaching out to us. We know your health coverage is important to you, and we are committed to giving you the help you need. One of our agents will be reaching out to you shortly.</p><p>For immediate assistance, please call  <a href='tel:8772797070'>877-279-7070</a></p><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
 
         ));
 
