@@ -25,13 +25,13 @@
 
                     @csrf
 
-                    <input type="hidden" name="u" value="5"/>
-                    <input type="hidden" name="f" value="5"/>
-                    <input type="hidden" name="s"/>
-                    <input type="hidden" name="c" value="0"/>
-                    <input type="hidden" name="m" value="0"/>
-                    <input type="hidden" name="act" value="sub"/>
-                    <input type="hidden" name="v" value="2"/>
+                    <input type="hidden" name="u" value="5" />
+                    <input type="hidden" name="f" value="5" />
+                    <input type="hidden" name="s" />
+                    <input type="hidden" name="c" value="0" />
+                    <input type="hidden" name="m" value="0" />
+                    <input type="hidden" name="act" value="sub" />
+                    <input type="hidden" name="v" value="2" />
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input

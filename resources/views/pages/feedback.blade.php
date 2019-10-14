@@ -82,27 +82,27 @@
                         >
                             @csrf
 
-                            <input type="hidden" name="u" value="1"/>
-                            <input type="hidden" name="f" value="1"/>
-                            <input type="hidden" name="s"/>
-                            <input type="hidden" name="c" value="0"/>
-                            <input type="hidden" name="m" value="0"/>
-                            <input type="hidden" name="act" value="sub"/>
-                            <input type="hidden" name="v" value="2"/>
+                            <input type="hidden" name="u" value="1" />
+                            <input type="hidden" name="f" value="1" />
+                            <input type="hidden" name="s" />
+                            <input type="hidden" name="c" value="0" />
+                            <input type="hidden" name="m" value="0" />
+                            <input type="hidden" name="act" value="sub" />
+                            <input type="hidden" name="v" value="2" />
 
                             <div class="flex">
                                 <div class="flex flex-wrap relative w-full">
                                     <div class="w-full md:w-1/2 flex relative">
                                         <select
                                             id="feedback"
-                                            name="field[5]"
+                                            name="field[3]"
                                             class="relative z-10 w-full bg-transparent rounded-sm cursor-pointer appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:border-purple-500"
                                         >
                                             <option value="General Feedback" selected>
                                                 General Feedback
                                             </option>
-                                            <option value="File A Compliant">
-                                                File A Compliant
+                                            <option value="File A Complaint">
+                                                File A Complaint
                                             </option>
                                         </select>
 
@@ -118,10 +118,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="w-full flex flex-wrap justify-center lg:justify-end">
                                 <textarea
                                     rows="10"
-                                    name="field[6]"
+                                    name="field[5]"
                                     class="rounded-sm w-full my-2 appearance-none border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500 placeholder-transparent focus:placeholder-gray-500"
                                     placeholder="All feedback is anonymous. Type your comments here. If you’d like a response, include your phone number or email address with your feedback."
                                 ></textarea>
