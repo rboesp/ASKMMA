@@ -14,10 +14,11 @@
           <td class="border font-bold border-2 px-4 py-2">Feedback type</td>
           <td class="border font-bold border-2 px-4 py-2">Email</td>
           <td class="border font-bold border-2 px-4 py-2">Message</td>
+          <td class="border font-bold border-2 px-4 py-2">Created At</td>
         </tr>
         </thead>
         <tbody>
-          <tr v-for="feedback in feedbackList" :key="feedback.id">
+          <tr v-for="feedback in feedbacks" :key="feedback.id">
             <td class="border border-2 px-4 py-2">{{ feedback.feedback_type }}</td>
             <td class="border border-2 px-4 py-2">
                 <a
@@ -28,6 +29,7 @@
                 </a>
             </td>
             <td class="border border-2 px-4 py-2">{{ feedback.message }}</td>
+            <td class="border border-2 px-4 py-2">{{ feedback.timestamp }}</td>
           </tr>
         </tbody>
       </table>
@@ -37,11 +39,20 @@
 
 <script>
   import axios from 'axios'
+  import moment from 'moment'
   export default {
     name: 'Index',
     data: () => ({
       feedbackList: [],
     }),
+    computed: {
+      feedbacks(){
+        return this.feedbackList.map(feedback => {
+          feedback.timestamp = moment(feedback.created_at).format('LLL')
+          return feedback
+        })
+      }
+    },
     mounted () {
       axios.get('/api/feedback').then(({data}) => {
         this.feedbackList = data.data

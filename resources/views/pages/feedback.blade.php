@@ -8,7 +8,7 @@
           $('#formSubmitButton').addClass('btn--loading')
           e.preventDefault();
           $.ajax({
-            url:'/api/feedback',
+            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
             type:'post',
             data:$('#feedbackForm').serialize(),
             success:function(){
@@ -81,7 +81,7 @@
                             class="w-full py-6"
                         >
                             @csrf
-                            <!--
+
                             <input type="hidden" name="u" value="1"/>
                             <input type="hidden" name="f" value="1"/>
                             <input type="hidden" name="s"/>
@@ -90,7 +90,6 @@
                             <input type="hidden" name="act" value="sub"/>
                             <input type="hidden" name="v" value="2"/>
 
-                            -->
                             <div class="flex">
                                 <div class="flex flex-wrap relative w-full">
                                     <div class="w-full md:w-1/2 flex relative">

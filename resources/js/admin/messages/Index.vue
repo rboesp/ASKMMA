@@ -15,11 +15,12 @@
             <td class="border font-bold border-2 px-4 py-2">Email</td>
             <td class="border font-bold border-2 px-4 py-2">Zip Code</td>
             <td class="border font-bold border-2 px-4 py-2">Interest</td>
-            <td class="border font-bold border-2 px-4 py-2">Is Subscribed</td>
+            <td class="border font-bold border-2 px-4 py-2">Subscribed</td>
+            <td class="border font-bold border-2 px-4 py-2">Created At</td>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="message in contactMessages" :key="message.id">
+          <tr v-for="message in messages" :key="message.id">
             <td class="border border-2 px-4 py-2">{{ message.first_name }}</td>
             <td class="border border-2 px-4 py-2">{{ message.last_name }}</td>
             <td class="border border-2 px-4 py-2">
@@ -27,7 +28,8 @@
             </td>
             <td class="border border-2 px-4 py-2">{{ message.zip_code }}</td>
             <td class="border border-2 px-4 py-2">{{ message.interest }}</td>
-            <td class="border border-2 px-4 py-2">{{ message.receive_newsletter === '1' ? 'Yes' : 'No' }}</td>
+            <td class="border border-2 px-4 py-2">{{ message.subscribed }}</td>
+            <td class="border border-2 px-4 py-2">{{ message.timestamp }}</td>
           </tr>
         </tbody>
       </table>
@@ -37,11 +39,23 @@
 
 <script>
   import axios from 'axios'
+  import moment from 'moment'
   export default {
     name: 'Index',
     data: () => ({
       contactMessages: [],
     }),
+    computed: {
+      messages(){
+        return this.contactMessages.map(message => {
+          message.subscribed = message.receive_newsletter === '1' ? 'Yes' : 'No'
+          message.timestamp = moment(message.created_at).format('LLL')
+
+
+          return message
+        })
+      }
+    },
     mounted () {
       axios.get('/api/messages').then(({data}) => {
         this.contactMessages = data.data

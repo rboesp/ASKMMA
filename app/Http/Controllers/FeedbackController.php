@@ -52,12 +52,13 @@ class FeedbackController extends Controller
         $feedback = new Feedback($data);
         $feedback->save();
 
-        Mail::send(new FeedbackMail($data));
-
-        Mail::to($data['email'])->send(new GenericEmailMarkdown(
-            'MMA',
-            new HtmlString("<p>Hello there,</p><br><p>Thank you for your feedback. We are committed to providing the best service possible, and appreciate your suggestions. As a reminder, all feedback is anonymous unless you included contact information in your feedback. If you’d like to contact us, call us at <a href='tel:8772797070'>877-279-7070</a></p><br><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
-        ));
+        Mail::to(config('mail.global_to.address'))->send(new FeedbackMail($data));
+        if (! empty($data['email'])) {
+            Mail::to($data['email'])->send(new GenericEmailMarkdown(
+                'MMA & MMA USA Value Your Feedback',
+                new HtmlString("<p>Hello,</p><p>Thank you for your feedback. We are committed to providing the best service possible, and appreciate your suggestions. As a reminder, all feedback is anonymous unless you included contact information in your feedback. If you’d like to contact us, call us at <a href='tel:8772797070'>877-279-7070</a></p><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
+            ));
+        }
 
         return new FeedbackResource($feedback);
     }

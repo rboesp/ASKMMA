@@ -70,7 +70,7 @@ return [
     | used globally for all e-mails that are sent by your application.
     |
     */
-    'to' => [
+    'global_to' => [
         'address' => env('MAIL_TO_ADDRESS', 'hello@example.com'),
         'name' => env('APP_NAME', 'MMA App'),
     ],

@@ -24,10 +24,19 @@
                 >
 
                     @csrf
+
+                    <input type="hidden" name="u" value="5"/>
+                    <input type="hidden" name="f" value="5"/>
+                    <input type="hidden" name="s"/>
+                    <input type="hidden" name="c" value="0"/>
+                    <input type="hidden" name="m" value="0"/>
+                    <input type="hidden" name="act" value="sub"/>
+                    <input type="hidden" name="v" value="2"/>
+
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="first_name"
+                            name="firstname"
                             type="text"
                             placeholder="First Name*"
                             required
@@ -37,7 +46,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="last_name"
+                            name="lastname"
                             type="text"
                             placeholder="Last Name*"
                             required
@@ -57,7 +66,7 @@
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                            name="zip_code"
+                            name="field[6]"
                             type="number"
                             placeholder="Zip Code*"
                             required
@@ -66,9 +75,11 @@
 
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <div class="w-full relative bg-gray-100 rounded-sm ">
-                        <select id="contact-interest"
-                                name="interest" required
-                                class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 rounded-sm border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        <select
+                            id="contact-interest"
+                            name="field[1]"
+                            required
+                            class="relative z-10 w-full bg-transparent cursor-pointer appearance-none border-2 rounded-sm border-gray-100 py-2 px-4 text-base text-gray-500 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                         >
                             <option value="" disabled selected id="disabled-option" class="text-gray-400">Interested In*</option>
                             <option value="Learn More About Plans" class="text-gray-700">Learn More About Medicare Plans</option>
@@ -84,7 +95,7 @@
                             <input
                                 class="mr-2 leading-tight"
                                 type="checkbox"
-                                name="receive_newsletter"
+                                name="field[4][]"
                                 value="1"
                             />
                             <span class="text-sm">

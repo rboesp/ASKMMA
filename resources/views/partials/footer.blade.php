@@ -1,49 +1,3 @@
-@section('scripts')
-    <script>
-      $(document).ready(function()  {
-        $('#newsletterForm').submit(function(e) {
-          $('#newsletterSubmitButton').addClass('btn--loading')
-          e.preventDefault();
-          $.ajax({
-            url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
-            type:'post',
-            data:$('#newsletterForm').serialize(),
-            success:function(){
-              Swal.fire({
-                title: 'Thank You for Subscribing our Newsletter!',
-                text: 'Please check your email to verify it.',
-                type: 'success',
-                timer: 3000
-              })
-              $('#newsletterForm')[0].reset()
-              $('#newsletterSubmitButton').removeClass('btn--loading')
-            },
-            error: function (xhr) {
-              if (xhr.status === 0) {
-                Swal.fire({
-                  title: 'Thank You for Subscribing our Newsletter!',
-                  text: 'Please check your email to verify it.',
-                  type: 'success',
-                  timer: 3000
-                })
-                $('#newsletterForm')[0].reset()
-                $('#newsletterSubmitButton').removeClass('btn--loading')
-              } else {
-                Swal.fire({
-                  title: 'Error!',
-                  text: 'Something went wrong please verify data or contact the MMA team.',
-                  type: 'error',
-                  timer: 3000
-                })
-                $('#newsletterSubmitButton').removeClass('btn--loading')
-              }
-            }
-          });
-        });
-      });
-    </script>
-@endsection
-
 <section class="footer py-16">
     <div class="container mx-auto">
         <div class="flex flex-row flex-wrap justify-between">
@@ -70,15 +24,17 @@
                     id="newsletterForm"
                     name="newsletterForm"
                     class="w-full mx-auto max-w-sm pt-6"
-                    action="https://medicaremedicaidadvisors.activehosted.com/proc.php"
                 >
-                    <input type="hidden" name="u" value="3" />
-                    <input type="hidden" name="f" value="3" />
-                    <input type="hidden" name="s" />
-                    <input type="hidden" name="c" value="0" />
-                    <input type="hidden" name="m" value="0" />
-                    <input type="hidden" name="act" value="sub" />
-                    <input type="hidden" name="v" value="2" />
+                    @csrf
+
+                    <input type="hidden" name="u" value="3"/>
+                    <input type="hidden" name="f" value="3"/>
+                    <input type="hidden" name="s"/>
+                    <input type="hidden" name="c" value="0"/>
+                    <input type="hidden" name="m" value="0"/>
+                    <input type="hidden" name="act" value="sub"/>
+                    <input type="hidden" name="v" value="2"/>
+
                     <div class="flex items-center border-b border-b-2 border-teal-500 py-2 bg-white pl-2 pr-4">
                         <input
                             class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
@@ -89,7 +45,9 @@
                             required
                         />
                         <button id="newsletterSubmitButton" class="flex-shrink-0 text-lg font-strong text-mmablue hover:text-blue" type="submit">
-                            >
+                            <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M.7045 1.7955L1.76517.73483 6.2955 5.26517 1.76517 9.7955.7045 8.73483l3.46967-3.46967z" fill="currentColor" fill-rule="evenodd"/>
+                            </svg>
                         </button>
                     </div>
                 </form>

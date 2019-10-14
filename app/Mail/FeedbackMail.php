@@ -30,6 +30,7 @@ class FeedbackMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.feedback', ['message' => $this->data]);
+        return $this->subject('AskMMA.com Feedback Form Submission')
+            ->markdown('emails.feedback', ['message' => $this->data]);
     }
 }

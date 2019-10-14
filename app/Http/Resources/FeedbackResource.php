@@ -19,6 +19,7 @@ class FeedbackResource extends JsonResource
             'feedback_type' => $this->feedback_type,
             'email' => $this->email,
             'message' => $this->message,
+            'created_at' => $this->created_at,
         ];
     }
 }

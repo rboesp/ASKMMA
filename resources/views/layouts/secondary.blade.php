@@ -222,11 +222,12 @@
       $('#contact-interest').removeClass('text-gray-400')
       $('#contact-interest').addClass('text-gray-700')
     });
+
     $('#contactForm').submit(function(e) {
       $('#contactFormSubmitButton').addClass('btn--loading')
       e.preventDefault();
       $.ajax({
-        url:'/api/messages',
+        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
         type:'post',
         data:$('#contactForm').serialize(),
         success:function(){
@@ -261,6 +262,52 @@
         }
       });
     });
+
+    $('#newsletterForm').submit(function(e) {
+      $('#newsletterSubmitButton').addClass('btn--loading')
+      e.preventDefault();
+      $.ajax({
+        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        type:'post',
+        data:$('#newsletterForm').serialize(),
+        success:function(){
+          Swal.fire({
+            title: 'Thank You for Subscribing our Newsletter!',
+            text: 'Please check your email to verify it.',
+            type: 'success',
+            timer: 3000
+          })
+          $('#newsletterForm')[0].reset()
+          $('#newsletterSubmitButton').removeClass('btn--loading')
+        },
+        error: function (xhr) {
+          if (xhr.status === 0) {
+            Swal.fire({
+              title: 'Thank You for Subscribing our Newsletter!',
+              text: 'Please check your email to verify it.',
+              type: 'success',
+              timer: 3000
+            })
+            $('#newsletterForm')[0].reset()
+          } else if (xhr.status === 404) {
+            Swal.fire({
+              title: 'Error!',
+              text: 'Please use the contact form above and check the Subscribe Newsletter option',
+              type: 'error',
+            })
+          } else {
+            Swal.fire({
+              title: 'Error!',
+              text: 'Something went wrong please verify data or contact the MMA team.',
+              type: 'error',
+              timer: 3000
+            })
+          }
+          $('#newsletterSubmitButton').removeClass('btn--loading')
+        }
+      });
+    });
+ 
   });
 </script>
 
