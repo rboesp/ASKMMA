@@ -44,19 +44,16 @@ class ContactMessageController extends Controller
      */
     public function store(Request $request)
     {
-        $data = $request->all();
-        $data['receive_newsletter'] = $request->get('receive_newsletter') === '1' ? true : false;
+        $data = [
+            'first_name' => $request->get('firstname'),
+            'lastname' => $request->get('lastname'),
+            'email' => $request->get('email'),
+            'zip_code' => $request->get('field')[6],
+            'interest' => $request->get('field')[1],
+        ];
+        $data['receive_newsletter'] = empty($request->get('field')[4]) ? false : true;
         $message = new ContactMessage($data);
         $message->save();
-
-        Mail::to(config('mail.global_to.address'))->send(new ContactMail($data));
-
-        $full_name = $data['first_name'].' '.$data['last_name'];
-        Mail::to($data['email'])->send(new GenericEmailMarkdown(
-            'Thank you for Contacting MMA & MMA USA!',
-            new HtmlString("<p>Dear $full_name,</p><p>Thank you for reaching out to us. We know your health coverage is important to you, and we are committed to giving you the help you need. One of our agents will be reaching out to you shortly.</p><p>For immediate assistance, please call <a href='tel:8772797070'>877-279-7070</a></p><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
-
-        ));
 
         return new ContactMessageResource($message);
     }

@@ -45,20 +45,12 @@ class FeedbackController extends Controller
     public function store(Request $request)
     {
         $data = [
-            'feedback_type' => $request->get('field')[5],
+            'feedback_type' => $request->get('field')[3],
             'email' => $request->get('email'),
-            'message' => $request->get('field')[6],
+            'message' => $request->get('field')[5],
         ];
         $feedback = new Feedback($data);
         $feedback->save();
-
-        Mail::to(config('mail.global_to.address'))->send(new FeedbackMail($data));
-        if (! empty($data['email'])) {
-            Mail::to($data['email'])->send(new GenericEmailMarkdown(
-                'MMA & MMA USA Value Your Feedback',
-                new HtmlString("<p>Hello,</p><p>Thank you for your feedback. We are committed to providing the best service possible, and appreciate your suggestions. As a reminder, all feedback is anonymous unless you included contact information in your feedback. If you’d like to contact us, call us at <a href='tel:8772797070'>877-279-7070</a></p><p>Sincerely</p><p>Your Medicare Medicaid Advisors Team</p>")
-            ));
-        }
 
         return new FeedbackResource($feedback);
     }

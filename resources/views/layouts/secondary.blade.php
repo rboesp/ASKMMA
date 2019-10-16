@@ -38,29 +38,31 @@
             box-shadow: 0 5px 5px -3px rgba(0, 101, 242, 0.1);
         }
 
-        ul li.no-bullet::before{
+        ul li.no-bullet::before {
             content: ""; /* Add content: \2022 is the CSS Code/unicode for a bullet */
             color: transparent; /* Change the color */
         }
 
         .fa-semibold {
-          -webkit-text-stroke: 0.5px black;
+            -webkit-text-stroke: 0.5px black;
         }
 
         .card-bg-transparent-black {
-          background: rgba(5, 5, 5, 0.82);
+            background: rgba(5, 5, 5, 0.82);
         }
 
         .success-path-image {
-          width: auto;
-          height: 86px;
+            width: auto;
+            height: 86px;
         }
+
         .btn--loading {
             position: relative;
             color: transparent;
             pointer-events: none;
 
         }
+
         .btn--loading::after {
             content: '';
             animation: busy-indicator 500ms infinite linear;
@@ -75,6 +77,7 @@
             top: calc(50% - (1.4em / 2));
             transform-origin: center;
         }
+
         @keyframes busy-indicator {
             from {
                 transform: rotate(0deg);
@@ -217,39 +220,40 @@
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-  $(document).ready(function()  {
-    $('#contact-interest').change(function(){
+  $(document).ready(function () {
+    $('#contact-interest').change(function () {
       $('#contact-interest').removeClass('text-gray-400')
       $('#contact-interest').addClass('text-gray-700')
-    });
+    })
 
-    $('#contactForm').submit(function(e) {
+    $('#contactForm').submit(function (e) {
       $('#contactFormSubmitButton').addClass('btn--loading')
-      e.preventDefault();
+      e.preventDefault()
+
       $.ajax({
-        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
-        type:'post',
-        data:$('#contactForm').serialize(),
-        success:function(){
-          Swal.fire({
-            title: 'Thanks for contacting us!',
-            text: '',
-            type: 'success',
-            timer: 3000
-          })
-          $('#contactForm')[0].reset()
-          $('#contactFormSubmitButton').removeClass('btn--loading')
+        url: 'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        type: 'post',
+        data: $('#contactForm').serialize(),
+        success: function () {
+
         },
         error: function (xhr) {
           if (xhr.status === 0) {
-            Swal.fire({
-              title: 'Thanks for contacting us!',
-              text: '',
-              type: 'success',
-              timer: 3000
+            $.ajax({
+              url: '/api/messages',
+              type: 'post',
+              data: $('#contactForm').serialize(),
+              success: function () {
+                Swal.fire({
+                  title: 'Thanks for contacting us!',
+                  text: '',
+                  type: 'success',
+                  timer: 3000
+                })
+                $('#contactForm')[0].reset()
+                $('#contactFormSubmitButton').removeClass('btn--loading')
+              }
             })
-            $('#contactForm')[0].reset()
-            $('#contactFormSubmitButton').removeClass('btn--loading')
           } else {
             Swal.fire({
               title: 'Error!',
@@ -260,17 +264,18 @@
             $('#contactFormSubmitButton').removeClass('btn--loading')
           }
         }
-      });
-    });
+      })
 
-    $('#newsletterForm').submit(function(e) {
+    })
+
+    $('#newsletterForm').submit(function (e) {
       $('#newsletterSubmitButton').addClass('btn--loading')
-      e.preventDefault();
+      e.preventDefault()
       $.ajax({
-        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
-        type:'post',
-        data:$('#newsletterForm').serialize(),
-        success:function(){
+        url: 'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        type: 'post',
+        data: $('#newsletterForm').serialize(),
+        success: function () {
           Swal.fire({
             title: 'Thank You for Subscribing our Newsletter!',
             text: 'Please check your email to verify it.',
@@ -305,10 +310,10 @@
           }
           $('#newsletterSubmitButton').removeClass('btn--loading')
         }
-      });
-    });
- 
-  });
+      })
+    })
+
+  })
 </script>
 
 @yield('scripts')

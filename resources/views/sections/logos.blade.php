@@ -11,7 +11,7 @@
                 <img src="/images/logos/united-healthcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-3/4">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
-                <img src="/images/logos/cigna.png" class="self-center mb-16 mx-auto w-1/2">
+                <img src="/images/logos/cigna.jpg" class="self-center mb-16 mx-auto w-1/2 lg:w-3/4">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
                 <img src="/images/logos/humana.png" class="self-center mb-16 mx-auto w-1/2">

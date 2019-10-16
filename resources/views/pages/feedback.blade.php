@@ -11,26 +11,24 @@
             url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
             type:'post',
             data:$('#feedbackForm').serialize(),
-            success:function(){
-              Swal.fire({
-                title: 'Thank You for Your Feedback!',
-                text: 'We received your feedback and will get back in touch with you shortly.',
-                type: 'success',
-                timer: 3000
-              })
-              $('#feedbackForm')[0].reset()
-              $('#formSubmitButton').removeClass('btn--loading')
-            },
+            success:function(){},
             error: function (xhr) {
               if (xhr.status === 0) {
-                Swal.fire({
-                  title: 'Thank You for Your Feedback!',
-                  text: 'We received your feedback and will get back in touch with you shortly',
-                  type: 'success',
-                  timer: 3000
+                $.ajax({
+                  url:'/api/feedback',
+                  type:'post',
+                  data:$('#feedbackForm').serialize(),
+                  success:function(){
+                    Swal.fire({
+                      title: 'Thank You for Your Feedback!',
+                      text: 'We received your feedback and will get back in touch with you shortly.',
+                      type: 'success',
+                      timer: 3000
+                    })
+                    $('#feedbackForm')[0].reset()
+                    $('#formSubmitButton').removeClass('btn--loading')
+                  }
                 })
-                $('#feedbackForm')[0].reset()
-                $('#formSubmitButton').removeClass('btn--loading')
               } else {
                 Swal.fire({
                   title: 'Error!',

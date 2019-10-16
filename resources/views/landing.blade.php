@@ -156,33 +156,34 @@
       $('#contact-interest').addClass('text-gray-700')
     });
 
-    $('#contactForm').submit(function(e) {
+    $('#contactForm').submit(function (e) {
       $('#contactFormSubmitButton').addClass('btn--loading')
-      e.preventDefault();
+      e.preventDefault()
+
       $.ajax({
-        url:'https://medicaremedicaidadvisors.activehosted.com/proc.php',
-        type:'post',
-        data:$('#contactForm').serialize(),
-        success:function(){
-          Swal.fire({
-            title: 'Thanks for contacting us!',
-            text: '',
-            type: 'success',
-            timer: 3000
-          })
-          $('#contactForm')[0].reset()
-          $('#contactFormSubmitButton').removeClass('btn--loading')
+        url: 'https://medicaremedicaidadvisors.activehosted.com/proc.php',
+        type: 'post',
+        data: $('#contactForm').serialize(),
+        success: function () {
+
         },
         error: function (xhr) {
           if (xhr.status === 0) {
-            Swal.fire({
-              title: 'Thanks for contacting us!',
-              text: '',
-              type: 'success',
-              timer: 3000
+            $.ajax({
+              url: '/api/messages',
+              type: 'post',
+              data: $('#contactForm').serialize(),
+              success: function () {
+                Swal.fire({
+                  title: 'Thanks for contacting us!',
+                  text: '',
+                  type: 'success',
+                  timer: 3000
+                })
+                $('#contactForm')[0].reset()
+                $('#contactFormSubmitButton').removeClass('btn--loading')
+              }
             })
-            $('#contactForm')[0].reset()
-            $('#contactFormSubmitButton').removeClass('btn--loading')
           } else {
             Swal.fire({
               title: 'Error!',
@@ -193,8 +194,9 @@
             $('#contactFormSubmitButton').removeClass('btn--loading')
           }
         }
-      });
-    });
+      })
+
+    })
 
     $('#newsletterForm').submit(function(e) {
       $('#newsletterSubmitButton').addClass('btn--loading')
