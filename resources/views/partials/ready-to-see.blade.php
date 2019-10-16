@@ -125,7 +125,7 @@
         </div>
     </div>
 
-    <span class="fixed bottom-0" style="right: 3%;">
+    <span class="fixed bottom-0" style="right: 3%; z-index: 10;">
         <a
             href="#contactcta"
             class="py-4 px-4 flex items-center justify-center w-full bg-red-custom rounded-t text-center text-base text-white font-bold font-openSans">
