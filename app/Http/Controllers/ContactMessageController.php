@@ -46,7 +46,7 @@ class ContactMessageController extends Controller
     {
         $data = [
             'first_name' => $request->get('firstname'),
-            'lastname' => $request->get('lastname'),
+            'last_name' => $request->get('lastname'),
             'email' => $request->get('email'),
             'zip_code' => $request->get('field')[6],
             'interest' => $request->get('field')[1],
