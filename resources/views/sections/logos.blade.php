@@ -8,10 +8,10 @@
                 <img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto w-1/2">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
-                <img src="/images/logos/united-healthcare.png" class="self-center mb-16 mx-auto w-1/2 lg:w-11/12">
+                <img src="/images/logos/united-healthcare.png" class="self-center mb-16 mx-auto w-3/4 lg:w-11/12">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
-                <img src="/images/logos/cigna.jpg" class="self-center mb-16 mx-auto w-1/2 lg:w-3/4">
+                <img src="/images/logos/cigna.jpg" class="self-center mb-16 mx-auto w-3/4">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
                 <img src="/images/logos/humana.png" class="self-center mb-16 mx-auto w-1/2">
