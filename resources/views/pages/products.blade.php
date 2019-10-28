@@ -79,8 +79,8 @@
                         <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden lg:px-20">
                             <div class="w-1/3 lg:w-3/12 flex justify-center pl-4 md:pr-16">
                                 <img
-                                    src="/images/logos/united-healthcare.png"
-                                    class="self-center mb-16 mx-auto"
+                                    src="/images/logos/uch_logo.jpg"
+                                    class="self-center mb-16 mx-auto w-1/2 lg:w-2/3"
                                 />
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
