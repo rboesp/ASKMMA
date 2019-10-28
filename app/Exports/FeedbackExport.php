@@ -28,6 +28,7 @@ class FeedbackExport implements FromCollection, WithMapping, WithHeadings
             $feedback->feedback_type,
             $feedback->email,
             $feedback->message,
+            $feedback->created_at,
         ];
     }
 
@@ -36,6 +37,6 @@ class FeedbackExport implements FromCollection, WithMapping, WithHeadings
      */
     public function headings(): array
     {
-        return ['Feedback Type', 'Email', 'Message'];
+        return ['Feedback Type', 'Email', 'Message', 'Created At'];
     }
 }
