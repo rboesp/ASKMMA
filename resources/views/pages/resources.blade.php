@@ -829,7 +829,7 @@
                             <div class="w-full flex flex-wrap font-semibold">
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Cleaning-Services-for-Woman-with-Cancer.pdf" target="_blank" class="resource-link">Cleaning Services for Woman with Cancer</a>
+                                    <a href="/resources/Cleaning-Services-for-Woman-with-Cancer.pdf" target="_blank" class="resource-link">Cleaning Services for Women with Cancer</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
                                 <span class="w-full lg:w-1/2 py-3">
@@ -853,7 +853,7 @@
                                     <arrow-icon></arrow-icon>
                                 </span>
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Seniors-Must-Ask-for-Discount-.pdf" target="_blank" class="resource-link">Seniors Musk Ask for A Discount ✤</a>
+                                    <a href="/resources/Seniors-Must-Ask-for-Discount-.pdf" target="_blank" class="resource-link">Seniors Must Ask for A Discount ✤</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
                                 <span class="w-full lg:w-1/2 py-3">
