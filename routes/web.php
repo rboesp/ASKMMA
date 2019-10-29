@@ -27,13 +27,13 @@ Route::view('/privacy-policy', 'pages.privacy-policy');
 Auth::routes(['register' => false]);
 
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/management', 'HomeController@index')->name('home');
+    Route::get('/dashboard', 'HomeController@index')->name('home');
 
-    Route::get('/management/feedback', 'HomeController@feedback')->name('feedback');
-    Route::get('/management/feedback/export', 'FeedbackController@export')->name('feedback-download');
+    Route::get('/dashboard/feedback', 'HomeController@feedback')->name('feedback');
+    Route::get('/dashboard/feedback/export', 'FeedbackController@export')->name('feedback-download');
 
-    Route::get('/management/messages', 'HomeController@messages')->name('messages');
-    Route::get('/management/messages/export', 'ContactMessageController@export')->name('messages-download');
+    Route::get('/dashboard/messages', 'HomeController@messages')->name('messages');
+    Route::get('/dashboard/messages/export', 'ContactMessageController@export')->name('messages-download');
 
     Route::resources(['api/careers' => 'CareerController']);
 //    Route::resources(['api/feedback' => 'FeedbackController@index']);
