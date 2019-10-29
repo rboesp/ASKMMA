@@ -49,6 +49,12 @@
           Apply for This Position
         </a>
       </div>
+      <p class="text-sm mt-10">
+        * Medicare Medicaid Advisors, Inc. does not discriminate in employment on the basis of race, color, religion, sex
+        (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital
+        status, disability, genetic information, age, membership in an employee organization, retaliation, parental
+        status, military service, or other non-merit factor.
+      </p>
     </TheCareer>
   </div>
 </template>
@@ -56,15 +62,16 @@
 <script>
   import axios from 'axios'
   import TheCareer from './TheCareer'
+
   export default {
     name: 'CareerList',
-    components:{
+    components: {
       TheCareer
     },
-    data: () =>({
+    data: () => ({
       careers: []
     }),
-    mounted(){
+    mounted () {
       axios.get('/api/careers').then(({data}) => {
         this.careers = data.data
       })

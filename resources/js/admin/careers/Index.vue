@@ -65,7 +65,7 @@
         action.then(() => {
           Swal.fire({
             type: 'success',
-            title: `Position has been ${this.state.toLowerCase}d`,
+            title: `Position has been ${this.state.toLowerCase()}d`,
             showConfirmButton: false,
             timer: 1500
           })
