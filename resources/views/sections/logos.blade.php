@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div id="logos" class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
             <div class="w-1/2 lg:w-1/6 flex justify-center">
-                <img src="/images/logos/aetna.png" class="self-center mb-16 mx-auto w-1/2">
+                <img src="/images/logos/aetna-logo.svg" class="self-center mb-16 mx-auto w-1/2">
             </div>
             <div class="w-1/2 lg:w-1/6 flex justify-center">
                 <img src="/images/logos/anthem.png" class="self-center mb-16 mx-auto w-1/2">
