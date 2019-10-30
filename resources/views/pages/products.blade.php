@@ -38,7 +38,7 @@
                         <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
                                 <img
-                                    src="/images/logos/aetna-logo.svg"
+                                    src="/images/logos/aetna.png"
                                     class="self-center mb-16 mx-auto w-1/2"
                                 />
                             </div>
