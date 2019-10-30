@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="flex w-full mt-10 justify-end">
-      <a href="/management/feedback/export" class="text-white text-base rounded bg-mmared shadow text-center font-semibold px-4 py-2">
+      <a href="/dashboard/feedback/export" class="text-white text-base rounded bg-mmared shadow text-center font-semibold px-4 py-2">
         Export
       </a>
     </div>

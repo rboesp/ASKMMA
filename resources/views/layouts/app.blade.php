@@ -89,17 +89,17 @@
 
         <div class="w-full flex flex-col mt-10">
             <span class="border-l-4 py-3 px-4 w-full">
-                <a href="/management" class="w-full text-black text-base font-semibold">
+                <a href="/dashboard" class="w-full text-black text-base font-semibold">
                     Careers
                 </a>
             </span>
             <span class="border-l-4 py-3 px-4 w-full">
-                <a href="/management/feedback" class="w-full text-black text-base font-semibold">
+                <a href="/dashboard/feedback" class="w-full text-black text-base font-semibold">
                     Feedback
                 </a>
             </span>
             <span class="border-l-4 py-3 px-4 w-full">
-                <a href="/management/messages" class="w-full text-black text-base font-semibold">
+                <a href="/dashboard/messages" class="w-full text-black text-base font-semibold">
                     Contact Messages
                 </a>
             </span>
