@@ -1,4 +1,6 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Careers',
+])
 @section('styles')
     html {
     scroll-behavior: smooth;

@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>@yield('title')</title>
+    <title>MMA - {{ $title }}</title>
     <style>
         ul {
             list-style: none; /* Remove default bullets */

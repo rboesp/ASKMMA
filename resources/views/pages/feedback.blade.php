@@ -1,5 +1,6 @@
-@extends('layouts.secondary')
-
+@extends('layouts.secondary', [
+    'title' => 'Feedback',
+])
 
 @section('scripts')
     <script>
@@ -111,7 +112,7 @@
                                             class="rounded-sm w-full bg-white appearance-none border-2 border-gray-300 py-2 pl-4 pr-16 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                             type="email"
                                             name="email"
-                                            placeholder="Type your email"
+                                            placeholder="Type your email (Optional)"
                                         />
                                     </div>
                                 </div>

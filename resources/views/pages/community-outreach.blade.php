@@ -1,4 +1,6 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Community Outreach',
+])
 
 @section('content')
 
@@ -49,7 +51,7 @@
                             <img alt="Placeholder" class="block h-auto w-full" src="/images/community-outreach/Harvesters crop.png">
                         </a>
                         <div class="flex w-full leading-none p-3 absolute bottom-0 card-bg-transparent-black text-white font-medium leading-normal">
-                            ALaShaundra volunteers her help with Harvesters.
+                            LaShaundra volunteers her help with Harvesters.
                         </div>
                     </div>
                 </div>

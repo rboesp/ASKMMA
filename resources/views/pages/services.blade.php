@@ -1,4 +1,6 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Services',
+])
 
 @section('content')
     <section

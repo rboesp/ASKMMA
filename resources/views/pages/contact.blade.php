@@ -1,7 +1,8 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Contact Us',
+])
 
 @section('content')
-
     <section
         class="minihero h-64 mt-20"
         style="background: url('/images/contact/contact_header.jpg') no-repeat;background-size: cover;"

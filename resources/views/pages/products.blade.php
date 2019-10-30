@@ -1,4 +1,7 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Products',
+])
+
 @section('content')
     <section
         class="minihero h-64 md:h-112 mt-20"
@@ -16,7 +19,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <div class="w-full text-center text-sm lg:text-left lg:text-base">

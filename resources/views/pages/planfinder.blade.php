@@ -1,4 +1,7 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Pathfinder',
+])
+
 @section('content')
 <section class="setsapart pt-16 bg-mmalightblue">
 	<div class="container mx-auto">

@@ -1,7 +1,8 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Terms & Conditions',
+])
 
 @section('content')
-
     @include('partials.minihero', [
         'minihero_title' => 'Terms and Conditions',
         'minihero_desc' => 'Read our terms and conditions here.',
