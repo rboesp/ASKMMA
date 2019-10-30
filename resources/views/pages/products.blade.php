@@ -47,7 +47,7 @@
 {{--                                    src="/images/logos/allwell.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
 {{--                                />--}}
-                                <h1 class="text-xl font-bold">Wellcare</h1>
+                                <h1 class="text-xl font-bold">Allwell</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
 {{--                                <img--}}
@@ -129,7 +129,7 @@
 {{--                                    src="/images/logos/humana.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
 {{--                                />--}}
-                                <h1 class="text-xl font-bold">Bright Idea</h1>
+                                <h1 class="text-xl font-bold">Humana</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
 {{--                                <img--}}
