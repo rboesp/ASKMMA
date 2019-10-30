@@ -43,34 +43,39 @@
                                 />
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/allwell.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/allwell.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Wellcare</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/amerigroup.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/amerigroup.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Amerigroup</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/anthem.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/anthem.png"--}}
+{{--                                    class="self-center mb-16  w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Anthem</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/blue_medicare.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/blue_medicare.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Blue Medicare</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/bright-idea.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/bright-idea.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Bright Idea</h1>
                             </div>
                         </div>
                     </div>
@@ -92,22 +97,25 @@
                                 />
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/global-health.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/global-health.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold mt-8">Global Health</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/gtl.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/gtl.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold mt-8">GTL</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/6 flex justify-center">
-                                <img
-                                    src="/images/logos/health_sun.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/health_sun.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold mt-8">HealthSun</h1>
                             </div>
                         </div>
                     </div>
@@ -117,28 +125,32 @@
                     <div class="container mx-auto">
                         <div class="flex flex-wrap flex-row justify-around lg:flex sm:hidden justify-around">
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img
-                                    src="/images/logos/humana.png"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/humana.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Bright Idea</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img
-                                    src="/images/logos/molina-healthcare.png"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/molina-healthcare.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Molina</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img
-                                    src="/images/logos/mutualof_omaha.png"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/mutualof_omaha.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Mutual of Omaha</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img
-                                    src="/images/logos/simply.png"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/simply.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">Simply Healthcare</h1>
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
                                 <img
@@ -147,10 +159,11 @@
                                 />
                             </div>
                             <div class="w-1/3 lg:w-1/12 flex justify-center">
-                                <img
-                                    src="/images/logos/wellcare.png"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"
-                                />
+{{--                                <img--}}
+{{--                                    src="/images/logos/wellcare.png"--}}
+{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
+{{--                                />--}}
+                                <h1 class="text-xl font-bold">WellCare</h1>
                             </div>
                         </div>
                     </div>
