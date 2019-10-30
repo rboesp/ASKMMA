@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<title>MMA Demo App</title>
+	<title>MMA - Medicare Medicaid Advisors</title>
 	<style>
         .card-image {
           width: 60px;
