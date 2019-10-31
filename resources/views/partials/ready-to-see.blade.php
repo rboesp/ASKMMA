@@ -147,4 +147,6 @@
             <span>Talk with an Agent</span>
         </a>
     </span>
+    
+    <img src="/images/bbb-logo.png" class="fixed bottom-0 hidden sm:inline-block"  style="left: 3%; z-index: 10;"/>
 </section>
