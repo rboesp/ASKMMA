@@ -8,7 +8,7 @@
 				<span class="w-full"> © 2019 Medicare Medicaid Advisors, Inc. An Insurance Brokerage. All Rights Reserved.</span>
 				<span class="w-full"> © 2019 Medicare Medicaid Advisors USA, Inc. An Insurance Brokerage. All Rights Reserved.</span>
 			</div>
-			<div class="flex justify-start mx-4 text-gray-100 pt-8 font-semibold">
+			<div class="flex justify-start md:justify-center mx-4 text-gray-100 pt-8 font-semibold">
 				<a class="pr-8" href="/privacy-policy">Privacy Policy</a>
 				<a href="/terms-and-conditions">Terms of Service</a>
 			</div>
