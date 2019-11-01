@@ -76,7 +76,7 @@
         @yield('styles')
     </style>
 
-    @if(config('app.env' == 'production'))
+    @if(config('app.env') == 'production')
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138115450-1"></script>
         <script>
