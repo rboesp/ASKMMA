@@ -1,6 +1,6 @@
 <nav id="header" class="flex items-center justify-between flex-wrap shadow px-2 md:py-4 bg-white fixed w-full top-0 z-50">
     <div class="flex items-center justify-between w-full lg:w-1/3 py-3">
-        <div id="nav-toggle" class="block lg:hidden flex justify-start flex-col w-1/3">
+        <div id="nav-toggle" class="block lg:hidden flex justify-start flex-col w-1/4">
             <button class="flex items-center px-3 py-2 rounded text-black border-teal-400 hover:text-mmablue hover:border-white">
                 <svg class="fill-current w-6 h-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <title>Menu</title>
@@ -8,10 +8,10 @@
                 </svg>
             </button>
         </div>
-        <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto w-2/3">
+        <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto w-3/4">
             <a href="/" class="flex w-full sm:w-2/3">
-                <img class="h-16" src="images/MMA_logo.png" />
-                <img class="h-16 ml-2" src="images/MMA_logo_usa.png" />
+                <img class="h-12 md:h-16" src="images/MMA_logo.png" />
+                <img class="h-12 md:h-16 ml-2" src="images/MMA_logo_usa.png" />
             </a>
         </div>
     </div>
