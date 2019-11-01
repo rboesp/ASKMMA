@@ -1,4 +1,6 @@
-@extends('layouts.secondary')
+@extends('layouts.secondary', [
+    'title' => 'Login'
+])
 
 @section('content')
     <div class="mx-auto container h-112 flex items-center justify-center">

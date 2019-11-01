@@ -1,10 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-
-
 	<head>
-
 		<meta charset="UTF-8">
 		<meta name="description" content="MMA Website">
 		<meta name="keywords" content="">
@@ -15,7 +12,6 @@
   		<title>@yield('title')</title>
 	</head>
 	<body>
-
 			@include('partials.nav')
 
 			@yield('content')
@@ -23,15 +19,8 @@
 			@include('partials.footer')
 
 			@include('partials.copyright')
-
 	</body>
-
-
-
-
-
 <script>
-
 	var scrollpos = window.scrollY;
 	var header = document.getElementById("header");
 	var navcontent = document.getElementById("nav-content");
@@ -72,15 +61,6 @@
 
 	});
 
-
-
-
-</script>
-
-
-<script>
-
-
 	/*Toggle dropdown list*/
 	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
 
@@ -114,18 +94,4 @@
 	  return false;
 	}
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

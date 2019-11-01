@@ -127,12 +127,9 @@
   /* custom configuration goes here (www.olark.com/documentation) */
   olark.identify('1104-141-10-5325')</script> -->
 <!-- end olark code -->
-
 </body>
 
-
 <script>
-
   var scrollpos = window.scrollY
   var header = document.getElementById('header')
   var navcontent = document.getElementById('nav-content')
@@ -171,13 +168,6 @@
     }
 
   })
-
-
-</script>
-
-
-<script>
-
 
   /*Toggle dropdown list*/
   /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
