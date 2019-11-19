@@ -14,7 +14,7 @@ class FeedbackExport implements FromCollection, WithMapping, WithHeadings
      */
     public function collection()
     {
-        return Feedback::all();
+        return Feedback::latest()->get();
     }
 
     /**
