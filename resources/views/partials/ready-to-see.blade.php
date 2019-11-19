@@ -63,14 +63,12 @@
                         />
                     </div>
 
-                    {{--PHONE NUMBER--}}
                     <div class="flex flex-col w-full px-4 py-2 lg:px-0">
                         <input
                             class="bg-gray-100 appearance-none border-2 rounded-sm border-gray-100 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                             name="phone"
                             type="text"
-                            placeholder="Phone*"
-                            required
+                            placeholder="Phone"
                         />
                     </div>
 
@@ -158,6 +156,6 @@
             <span>Talk with an Agent</span>
         </a>
     </span>
-    
+
     <img src="/images/bbb-logo.png" class="fixed bottom-0 hidden sm:inline-block"  style="left: 3%; z-index: 10;"/>
 </section>

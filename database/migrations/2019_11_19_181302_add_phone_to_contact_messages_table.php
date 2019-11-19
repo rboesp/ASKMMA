@@ -14,7 +14,7 @@ class AddPhoneToContactMessagesTable extends Migration
     public function up()
     {
         Schema::table('contact_messages', function (Blueprint $table) {
-            $table->string('phone')->after('email');
+            $table->string('phone')->after('email')->nullable();
         });
     }
 
