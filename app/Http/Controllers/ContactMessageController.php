@@ -48,9 +48,11 @@ class ContactMessageController extends Controller
             'first_name' => $request->get('firstname'),
             'last_name' => $request->get('lastname'),
             'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
             'zip_code' => $request->get('field')[6],
             'interest' => $request->get('field')[1],
         ];
+
         $data['receive_newsletter'] = empty($request->get('field')[4]) ? false : true;
         $message = new ContactMessage($data);
         $message->save();
