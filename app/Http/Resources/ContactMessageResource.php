@@ -19,6 +19,7 @@ class ContactMessageResource extends JsonResource
             'first_name' => $this->first_name,
             'last_name' => $this->last_name,
             'email' => $this->email,
+            'phone' => $this->phone,
             'zip_code' => $this->zip_code,
             'interest' => $this->interest,
             'receive_newsletter' => $this->receive_newsletter,

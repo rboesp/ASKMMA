@@ -22,7 +22,7 @@ class ContactMessagesExport implements FromCollection, WithMapping, WithHeadings
      */
     public function headings(): array
     {
-        return ['First Name', 'Last Name', 'Email', 'Zip Code', 'Interest', 'Created At'];
+        return ['First Name', 'Last Name', 'Email', 'Phone', 'Zip Code', 'Interest', 'Created At'];
     }
 
     /**
@@ -36,6 +36,7 @@ class ContactMessagesExport implements FromCollection, WithMapping, WithHeadings
             $contactMessage->first_name,
             $contactMessage->last_name,
             $contactMessage->email,
+            $contactMessage->phone,
             $contactMessage->zip_code,
             $contactMessage->interest,
             $contactMessage->created_at,

@@ -13,6 +13,7 @@
             <td class="border font-bold border-2 px-4 py-2">First Name</td>
             <td class="border font-bold border-2 px-4 py-2">Last Name</td>
             <td class="border font-bold border-2 px-4 py-2">Email</td>
+            <td class="border font-bold border-2 px-4 py-2">Phone</td>
             <td class="border font-bold border-2 px-4 py-2">Zip Code</td>
             <td class="border font-bold border-2 px-4 py-2">Interest</td>
             <td class="border font-bold border-2 px-4 py-2">Subscribed</td>
@@ -26,6 +27,7 @@
             <td class="border border-2 px-4 py-2">
                 <a :href="`mailto:${message.email}`" class="hover:font-semibold">{{ message.email }}</a>
             </td>
+            <td class="border border-2 px-4 py-2">{{ message.phone }}</td>
             <td class="border border-2 px-4 py-2">{{ message.zip_code }}</td>
             <td class="border border-2 px-4 py-2">{{ message.interest }}</td>
             <td class="border border-2 px-4 py-2">{{ message.subscribed }}</td>
