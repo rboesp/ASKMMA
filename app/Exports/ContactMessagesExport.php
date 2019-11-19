@@ -14,7 +14,7 @@ class ContactMessagesExport implements FromCollection, WithMapping, WithHeadings
      */
     public function collection()
     {
-        return ContactMessage::all();
+        return ContactMessage::latest()->get();
     }
 
     /**

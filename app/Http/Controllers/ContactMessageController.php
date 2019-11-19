@@ -21,7 +21,7 @@ class ContactMessageController extends Controller
      */
     public function index()
     {
-        $messages = ContactMessage::all();
+        $messages = ContactMessage::latest()->get();
 
         return ContactMessageResource::collection($messages);
     }
