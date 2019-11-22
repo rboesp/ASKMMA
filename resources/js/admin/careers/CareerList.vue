@@ -34,7 +34,7 @@
 
           <div class="w-full text-mmadescription">
             <h3 class="font-extrabold text-lg">Responsibilities</h3>
-            <p class="mt-4">{{ career.responsibilities }}</p>
+            <div class="w-full mt-4" v-html="career.responsibilities"></div>
             <h3 class="mt-10 font-extrabold text-lg">Requirements</h3>
             <div class="w-full mt-4" v-html="career.requirements"></div>
 

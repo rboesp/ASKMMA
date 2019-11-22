@@ -58,12 +58,7 @@
 
       <div class="w-full mt-10">
         <h3 class="font-extrabold text-lg">Responsibilities *</h3>
-        <textarea
-          rows="10"
-          v-model="form.responsibilities"
-          class="rounded-sm w-full my-2 border-2 border-gray-300 py-2 px-4 text-gray-700 text-base leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-          required
-        ></textarea>
+        <TextEditor v-model="form.responsibilities" />
       </div>
 
       <div class="w-full mt-10">
