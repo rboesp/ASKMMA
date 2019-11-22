@@ -8,7 +8,7 @@
               <div class="flex flex-col lg:flex-row lg:items-center w-1/2 lg:w-full">
                 <div>
                   <h1 class="font-extrabold text-4xl font-black text-mmablue font-futura leading-tight">
-                    {{title}}
+                    {{careerTitle}}
                   </h1>
                 </div>
                 <h1 class="ml-0 lg:ml-10 font-semibold text-mmagray lg:text-3xl">
@@ -19,7 +19,7 @@
 
             <div class="w-full mt-2 lg:m-0 lg:w-1/5" v-else>
               <span class="text-grey-dark">Job Title</span><br>
-              <span class="font-semibold text-mmadescription">{{ title }}</span>
+              <span class="font-semibold text-mmadescription">{{ careerTitle }}</span>
             </div>
 
             <div class="w-full mt-2 lg:m-0 lg:w-1/5">
@@ -64,7 +64,7 @@
   export default {
     name: 'TheCareer',
     props: {
-      title: {type: String, default: ''},
+      careerTitle: {type: String, default: ''},
       location: {type: String, default: ''},
       department: {type: String, default: ''},
       extra: {type: String, default: ''}

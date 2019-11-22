@@ -4,9 +4,9 @@
       Current Openings <span class="ml-3 text-gray-400">({{careers.length}})</span>
     </h1>
     <TheCareer
-      :key="career"
+      :key="career.id"
       v-for="career in careers"
-      :title="career.title"
+      :career-title="career.title"
       :location="career.location"
       :department="career.department"
       :extra="career.extra"
@@ -16,9 +16,7 @@
         <h3 class="font-extrabold text-lg">
           Responsibilities
         </h3>
-        <p class="mt-4">
-          {{ career.responsibilities }}
-        </p>
+        <div class="w-full mt-4" v-html="career.responsibilities"></div>
         <h3 class="mt-10 font-extrabold text-lg">
           Requirements
         </h3>
