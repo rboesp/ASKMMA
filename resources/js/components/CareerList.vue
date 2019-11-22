@@ -29,13 +29,6 @@
         </h3>
         <div class="w-full mt-4" v-html="career.core_competencies"></div>
       </div>
-      <p class="mt-12 font-bold text-lg text-mmadescription">
-        For Agents interested in joining our organization: Call toll free
-        <a class="font-extrabold font-black text-mmablue font-futura" href="+18008103859">
-          1-800-810-3859
-        </a>
-        to speak with our National Recruiter, Shelia Woods
-      </p>
       <p>
         {{ career.notes }}
       </p>
