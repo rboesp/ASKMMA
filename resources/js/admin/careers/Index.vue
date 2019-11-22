@@ -38,18 +38,20 @@ export default {
     CareerItem,
     CareerList
   },
+
   data: () => ({
     state: "list",
     loading: false,
     career: null,
-    careerList: [],
-    errors: []
+    careerList: []
   }),
+
   computed: {
     careers() {
       return this.careerList;
     }
   },
+
   methods: {
     saveCareer() {
       this.loading = true;
@@ -70,10 +72,9 @@ export default {
           this.listScreen();
         })
         .catch(error => {
-          console.log(error.response.data);
           Swal.fire({
             type: "error",
-            title: error.response.data.message,
+            title: 'Error',
             text: "Please, check the required fields",
             showConfirmButton: false,
             timer: 1500
@@ -83,6 +84,7 @@ export default {
           this.loading = false;
         });
     },
+
     deleteCareer({ id }) {
       Swal.fire({
         title: "Are you sure?",
@@ -110,6 +112,7 @@ export default {
         }
       });
     },
+
     getList() {
       axios.get("/api/careers").then(({ data }) => {
         this.careerList = data.data;
@@ -128,14 +131,17 @@ export default {
         notes: ""
       };
     },
+
     listScreen() {
       this.state = "list";
       this.getList();
       this.resetCareer();
     },
+
     createScreen() {
       this.state = "Save";
     },
+
     updateScreen({ id }) {
       this.state = "Update";
       this.career = this.careers
@@ -145,6 +151,7 @@ export default {
         .pop();
     }
   },
+
   mounted() {
     this.listScreen();
   }

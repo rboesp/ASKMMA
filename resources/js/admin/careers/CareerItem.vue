@@ -3,8 +3,11 @@
     <div class="w-full">
       <button class="text-xl mb-4 underline font-semibold text-mmagray" @click="back">< BACK</button>
     </div>
+
     <accordion-component :parent-show="true">
       <template slot="header">
+        <slot name="errors"></slot>
+
         <div class="w-full flex flex-wrap text-base bg-white rounded-lg items-center">
           <div class="w-full lg:w-4/5 flex flex-wrap">
             <div class="w-full mt-2 px-2 lg:m-0 lg:w-1/4">
@@ -64,7 +67,7 @@
       </div>
 
       <div class="w-full mt-10">
-        <h3 class="font-extrabold text-lg">Requirements *</h3>
+        <h3 class="font-extrabold text-lg">Requirements</h3>
         <TextEditor v-model="form.requirements" />
       </div>
 
@@ -89,25 +92,31 @@
 
 <script>
 import TextEditor from "./components/TextEditor";
+
 export default {
   name: "CareerItem",
+
   props: {
     value: {
       type: Object,
       default: () => ({})
     }
   },
+
   components: {
     TextEditor
   },
+
   data: () => ({
     form: null
   }),
+
   methods: {
     back() {
       this.$emit("back", true);
     }
   },
+
   watch: {
     value: {
       deep: true,
@@ -122,6 +131,7 @@ export default {
       }
     }
   },
+
   created() {
     this.form = this.value;
   }
