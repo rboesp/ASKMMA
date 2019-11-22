@@ -28,7 +28,18 @@ class CareerController extends Controller
      */
     public function store(Request $request)
     {
-        $career = new Career($request->all());
+        $data = $request->validate([
+            'title' => 'required|string',
+            'location' => 'required|string',
+            'department' => 'nullable|string',
+            'extra' => 'nullable|string',
+            'requirements' => 'required|string',
+            'responsibilities' => 'required|string',
+            'core_competencies' => 'nullable|string',
+            'notes' => 'nullable|string'
+        ]);
+
+        $career = new Career($data);
         $career->save();
 
         return new CareerResource($career);
