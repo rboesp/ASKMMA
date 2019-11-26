@@ -40,7 +40,7 @@
               <a
                 target="_top"
                 class="hover:underline"
-                href="mailto:careers@mma.com?Subject=Apply"
+                href="mailto:danielle@askmma.com?Subject=Apply"
               >Apply Here</a>
               <button class="pl-4 pr-2 text-mmabrown font-semibold" @click="toggleDetails">
                 {{ details ? 'View Less' : 'View More' }}

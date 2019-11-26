@@ -33,7 +33,7 @@ class CareerController extends Controller
             'location' => 'required|string',
             'department' => 'nullable|string',
             'extra' => 'nullable|string',
-            'requirements' => 'required|string',
+            'requirements' => 'nullable|string',
             'responsibilities' => 'required|string',
             'core_competencies' => 'nullable|string',
             'notes' => 'nullable|string'

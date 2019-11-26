@@ -27,14 +27,16 @@
         </h3>
         <div class="w-full mt-4" v-html="career.core_competencies"></div>
       </div>
-      <p>
-        {{ career.notes }}
-      </p>
+      <div class="mt-6">
+        <p class="font-medium text-base text-gray-700">
+          {{ career.notes }}
+        </p>
+      </div>
 
       <div class="flex justify-center lg:justify-start w-full mt-6">
         <a
           target="_top"
-          href="mailto:careers@mma.com?Subject=Apply"
+          href="mailto:danielle@askmma.com?Subject=Apply"
           class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
         >
           Apply for This Position

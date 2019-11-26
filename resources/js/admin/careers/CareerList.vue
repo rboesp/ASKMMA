@@ -21,7 +21,7 @@
         <the-career
           v-for="career in careers"
           :key="career.id"
-          :title="career.title"
+          :career-title="career.title"
           :location="career.location"
           :department="career.department"
           :extra="career.extra"
@@ -40,6 +40,9 @@
 
             <h3 class="mt-10 font-extrabold text-lg">Core Competencies</h3>
             <div class="w-full mt-4" v-html="career.core_competencies"></div>
+
+            <h3 class="mt-10 font-extrabold text-lg">Notes</h3>
+            <div class="w-full mt-4">{{career.notes}}</div>
           </div>
         </the-career>
       </div>
