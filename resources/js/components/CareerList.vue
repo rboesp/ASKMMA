@@ -27,8 +27,11 @@
         </h3>
         <div class="w-full mt-4" v-html="career.core_competencies"></div>
       </div>
-      <div class="mt-6">
-        <p class="font-medium text-base text-gray-700">
+      <div class="mt-10">
+        <h3 class="font-extrabold text-lg">
+          Notes
+        </h3>
+        <p class="font-medium text-base mt-4 text-gray-700">
           {{ career.notes }}
         </p>
       </div>
