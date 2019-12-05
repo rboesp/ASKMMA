@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class CareerController extends Controller
 {
+    public function __construct()
+    {
+        return $this->middleware('auth')->except('index');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -33,7 +38,7 @@ class CareerController extends Controller
             'location' => 'required|string',
             'department' => 'nullable|string',
             'extra' => 'nullable|string',
-            'requirements' => 'required|string',
+            'requirements' => 'nullable|string',
             'responsibilities' => 'required|string',
             'core_competencies' => 'nullable|string',
             'notes' => 'nullable|string'
