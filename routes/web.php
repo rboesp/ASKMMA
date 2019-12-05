@@ -34,10 +34,10 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/dashboard/messages', 'HomeController@messages')->name('messages');
     Route::get('/dashboard/messages/export', 'ContactMessageController@export')->name('messages-download');
-
-    Route::resources(['api/careers' => 'CareerController']);
 //    Route::resources(['api/feedback' => 'FeedbackController@index']);
 });
+
+Route::resources(['api/careers' => 'CareerController']);
 
 Route::resources(['/api/feedback' => 'FeedbackController']);
 Route::resources(['/api/messages' => 'ContactMessageController']);
