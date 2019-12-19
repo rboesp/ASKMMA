@@ -247,8 +247,8 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Jacksonville Branch Office</div>
                             <p class="text-gray-700 text-md">
-                                501 Riverside Ave Suite 711<br>
-                                Jacksonville, FL 32202
+                                14600 Whirlwind Ave Suite 211<br>
+                                Jacksonville, FL 32218
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -257,7 +257,7 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:9047753875">(904) 775-3875</a></p>
+                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:9045237382">(904) 523-7382</a></p>
                                 </div>
                             </div>
                         </div>

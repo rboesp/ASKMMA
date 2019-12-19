@@ -41,7 +41,7 @@ class CareerController extends Controller
             'requirements' => 'nullable|string',
             'responsibilities' => 'required|string',
             'core_competencies' => 'nullable|string',
-            'notes' => 'nullable|string'
+            'notes' => 'nullable|string',
         ]);
 
         $career = new Career($data);
