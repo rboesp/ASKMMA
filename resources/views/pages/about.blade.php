@@ -107,8 +107,8 @@
                     <img src="/images/team/Danielle_Phillips.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Danielle Phillips</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
+                    <p class="lg:text-md text-sm text-center">Business Development</p>
                     <p class="lg:text-md text-sm text-center">Sales & Marketing</p>
-                    <p>&nbsp;</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
@@ -123,6 +123,14 @@
                     <p class="font-bold mb-2">Darci Fleming</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
                     <p class="lg:text-md text-sm text-center">Operations</p>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Teresa_Rodriguez.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Teresa Rodriguez</p>
+                    <p class="lg:text-md text-sm text-center">Vice President</p>
+                    <p class="lg:text-md text-sm text-center">Sales</p>
                     <p>&nbsp;</p>
                 </div>
 
@@ -147,14 +155,6 @@
                     <p class="font-bold mb-2">Trent Purcell</p>
                     <p class="lg:text-md text-sm text-center">Regional Director</p>
                     <p class="lg:text-md text-sm text-center">Eastern Missouri, SW Illinois &<br>New Markets</p>
-                </div>
-
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Teresa_Rodriguez.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Teresa Rodriguez</p>
-                    <p class="lg:text-md text-sm text-center">Regional Director</p>
-                    <p class="lg:text-md text-sm text-center">Louisiana & Eastern Texas</p>
-                    <p>&nbsp;</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
