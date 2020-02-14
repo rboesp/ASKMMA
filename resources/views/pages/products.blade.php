@@ -36,32 +36,32 @@
                 <section class="pt-16">
                     <div class="container mx-auto">
                         <div class="flex flex-wrap flex-row justify-around lg:flex">
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/aetna-logo.png"
-                                    class="self-center my-8 mx-auto w-3/4"
+                                    class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/uch_logo.jpg"
                                     class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/vantage.png"
-                                    class="self-center my-8 mx-auto h-10"
+                                    class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                         src="/images/logos/humana.png"
                                         class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                                 {{--<h1 class="text-xl font-bold">Humana</h1>--}}
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                         src="/images/logos/cigna-healthspring-logo.jpg"
                                         class="self-center my-8 mx-auto w-3/4 lg:w-full"
