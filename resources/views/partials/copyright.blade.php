@@ -5,8 +5,8 @@
 		</div>
 		<div class="flex flex-col flex-wrap text-gray-100 pt-8">
 			<div class="flex lg:w-2/3 lg:pl-3 justify-center lg:justify-start flex flex-wrap">
-				<span class="w-full"> © 2019 Medicare Medicaid Advisors, Inc. An Insurance Brokerage. All Rights Reserved.</span>
-				<span class="w-full"> © 2019 Medicare Medicaid Advisors USA, Inc. An Insurance Brokerage. All Rights Reserved.</span>
+				<span class="w-full"> © {{ date("Y") }} Medicare Medicaid Advisors, Inc. An Insurance Brokerage. All Rights Reserved.</span>
+				<span class="w-full"> © {{ date("Y") }} Medicare Medicaid Advisors USA, Inc. An Insurance Brokerage. All Rights Reserved.</span>
 			</div>
 			<div class="flex justify-start md:justify-center mx-4 text-gray-100 pt-8 font-semibold">
 				<a class="pr-8" href="/privacy-policy">Privacy Policy</a>
