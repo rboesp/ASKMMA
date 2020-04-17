@@ -23,6 +23,7 @@ Route::view('/products', 'pages.products');
 Route::view('/careers', 'pages.careers');
 Route::view('/terms-and-conditions', 'pages.terms-and-conditions');
 Route::view('/privacy-policy', 'pages.privacy-policy');
+Route::view('/nondiscrimination-notice', 'pages.nondiscrimination-notice');
 
 Auth::routes(['register' => false]);
 
