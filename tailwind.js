@@ -21,6 +21,7 @@ module.exports = {
             mmalightblue: '#698ab5',
             mmagray: '#aaaab1',
             mmadescription: '#2e2e2e',
+            'custom-blue': '#0085BF',
 
             gray: {
                 100: '#f7fafc',
@@ -158,7 +159,7 @@ module.exports = {
             '112': '30rem',
             '128': '36rem',
         },
-        backgroundColor: theme => theme('colors'),
+        backgroundColor: (theme) => theme('colors'),
         backgroundPosition: {
             bottom: 'bottom',
             center: 'center',
@@ -175,7 +176,7 @@ module.exports = {
             cover: 'cover',
             contain: 'contain',
         },
-        borderColor: theme => ({
+        borderColor: (theme) => ({
             ...theme('colors'),
             default: theme('colors.gray.300', 'currentColor'),
         }),
@@ -273,7 +274,7 @@ module.exports = {
             extrabold: '800',
             black: '900',
         },
-        height: theme => ({
+        height: (theme) => ({
             auto: 'auto',
             ...theme('spacing'),
             '176': '44rem',
@@ -374,12 +375,12 @@ module.exports = {
             '11': '11',
             '12': '12',
         },
-        padding: theme => theme('spacing'),
+        padding: (theme) => theme('spacing'),
         stroke: {
             current: 'currentColor',
         },
-        textColor: theme => theme('colors'),
-        width: theme => ({
+        textColor: (theme) => theme('colors'),
+        width: (theme) => ({
             auto: 'auto',
             ...theme('spacing'),
             '1/2': '50%',

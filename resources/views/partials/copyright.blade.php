@@ -10,7 +10,8 @@
 			</div>
 			<div class="flex justify-start md:justify-center mx-4 text-gray-100 pt-8 font-semibold">
 				<a class="pr-8" href="/privacy-policy">Privacy Policy</a>
-				<a href="/terms-and-conditions">Terms of Service</a>
+				<a class="pr-8" href="/terms-and-conditions">Terms of Service</a>
+				<a href="/nondiscrimination-notice">Nondiscrimintation Notice</a>
 			</div>
 		</div>
 	</div>
