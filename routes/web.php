@@ -43,3 +43,8 @@ Route::resources(['api/careers' => 'CareerController']);
 Route::resources(['/api/feedback' => 'FeedbackController']);
 Route::resources(['/api/messages' => 'ContactMessageController']);
 Route::resources(['/api/newsletter' => 'NewsletterController']);
+
+Route::get('/redirect', [
+    'as' => 'redirect',
+    'uses' => 'HomeController@redirect',
+]);

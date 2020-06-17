@@ -32,6 +32,9 @@ Vue.component('feedback-list', require('./admin/feedbacks/Index.vue').default);
 
 Vue.component('contacts-messages-list', require('./admin/messages/Index.vue').default);
 
+Vue.component('user-dropdown', require('./components/UserDropdown.vue').default);
+Vue.component('sunfire-authorize-form', require('./components/SunfireAuthorizeForm.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

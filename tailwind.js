@@ -315,6 +315,7 @@ module.exports = {
         }),
         maxHeight: {
             full: '100%',
+            '64': '16rem',
             screen: '100vh',
         },
         maxWidth: {
