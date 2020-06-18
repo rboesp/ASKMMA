@@ -48,3 +48,12 @@ Route::get('/redirect', [
     'as' => 'redirect',
     'uses' => 'HomeController@redirect',
 ]);
+Route::get('/logout', [
+    'as' => 'logout',
+    'uses' => 'HomeController@logout',
+]);
+
+Route::group(['middleware' => 'auth:api', 'prefix' => 'v1', 'namespace' => 'API'], function () {
+    Route::get('authuser', 'UserController@details');
+    Route::get('sunfire', 'UserController@sunfire');
+});

@@ -50,19 +50,22 @@
             @if (auth()->check())
                 <user-dropdown>
                     <template slot="username">
-                        {{ ucfirst(auth()->user()->name) }}
+                        Hi, {{ ucfirst(auth()->user()->name) }}
                     </template>
 
+                    <div class="font-normal px-4 py-2">
+                        Signed in as <span class="font-semibold">{{ auth()->user()->email }}</span>
+                    </div>
                     @if(! empty($thirdPartyLinks = auth()->user()->getUserThirdPartyLink()))
                         @foreach($thirdPartyLinks as $link)
                             <a href="/redirect?client_id={{$link->id}}&redirect_uri={{$link->redirect}}&response_type=code&scope="
-                               class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
+                               class="block pl-4 border-t py-2 text-sm leading-5 text-gray-700 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
                             >
                                 {{ $link->name }}
                             </a>
                         @endforeach
                         <a href="/logout"
-                           class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue mr-4">
+                           class="block pl-4 border-t py-2 text-sm leading-5 text-gray-700 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">
                             Logout
                         </a>
                     @endif

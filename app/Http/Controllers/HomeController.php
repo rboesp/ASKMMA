@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\URL;
 
 class HomeController extends Controller
@@ -47,5 +48,12 @@ class HomeController extends Controller
         ]);
 
         return redirect(URL::to('/oauth/authorize').'?'.$query);
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect('/');
     }
 }

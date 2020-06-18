@@ -43,8 +43,10 @@ class User extends Authenticatable
 
     public function getUserThirdPartyLink()
     {
-        $oauthClients = new OauthClients();
-
-        return $oauthClients->getOauthClientsByUserId(Auth::user()->id);
+        return DB::table('oauth_clients')
+            ->select('oauth_clients.*')
+            ->join('thirdparty_users', 'thirdparty_users.thirdparty_id', '=', 'oauth_clients.id')
+            ->where('thirdparty_users.user_id', Auth::user()->id)
+            ->get();
     }
 }
