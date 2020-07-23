@@ -24,8 +24,10 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "autonumeric": "^4.6.0",
+        "cleave.js": "^1.6.0",
         "moment": "^2.24.0",
-        "sweetalert2": "^8.18.0",
+        "sweetalert2": "^9.17.0",
         "tailwindcss": "^1.1.2",
         "tiptap": "^1.26.0",
         "tiptap-extensions": "^1.28.0"

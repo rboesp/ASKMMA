@@ -15,15 +15,15 @@ class CareerResource extends JsonResource
     public function toArray($request)
     {
         return [
-          'id' => $this->id,
-          'title' => $this->title,
-          'location' => $this->location,
-          'department' => $this->department,
-          'notes' => $this->notes,
-          'responsibilities' => $this->responsibilities,
-          'requirements' => $this->requirements,
-          'core_competencies' => $this->core_competencies,
-          'extra' => $this->extra,
+            'id' => $this->id,
+            'title' => $this->title,
+            'location' => $this->location,
+            'department' => $this->department,
+            'notes' => $this->notes,
+            'responsibilities' => $this->responsibilities,
+            'requirements' => $this->requirements,
+            'core_competencies' => $this->core_competencies,
+            'extra' => $this->extra,
         ];
     }
 }

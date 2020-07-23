@@ -35,57 +35,38 @@
             <div class="w-full text-center">
                 <section class="pt-16">
                     <div class="container mx-auto">
-                        <div class="flex flex-wrap flex-row justify-around lg:flex justify-around">
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/aetna-logo.png"
-                                    class="self-center mb-16 mx-auto w-1/2"
+                                    class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/allwell.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/uch_logo.jpg"
-                                    class="self-center mb-16 mx-auto w-1/2 lg:w-2/3"
+                                    class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/amerigroup.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
-{{--                                <img--}}
-{{--                                    src="/images/logos/cigna.jpg"--}}
-{{--                                    class="self-center mb-16 mx-auto"--}}
-{{--                                />--}}
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/vantage.png"
-                                    class="self-center mb-16 mx-auto h-10"
+                                    class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/anthem.png"--}}
-{{--                                    class="self-center mb-16  w-1/2"--}}
-{{--                                />--}}
-                                <h1 class="text-xl font-bold">Cigna</h1>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
+                                <img
+                                        src="/images/logos/humana.png"
+                                        class="self-center my-8 mx-auto w-3/4 lg:w-full"
+                                />
+                                {{--<h1 class="text-xl font-bold">Humana</h1>--}}
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/blue_medicare.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
-                                <h1 class="text-xl font-bold">Kansas City<br>Blue Medicare</h1>
-                            </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/bright-idea.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
-                                <h1 class="text-xl font-bold">Bright Idea</h1>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
+                                <img
+                                        src="/images/logos/cigna-healthspring-logo.jpg"
+                                        class="self-center my-8 mx-auto w-3/4 lg:w-full"
+                                />
+                                {{--<h1 class="text-xl font-bold">Humana</h1>--}}
                             </div>
                         </div>
                     </div>
@@ -93,78 +74,68 @@
 
                 <section class="lg:pt-4">
                     <div class="container mx-auto">
-                        <div class="flex flex-wrap flex-row justify-around lg:flex lg:px-20">
-                            <div class="w-1/2 md:w-1/3 lg:w-3/12 flex justify-center pl-4 md:pr-16">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex lg:px-10">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Cigna</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">Allwell</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">Amerigroup</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
 {{--                                <img--}}
 {{--                                    src="/images/logos/global-health.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
 {{--                                />--}}
                                 <h1 class="text-xl font-bold">Global Health</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/gtl.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">GTL</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/health_sun.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2"--}}
-{{--                                />--}}
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">HealthSun</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Simply Healthcare</h1>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section class="lg:pt-16">
+                <section class="lg:pt-4">
                     <div class="container mx-auto">
-                        <div class="flex flex-wrap flex-row justify-around lg:flex justify-around">
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/humana.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
-{{--                                />--}}
-                                <h1 class="text-xl font-bold">Humana</h1>
+                        <div class="flex flex-wrap flex-row justify-around lg:flex">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Bright Idea</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
 {{--                                <img--}}
 {{--                                    src="/images/logos/molina-healthcare.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
 {{--                                />--}}
                                 <h1 class="text-xl font-bold">Molina</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
 {{--                                <img--}}
 {{--                                    src="/images/logos/mutualof_omaha.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
 {{--                                />--}}
                                 <h1 class="text-xl font-bold">Mutual of Omaha</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
-{{--                                <img--}}
-{{--                                    src="/images/logos/simply.png"--}}
-{{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
-{{--                                />--}}
-                                <h1 class="text-xl font-bold">Simply Healthcare</h1>
-                            </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">Anthem</h1>
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/12 flex justify-center">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
 {{--                                <img--}}
 {{--                                    src="/images/logos/wellcare.png"--}}
 {{--                                    class="self-center mb-16 mx-auto w-1/2 lg:w-full"--}}
 {{--                                />--}}
                                 <h1 class="text-xl font-bold">WellCare</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Kansas City<br>Blue Medicare</h1>
                             </div>
                         </div>
                     </div>

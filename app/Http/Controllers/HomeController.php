@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 
 class HomeController extends Controller
 {
@@ -34,5 +36,29 @@ class HomeController extends Controller
     public function messages()
     {
         return view('pages.admin.messages');
+    }
+
+    public function redirect(Request $request)
+    {
+        $query = http_build_query([
+            'client_id' => $request->client_id,
+            'redirect_uri' => $request->redirect_uri,
+            'response_type' => $request->response_type,
+            'scope' => $request->scope,
+        ]);
+
+        return redirect(URL::to('/oauth/authorize').'?'.$query);
+    }
+
+    public function users()
+    {
+        return view('pages.admin.users.index');
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect('/');
     }
 }

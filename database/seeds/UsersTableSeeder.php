@@ -15,6 +15,9 @@ class UsersTableSeeder extends Seeder
         factory(User::class)->create([
             'name' => 'MMA Admin',
             'email' => 'admin@mma.com',
+            'zip' => '12345',
+            'npn' => '12345678',
+            'phone' => '1234567890',
         ]);
     }
 }

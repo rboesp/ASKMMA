@@ -1,21 +1,15 @@
 <template>
   <div class="w-full">
-    <!--<div class="w-full flex items-center justify-between">-->
-    <!--<div class="border-b w-full mr-6">-->
-    <!--<input-->
-    <!--placeholder="Search for Career Title, Location, Department"-->
-    <!--class="bg-transparent w-full"-->
-    <!--/>-->
-    <!--</div>-->
-    <!--</div>-->
     <div class="w-full">
       <div class="flex w-full mt-10 justify-end">
         <button
           @click="add"
-          class="text-white text-base rounded bg-mmared shadow text-center font-semibold px-4 py-2"
-        >Add Position</button>
+          class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2"
+        >
+          Add Position
+        </button>
       </div>
-      <h1 class="text-4xl font-semibold mt-10 w-full">Open Positions</h1>
+      <h1 class="text-2xl font-semibold w-full">Open Positions</h1>
 
       <div class="w-full">
         <the-career
@@ -25,7 +19,7 @@
           :location="career.location"
           :department="career.department"
           :extra="career.extra"
-          class="mt-10"
+          class="mt-5"
         >
           <template slot="actions">
             <button @click="editCareer(career.id)" class="text-mmablue mr-4">Edit</button>
