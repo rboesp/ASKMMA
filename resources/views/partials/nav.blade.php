@@ -55,6 +55,14 @@
                     <div class="font-normal px-4 py-2">
                         Signed in as <span class="font-semibold">{{ auth()->user()->email }}</span>
                     </div>
+
+                    @if(auth()->check() && auth()->user()->isAdmin())
+                        <a href="/dashboard"
+                            class="block pl-4 border-t py-2 text-sm leading-5 text-gray-700 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">
+                            Admin Dashboard
+                        </a>
+                    @endif
+
                     @if(! empty($thirdPartyLinks = auth()->user()->getUserThirdPartyLink()))
                         @foreach($thirdPartyLinks as $link)
                             <a href="/redirect?client_id={{$link->id}}&redirect_uri={{$link->redirect}}&response_type=code&scope="

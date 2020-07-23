@@ -39,6 +39,7 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'sunfire_access' => 'boolean'
     ];
 
     public function getUserThirdPartyLink()
@@ -57,5 +58,10 @@ class User extends Authenticatable
 
                 return true;
             });
+    }
+
+    public function isAdmin()
+    {
+        return !! ($this->id === 1);
     }
 }
