@@ -118,6 +118,19 @@
                             </a>
                         </nav>
                     </div>
+                    <div class="flex-shrink-0 flex px-4 py-2 mb-2">
+                        <div class="flex-shrink-0 w-full group block">
+                            <div class="flex items-center">
+                                <div class="ml-3">
+                                    <p class="text-xs leading-4 font-semibold text-purple-400 group-hover:text-purple-900 transition ease-in-out duration-150">
+                                        <a class="hover:underline" href="/dashboard/users/remove-third-party">
+                                            Force Sunfire Re-Attestation
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="flex-shrink-0 flex bg-gray-700 p-4">
                         <div class="flex-shrink-0 w-full group block">
                             <div class="flex items-center">

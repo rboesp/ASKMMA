@@ -8,8 +8,12 @@ use App\Http\Resources\UserResource;
 use App\Mail\FeedbackMail;
 use App\Mail\GenericEmailMarkdown;
 use App\Models\Feedback;
+use App\OauthClients;
+use App\ThirdPartyUser;
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\HtmlString;
 use Maatwebsite\Excel\Facades\Excel;
@@ -42,6 +46,7 @@ class UserController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(Request $request)
     {
@@ -51,6 +56,10 @@ class UserController extends Controller
 
         $user = new User($data);
         $user->save();
+
+        if (! blank($request->get('sunfire_access'))) {
+            $this->attachSunfireToUser($user->fresh()->id);
+        }
 
         return redirect('/dashboard/users');
     }
@@ -68,13 +77,11 @@ class UserController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int $id
+     * @param User $user
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(User $user)
     {
-        $user = User::find($id);
-
         return view('pages.admin.users.update', compact('user'));
     }
 
@@ -85,26 +92,77 @@ class UserController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, User $user)
     {
-        //
+        $data = [];
+        $data['name'] = $request->get('name');
+        $data['email'] = $request->get('email');
+        $data['npn'] = $request->get('npn');
+        $data['zip'] = $request->get('zip');
+        $data['phone'] = $request->get('phone');
+
+        if (! blank($request->get('password'))) {
+            $data['password'] = bcrypt($request->get('password'));
+        }
+        $data['sunfire_access'] = ! blank($request->get('sunfire_access'));
+
+        $user->update($data);
+
+        if (! blank($request->get('sunfire_access'))) {
+            $this->attachSunfireToUser($user->id);
+        }
+
+        return redirect('/dashboard/users');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int $id
+     * @param User $user
      * @return \Illuminate\Http\Response
+     * @throws \Exception
      */
-    public function destroy($id)
+    public function destroy(User $user)
     {
-        //
+        $user->delete();
+
+        return redirect('/dashboard/users');
     }
 
-    public function removeThirdParty($id)
+    public function removeThirdParty()
     {
-        $user = User::find($id);
+        $user = Auth::user();
+        $this->removeSunfire($user->id);
 
-        return view('pages.admin.users.update', compact('user'));
+        return redirect('/dashboard');
+    }
+
+    private function removeSunfire($user_id)
+    {
+        $sunfire = OauthClients::whereName('Sunfire')->first();
+
+        DB::table('oauth_access_tokens')
+            ->select('oauth_access_tokens.*')
+            ->where('oauth_access_tokens.user_id', $user_id)
+            ->where('oauth_access_tokens.client_id', $sunfire->id)
+            ->delete();
+    }
+
+    private function attachSunfireToUser($user_id)
+    {
+        $sunfire = OauthClients::whereName('Sunfire')->first();
+        $thirdPartyUser = new ThirdPartyUser();
+        $thirdPartyUser->user_id = $user_id;
+        $thirdPartyUser->thirdparty_id = $sunfire->id;
+
+        $thirdPartyUser->save();
+    }
+
+    private function detachSunfireToUser($user_id)
+    {
+        $sunfire = OauthClients::whereName('Sunfire')->first();
+        ThirdPartyUser::whereUserId($user_id)->whereThirdpartyId($sunfire->id)->delete();
+
+        $this->removeSunfire($user_id);
     }
 }

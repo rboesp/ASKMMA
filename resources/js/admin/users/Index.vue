@@ -43,6 +43,10 @@
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                 Created At
               </th>
+              <th
+                class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+
+              </th>
             </tr>
             </thead>
             <tbody>
@@ -71,6 +75,14 @@
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
                 {{ user.created_at }}
               </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray- 500">
+                <a :href="`/dashboard/users/${user.id}/edit`" class="hover:underline text-purple-500 mr-2">Edit</a>
+                <form @submit.prevent="deleteUser(index)" ref="removeForm" :action="`/dashboard/users/${user.id}/delete`" method="POST">
+                  <button class="hover:underline text-red-500">
+                    Delete
+                  </button>
+                </form>
+              </td>
             </tr>
             </tbody>
           </table>
@@ -85,6 +97,7 @@
 <script>
   import axios from 'axios'
   import moment from 'moment'
+  import Swal from 'sweetalert2'
   export default {
     name: 'Index',
     data: () => ({
@@ -95,6 +108,28 @@
         return this.userList.map(user => {
           user.created_at = moment(user.created_at).format('LLL')
           return user
+        })
+      }
+    },
+    methods: {
+      async deleteUser(index){
+        Swal.fire({
+          title: 'Are you sure?',
+          text: "You won't be able to revert this!",
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+          if (result.value) {
+            Swal.fire(
+              'Deleted!',
+              'Your file has been deleted.',
+              'success'
+            )
+            this.$refs.removeForm[index].submit()
+          }
         })
       }
     },

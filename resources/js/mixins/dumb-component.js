@@ -1,7 +1,7 @@
 export default {
     props: {
         value: {
-            type: Object,
+            type: [Object, String],
             default: () => ({}),
         },
     },

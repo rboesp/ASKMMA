@@ -56,7 +56,7 @@
                         Signed in as <span class="font-semibold">{{ auth()->user()->email }}</span>
                     </div>
 
-                    @if(auth()->check() && auth()->user()->isAdmin())
+                    @if(auth()->check() && auth()->user()->is_admin)
                         <a href="/dashboard"
                             class="block pl-4 border-t py-2 text-sm leading-5 text-gray-700 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">
                             Admin Dashboard

@@ -68,11 +68,15 @@
 import DumbComponentMixin from "../../../mixins/dumb-component";
 import AppInput from "../../../components/common/AppInput";
 
-export default {
-    name: "UserInfo",
-    components: { AppInput },
-    mixins: [DumbComponentMixin]
-};
+  export default {
+    name: 'UserInfo',
+    components: {AppInput},
+    mixins: [DumbComponentMixin],
+    mounted() {
+      if(typeof this.value !==  "string") return
+      this.form = JSON.parse(this.value)
+    }
+  }
 </script>
 
 <style scoped></style>
