@@ -1,24 +1,23 @@
 <template>
   <div class="w-full">
-    <div class="flex w-full mt-4 justify-end">
-      <a href="/dashboard/messages/export" class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2">
-        Export
+    <div class="flex w-full mt-10 justify-end">
+      <a href="/dashboard/users/create"
+         class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2">
+        Add User
       </a>
     </div>
-    <h1 class="text-2xl font-semibold w-full">Contact Messages</h1>
-    <div class="w-full mt-6">
+
+    <h1 class="text-2xl font-semibold w-full">Registered Users</h1>
+
+    <div class="flex flex-col mt-6">
       <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
         <div class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
           <table class="min-w-full">
             <thead>
-              <tr>
+            <tr>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                First Name
-              </th>
-              <th
-                class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                Last Name
+                Name
               </th>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
@@ -26,19 +25,19 @@
               </th>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                NPN
+              </th>
+              <th
+                class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                 Phone
               </th>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                Zip Code
+                Zip
               </th>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                Interest
-              </th>
-              <th
-                class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                Subscribed
+                Sunfire Access
               </th>
               <th
                 class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
@@ -47,31 +46,30 @@
             </tr>
             </thead>
             <tbody>
-              <tr v-for="(message, index) in messages" :key="message.id"
+            <tr v-for="(user, index) in users" :key="user.id"
                 :class="{ 'bg-white': index % 2  === 0, 'bg-gray-50': index % 2  !== 0, }">
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900">
-                {{ message.first_name }}
+                {{ user.name }}
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                  {{ message.last_name }}
+                <a :href="'mailto:'+user.email" class="hover:font-semibold">
+                  {{ user.email }}
+                </a>
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                <a :href="`mailto:${message.email}`" class="hover:font-semibold">{{ message.email }}</a>
+                {{ user.npn }}
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                {{ message.phone }}
+                {{ user.phone }}
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                {{ message.zip_code }}
+                {{ user.zip }}
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                {{ message.interest }}
+                {{ user.sunfire_access ? 'Yes' : 'No' }}
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                {{ message.subscribed }}
-              </td>
-              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">
-                {{ message.timestamp }}
+                {{ user.created_at }}
               </td>
             </tr>
             </tbody>
@@ -79,6 +77,8 @@
         </div>
       </div>
     </div>
+
+
   </div>
 </template>
 
@@ -88,22 +88,19 @@
   export default {
     name: 'Index',
     data: () => ({
-      contactMessages: [],
+      userList: []
     }),
     computed: {
-      messages(){
-        return this.contactMessages.map(message => {
-          message.subscribed = message.receive_newsletter === '1' ? 'Yes' : 'No'
-          message.timestamp = moment(message.created_at).format('LLL')
-
-
-          return message
+      users () {
+        return this.userList.map(user => {
+          user.created_at = moment(user.created_at).format('LLL')
+          return user
         })
       }
     },
     mounted () {
-      axios.get('/api/messages').then(({data}) => {
-        this.contactMessages = data.data
+      axios.get('/api/user').then(({data}) => {
+        this.userList = data.data
       })
     }
   }

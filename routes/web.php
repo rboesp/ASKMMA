@@ -35,14 +35,17 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/dashboard/messages', 'HomeController@messages')->name('messages');
     Route::get('/dashboard/messages/export', 'ContactMessageController@export')->name('messages-download');
+    Route::get('/dashboard/users', 'HomeController@users')->name('users');
+    Route::get('/dashboard/users/create', 'UserController@create')->name('create-users');
+    Route::post('/dashboard/users/add', 'UserController@store');
 //    Route::resources(['api/feedback' => 'FeedbackController@index']);
 });
 
 Route::resources(['api/careers' => 'CareerController']);
-
 Route::resources(['/api/feedback' => 'FeedbackController']);
 Route::resources(['/api/messages' => 'ContactMessageController']);
 Route::resources(['/api/newsletter' => 'NewsletterController']);
+Route::resources(['/api/user' => 'UserController']);
 
 Route::get('/redirect', [
     'as' => 'redirect',

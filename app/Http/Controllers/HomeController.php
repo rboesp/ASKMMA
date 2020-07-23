@@ -50,6 +50,11 @@ class HomeController extends Controller
         return redirect(URL::to('/oauth/authorize').'?'.$query);
     }
 
+    public function users()
+    {
+        return view('pages.admin.users.index');
+    }
+
     public function logout()
     {
         Auth::logout();

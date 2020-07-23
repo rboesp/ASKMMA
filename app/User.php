@@ -20,7 +20,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'zip', 'npn', 'phone',
+        'name', 'email', 'password', 'zip', 'npn', 'phone', 'sunfire_access',
     ];
 
     /**
@@ -43,10 +43,19 @@ class User extends Authenticatable
 
     public function getUserThirdPartyLink()
     {
+        $user = Auth::user();
+
         return DB::table('oauth_clients')
             ->select('oauth_clients.*')
             ->join('thirdparty_users', 'thirdparty_users.thirdparty_id', '=', 'oauth_clients.id')
             ->where('thirdparty_users.user_id', Auth::user()->id)
-            ->get();
+            ->get()
+            ->filter(function ($link) use ($user) {
+                if ($link->name == 'Sunfire' && ! $user->sunfire_access) {
+                    return false;
+                }
+
+                return true;
+            });
     }
 }

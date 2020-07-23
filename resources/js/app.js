@@ -31,6 +31,10 @@ Vue.component('careers-manage', require('./admin/careers/Index.vue').default);
 Vue.component('feedback-list', require('./admin/feedbacks/Index.vue').default);
 
 Vue.component('contacts-messages-list', require('./admin/messages/Index.vue').default);
+Vue.component('users-list', require('./admin/users/Index.vue').default);
+Vue.component('users-create', require('./admin/users/Create.vue').default);
+Vue.component('user-info', require('./admin/users/components/UserInfo.vue').default);
+Vue.component('app-button', require('./components/common/AppButton.vue').default);
 
 Vue.component('user-dropdown', require('./components/UserDropdown.vue').default);
 Vue.component('sunfire-authorize-form', require('./components/SunfireAuthorizeForm.vue').default);

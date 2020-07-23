@@ -45,8 +45,8 @@ class RouteServiceProvider extends ServiceProvider
          * Laravel Passport Routes Registration.
          */
         Passport::routes();
-        Passport::tokensExpireIn(Carbon::now()->addDays(15));
-        Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
+//        Passport::tokensExpireIn(Carbon::now()->addDays(15));
+//        Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
     }
 
     /**

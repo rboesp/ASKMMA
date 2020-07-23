@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('title')
-    Messages
+    Users
 @endsection
+
 @section('content')
     <div class="container mx-auto">
-        <contacts-messages-list></contacts-messages-list>
+        <users-list></users-list>
     </div>
 @endsection
