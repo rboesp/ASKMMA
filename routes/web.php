@@ -63,3 +63,7 @@ Route::group(['middleware' => 'auth:api', 'prefix' => 'v1', 'namespace' => 'API'
     Route::get('authuser', 'UserController@details');
     Route::get('sunfire', 'UserController@sunfire');
 });
+
+Route::post('/password-reset', 'UserController@resetPassword');
+Route::get('/password-forget-form/{token}', 'UserController@passwordForgetForm')->name('passwordForgetForm');
+Route::post('/reset-credentials', 'UserController@resetPassword');

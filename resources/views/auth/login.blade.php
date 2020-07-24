@@ -3,7 +3,7 @@
 ])
 
 @section('content')
-    <div class="mx-auto container h-112 flex items-center justify-center">
+    <div class="mx-auto container h-112 flex items-center justify-center mt-24">
         <div class="flex w-2/3 lg:w-1/3 shadow py-8 px-8">
             <div class="w-full">
                 <h1 class="text-3xl text-center font-semibold text-mmablue mb-12">{{ __('Login') }}</h1>
