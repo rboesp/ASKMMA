@@ -126,47 +126,38 @@
 		}
 	});
 </script>
-<script>
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
-
-	document.onclick = check;
-	function check(e) {
-	  var target = (e && e.target) || (event && event.srcElement);
-
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
-		}
-	  }
-	}
-
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-</script>
-
-
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   $(document).ready(function()  {
+
+    // Hamburger toggle code
+    jQuery.fn.clickOutside = function(callback){
+        let $me = this;
+        $(document).mouseup(function(e) {
+            if ( !$me.is(e.target) && $me.has(e.target).length === 0 ) {
+                callback.apply($me);
+            }
+        });
+    };
+
+    let nav_menu = $('#nav-content');
+
+    $('#nav-toggle').click(function () {
+      if (nav_menu.hasClass('hidden')) {
+        nav_menu.removeClass('hidden');
+      } else {
+        nav_menu.addClass('hidden');
+      }
+    });
+
+    nav_menu.clickOutside(function () {
+      $(this).addClass('hidden');
+    });
+    // End Hamburger Toggle Code
+  
     $('#contact-interest').change(function(){
       $('#contact-interest').removeClass('text-gray-400')
       $('#contact-interest').addClass('text-gray-700')
