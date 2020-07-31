@@ -46,7 +46,7 @@
                 </span>
             </a>
 
-            <a href="https://www.sunfirematrix.com/app/consumer" class="mt-4 flex flex-col w-1/2 h-full sm:w-3/12 lg:w-4/12" target="_blank">
+            <a href="#contactcta" class="mt-4 flex flex-col w-1/2 h-full sm:w-3/12 lg:w-4/12">
                <span class="flex flex-col hover:bg-gray-100 rounded-lg text-center items-center py-4 mx-1 bg-white box-blue-shadow">
                    <img class="card-image mx-auto" src="/images/laptop_icon.png">
                    <p class="text-base lg:text-lg font-black leading-tight text-gray-800 py-4">Look For<br>Medical Plans</p>
