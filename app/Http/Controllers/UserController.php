@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Exports\FeedbackExport;
+use App\Exports\UserExport;
 use App\Http\Resources\FeedbackResource;
 use App\Http\Resources\UserResource;
 use App\Mail\FeedbackMail;
@@ -269,5 +270,10 @@ class UserController extends Controller
         session()->flash('error', 'Something went wrong, please try again.');
 
         return Redirect::back();
+    }
+
+    public function export()
+    {
+        return Excel::download(new UserExport(), 'users.xlsx');
     }
 }

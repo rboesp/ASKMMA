@@ -2,8 +2,13 @@
   <div class="w-full">
     <div class="flex w-full mt-10 justify-end">
       <a href="/dashboard/users/create"
-         class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2">
+         class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2 mr-4">
         Add User
+      </a>
+
+      <a href="/dashboard/users/export"
+         class="text-white text-base rounded bg-purple-500 shadow text-center font-semibold px-4 py-2">
+        Export
       </a>
     </div>
 

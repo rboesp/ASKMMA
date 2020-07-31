@@ -42,6 +42,7 @@ Route::group(['middleware' => ['auth', 'adminAuth']], function () {
     Route::get('/dashboard/users/{user}/edit', 'UserController@edit');
     Route::post('/dashboard/users/{user}/update', 'UserController@update');
     Route::post('/dashboard/users/{user}/delete', 'UserController@destroy');
+    Route::get('/dashboard/users/export', 'UserController@export')->name('users-download');
 });
 
 Route::resources(['api/careers' => 'CareerController']);
