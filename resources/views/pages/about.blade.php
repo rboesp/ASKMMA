@@ -104,14 +104,6 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Danielle_Phillips.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Danielle Phillips</p>
-                    <p class="lg:text-md text-sm text-center">Vice President</p>
-                    <p class="lg:text-md text-sm text-center">Business Development</p>
-                    <p>&nbsp;</p>
-                </div>
-
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Sabrina_Mundy.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Sabrina Mundy</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
