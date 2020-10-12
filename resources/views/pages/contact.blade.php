@@ -36,7 +36,7 @@
                 <div class="w-full flex flex-wrap justify-between items-center py-10 px-10">
                     <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
                         <img class="h-6" src="/images/icons/phone.svg" alt="">
-                        <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
+                        <a href="tel:8775504555" class="font-semibold ml-2">(877) 550-4555</a>
                     </div>
 
                     <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
@@ -63,8 +63,8 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Kansas City Home Office</div>
                             <p class="text-gray-700 text-md">
-                                9800 Metcalf Ave Suite 100<br>
-                                Overland Park, KS 66212
+                                8215 Melrose Drive<br>
+                                Lenexa, KS 66214
                             </p>
                         </div>
                         <div class="px-6 py-4">
