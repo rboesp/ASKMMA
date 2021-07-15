@@ -61,13 +61,13 @@
                                 />
                                 {{--<h1 class="text-xl font-bold">Humana</h1>--}}
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
+                            {{-- <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                         src="/images/logos/cigna-healthspring-logo.jpg"
                                         class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
-                                {{--<h1 class="text-xl font-bold">Humana</h1>--}}
-                            </div>
+                                <h1 class="text-xl font-bold">Humana</h1>
+                            </div> --}}
                         </div>
                     </div>
                 </section>
@@ -136,6 +136,27 @@
                             </div>
                             <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
                                 <h1 class="text-xl font-bold">Kansas City<br>Blue Medicare</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="lg:pt-4">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap flex-row justify-around lg:flex">
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">CarePlus</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Global</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Ascension</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">Anthem</h1>
+                            </div>
+                            <div class="w-1/2 md:w-1/3 lg:w-1/6 flex justify-center py-2">
+                                <h1 class="text-xl font-bold">WellFirst</h1>
                             </div>
                         </div>
                     </div>

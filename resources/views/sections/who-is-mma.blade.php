@@ -35,11 +35,11 @@
                     <img class="mx-auto w-full h-auto" src="/images/cal icon.png">
                 </div>
                 <div class="my-3">
-                    <span class="font-black text-lg text-gray-800">Over 36 Years In Medicare</span>
+                    <span class="font-black text-lg text-gray-800">Over 40 Years In Medicare</span>
                 </div>
                 <div class="text-center">
                     <span class="lg:text-md text-sm">
-                        Our founding partners have over 36 years combined experience in the Medicare industry working with clients.
+                        Our founding partners have over 40 years combined experience in the Medicare industry working with clients.
                     </span>
                 </div>
             </div>
@@ -49,11 +49,11 @@
                     <img class="mx-auto w-full h-auto" src="/images/ppl icon.png">
                 </div>
                 <div class="my-3">
-                    <span class="font-black text-lg text-gray-800">70,000+ Clients Helped</span>
+                    <span class="font-black text-lg text-gray-800">80,000+ Clients Helped</span>
                 </div>
                 <div class="text-center">
                     <span class="lg:text-md text-sm">
-                        Since 2006, Medicare Medicaid Advisors has been able to help over 70,000 clients find the right insurance coverage for their needs.
+                        Since 2006, Medicare Medicaid Advisors has been able to help over 80,000 clients find the right insurance coverage for their needs.
                     </span>
                 </div>
             </div>

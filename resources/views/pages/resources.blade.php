@@ -70,42 +70,42 @@
                                              class="my-4 box-blue-shadow">
                             <div class="w-full flex flex-wrap font-semibold">
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11095-Welcome-to-Medicare.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Welcome to Medicare.pdf" target="_blank"
                                        class="resource-link"> Welcome to Medicare</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/2019-your-medicare-benefits.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Your Medicare Benefits.pdf" target="_blank"
                                        class="resource-link"> Medicare Benefits</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Getting Started 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Getting Started.pdf" target="_blank"
                                        class="resource-link"> Medicare Getting Started</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11575-Medigap-Getting-Started.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Medigap Getting Started.pdf" target="_blank"
                                        class="resource-link"> Medicare Medigap Getting Started</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/2019 Medicare and You.pdf" target="_blank"
-                                       class="resource-link">2019 Medicare &amp; You</a>
+                                    <a href="/resources/2021 Medicare & You.pdf" target="_blank"
+                                       class="resource-link">2021 Medicare &amp; You</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Costs 2019.pdf" target="_blank" class="resource-link">2019 Medicare Costs</a>
+                                    <a href="/resources/2021 Medicare Costs.pdf" target="_blank" class="resource-link">2021 Medicare Costs</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Soc-Sec-Apply-Online-for-Medicare.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Apply Online.pdf" target="_blank"
                                        class="resource-link">Apply for Medicare Online </a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -117,25 +117,8 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="https://www.tuck.com/dementia/" target="_blank" class="resource-link">Dealing with Dementia-Related Sleep Disorders</a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="https://www.tuck.com/safe-sleeping-guide-for-seniors/" target="_blank"
-                                       class="resource-link">Guide to Safe Sleeping for Seniors</a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/Job-Based Insurance When You Turn 65.pdf" target="_blank"
                                        class="resource-link">Job-Based Insurance When You Turn 65</a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11694-Medicare-and-Marketplace.pdf" target="_blank"
-                                       class="resource-link">Medicare &amp; the Health Insurance Marketplace</a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
@@ -175,12 +158,6 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="https://www.tuck.com/best-medical-alert-systems/" target="_blank"
-                                       class="resource-link">Which Medical Alert Devices are Best for Seniors</a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/Medicare Women Heart Disease 9.2018.pdf" target="_blank"
                                        class="resource-link">Women &amp; Heart Disease</a>
                                     <arrow-icon></arrow-icon>
@@ -191,6 +168,10 @@
                         <accordion-component title="Medicare & Medicaid" sub-title="View Medicare & Medicaid"
                                              class="my-4 box-blue-shadow">
                             <div class="w-full flex flex-wrap font-semibold">
+                                <span class="w-full lg:w-1/2 py-3">
+                                    <a href="/resources/2021 Medicaid Getting Started.pdf" target="_blank" class="resource-link">Medicaid Overview</a></a>
+                                    <arrow-icon></arrow-icon>
+                                </span>
                                 <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/11409-Medicaid.pdf" target="_blank" class="resource-link">Medicaid Overview</a></a>
                                     <arrow-icon></arrow-icon>
@@ -209,7 +190,7 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Advantage Plans 10.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Advantage-Plans.pdf" target="_blank"
                                        class="resource-link">Medicare Advantage Plan</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -222,25 +203,25 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Ambulance Services.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Ambulance-Services.pdf" target="_blank"
                                        class="resource-link">Medicare Ambulance Services</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Annual Yearly Review 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Annual Review.pdf" target="_blank"
                                        class="resource-link">Medicare Annual Review</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Appeals Document 7.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Appeals.pdf" target="_blank"
                                        class="resource-link">Medicare Appeals</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Are-you-an-inpatient-or-outpatient.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Are-You-a Hospital Inpatient-or-Outpatient.pdf" target="_blank"
                                        class="resource-link">Medicare Are you an Inpatient or an Outpatient</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -252,37 +233,25 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/2019-your-medicare-benefits.pdf" target="_blank"
-                                       class="resource-link">Medicare Benefits</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/11368-N Bringing_Better_Heal_Care 8 2016.pdf" target="_blank"
                                        class="resource-link">Medicare Better Healthcare to Native Communities</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Blue-Button-card.pdf" target="_blank"
-                                       class="resource-link">Medicare Blue Button Card</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11931-Cancer-Treatment-Services.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Cancer Treatment Services.pdf" target="_blank"
                                        class="resource-link">Medicare Cancer Treatment Services</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Children with ESRD 7.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare for Children with End-State Renal Disease.pdf" target="_blank"
                                        class="resource-link">Medicare Children with Kidney Disease</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Choosing a Medigap Policy 2019.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare choosing a Medigap Policy.pdf" target="_blank"
                                        class="resource-link">Medicare Choosing a Medigap Policy</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -294,19 +263,13 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Clinical Research Studies.pdf" target="_blank"
-                                       class="resource-link">Medicare Clinical Research Studies</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/Medicare Coverage Gap 10.2018.pdf" target="_blank"
                                        class="resource-link">Medicare Closing the Coverage Gap</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11163-Compare-Medicare-Drug-Coverage.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Compare Drug-Coverage.pdf" target="_blank"
                                        class="resource-link">Medicare Compare Drug Coverage</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -330,37 +293,31 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11022-Medicare-Diabetes-Coverage.pdf" target="_blank"
-                                       class="resource-link">Medicare Coverage Diabetes Supples &amp; Services</a></a>
+                                    <a href="/resources/2021 Medicare coverage diabetes supplies.pdf" target="_blank"
+                                       class="resource-link">Medicare Coverage Diabetes Supplies &amp; Services</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11045-Medicare-Coverage-of-DME.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Guide to Durable Medical Equipment.pdf" target="_blank"
                                        class="resource-link">Medicare Coverage Durable Medical Equipment</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Coverage Outside United States.pdf" target="_blank"
+                                    <a href="/resources/2021 medicare coverage-outside-united-states.pdf" target="_blank"
                                        class="resource-link">Medicare Coverage Outside The United States</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Covered-Equipment-Supplies.pdf" target="_blank"
-                                       class="resource-link">Medicare Covered Equipment &amp; Supplies</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11333-How-Medicare-Covers-Self-Administered-Drugs-in-Hospital-Outpatient12.17.pdf"
+                                    <a href="/resources/2021 Medicare Covers Self-Administered-Drugs.pdf"
                                        target="_blank" class="resource-link">Medicare Covers Self-Administered Drugs in Hosp Outpatient</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Diabetes Coverage Card 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Diabetes Coverage.pdf" target="_blank"
                                        class="resource-link">Medicare Diabetes Coverage Card</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -372,19 +329,19 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11376-discharge-planning-checklist.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Discharge-Planning-Checklist.pdf" target="_blank"
                                        class="resource-link">Medicare Discharge Planning Checklist</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11136-pharmacies-formularies-coverage-rules6.1.19.pdf"
+                                    <a href="/resources/2021 Medicare Drug Plan pharmacies & formularies.pdf"
                                        target="_blank" class="resource-link">Medicare Drug Plan Pharmacies &amp; Formularies</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11382-Electronic-Prescribing.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Electronic-Prescribing.pdf" target="_blank"
                                        class="resource-link">Medicare Electronic Prescribing</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -398,12 +355,6 @@
                                 <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/Enrolling-in-Part-B-and-Still-Working.pdf" target="_blank"
                                        class="resource-link">Medicare Enrolling in Part B and Still Working</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Coverage ESRD 9.2018.pdf" target="_blank"
-                                       class="resource-link">Medicare ESRD Coverage</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
@@ -426,55 +377,55 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Fighting-Fraud.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare 4Rs for fighting-fraud.pdf" target="_blank"
                                        class="resource-link">Medicare Four Rs for Fighting Fraud</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11417-4-ways-lower-prescription-costs 12.18.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare 4-ways-lower-prescription-costs.pdf" target="_blank"
                                        class="resource-link">Medicare Four Ways to Help Lower Your Drug Costs</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Get Your Questions Answered 7.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Get Your Questions Answered.pdf" target="_blank"
                                        class="resource-link">Medicare Get Your Questions Answered</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Getting a Second Opinion Before Surgery.pdf"
+                                    <a href="/resources/2021 Medicare getting-a-second-opinion-before-surgery.pdf"
                                        target="_blank" class="resource-link">Medicare Getting a Second Opinion Before Surgery</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Getting Medical Care in a Disaster or Emergency Area.pdf"
+                                    <a href="/resources/2021 Medicare getting help in a Disaster-Emergency.pdf"
                                        target="_blank" class="resource-link">Medicare Getting Help in a Disaster or Emergency Area</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/10126-Getting-Help-With-Your-Medicare-Costs.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Get-Help-With-Your-Medicare-Costs.pdf" target="_blank"
                                        class="resource-link">Medicare Getting Help with Medicare Costs</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Dialysis Kidney Transplant.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare getting help with Kidney Dialysis-Kidney-Transplant.pdf" target="_blank"
                                        class="resource-link">Medicare Getting Started with Dialysis &amp; Kidney Transplant</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11361-Medicare-Hospice-Getting-Started 3.18.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare getting started Hospice Benefits.pdf" target="_blank"
                                        class="resource-link">Medicare Getting Started with Hospice</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11358-Medicare-Mental-Health-Getting-Started 3.16.pdf"
+                                    <a href="/resources/2021 Medicare getting started with mental-health.pdf"
                                        target="_blank"
                                        class="resource-link">Medicare Getting Started with Mental Health</a></a>
                                     <arrow-icon></arrow-icon>
@@ -487,7 +438,7 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/nursing-home-other-long-term-services.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Guide to choosing a nursing-home.pdf" target="_blank"
                                        class="resource-link">Medicare Guide to Choosing a Nursing Home</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -499,19 +450,13 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11461-Medicares-DMEPOS-Program.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Guide to Durable Medical Equipment.pdf" target="_blank"
                                        class="resource-link">Medicare Guide to Durable Medical Equipment &amp; Supplies</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Durable Medical Equipment Bidding 10.2018.pdf"
-                                       target="_blank" class="resource-link">Medicare Guide to Durable Medical Equipment Bidding</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Hospice Getting Started.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Guide to Hospice-Getting-Started.pdf" target="_blank"
                                        class="resource-link">Medicare Guide to Hospice Getting Started</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -523,32 +468,32 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11109-Your-Guide-to-Medicare-Prescrip-Drug 6.18.pdf"
+                                    <a href="/resources/2021 Medicare Guide to Prescription Drugs.pdf"
                                        target="_blank"
                                        class="resource-link">Medicare Guide to Prescription Drugs</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Help-Prevent-Fraud.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Help Prevent Fraud.pdf" target="_blank"
                                        class="resource-link">Medicare Help Prevent Fraud</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Home-Health-Benefit.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare home health benefit getting started.pdf" target="_blank"
                                        class="resource-link">Medicare Home Health Benefit</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/10969-Medicare-and-Home-Health-Care.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Home-Health-Care.pdf" target="_blank"
                                        class="resource-link">Medicare Home Health Care</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/02154-medicare-hospice-benefits 2.1.19.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Hospice Benefits.pdf" target="_blank"
                                        class="resource-link">Medicare Hospice Benefits</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -560,7 +505,7 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Hospital-Discharge-Planning-Checklist.pdf"
+                                    <a href="/resources/2021 Medicare Hosptial Discharge-Planning-Checklist.pdf"
                                        target="_blank" class="resource-link">Medicare Hospital Discharge Planning Checklist</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -573,25 +518,19 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11469-income-affects-drug-premiums 6.18.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare How Income affects-drug-premiums.pdf" target="_blank"
                                        class="resource-link">Medicare How Income Affects Drug Premiums</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11173-Medicare-Beneficiary-Ombudsman.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare How Ombudsman works for you.pdf" target="_blank"
                                        class="resource-link">Medicare How Ombudsman Works for You</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-How-to-Join-a-Prescription-Drug-Plan.pdf"
-                                       target="_blank" class="resource-link">Medicare How to Join a Prescription Drug Plan</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/10128-Medicare-Coverage-ESRD.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Kidney Dialysis & Kidney Transplant.pdf" target="_blank"
                                        class="resource-link">Medicare Kidney Dialysis &amp; Kidney Transplant</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -609,7 +548,7 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11347-Long-Term-Care-Hospitals.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare long-term-care-hospitals.pdf" target="_blank"
                                        class="resource-link">Medicare Long Term Care Hospitals</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -621,13 +560,13 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11575-Medigap-Getting-Started Supplemental INsurance 4.17.pdf"
-                                       target="_blank" class="resource-link">Medicare Medigap Getting Stared Supplemental Insurance</a></a>
+                                    <a href="/resources/2021 Medicare Getting Started Supplemental Insurance.pdf"
+                                       target="_blank" class="resource-link">Medicare Medigap Getting Started Supplemental Insurance</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/10184-Medicare-Mental-Health-Bene.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Mental-Health-Benefits.pdf" target="_blank"
                                        class="resource-link">Medicare Mental Health Benefits</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -645,7 +584,7 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Part C and Part D Enrollment Periods 10.2018.pdf"
+                                    <a href="/resources/2021 Medicare Part C & Part D Enrollment periods.pdf"
                                        target="_blank" class="resource-link">Medicare Part C &amp; Part D Enrollment Periods</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -669,19 +608,13 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Guide to Prescription Drug Coverage 6.2018.pdf"
-                                       target="_blank" class="resource-link">Medicare Prescription Drug Guide</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Preventive Services-Card 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Preventive-Services-Chart.pdf" target="_blank"
                                        class="resource-link">Medicare Preventive Services Chart</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Preventive Services 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Preventive-Services Guide.pdf" target="_blank"
                                        class="resource-link">Medicare Preventive Services Guide</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -706,43 +639,37 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Protect Yourself From Fraud Committed by Dishonest Suppliers.pdf"
-                                       target="_blank" class="resource-link">Medicare Protect Yourself from Dishonest Suppliers</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
                                     <a href="/resources/Medicare-Protecting-Your-Personal-Information-1.pdf"
                                        target="_blank" class="resource-link">Medicare Protecting Your Personal Information</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Protecting-Yourself-from-Fraud.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Protect Yourself from Fraud.pdf" target="_blank"
                                        class="resource-link">Medicare Protecting Yourself From Fraud</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11534-Medicare-Rights-and-Protections.pdf" target="_blank"
+                                    <a href="/resources/2021 medicare rights-and-protections.pdf" target="_blank"
                                        class="resource-link">Medicare Rights &amp; Protections</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-return-to-the-community 3.1.19.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Rights when returning to the community.pdf" target="_blank"
                                        class="resource-link">Medicare Rights When Returning to the Community</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Skilled-Nursing-Benefits1.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Skilled Nursing Benefits.pdf" target="_blank"
                                        class="resource-link">Medicare Skilled Nursing Benefits</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Skilled Nursing Facility Care.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Skilled Nursing Facility Care.pdf" target="_blank"
                                        class="resource-link">Medicare Skilled Nursing Facililty Care</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
@@ -755,55 +682,49 @@
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Staying Healthy 9.2018.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Staying Healthy.pdf" target="_blank"
                                        class="resource-link">Medicare Staying Healthy</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-Supplement-Insurance-Getting-Started.pdf"
+                                    <a href="/resources/2021 Medicare Supplement Insurance-Getting-Started.pdf"
                                        target="_blank" class="resource-link">Medicare Supplement Insurance Getting Started</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Helping provide financial security Medicare Supplement Insurance.pdf"
-                                       target="_blank" class="resource-link">Medicare Supplemental Insurance</a></a>
-                                    <arrow-icon></arrow-icon>
-                                </span>
-
-                                <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/10988-medicare-limits-therapy-services 12.1.18.pdf"
+                                    <a href="/resources/2021 Medicare Therapy Service Limits.pdf"
                                        target="_blank" class="resource-link">Medicare Therapy Service Limits</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11941-Understanding-Your-Medicare-Advantage-Pl.pdf"
+                                    <a href="/resources/2021 Medicare Understanding A MAPD Provider Network.pdf"
                                        target="_blank" class="resource-link">Medicare Understanding A MAPD Provider Network</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare-What-it-Covers-What-You-Pay.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare What it Covers.pdf" target="_blank"
                                        class="resource-link">Medicare What it Covers &amp; What You Pay</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11046-Medicare-Wheelchair-Scooter.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Wheelchair & Scooter Benefit.pdf" target="_blank"
                                        class="resource-link">Medicare Wheelchair &amp; Scooter Benefit</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/Medicare Who Pays First.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Who Pays First.pdf" target="_blank"
                                        class="resource-link">Medicare Who Pays First</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>
 
                                 <span class="w-full lg:w-1/2 py-3">
-                                    <a href="/resources/11400-Withholding-Medicare-Drug-Premium.pdf" target="_blank"
+                                    <a href="/resources/2021 Medicare Witholding Plan premiums for Social Security.pdf" target="_blank"
                                        class="resource-link">Medicare Witholding Plan Premiums from Soc Sec</a></a>
                                     <arrow-icon></arrow-icon>
                                 </span>

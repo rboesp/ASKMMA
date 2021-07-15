@@ -39,7 +39,7 @@
       <div class="flex justify-center lg:justify-start w-full mt-6">
         <a
           target="_top"
-          href="mailto:jobapplication@askmma.com?Subject=Apply"
+          href="mailto:danielle@askmma.com?Subject=Apply"
           class="w-4/5 md:w-2/3 lg:w-1/4 bg-mmared hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-2 rounded-lg"
         >
           Apply for This Position
