@@ -115,7 +115,7 @@
                     <img src="/images/team/Sabrina_Mundy.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Sabrina Mundy</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
-                    <p class="lg:text-md text-sm text-center">Contracting, Compliance,<br>Client Retention</p>
+                    <p class="lg:text-md text-sm text-center">Compliance & Client Retention</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
@@ -138,7 +138,7 @@
                     <img src="/images/team/Matt_Ely.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Matt Ely</p>
                     <p class="lg:text-md text-sm text-center">Director</p>
-                    <p class="lg:text-md text-sm text-center">Contracting and Human Resources</p>
+                    <p class="lg:text-md text-sm text-center">Contracting & Human Resources</p>
                     <p>&nbsp;</p>
                 </div>
 
@@ -146,7 +146,7 @@
                     <img src="/images/team/James_Cisneros.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">James Cisneros</p>
                     <p class="lg:text-md text-sm text-center">Director</p>
-                    <p class="lg:text-md text-sm text-center">Agent Training</p>
+                    <p class="lg:text-md text-sm text-center">Recruiting & Agent Training</p>
                     <p>&nbsp;</p>
                 </div>
 
@@ -201,7 +201,7 @@
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Rickey_Brooks.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Rickey Brooks</p>
-                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Assistant Area Manager</p>
                     <p class="lg:text-md text-sm text-center">Jackson, MS</p>
                 </div>
 
@@ -240,11 +240,18 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/no-user.jpeg" class="w-32 h-36 rounded-full mb-2">
+                    <img src="/images/team/Ramona_Warren.jpg" class="w-32 h-36 rounded-full mb-2">
 
                     <p class="font-bold mb-2">Ramona Warren</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>
                     <p class="lg:text-md text-sm text-center">Baton Rouge, Louisiana</p>
+                </div>
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Celana_Ganey.jpg" class="w-32 rounded-full mb-2" style="height: 10rem;">
+
+                    <p class="font-bold mb-2">Celana Ganey</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Shreveport, Louisiana</p>
                 </div>
             </div>
         </div>

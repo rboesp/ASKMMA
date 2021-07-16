@@ -63,8 +63,8 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Kansas City Home Office</div>
                             <p class="text-gray-700 text-md">
-                                9800 Metcalf Ave Suite 100<br>
-                                Overland Park, KS 66212
+                                8215 Melrose Drive<br>
+                                Lenexa, KS 66214
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -329,6 +329,30 @@
                                 </div>
                                 <div>
                                     <p class="text-sm"><a class="hover:font-semibold" href="tel:8774140011">(877) 414-0011</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Card-->
+
+                <!--Card-->
+                <div class="w-full lg:w-1/3 py-6 px-2">
+                    <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-lg text-mmablue mb-2">Jackson MS Branch</div>
+                            <p class="text-gray-700 text-md">
+                                660 Lakeland East Drive Suite 210<br>
+                                Flowood, MS 39232
+                            </p>
+                        </div>
+                        <div class="px-6 py-4">
+                            <div class="flex">
+                                <div class="py-1 pr-2">
+                                    <img src="images/icons/phone.svg" class="h-4">
+                                </div>
+                                <div>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:6019904331">(601) 990-4331</a></p>
                                 </div>
                             </div>
                         </div>
