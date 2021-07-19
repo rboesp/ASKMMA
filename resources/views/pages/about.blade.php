@@ -104,10 +104,26 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Scott_Anderson.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2"> Scott Anderson</p>
+                    <p class="lg:text-md text-sm text-center">Sr. Vice President</p>
+                    <p class="lg:text-md text-sm text-center">&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
                     <img src="/images/team/Sabrina_Mundy.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Sabrina Mundy</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
-                    <p class="lg:text-md text-sm text-center">Contracting, Compliance,<br>Client Retention</p>
+                    <p class="lg:text-md text-sm text-center">Compliance & Client Retention</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Ryan_Kuttenkuler.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Ryan Kuttenkuler</p>
+                    <p class="lg:text-md text-sm text-center">Vice President</p>
+                    <p class="lg:text-md text-sm text-center">Sales</p>
+                    <p>&nbsp;</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
@@ -119,41 +135,123 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Teresa_Rodriguez.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Teresa Rodriguez</p>
-                    <p class="lg:text-md text-sm text-center">Vice President</p>
-                    <p class="lg:text-md text-sm text-center">Sales</p>
+                    <img src="/images/team/Matt_Ely.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Matt Ely</p>
+                    <p class="lg:text-md text-sm text-center">Director</p>
+                    <p class="lg:text-md text-sm text-center">Contracting & Human Resources</p>
                     <p>&nbsp;</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Scott_Anderson.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2"> Scott Anderson</p>
-                    <p class="lg:text-md text-sm text-center">National Strategies Manager</p>
-                    <p class="lg:text-md text-sm text-center">&nbsp;</p>
+                    <img src="/images/team/James_Cisneros.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">James Cisneros</p>
+                    <p class="lg:text-md text-sm text-center">Director</p>
+                    <p class="lg:text-md text-sm text-center">Recruiting & Agent Training</p>
                     <p>&nbsp;</p>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Michael_Packard.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Michael Packard</p>
-                    <p class="lg:text-md text-sm text-center">Regional Director</p>
-                    <p class="lg:text-md text-sm text-center">Florida & Georgia</p>
-                    <p>&nbsp;</p>
-                </div>
-
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
                     <img src="/images/team/Trent_Purcell.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Trent Purcell</p>
-                    <p class="lg:text-md text-sm text-center">Regional Director</p>
-                    <p class="lg:text-md text-sm text-center">Eastern Missouri, SW Illinois &<br>New Markets</p>
+                    <p class="lg:text-md text-sm text-center">Sales Director </p>
+                    <p class="lg:text-md text-sm text-center">Business Development</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Chris_Jirgens.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Chris Jirgens</p>
-                    <p class="lg:text-md text-sm text-center">Regional Director</p>
-                    <p class="lg:text-md text-sm text-center">SW Missouri, SE Kansas &<br>Oklahoma</p>
+                    <p class="lg:text-md text-sm text-center">Sales Director</p>
+                    <p class="lg:text-md text-sm text-center">SW Missouri, SE Kansas, <br /> Oklahoma & Kentucky</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Rachel_Williams.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Rachel Williams</p>
+                    <p class="lg:text-md text-sm text-center">Asst. Sales Director</p>
+                    <p class="lg:text-md text-sm text-center">St. Louis, Missouri & Memphis, <br /> Tennessee</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Shelia_Woods.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Shelia Woods</p>
+                    <p class="lg:text-md text-sm text-center">Manager</p>
+                    <p class="lg:text-md text-sm text-center">National Recruiting</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Carletha_Rogers.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Carletha Rogers</p>
+                    <p class="lg:text-md text-sm text-center">Manager of NSC</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Eli_Balsley.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Eli Balsley</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Jacksonville, FL</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Denese_Adel.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Denise Adel</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Sarasota, FL</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Rickey_Brooks.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Rickey Brooks</p>
+                    <p class="lg:text-md text-sm text-center">Assistant Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Jackson, MS</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Chris_Seoane.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Chris Seoane</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Lenexa, KS</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Merrie_Tang.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Merrie Tang</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Springfield, MO</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Steve_Hawley.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Steve Hawley</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Oklahoma City, OK</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Stephanie_Paulsmeyer.jpeg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Stephanie Paulsmeyer</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Louisville, KY</p>
+                </div>
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Lavette_Owens.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">LaVette Owens</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Des Moines, IA</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Ramona_Warren.jpg" class="w-32 h-36 rounded-full mb-2">
+
+                    <p class="font-bold mb-2">Ramona Warren</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Baton Rouge, Louisiana</p>
+                </div>
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Celana_Ganey.jpg" class="w-32 rounded-full mb-2" style="height: 10rem;">
+
+                    <p class="font-bold mb-2">Celana Ganey</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Shreveport, Louisiana</p>
                 </div>
             </div>
         </div>

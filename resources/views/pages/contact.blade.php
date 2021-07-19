@@ -36,7 +36,7 @@
                 <div class="w-full flex flex-wrap justify-between items-center py-10 px-10">
                     <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
                         <img class="h-6" src="/images/icons/phone.svg" alt="">
-                        <a href="tel:8775504555" class="font-semibold ml-2">(877) 550-4555</a>
+                        <a href="tel:8772797070" class="font-semibold ml-2">(877) 279-7070</a>
                     </div>
 
                     <div class="w-full md:w-1/2 lg:w-1/3 mx-auto flex items-center py-2 justify-center">
@@ -247,8 +247,8 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Jacksonville Branch Office</div>
                             <p class="text-gray-700 text-md">
-                                14600 Whirlwind Ave Suite 211<br>
-                                Jacksonville, FL 32218
+                                660 Lakeland East Drive Suite 210<br>
+                                Flowood MS, 39232
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -257,7 +257,7 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:9045237382">(904) 523-7382</a></p>
+                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:6012030521">(601) 203-0521</a></p>
                                 </div>
                             </div>
                         </div>
@@ -287,14 +287,15 @@
                     </div>
                 </div>
                 <!--End Card-->
-				<!--Card-->
+
+                <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
                         <div class="px-6 py-4">
-                            <div class="font-bold text-lg text-mmablue mb-2">Jackson Branch Office</div>
+                            <div class="font-bold text-lg text-mmablue mb-2">Dayton Ohio Branch</div>
                             <p class="text-gray-700 text-md">
-                                460 Briarwood Dr. Suite 413<br>
-                                Jackson, MS 39206
+                                6680 Poe Avenue Suite 180<br>
+                                Dayton OH, 45414
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -303,21 +304,22 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:6012030521">(601) 203-0521</a></p>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8777680330">(877) 768-0330</a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--End Card-->
-				<!--Card-->
+
+                <!--Card-->
                 <div class="w-full lg:w-1/3 py-6 px-2">
                     <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
                         <div class="px-6 py-4">
-                            <div class="font-bold text-lg text-mmablue mb-2">Louisville Branch Office</div>
+                            <div class="font-bold text-lg text-mmablue mb-2">Des Moines Iowa Branch</div>
                             <p class="text-gray-700 text-md">
-                                9900 Corporate Campus Dr. Suite 3000<br>
-                                Louisville, KY 40223
+                                2962 99th St.<br>
+                                Urbandale IA, 50322
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -326,7 +328,31 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:5026576308">(502) 657-6308</a></p>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:8774140011">(877) 414-0011</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Card-->
+
+                <!--Card-->
+                <div class="w-full lg:w-1/3 py-6 px-2">
+                    <div class="rounded overflow-hidden box-blue-shadow border border-blue-100 mx-4">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-lg text-mmablue mb-2">Jackson MS Branch</div>
+                            <p class="text-gray-700 text-md">
+                                660 Lakeland East Drive Suite 210<br>
+                                Flowood, MS 39232
+                            </p>
+                        </div>
+                        <div class="px-6 py-4">
+                            <div class="flex">
+                                <div class="py-1 pr-2">
+                                    <img src="images/icons/phone.svg" class="h-4">
+                                </div>
+                                <div>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:6019904331">(601) 990-4331</a></p>
                                 </div>
                             </div>
                         </div>

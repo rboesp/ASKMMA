@@ -51,7 +51,6 @@ class User extends Authenticatable
             ->select('oauth_clients.*')
             ->join('thirdparty_users', 'thirdparty_users.thirdparty_id', '=', 'oauth_clients.id')
             ->where('thirdparty_users.user_id', Auth::user()->id)
-            ->distinct()
             ->get()
             ->filter(function ($link) use ($user) {
                 if ($link->name == 'Sunfire' && ! $user->sunfire_access) {
