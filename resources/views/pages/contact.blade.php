@@ -247,8 +247,8 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-lg text-mmablue mb-2">Jacksonville Branch Office</div>
                             <p class="text-gray-700 text-md">
-                                660 Lakeland East Drive Suite 210<br>
-                                Flowood MS, 39232
+                                14600 Whirlwind Ave Suite 211<br>
+                                Jacksonville, FL 32218
                             </p>
                         </div>
                         <div class="px-6 py-4">
