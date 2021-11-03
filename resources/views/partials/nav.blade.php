@@ -34,6 +34,9 @@
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Services
             </a>
+            <a href="/guardianship" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
+                Guardianship
+            </a>
             <a href="/community-outreach"
                class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Outreach

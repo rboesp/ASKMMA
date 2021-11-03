@@ -28,40 +28,7 @@
                                 </span>
                             </div>
                             <div class="w-full border-mmablue text-sm lg:text-base pb-6 flex flex-wrap">
-                                <p class="w-full lg:w-5/6 text-base font-semibold text-mmadescription">
-                                    Integrity Pharmacy specializes in medication management for patients with multiple
-                                    disease states who are taking multiple medications. We are committed to reducing
-                                    medication errors through comprehensive pharmacy services. Our comprehensive
-                                    pharmacy services include an in-home patient assessment; medication reconciliation;
-                                    customized adherence packaging; monthly refill management and home delivery. Our
-                                    medication management program helps eliminate duplicate medications through
-                                    medication reconciliation and helps reduce hospitalizations and readmissions that
-                                    result from medication errors. Our medication management program helps to ensure
-                                    medication challenges are minimized and the highest outcomes for each patient we
-                                    serve are achieved.
-                                </p>
-                                <div class="w-full lg:w-1/6"></div>
-                                <div class="w-full mt-10 flex flex-wrap">
-                                    <a
-                                        target="_top"
-                                        href="/resources/integrity-pharmacy-rack-card.pdf"
-                                        class="w-full md:w-1/3 mx-2 hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-4 rounded-lg"
-                                        style="background-color: #d22131;"
-                                    >
-                                        Integrity Pharmacy Rack Card
-                                    </a>
-
-                                    <a
-                                        target="_top"
-                                        href="/resources/integrity-FAQ-flyer-final.pdf"
-                                        class="w-full md:w-1/3 mx-2 mt-2 md:mt-0 hover:bg-mmalightblue focus:shadow-outline focus:outline-none text-center text-white hover:text-white font-bold py-3 px-4 rounded-lg"
-                                        style="background-color: #66c8c7;"
-                                    >
-                                        Integrity FAQ Flyer
-                                    </a>
-
-
-                                </div>
+                                <iframe class="w-full h-150" src="https://www.youtube.com/embed/-bon9fxboBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
 

@@ -14,6 +14,7 @@
 Route::view('/', 'landing');
 Route::view('/about', 'pages.about');
 Route::view('/services', 'pages.services');
+Route::view('/guardianship', 'pages.guardianship');
 Route::view('/contact', 'pages.contact');
 Route::view('/community-outreach', 'pages.community-outreach');
 Route::view('/feedback', 'pages.feedback');
