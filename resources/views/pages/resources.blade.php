@@ -28,7 +28,10 @@
                                 </span>
                             </div>
                             <div class="w-full border-mmablue text-sm lg:text-base pb-6 flex flex-wrap">
-                                <iframe class="w-full h-150" src="https://www.youtube.com/embed/-bon9fxboBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <video controls>
+                                    <source src="/videos/Guardian Testimonial Video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
 
