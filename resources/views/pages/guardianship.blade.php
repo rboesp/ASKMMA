@@ -40,7 +40,7 @@
                 <div>
                     <p class="underline font-semibold">Who is MMA?</p>
                     <p class="w-11/12 pt-2">
-                    We’ve recognized the needs throughout our communities in the Medicare and Medicaid arena and have continued to reach out to those who need our help. We have partnered with our 800
+                    We’ve recognized the needs throughout our communities in the Medicare and Medicaid arena and have continued to reach out to those who need our help. We have partnered with over 800
                     Guardians, churches, service organizations, and food pantries throughout the states we work in. We have a dedicated team of licensed and certified insurance specialist who have a heart for
                     serving our communities.
                     </p>
@@ -50,7 +50,7 @@
                 <div class="mt-8">
                     <p class="underline font-semibold">Potential Additional Benefits Available (In select areas)</p>
                     <div class="flex justify-between">
-                    <ul>
+                    <ul class="ml-3">
                         <li>Comprehensive dental (dentures)</li>
                         <li>Vision coverage (glasses/contacts)</li>
                         <li>Hearing coverage (hearing aids)</li>
@@ -58,7 +58,7 @@
                         <li>Life alert “Help I’ve fallen”</li>
                     </ul>
 
-                    <ul>
+                    <ul class="w-1/2 ml-3">
                         <li>Gym memberships</li>
                         <li>Monthly OTC (over the counter) credits</li>
                         <li>Healthy food/grocery cards</li>
@@ -70,36 +70,35 @@
                 </div>
 
                 <div class="w-1/2">
-                <div>
-                    <p class="underline font-semibold">MMA’s Customer Service</p>
-                    <p class="pt-2">
-                    Our goal is to provide you with a totally “hands free” experience when dealing with your Wards health needs. We have set up an 800-phone number that is specific to you and your program.
-                    This will bump you to the front of the line whenever you or your Wards need assistance.
-                    </p>
-                </div>
+                    <div>
+                        <p class="underline font-semibold">MMA’s Customer Service</p>
+                        <p class="pt-2">
+                        Our goal is to provide you with a totally “hands free” experience when dealing with your Wards health needs. We have set up an 800-phone number that is specific to you and your program.
+                        This will bump you to the front of the line whenever you or your Wards need assistance.
+                        </p>
+                    </div>
 
-                <div class="mt-8">
-                    <ul>
-                    <li>A dedicated Customer Service line</li>
-                    <li>Real time availability and response</li>
-                    <li>Team with a …” whatever you need we’ve got you covered” attitude.</li>
-                    <li>Quick efficient answers to your questions</li>
-                    </ul>
-                </div>
+                    <div class="mt-4">
+                        <ul class="ml-3">
+                            <li>A dedicated Customer Service line</li>
+                            <li>Real time availability and response</li>
+                            <li>Team with a …” whatever you need we’ve got you covered” attitude.</li>
+                            <li>Quick efficient answers to your questions</li>
+                        </ul>
+                    </div>
+
+                    <div class="w-1/2 mt-8">
+                        <p class="underline font-semibold">Ward Identifiers</p>
+                        <ul class="ml-3">
+                            <li>Medicare</li>
+                            <li>Medicare + Medicaid</li>
+                            <li>Medicare + Prescription Drug Plan only</li>
+                            <li>Medicare + paid premiums for dental, vision, hearing or medical</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="flex justify-between mt-16">
-                <div class="w-1/2">
-                <p class="underline font-semibold">Ward Identifiers</p>
-                <ul>
-                    <li>Medicare</li>
-                    <li>Medicare + Medicaid</li>
-                    <li>Medicare + Prescription Drug Plan only</li>
-                    <li>Medicare + paid premiums for dental, vision, hearing or medical</li>
-                </ul>
-                </div>
-            </div>
             </div>
         </section>
 
