@@ -11,7 +11,7 @@
         </div>
         <div class="flex justify-center lg:justify-start text-white lg:mr-6 lg:pl-8 lg:mx-0 w-full mx-auto w-3/4">
             <a href="/" class="flex w-full sm:w-2/3">
-                <img class="h-12 md:h-16" src="images/MMA_logo.png" />
+                <img class="h-8 md:h-12 header-logo" src="/images/MMA_logo_2020_outlined.png" />
             </a>
         </div>
     </div>
@@ -33,6 +33,9 @@
             </a>
             <a href="/services" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
                 Services
+            </a>
+            <a href="/guardianship" class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
+                Guardianship
             </a>
             <a href="/community-outreach"
                class="block mt-4 mx-3 text-base lg:inline-block lg:mt-0 text-black hover:text-mmablue">
