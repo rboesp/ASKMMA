@@ -58,7 +58,7 @@
                         <li>Life alert “Help I’ve fallen”</li>
                     </ul>
 
-                    <ul class="md:w-1/2 ml-3">
+                    <ul class="md:w-1/2 ml-3 text-left">
                         <li>Gym memberships</li>
                         <li>Monthly OTC (over the counter) credits</li>
                         <li>Healthy food/grocery cards</li>
@@ -79,7 +79,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <ul class="ml-3">
+                        <ul class="ml-3 text-left">
                             <li>A dedicated Customer Service line</li>
                             <li>Real time availability and response</li>
                             <li>Team with a …” whatever you need we’ve got you covered” attitude.</li>
@@ -89,7 +89,7 @@
 
                     <div class="lg:w-1/2 mt-8">
                         <p class="underline text-left font-semibold">Ward Identifiers</p>
-                        <ul class="ml-3">
+                        <ul class="ml-3 text-left">
                             <li>Medicare</li>
                             <li>Medicare + Medicaid</li>
                             <li>Medicare + Prescription Drug Plan only</li>
