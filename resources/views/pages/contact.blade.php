@@ -257,7 +257,7 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:6012030521">(601) 203-0521</a></p>
+                                    <p class="text-sm"> <a class="hover:font-semibold" href="tel:9045237382">(904) 523-7382</a></p>
                                 </div>
                             </div>
                         </div>
