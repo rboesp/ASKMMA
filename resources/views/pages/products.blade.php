@@ -48,12 +48,12 @@
                                     class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
                             </div>
-                            <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
+                            {{-- <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                     src="/images/logos/vantage.png"
                                     class="self-center my-8 mx-auto w-3/4 lg:w-full"
                                 />
-                            </div>
+                            </div> --}}
                             <div class="w-1/2 md:w-1/3 lg:w-1/8 flex justify-center">
                                 <img
                                         src="/images/logos/humana.png"
@@ -175,12 +175,12 @@
 
                         <div class="w-full md:w-1/2">
                             <div class="w-full pb-3">
-                                <h1 class="font-extrabold text-4xl font-black text-mmablue font-futura leading-tight">
+                                <h1 class="font-extrabold text-4xl text-mmablue font-futura leading-tight">
                                     Medicare Advantage
                                 </h1>
                             </div>
                             <div class="w-full lg:pr-8">
-                                <h3 class="font-extrabold text-lg text-gray-900 text-gray-900">
+                                <h3 class="font-extrabold text-lg text-gray-900">
                                     What are Medicare Advantage Plans?
                                 </h3>
                                 <p class="mt-4">
