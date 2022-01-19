@@ -86,7 +86,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-row flex-wrap justify-around mt-6 w-3/4 mx-auto">
+            <div class="flex flex-row items-start flex-wrap justify-around mt-6 w-3/4 mx-auto">
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Kirk_Anderson.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Kirk Anderson</p>
@@ -141,7 +141,7 @@
                     <p>&nbsp;</p>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                <div class="flex flex-col w-3/4 mx-auto mt-1 lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Ryan_Kuttenkuler.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Ryan Kuttenkuler</p>
                     <p class="lg:text-md text-sm text-center">Vice President</p>
@@ -163,7 +163,7 @@
                     <p class="lg:text-md text-sm text-center">Training and Compliance</p>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                <div class="flex flex-col w-3/4 mt-1 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
                     <img src="/images/team/Rachel_Williams.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Rachel Williams</p>
                     <p class="lg:text-md text-sm text-center">Asst. Sales Director</p>
@@ -205,7 +205,7 @@
                     <p class="lg:text-md text-sm text-center">Lenexa, KS</p>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                <div class="flex flex-col mt-1 w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
                     <img src="/images/team/Merrie_Tang.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Merrie Tang</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>

@@ -364,7 +364,7 @@
                             <div class="font-bold text-lg text-mmablue mb-2">Louisville Kentucky Branch</div>
                             <p class="text-gray-700 text-md">
                                 9900 Corporate Campus Drive Suite 3000<br>
-                                Louisville, KY, 40223
+                                Louisville KY, 40223
                             </p>
                         </div>
                         <div class="px-6 py-4">
@@ -373,7 +373,7 @@
                                     <img src="images/icons/phone.svg" class="h-4">
                                 </div>
                                 <div>
-                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:5026576308">(502) 657-6308</a></p>
+                                    <p class="text-sm"><a class="hover:font-semibold" href="tel:9045237382">(904) 523-7382</a></p>
                                 </div>
                             </div>
                         </div>
