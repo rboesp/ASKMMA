@@ -141,14 +141,6 @@
                     <p>&nbsp;</p>
                 </div>
 
-                <div class="flex flex-col w-3/4 mx-auto mt-1 lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
-                    <img src="/images/team/Ryan_Kuttenkuler.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Ryan Kuttenkuler</p>
-                    <p class="lg:text-md text-sm text-center">Vice President</p>
-                    <p class="lg:text-md text-sm text-center">Business Development and Community Relations</p>
-                    <p>&nbsp;</p>
-                </div>
-
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
                     <img src="/images/team/Trent_Purcell.jpg" class="w-32 h-36 rounded-full mb-2">
                     <p class="font-bold mb-2">Trent Purcell</p>
