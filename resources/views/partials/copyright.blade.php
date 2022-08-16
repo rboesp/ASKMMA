@@ -1,6 +1,7 @@
 <section class="copyright bg-mmablue py-6 px-4">
 	<div class="container mx-auto">
 		<div class="flex flex-row flex-wrap mx-auto w-full justify-center text-sm text-gray-100 font-semibold">
+            I/We do not offer every plan available in your area. Please contact medicare.gov or 1-800-MEDICARE to get information on all your options.<br><br>
             Not connected with or endorsed by the U.S. Government or the federal Medicare program. Medicare has neither reviewed nor endorsed the information contained on this website.<br>
             Medicare Medicaid Advisors USA is a wholly owned subsidiary of Medicare Medicaid Advisors, Inc.
 		</div>
