@@ -170,10 +170,10 @@
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
-                    <img src="/images/team/Eli_Balsley.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Eli Balsley</p>
+                    <img src="/images/team/Jasmine_Gaulden.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Jasmine Gaulden</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>
-                    <p class="lg:text-md text-sm text-center">Jacksonville, FL</p>
+                    <p class="lg:text-md text-sm text-center">Jacksonville, FL </p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
@@ -198,8 +198,8 @@
                 </div>
 
                 <div class="flex flex-col mt-1 w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
-                    <img src="/images/team/Merrie_Tang.jpg" class="w-32 h-36 rounded-full mb-2">
-                    <p class="font-bold mb-2">Merrie Tang</p>
+                    <img src="/images/team/Steve_Masters.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Steve Masters</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>
                     <p class="lg:text-md text-sm text-center">Springfield, MO</p>
                 </div>
@@ -216,6 +216,13 @@
                     <p class="font-bold mb-2">Stephanie Paulsmeyer</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>
                     <p class="lg:text-md text-sm text-center">Louisville, KY</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
+                    <img src="/images/team/Eli_Balsley.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Eli Balsley</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Charlotte, NC</p>
                 </div>
 
                 <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10">
@@ -238,6 +245,13 @@
                     <p class="font-bold mb-2">Celena Ganey</p>
                     <p class="lg:text-md text-sm text-center">Area Manager</p>
                     <p class="lg:text-md text-sm text-center">Shreveport, LA</p>
+                </div>
+
+                <div class="flex flex-col w-3/4 mx-auto lg:mx-0 lg:w-1/3 items-center mb-10 justify-end">
+                    <img src="/images/team/Blair_Ricard.jpg" class="w-32 h-36 rounded-full mb-2">
+                    <p class="font-bold mb-2">Blair Ricard</p>
+                    <p class="lg:text-md text-sm text-center">Area Manager</p>
+                    <p class="lg:text-md text-sm text-center">Birmingham, AL</p>
                 </div>
             </div>
         </div>
